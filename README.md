@@ -21,13 +21,9 @@ See the live version here: [Prototype](https://visitmytent.com/?page_id=10188)
 ----
 
 
-# sapper-template
-
-The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
-
-
 ## Getting started
 
+This application is build on the default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
 
 ### Using `degit`
 
