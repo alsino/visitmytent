@@ -1790,7 +1790,17 @@
       "birthCountry": "GDR",
       "profileID": 0,
       "imageUrl" : "via_lewandowsky.jpg",
-      "studioLocation": "Berlin"
+      "studioLocation": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 0, 
+          "lon": 0
+        }
+      ]
     },
 
 
@@ -1892,7 +1902,17 @@
       "birthCountry": "?",
       "profileID": 0,
       "imageUrl" : "christian_mio_loclair.jpg",
-      "studioVisit": "Berlin"
+      "studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 0, 
+          "lon": 0 
+        }
+      ]
     },
 		{
 			"name": "Pedro Lopes",
