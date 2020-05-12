@@ -1,6 +1,36 @@
 {
 	"nodes": [
 		{
+			"name": "44FLAVOURS",
+			"discipline": [1,2,6],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": " ",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "44flavours.jpg",
+			"studioVisit": "Berlin",
+			"studioLocations": [
+				{
+					"name": "Butzke Werke",
+          			"address": " Ritterstraße 26, 10969 Berlin",
+					"date_in": "01/01/2006",
+					"date_out": "01/01/2016",
+					"lat": 52.503058, 
+					"lon": 13.407151	
+				},
+				{
+					"name": " ",
+          "address": "Kurfürstenstraße 15-16, 10785 Berlin",
+					"date_in": "01/01/2016",
+					"date_out": "now",
+					"lat": 52.499628, 
+					"lon": 13.366344	
+				}
+			]
+		},
+
+		{
 			"name": "Christian Achenbach",
 			"discipline": [1,6],
 			"gender": "male",
@@ -762,6 +792,54 @@
 				"workHours" : "from noon to 8 pm."
 			}
 		},
+
+		{
+			"name": "Frederik Foert",
+			"discipline": [1,2,5],
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "München",
+			"birthCountry": "Germany",
+			"profileID": "13077",
+			"imageUrl" : "frederik_foert.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Studio Wien",
+          "address": "5ter Bezirk",
+          "date_in": "01/01/2011",
+          "date_out": "now",
+          "lat": 0, 
+          "lon": 0  
+        },
+        {
+          "name": "Studio Peking",
+          "address": " ",
+          "date_in": "01/01/2012",
+          "date_out": "now",
+          "lat": 0, 
+          "lon": 0  
+        },
+        {
+          "name": "Studio Wedding",
+          "address": "am Gesundbrunnen",
+          "date_in": "0",
+          "date_out": "0",
+          "lat": 0, 
+          "lon": 0  
+        },
+        {
+          "name": "Studio Zuhause",
+          "address": "Boxhagener Straße 25, 10245 Berlin",
+          "date_in": "01/10/2000",
+          "date_out": "now",
+          "lat": 52.512833, 
+          "lon": 13.457146  
+        }
+      ]
+		},
+
+
 		{
 			"name": "Moritz Frei",
 			"discipline": [4,5,13],
