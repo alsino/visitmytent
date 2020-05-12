@@ -18,28 +18,19 @@
   let bezirkePath;
 
   let locations = $NETWORKDATA.nodes;
+  let selectedLocation;
   
 
   onMount(() => {
     bezirkePath = path(bezirke);
 
-    locations.forEach((item, i) => {
-
-      if (item.studioLocations) {
-          let lat = item.studioLocations[0].lat
-          let lon = item.studioLocations[0].lon
-          console.log(item.name, lat, lon)
-      }
-
-      // let lat = item.studioLocations[0].lat
-      // let lon = item.studioLocations[0].lon
-
-      // if (!lat && !lon) {
-      //   // console.log(item.name)
-      //   //  console.log(i, item.name, lat, lon)
-      // }
-
-    });
+    // locations.forEach((item, i) => {
+    //   if (item.studioLocations) {
+    //       let lat = item.studioLocations[0].lat
+    //       let lon = item.studioLocations[0].lon
+    //       console.log(item.name, lat, lon)
+    //   }
+    // });
     
   });
 
@@ -47,6 +38,14 @@
   beforeUpdate(() => {
     // console.log(widthContainer);
   });
+
+
+  function handleClick(location){
+    selectedLocation = location.name;
+    console.log(location);
+  }
+
+
   
 </script>
 
@@ -74,6 +73,7 @@
 
 
 <div id="network">
+  <div>{selectedLocation}</div>
   <svg width ={width} height={height}>
     <path d={bezirkePath} class="border"/>
     <g>
@@ -83,7 +83,9 @@
           cy={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]} 
           r="1" stroke="black" 
           stroke-width="1" 
-          fill="black" />
+          fill="black" 
+          on:click={() => handleClick(location)}
+          />
       {/each }
     </g>
   </svg>
