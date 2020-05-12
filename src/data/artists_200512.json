@@ -2556,12 +2556,12 @@
       "studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
-          "date_in": " ",
+          "name": "Hobbyraum",
+          "address": "Am Treptower Park 28, 12435 Berlin",
+          "date_in": "01/09/2019",
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0  
+          "lat": 52.486755, 
+          "lon": 13.461926 
         }
       ],
       "questions": {
