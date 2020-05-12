@@ -23,7 +23,6 @@
 
   onMount(() => {
     bezirkePath = path(bezirke);
-
     // locations.forEach((item, i) => {
     //   if (item.studioLocations) {
     //       let lat = item.studioLocations[0].lat
@@ -42,7 +41,6 @@
 
   function handleClick(location){
     selectedLocation = location.name;
-    console.log(location);
   }
 
 
@@ -63,6 +61,10 @@
    display: block;
    margin: 0 auto;
  }
+
+ circle {
+   cursor: pointer;
+ }
   
   .border {
     stroke: #9b9b9b;
@@ -75,13 +77,19 @@
 <div id="network">
   <div>{selectedLocation}</div>
   <svg width ={width} height={height}>
-    <path d={bezirkePath} class="border"/>
-    <g>
+    <g class="map">
+      <path 
+      d={bezirkePath} 
+      class="border"
+      />
+    </g>
+    <g class="circles">
       {#each locations as location}
         <circle 
           cx={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[0]} 
           cy={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]} 
-          r="1" stroke="black" 
+          r="2" 
+          stroke="black" 
           stroke-width="1" 
           fill="black" 
           on:click={() => handleClick(location)}
