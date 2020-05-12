@@ -582,8 +582,16 @@
       "studioLocations": [
         {
           "name": "",
+          "address": "Torstraße, Berlin",
+          "date_in": "01/11/2015",
+          "date_out": "30/04/2017",
+          "lat": 52.529601, 
+          "lon": 13.400602  
+        },
+        {
+          "name": "",
           "address": "Iranische Straße 6, 13347 Berlin",
-          "date_in": 0,
+          "date_in": "01/05/2017",
           "date_out": "now",
           "lat": 52.556002, 
           "lon": 13.367307 
@@ -1883,10 +1891,20 @@
 			"imageUrl" : "robert_lippok.jpg",
 			"studioVisit": "Berlin",
       "studioLocations": [
+
+        {
+          "name": " ",
+          "address": "Skalitzer Straße, Berlin",
+          "date_in": "01/01/1995",
+          "date_out": "01/01/2005",
+          "lat": 52.500701, 
+          "lon": 13.440206
+        }
+
         {
           "name": " ",
           "address": "Linienstraße 154, 10115 Berlin",
-          "date_in": 0,
+          "date_in": "01/01/2005",
           "date_out": "now",
           "lat": 52.527532, 
           "lon": 13.393546 
