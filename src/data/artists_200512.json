@@ -1794,11 +1794,11 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Lehrter Str. 57, 10557 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0
+          "lat": 52.532860, 
+          "lon": 13.359317
         }
       ]
     },
@@ -1906,11 +1906,11 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Gleimstraße 42, 10437 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0 
+          "lat": 52.547721, 
+          "lon": 13.408878
         }
       ]
     },
