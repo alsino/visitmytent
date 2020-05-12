@@ -1,9 +1,13 @@
 import { writable } from 'svelte/store';
-import networkData from './data/artists_200113.json';
+import geoData from './data/berlin-bezirke.json';
+import networkData from './data/dummy.json';
 
 
-export const DATA = writable(undefined);
-DATA.set(networkData);
+export const GEODATA = writable(undefined);
+GEODATA.set(geoData);
+
+export const NETWORKDATA = writable(undefined);
+NETWORKDATA.set(networkData);
 
 
 
