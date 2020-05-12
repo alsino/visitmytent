@@ -2349,7 +2349,7 @@
       "studioVisit": "Berlin",
       "studioLocations": [
               {
-          "name": " ",
+          "name": "Atelier Kurfürstenstraße",
           "address": "Kurfürstenstraße 21, 10785 Berlin",
           "date_in": "01/10/2017",
           "date_out": "30/04/2019",
@@ -2365,7 +2365,7 @@
           "lon": 13.422390
         }, 
         {
-          "name": " ",
+          "name": "Atelier Kurfürstenstraße",
           "address": "Kurfürstenstraße 21, 10785 Berlin",
           "date_in": "01/12/2019",
           "date_out": "now",
@@ -2374,7 +2374,7 @@
         }
       ],
       "questions": {
-        "why": " ",
+        "why": "why",
         "music": " ",
         "workHours" : " "
       }
