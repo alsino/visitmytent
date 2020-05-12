@@ -16,10 +16,19 @@
 
   const path = geoPath().projection(projection);
   let bezirkePath;
+
+
+  let locations = $NETWORKDATA.nodes;
   
 
   onMount(() => {
     bezirkePath = path(bezirke);
+
+    // let locationLat = locations[0].studioLocations[0].lat;
+    // let locationLon = locations[0].studioLocations[0].lon;
+
+    // console.log(locationLat, locationLon)
+    // console.log(projection([locationLon, locationLat])[0])
   });
 
 
@@ -56,6 +65,16 @@
 <div id="network">
   <svg width ={width} height={height}>
     <path d={bezirkePath} class="border"/>
+    <g>
+      {#each locations as location}
+        <circle 
+          cx={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[0]} 
+          cy={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]} 
+          r="4" stroke="black" 
+          stroke-width="1" 
+          fill="black" />
+      {/each }
+    </g>
   </svg>
 </div>
 
