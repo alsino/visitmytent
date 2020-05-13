@@ -2853,9 +2853,17 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
+          "name": "Künstlerhaus Bethanien",
+          "address": "Kottbusser Straße 10/d, 10999 Berlin",
+          "date_in": "01/04/2017",
+          "date_out": "01/04/2018",
+          "lat": 52.497144, 
+          "lon": 13.418807
+        },
+        {
           "name": " ",
           "address": "Kühnemannstraße 51-69, 13409 Berlin",
-          "date_in": 0,
+          "date_in": "01/05/2018",
           "date_out": "now",
           "lat": 52.567664, 
           "lon": 13.384613 
