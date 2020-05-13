@@ -1,0 +1,10 @@
+
+TODO 
+
+bei mehreren locations date-in bis "now" als aktuelle location nehmen 
+
+artists nach studio locations + zeiten fragen
+
+
+
+
