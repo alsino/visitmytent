@@ -8,12 +8,14 @@
   import { geoMercator, geoPath } from "d3-geo";
   import { feature } from "topojson";
 
+  import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
+
   // import { tweened } from 'svelte/motion';
 	// import { cubicOut } from 'svelte/easing';
 
 
   let width = 700;
-  let height = 500;
+  let height = 600;
   let paddingMap = 20;
 
   const bezirke = feature($GEODATA, $GEODATA.objects.states);
@@ -23,99 +25,61 @@
   const path = geoPath().projection(projection);
   let bezirkePath;
 
-  let locations = $NETWORKDATA.nodes;
+  let nodes = $NETWORKDATA.nodes;
+  let links = $NETWORKDATA.links;
+
   let coordinates = {x: 0, y: 0};
 
-  
-  
+  let networkForce = -4;
 
+  let simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.name))
+        .force("charge", d3.forceManyBody().strength(networkForce))
+        .force("center", d3.forceCenter(width / 2, height / 2));
+  
   onMount(() => {
     bezirkePath = path(bezirke);  
     coordinates = currentCoordinates($VIEW);
-    // console.log(locations);  
   });
 
 
   beforeUpdate(() => {
-    // console.log($VIEW);
     coordinates = currentCoordinates($VIEW);
-    console.log(coordinates);
-  
-    
+    console.log(nodes);
   });
 
 
   function handleClick(artist){
-    selectedArtist.set(artist.name);
+    // selectedArtist.set(artist.name);
   }
 
   function currentCoordinates(view){
     let coordinates;
-
-    // let coordinatesMap = locations.map((item) => {
-    //   return {
-    //     x : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[0],
-    //     y : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[1],
-    //   }
-    // });
-
-    if (view == "Map" ) {
-      coordinates = locations.map((item) => {
+    if (view == "Map") {
+      coordinates = nodes.map((item) => {
         return {
           x : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[0],
           y : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[1],
         }
       });
 
-    } else {
-      coordinates = locations.map((item) => {
+    } else if (view == "Network")  {
+
+      console.log(nodes);
+    
+      coordinates = nodes.map((item) => {
         return {
-          x : getRandomNumber(300, 500),
-          y : getRandomNumber(200, 400)
+          x : item.x,
+          y : item.y
         }
       });
-
     }
-
-    // if ($VIEW == view){
-    //    coordinates = {
-    //      x: projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[0],
-    //      y: projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]
-    //   }
-    // } else {
-    //    coordinates = {
-    //      x: getRandomNumber(52, 53),
-    //      y: getRandomNumber(20, 400)
-    //   }
-    // }
-
-
-    // console.log(coordinates)
     return coordinates;
   }
-
 
   function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
-
-
-
-  // let x; 
-  // let y;
-
-  // const position = tweened({ x: 200, y: 200 , {
-	// 	duration: 400,
-	// 	easing: cubicOut
-  // });
-  
-  // let coordinates = tweened({ x: 200, y: 200 }, {
-	// 	duration: 400,
-	// 	easing: cubicOut
-	// });
-  
-
-
   
 </script>
 
@@ -165,7 +129,7 @@
       </g>
 
       <g class="circles">
-        {#each locations as location, index}
+        {#each nodes as location, index}
           <circle 
             cx={coordinates[index].x} 
             cy={coordinates[index].y} 
@@ -179,6 +143,7 @@
             />
         {/each }
       </g>
+
 
     </svg>
   </div>
