@@ -2,6 +2,7 @@
   import { GEODATA } from '../store.js';
   import { NETWORKDATA } from '../store.js';
   import { VIEW } from '../store.js';
+  import { selectedArtist } from '../store.js';
   import { onMount, beforeUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -19,7 +20,7 @@
   let bezirkePath;
 
   let locations = $NETWORKDATA.nodes;
-  let selectedArtist;
+  
   
 
   onMount(() => {
@@ -36,12 +37,12 @@
 
 
   beforeUpdate(() => {
-    console.log($VIEW);
+    if ($selectedArtist) console.log($selectedArtist);
   });
 
 
-  function handleClick(location){
-    selectedArtist = location.name;
+  function handleClick(artist){
+    selectedArtist.set(artist.name);
   }
 
 
@@ -76,30 +77,54 @@
 
 
 <div id="network">
-  {#if selectedArtist}
-    <div>{selectedArtist}</div>
+  {#if $selectedArtist}
+    <div>{$selectedArtist}</div>
   {/if}
   
   <svg width ={width} height={height}>
+
     <g class="map">
       <path 
       d={bezirkePath} 
       class="border"
       />
     </g>
+
+
+  {#if $VIEW == "Map"}
     <g class="circles">
       {#each locations as location}
         <circle 
           cx={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[0]} 
           cy={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]} 
-          r="2" 
-          stroke="black" 
+          r="4" 
+          stroke="none" 
           stroke-width="1" 
           fill="black" 
+          fill-opacity="0.5"
           on:click={() => handleClick(location)}
           />
       {/each }
     </g>
+
+  {:else}
+  <g class="circles">
+      {#each locations as location}
+        <circle 
+          cx={200} 
+          cy={200} 
+          r="4" 
+          stroke="none" 
+          stroke-width="1" 
+          fill="black" 
+          fill-opacity="0.5"
+          on:click={() => handleClick(location)}
+          />
+      {/each }
+    </g>
+  {/if}
+
+
   </svg>
 </div>
 
