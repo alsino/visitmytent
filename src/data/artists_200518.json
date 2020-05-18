@@ -2851,7 +2851,7 @@
 
 		{
 			"name": "T.Raumschmiere",
-			"discipline": [14],
+			"discipline": [3,7],
 			"gender": "male",
 			"birthYear": 1975,
 			"birthTown": "Heidelburg",
@@ -2870,6 +2870,31 @@
         }
       ]
 		},
+
+{
+			"name": "Vahit Tuna",
+			"discipline": [5],
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": " Istanbul",
+			"birthCountry": "Turkey",
+			"profileID": "12069",
+			"imageUrl" : "vahit_tuna.jpg",
+			"studioVisit": "Istanbul",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Akaretler, Sinanpaşa, 34353 Beşiktaş/Istanbul",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 41.043297, 
+          "lon": 29.002261
+        }
+      ]
+		},
+
+
+
 		{
 			"name": "Tomoyuki Ueno",
 			"discipline": [4,6,13],
@@ -5341,6 +5366,12 @@
     "value": 25
   }, 
 
+
+  {
+    "source": "Vahit Tuna",
+    "target": "Viron Erol Vert",
+    "value": 25
+  }, 
 
   {
 		"source": "Tomoyuki Ueno",
