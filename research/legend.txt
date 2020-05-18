@@ -10,6 +10,7 @@
 // 5 - conceptual art (former 10) / mixed media (former 10) / generative art (former 11)
 // 6 - sculpture
 // 7 - writing (former 8)
+// 8 – curator
 
 
 // connections
