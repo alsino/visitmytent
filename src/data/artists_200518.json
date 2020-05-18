@@ -3201,7 +3201,81 @@
 			}
 		}
 	],
-	"links": [{
+	"links": [
+
+	{
+		"source": "44FLAVOURS",
+		"target": "Fehmi Baumbach",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Clemens Behr",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Clemens Behr",
+		"value": 15
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Clemens Behr",
+		"value": 25
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Maria Gideon",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Maria Gideon",
+		"value": 15
+	}, 
+
+	{
+		"source": "44FLAVOURS",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Johannes Mundinger",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Johannes Mundinger",
+		"value": 25
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Alsino Skowronnek",
+		"value": 10
+	}, 
+	{
+		"source": "44FLAVOURS",
+		"target": "Alsino Skowronnek",
+		"value": 25
+	}, 
+
+	{
 		"source": "Christopher Bauder",
 		"target": "Robert Henke",
 		"value": 10
