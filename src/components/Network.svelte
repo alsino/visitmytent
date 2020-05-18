@@ -46,7 +46,7 @@
 
   beforeUpdate(() => {
     coordinates = currentCoordinates($VIEW);
-    console.log(coordinates);
+    // console.log(coordinates);
   });
 
 
