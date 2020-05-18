@@ -11,10 +11,6 @@
 
   import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
-  // import { tweened } from 'svelte/motion';
-	// import { cubicOut } from 'svelte/easing';
-
-
   let width = 700;
   let height = 600;
   let paddingMap = 20;
@@ -33,6 +29,7 @@
 
   let networkForce = -4;
 
+  let transform = d3.zoomIdentity;
   let simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(links).id(d => d.name))
         .force("charge", d3.forceManyBody().strength(networkForce))
@@ -46,7 +43,7 @@
 
   beforeUpdate(() => {
     coordinates = currentCoordinates($VIEW);
-    console.log(nodes);
+    console.log(coordinates);
   });
 
 
@@ -66,7 +63,7 @@
 
     } else if (view == "Network")  {
 
-      console.log(nodes);
+      
     
       coordinates = nodes.map((item) => {
         return {
@@ -103,14 +100,15 @@
    cursor: pointer;
  }
 
- .circle {
-   transition: all 0.3s ease-out;
+ line {
+   stroke: blue;
+   stroke-opacity: 0.2;
  }
-  
-  .map-border {
-    stroke: #9b9b9b;
-    fill: none;
-  }
+
+.map-border {
+  stroke: #9b9b9b;
+  fill: none;
+}
 
 
 
@@ -118,13 +116,14 @@
 
 
   <div id="network">
+
     {#if $selectedArtist}
       <div>{$selectedArtist}</div>
     {/if}
     
     <svg width ={width} height={height}>
   
-      <g class="map">
+      <g class="basemap">
         {#if $VIEW == "Map"}
           <path 
           d={bezirkePath} 
@@ -132,7 +131,6 @@
           transition:fade="{{ duration: 2000 }}"
           />
         {/if}
-
       </g>
 
       <g class="circles">
@@ -150,6 +148,18 @@
             />
         {/each }
       </g>
+
+      <!-- <g class="links">
+       {#each links as link, index}
+          <line 
+            x1={link.source.x}
+            y1={link.source.y}
+            x2={link.target.x} 
+            y2={link.target.y}
+            >
+          </line>
+        {/each }      
+      </g> -->
 
 
     </svg>
