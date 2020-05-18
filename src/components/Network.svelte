@@ -7,6 +7,7 @@
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
   import { feature } from "topojson";
+  import { fade } from 'svelte/transition';
 
   import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
@@ -106,10 +107,12 @@
    transition: all 0.3s ease-out;
  }
   
-  .border {
+  .map-border {
     stroke: #9b9b9b;
     fill: none;
   }
+
+
 
 </style>
 
@@ -120,12 +123,16 @@
     {/if}
     
     <svg width ={width} height={height}>
-
+  
       <g class="map">
-        <path 
-        d={bezirkePath} 
-        class="border"
-        />
+        {#if $VIEW == "Map"}
+          <path 
+          d={bezirkePath} 
+          class="map-border"
+          transition:fade="{{ duration: 2000 }}"
+          />
+        {/if}
+
       </g>
 
       <g class="circles">
@@ -149,11 +156,11 @@
   </div>
 
 
-<br>
+<!-- <br>
 Example: D3 w/ svelte
 <div>https://svelte.dev/repl/01a5774b53e9416584428c025668407b?version=3.15.0</div>
-<div>https://www.youtube.com/watch?time_continue=1&v=bnd64ZrHC0U&feature=emb_title</div>
+<div>https://www.youtube.com/watch?time_continue=1&v=bnd64ZrHC0U&feature=emb_title</div> -->
 
-<br>
-<div>{JSON.stringify($NETWORKDATA)}</div>
+<!-- <br>
+<div>{JSON.stringify($NETWORKDATA)}</div> -->
 
