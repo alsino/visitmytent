@@ -8,6 +8,10 @@
   import { geoMercator, geoPath } from "d3-geo";
   import { feature } from "topojson";
 
+  // import { tweened } from 'svelte/motion';
+	// import { cubicOut } from 'svelte/easing';
+
+
   let width = 700;
   let height = 500;
   let paddingMap = 20;
@@ -20,30 +24,77 @@
   let bezirkePath;
 
   let locations = $NETWORKDATA.nodes;
+  let coordinates;
+
   
   
 
   onMount(() => {
-    bezirkePath = path(bezirke);
-    // locations.forEach((item, i) => {
-    //   if (item.studioLocations) {
-    //       let lat = item.studioLocations[0].lat
-    //       let lon = item.studioLocations[0].lon
-    //       console.log(item.name, lat, lon)
-    //   }
-    // });
-    
+    bezirkePath = path(bezirke);    
   });
 
 
   beforeUpdate(() => {
-    if ($selectedArtist) console.log($selectedArtist);
+    console.log($VIEW);
+    coordinates = currentCoordinates($VIEW);
+    console.log(currentCoordinates($VIEW));
   });
 
 
   function handleClick(artist){
     selectedArtist.set(artist.name);
   }
+
+  function currentCoordinates(view){
+    let coordinates;
+
+    if (view == "Map" ) {
+      coordinates = {
+        x: 34,
+        y: 56
+      }
+    } else {
+      coordinates = {
+        x: 100,
+        y: 200
+      }
+    }
+
+    // if ($VIEW == view){
+    //    coordinates = {
+    //      x: projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[0],
+    //      y: projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]
+    //   }
+    // } else {
+    //    coordinates = {
+    //      x: getRandomNumber(20, 400),
+    //      y: getRandomNumber(20, 400)
+    //   }
+    // }
+    // console.log(coordinates)
+    return coordinates;
+  }
+
+
+  function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
+
+
+  // let x; 
+  // let y;
+
+  // const position = tweened({ x: 200, y: 200 , {
+	// 	duration: 400,
+	// 	easing: cubicOut
+  // });
+  
+  // let coordinates = tweened({ x: 200, y: 200 }, {
+	// 	duration: 400,
+	// 	easing: cubicOut
+	// });
+  
 
 
   
@@ -66,6 +117,10 @@
 
  circle {
    cursor: pointer;
+ }
+
+ .circle {
+   transition: all 0.3s ease-out;
  }
   
   .border {
@@ -90,40 +145,21 @@
       />
     </g>
 
-
-  {#if $VIEW == "Map"}
     <g class="circles">
       {#each locations as location}
         <circle 
-          cx={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[0]} 
-          cy={projection([location.studioLocations[0].lon, location.studioLocations[0].lat])[1]} 
+          cx={coordinates.x} 
+          cy={coordinates.y} 
           r="4" 
           stroke="none" 
           stroke-width="1" 
           fill="black" 
           fill-opacity="0.5"
           on:click={() => handleClick(location)}
+          style={`transition: all 2s`}
           />
       {/each }
     </g>
-
-  {:else}
-  <g class="circles">
-      {#each locations as location}
-        <circle 
-          cx={200} 
-          cy={200} 
-          r="4" 
-          stroke="none" 
-          stroke-width="1" 
-          fill="black" 
-          fill-opacity="0.5"
-          on:click={() => handleClick(location)}
-          />
-      {/each }
-    </g>
-  {/if}
-
 
   </svg>
 </div>
