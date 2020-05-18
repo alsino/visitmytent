@@ -1,6 +1,7 @@
 <script>
   import { GEODATA } from '../store.js';
   import { NETWORKDATA } from '../store.js';
+  import { VIEW } from '../store.js';
   import { onMount, beforeUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -18,7 +19,7 @@
   let bezirkePath;
 
   let locations = $NETWORKDATA.nodes;
-  let selectedLocation;
+  let selectedArtist;
   
 
   onMount(() => {
@@ -35,12 +36,12 @@
 
 
   beforeUpdate(() => {
-    // console.log(widthContainer);
+    console.log($VIEW);
   });
 
 
   function handleClick(location){
-    selectedLocation = location.name;
+    selectedArtist = location.name;
   }
 
 
@@ -75,7 +76,10 @@
 
 
 <div id="network">
-  <div>{selectedLocation}</div>
+  {#if selectedArtist}
+    <div>{selectedArtist}</div>
+  {/if}
+  
   <svg width ={width} height={height}>
     <g class="map">
       <path 
