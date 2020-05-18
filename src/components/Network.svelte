@@ -15,12 +15,14 @@
   let height = 600;
   let paddingMap = 20;
 
-  const bezirke = feature($GEODATA, $GEODATA.objects.states);
+  const bezirke = feature($GEODATA, $GEODATA.objects.bezirke);
+  const sBahn = feature($GEODATA, $GEODATA.objects.sbahn);
   const projection = geoMercator()
                       .fitExtent([[paddingMap, paddingMap], [width - paddingMap, height - paddingMap]], bezirke);
 
   const path = geoPath().projection(projection);
   let bezirkePath;
+  let sbahnPath;
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
@@ -37,6 +39,7 @@
   
   onMount(() => {
     bezirkePath = path(bezirke);  
+    sbahnPath = path(sBahn); 
     coordinates = currentCoordinates($VIEW);
   });
 
@@ -105,8 +108,13 @@
    stroke-opacity: 0.2;
  }
 
-.map-border {
-  stroke: #9b9b9b;
+ .map-bezirke {
+  stroke: #c7c7c7;
+  fill: none;
+}
+
+.map-sbahn {
+  stroke: #4974ff;
   fill: none;
 }
 
@@ -125,11 +133,20 @@
   
       <g class="basemap">
         {#if $VIEW == "Map"}
+
           <path 
           d={bezirkePath} 
-          class="map-border"
+          class="map-bezirke"
           transition:fade="{{ duration: 2000 }}"
           />
+
+          <path 
+          d={sbahnPath} 
+          class="map-sbahn"
+          transition:fade="{{ duration: 2000 }}"
+          />
+
+
         {/if}
       </g>
 
