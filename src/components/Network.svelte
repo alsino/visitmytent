@@ -24,20 +24,24 @@
   let bezirkePath;
 
   let locations = $NETWORKDATA.nodes;
-  let coordinates;
+  let coordinates = {x: 0, y: 0};
 
   
   
 
   onMount(() => {
-    bezirkePath = path(bezirke);    
+    bezirkePath = path(bezirke);  
+    coordinates = currentCoordinates($VIEW);
+    // console.log(locations);  
   });
 
 
   beforeUpdate(() => {
-    console.log($VIEW);
+    // console.log($VIEW);
     coordinates = currentCoordinates($VIEW);
-    console.log(currentCoordinates($VIEW));
+    console.log(coordinates);
+  
+    
   });
 
 
@@ -48,16 +52,29 @@
   function currentCoordinates(view){
     let coordinates;
 
+    // let coordinatesMap = locations.map((item) => {
+    //   return {
+    //     x : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[0],
+    //     y : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[1],
+    //   }
+    // });
+
     if (view == "Map" ) {
-      coordinates = {
-        x: 34,
-        y: 56
-      }
+      coordinates = locations.map((item) => {
+        return {
+          x : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[0],
+          y : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[1],
+        }
+      });
+
     } else {
-      coordinates = {
-        x: 100,
-        y: 200
-      }
+      coordinates = locations.map((item) => {
+        return {
+          x : getRandomNumber(300, 500),
+          y : getRandomNumber(200, 400)
+        }
+      });
+
     }
 
     // if ($VIEW == view){
@@ -67,10 +84,12 @@
     //   }
     // } else {
     //    coordinates = {
-    //      x: getRandomNumber(20, 400),
+    //      x: getRandomNumber(52, 53),
     //      y: getRandomNumber(20, 400)
     //   }
     // }
+
+
     // console.log(coordinates)
     return coordinates;
   }
@@ -131,38 +150,39 @@
 </style>
 
 
-<div id="network">
-  {#if $selectedArtist}
-    <div>{$selectedArtist}</div>
-  {/if}
-  
-  <svg width ={width} height={height}>
+  <div id="network">
+    {#if $selectedArtist}
+      <div>{$selectedArtist}</div>
+    {/if}
+    
+    <svg width ={width} height={height}>
 
-    <g class="map">
-      <path 
-      d={bezirkePath} 
-      class="border"
-      />
-    </g>
+      <g class="map">
+        <path 
+        d={bezirkePath} 
+        class="border"
+        />
+      </g>
 
-    <g class="circles">
-      {#each locations as location}
-        <circle 
-          cx={coordinates.x} 
-          cy={coordinates.y} 
-          r="4" 
-          stroke="none" 
-          stroke-width="1" 
-          fill="black" 
-          fill-opacity="0.5"
-          on:click={() => handleClick(location)}
-          style={`transition: all 2s`}
-          />
-      {/each }
-    </g>
+      <g class="circles">
+        {#each locations as location, index}
+          <circle 
+            cx={coordinates[index].x} 
+            cy={coordinates[index].y} 
+            r="4" 
+            stroke="none" 
+            stroke-width="1" 
+            fill="black" 
+            fill-opacity="0.5"
+            on:click={() => handleClick(location)}
+            style={`transition: all 2s`}
+            />
+        {/each }
+      </g>
 
-  </svg>
-</div>
+    </svg>
+  </div>
+
 
 <br>
 Example: D3 w/ svelte
