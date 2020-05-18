@@ -633,6 +633,35 @@
 				"workHours" : "11 am until 8-9 pm."
 			}
 		},
+
+				{
+			"name": "Pauline Doutreluingne",
+			"discipline": [8],
+			"gender": "female",
+			"birthYear": 1982,
+			"birthTown": "Kortrijk",
+			"birthCountry": "Belgium",
+			"profileID": "12614",
+			"imageUrl" : "	pauline_doutreluingne.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Bergstraße 26, 10115 Berlin",
+          "date_in": "0",
+          "date_out": "now",
+          "lat": 52.531859, 
+          "lon": 13.394426 
+        }
+      ],
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
+		},
+
+
 		{
 			"name": "Sven Drühl",
 			"discipline": [1,12],
@@ -3586,7 +3615,26 @@
 		"source": "Dirty Doering",
 		"target": "Pilocka Krach",
 		"value": 15
-	}, {
+	},
+
+
+	{
+		"source": "Pauline Doutreluingne",
+		"target": "Anne Duk Hee Jordan",
+		"value": 10
+	},
+	{
+		"source": "Pauline Doutreluingne",
+		"target": "Anne Duk Hee Jordan",
+		"value": 15
+	},
+	{
+		"source": "Pauline Doutreluingne",
+		"target": "Anne Duk Hee Jordan",
+		"value": 25
+	},
+
+	 {
 		"source": "Ornella Fieres",
 		"target": "Jofroi Amaral",
 		"value": 10
