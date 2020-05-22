@@ -53,7 +53,9 @@
 
   function handleClick(artist){
     // selectedArtist.set(artist.name);
-    console.log(artist)
+    console.log(artist.profileID)
+    let url = `https://visitmytent.com/?p=${artist.profileID}`;
+    window.open(url);
   }
 
   function currentCoordinates(view){
