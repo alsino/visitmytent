@@ -56,7 +56,7 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    console.log(nodesWithLinks);
+    // console.log(nodesWithLinks);
   });
 
 
@@ -64,6 +64,15 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
+
+    nodesWithLinks = nodesWithLinks.map((item, index) => {
+      let artistCoordinates = currentCoordinates($VIEW)[index];
+      item.artistCoordinates = artistCoordinates;
+      return item
+    })
+
+    console.log(nodesWithLinks);
+
   });
 
 
