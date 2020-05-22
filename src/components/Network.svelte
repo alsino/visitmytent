@@ -3,7 +3,7 @@
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, MOUSE } from '../store.js';
-  import { selectedArtist, hoveredArtist, selectedArtistDetails } from '../store.js';
+  import { hoveredArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -80,8 +80,9 @@
 
 
   function handleClick(artist){
-    selectedArtist.set(artist.name);
+    // selectedArtist.set(artist.name);
     selectedArtistDetails.set(artist);
+    // console.log($selectedArtistDetails)
   }
 
   function currentCoordinates(view){
@@ -114,9 +115,6 @@ function handleMouseMove(e){
 
 function handleMouseOver(artist){
   $hoveredArtist = artist.name;
-  // console.log(artist.name)
-  // console.log(artist.name == $selectedArtist)
-  // console.log(circleColor(artist));
 }
 
   

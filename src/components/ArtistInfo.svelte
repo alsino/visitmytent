@@ -1,6 +1,6 @@
 <script>
   import { VIEW } from '../store.js';
-  import { selectedArtist,  selectedArtistDetails } from '../store.js';
+  import { selectedArtistDetails } from '../store.js';
 
 </script>
 
@@ -19,7 +19,7 @@
   }
 </style>
 
-{#if selectedArtist}
+{#if $selectedArtistDetails}
   <div id="artist-info">
 
     {#if $selectedArtistDetails.name}
