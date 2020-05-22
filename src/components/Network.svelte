@@ -69,11 +69,11 @@
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
     circleColor = function(artist){
-      return artist.name == $selectedArtist ? "red" : "blue";
+      return artist.name == $selectedArtistDetails.name ? "red" : "blue";
     }
 
     circleSize = function(artist){
-      return artist.name == $selectedArtist ? "10" : "4";
+      return artist.name == $selectedArtistDetails.name ? "10" : "4";
     }
 
   });
@@ -82,11 +82,6 @@
   function handleClick(artist){
     selectedArtist.set(artist.name);
     selectedArtistDetails.set(artist);
-    console.log($selectedArtistDetails.name, $selectedArtistDetails.imageUrl )
-
-    // console.log(artist.profileID)
-    // let url = `https://visitmytent.com/?p=${artist.profileID}`;
-    // window.open(url);
   }
 
   function currentCoordinates(view){

@@ -3,7 +3,7 @@
   import Select from 'svelte-select';
   import { onMount, beforeUpdate } from 'svelte';
   import { NETWORKDATA } from '../store.js';
-  import { selectedArtist } from '../store.js';
+  import { selectedArtist, selectedArtistDetails } from '../store.js';
   
   let nodes = $NETWORKDATA.nodes;
   let artists = nodes.map(item => {return item.name }).sort();
@@ -18,13 +18,19 @@
   });
 
   function handleSelect(selectedVal) {
-    selectedArtist.set(selectedVal.detail.value);
-    // console.log($selectedArtist);
+    // selectedArtist.set(selectedVal.detail.value);
+    let result = nodes.filter(function(node) {
+      return node.name == selectedVal.detail.value;
+    })[0];
+
+    selectedArtistDetails.set(result);
+    console.log($selectedArtistDetails);
   }
 
   function handleClear() {
     selectedArtist.set("");
-    console.log($selectedArtist);
+    selectedArtistDetails.set("");
+    // console.log($selectedArtist);
   }
 
 
