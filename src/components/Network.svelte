@@ -25,12 +25,27 @@
   let bezirkePath;
   let sbahnPath;
 
+  let coordinates;
+  let networkForce = -4;
+
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
-  let coordinates;
+  let nodesWithLinks = nodes.map((item, index) => {
 
-  let networkForce = -4;
+    // Return all links by one artist
+    let artistLinks = links.filter(function(link) {
+      return link.source == item.name;
+    });
+
+    // Return artist coordinates
+    let artistCoordinates = currentCoordinates($VIEW)[index];
+
+    item.links = artistLinks;
+    item.artistCoordinates = artistCoordinates;
+
+    return item
+  })
 
   // No need for simulation anymore -> Coordinates are statically generated in store
   let simulation = d3.forceSimulation(nodes)
@@ -41,9 +56,7 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // coordinates = currentCoordinates($VIEW);
-    // console.log(nodes);
-    // console.log(coordinates);
+    console.log(nodesWithLinks);
   });
 
 
@@ -51,13 +64,12 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    console.log(links);
   });
 
 
   function handleClick(artist){
     // selectedArtist.set(artist.name);
-    console.log(artist.profileID)
+    // console.log(artist.profileID)
     let url = `https://visitmytent.com/?p=${artist.profileID}`;
     window.open(url);
   }
@@ -169,9 +181,29 @@ function handleMouseOver(artist){
           transition:fade="{{ duration: 2000 }}"
           />
 
-
         {/if}
       </g>
+
+      
+      {#if $VIEW == "Network"}
+      <g class="links" transition:fade="{{ duration: 2000 }}">
+       {#each nodesWithLinks as node, index}
+          {#each node.links as link, index}
+
+          <line 
+            x1={node.artistCoordinates.x}
+            y1={node.artistCoordinates.y}
+            x2={link.target.artistCoordinates.x}
+            y2={link.target.artistCoordinates.y}
+            >
+          </line>
+
+          {/each } 
+        {/each }      
+      </g>
+      {/if}
+
+
 
       <g class="circles">
         {#each nodes as location, index}
@@ -191,31 +223,6 @@ function handleMouseOver(artist){
             />
         {/each }
       </g>
-
-      <g class="links">
-       {#each links as link, index}
-          <line 
-            x1={link.source.x}
-            y1={link.source.y}
-            x2={link.target.x} 
-            y2={link.target.y}
-            >
-          </line>
-        {/each }      
-      </g>
-
-       <!-- <g class="links">
-       {#each links as link, index}
-          <line 
-            x1={link.source.x}
-            y1={link.source.y}
-            x2={link.target.x} 
-            y2={link.target.y}
-            >
-          </line>
-        {/each }      
-      </g> -->
-
 
     </svg>
   </div>
