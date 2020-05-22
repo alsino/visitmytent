@@ -3,10 +3,10 @@ import geoData from './data/geodata.json';
 import networkData from './data/artists_200519.json';
 
 export const VIEW = writable(undefined);
-VIEW.set("Map");
+VIEW.set("Network");
 
 export const selectedArtist = writable(undefined);
-selectedArtist.set("");
+selectedArtist.set(undefined);
 
 export const GEODATA = writable(undefined);
 GEODATA.set(geoData);

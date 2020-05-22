@@ -27,6 +27,7 @@
 
   let coordinates;
   let networkForce = -4;
+  let circleColor;
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
@@ -56,7 +57,7 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // console.log(nodesWithLinks);
+    // console.log($VIEW);
   });
 
 
@@ -64,14 +65,9 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-
-    nodesWithLinks = nodesWithLinks.map((item, index) => {
-      let artistCoordinates = currentCoordinates($VIEW)[index];
-      item.artistCoordinates = artistCoordinates;
-      return item
-    })
-
-    console.log(nodesWithLinks);
+    circleColor = function(artist){
+      return artist.name == $selectedArtist ? "red" : "black";
+    }
 
   });
 
@@ -112,7 +108,10 @@ function handleMouseMove(e){
 }
 
 function handleMouseOver(artist){
-  $selectedArtist = artist.name;
+  // $selectedArtist = artist.name;
+  console.log(artist.name)
+  console.log(artist.name == $selectedArtist)
+  console.log(circleColor(artist));
 }
 
   
@@ -220,12 +219,11 @@ function handleMouseOver(artist){
             cx={coordinates[index].x} 
             cy={coordinates[index].y} 
             r="4" 
-            stroke="none" 
-            stroke-width="1" 
-            fill="black" 
+            stroke-width="0" 
+            fill={circleColor(location)}
             fill-opacity="0.5"
             on:click={() => handleClick(location)}
-            style={`transition: all 2s`}
+            style={`transition: all 2s, fill 0s`}
             on:mouseover={() => handleMouseOver(location)} 
             on:mouseenter={() => tooltipVisible = true} 
             on:mouseleave={() =>  tooltipVisible = false} 
