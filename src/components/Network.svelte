@@ -126,7 +126,7 @@ function handleMouseOver(artist){
 
  #network {
    width: 100%;
-   background: $color-grey;
+   background: $color-white;
    margin-top: $margin-small;
    position: relative;
  }
