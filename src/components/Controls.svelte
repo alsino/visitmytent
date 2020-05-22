@@ -44,8 +44,8 @@
 <div class="controls">
 
   <div class="switch">
-    <label><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
     <label><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
+    <label><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
   </div>
 
   <div class="selector">

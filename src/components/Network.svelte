@@ -28,6 +28,7 @@
   let coordinates;
   let networkForce = -4;
   let circleColor;
+  let circleSize;
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
@@ -67,6 +68,10 @@
     coordinates = currentCoordinates($VIEW);
     circleColor = function(artist){
       return artist.name == $selectedArtist ? "red" : "black";
+    }
+
+    circleSize = function(artist){
+      return artist.name == $selectedArtist ? "10" : "4";
     }
 
   });
@@ -218,10 +223,10 @@ function handleMouseOver(artist){
           <circle 
             cx={coordinates[index].x} 
             cy={coordinates[index].y} 
-            r="4" 
+            r={circleSize(location)}
             stroke-width="0" 
             fill={circleColor(location)}
-            fill-opacity="0.5"
+            fill-opacity="0.8"
             on:click={() => handleClick(location)}
             style={`transition: all 2s, fill 0s`}
             on:mouseover={() => handleMouseOver(location)} 
