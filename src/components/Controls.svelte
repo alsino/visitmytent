@@ -14,11 +14,9 @@
   beforeUpdate(() => {
 
     if ($selectedArtistDetails) {
-       console.log($selectedArtistDetails)
+      //  console.log($selectedArtistDetails)
        selectedValue = $selectedArtistDetails.name;
     }
-
-    
   });
 
   function handleSelect(selectedVal) {
