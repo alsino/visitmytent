@@ -6,7 +6,7 @@ export const VIEW = writable(undefined);
 VIEW.set("Network");
 
 export const selectedArtist = writable(undefined);
-selectedArtist.set("Alsino Skowronnek");
+selectedArtist.set("");
 
 export const hoveredArtist = writable(undefined);
 hoveredArtist.set(undefined);

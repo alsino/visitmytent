@@ -46,7 +46,6 @@
 </style>
 
 
-
 <div class="controls">
 
   <div class="switch">
