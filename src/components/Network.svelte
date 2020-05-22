@@ -1,7 +1,7 @@
 <script>
   import { GEODATA } from '../store.js';
   import { NETWORKDATA } from '../store.js';
-  import { VIEW } from '../store.js';
+  import { VIEW, MOUSE } from '../store.js';
   import { selectedArtist } from '../store.js';
   import { onMount, beforeUpdate } from 'svelte';
   import * as d3 from "d3";
@@ -14,6 +14,7 @@
   let width = 700;
   let height = 600;
   let paddingMap = 20;
+  let tooltipVisible = false;
 
   const bezirke = feature($GEODATA, $GEODATA.objects.bezirke);
   const sBahn = feature($GEODATA, $GEODATA.objects.sbahn);
@@ -52,6 +53,7 @@
 
   function handleClick(artist){
     // selectedArtist.set(artist.name);
+    console.log(artist)
   }
 
   function currentCoordinates(view){
@@ -81,6 +83,17 @@
   function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
+
+
+function handleMouseMove(e){
+  MOUSE.set({x: e.pageX, y: e.pageY, artistName: $selectedArtist});
+  // console.log($MOUSE)
+}
+
+function handleMouseOver(artist){
+  $selectedArtist = artist.name;
+}
+
   
 </script>
 
@@ -118,16 +131,26 @@
   fill: none;
 }
 
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  display: none;
+  padding: $margin-small / 2;
+  background-color: white;
+}
 
+.active {
+  display: block;
+}
 
 </style>
 
 
-  <div id="network">
 
-    {#if $selectedArtist}
-      <div>{$selectedArtist}</div>
-    {/if}
+  <svelte:window on:mousemove={handleMouseMove}/>
+
+
+  <div id="network">
     
     <svg width ={width} height={height}>
   
@@ -162,6 +185,9 @@
             fill-opacity="0.5"
             on:click={() => handleClick(location)}
             style={`transition: all 2s`}
+            on:mouseover={() => handleMouseOver(location)} 
+            on:mouseenter={() => tooltipVisible = true} 
+            on:mouseleave={() =>  tooltipVisible = false} 
             />
         {/each }
       </g>
@@ -181,6 +207,14 @@
 
     </svg>
   </div>
+
+ 
+  <div 
+    class="tooltip {tooltipVisible ? 'active' : ''}" 
+    style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px;"
+    >{$MOUSE.artistName}
+  </div>
+
 
 
 <!-- <br>
