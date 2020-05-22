@@ -1,9 +1,9 @@
 <script>
   import { GEODATA } from '../store.js';
-  import { NETWORKDATA } from '../store.js';
+  import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, MOUSE } from '../store.js';
   import { selectedArtist } from '../store.js';
-  import { onMount, beforeUpdate } from 'svelte';
+  import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
   import { feature } from "topojson";
@@ -28,26 +28,29 @@
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
-  let coordinates = {x: 0, y: 0};
+  let coordinates;
 
   let networkForce = -4;
 
-  let transform = d3.zoomIdentity;
-  let simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.name))
-        .force("charge", d3.forceManyBody().strength(networkForce))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+  // No need for simulation anymore -> Coordinates are statically generated in store
+  // let simulation = d3.forceSimulation(nodes)
+  //       .force("link", d3.forceLink(links).id(d => d.name))
+  //       .force("charge", d3.forceManyBody().strength(networkForce))
+  //       .force("center", d3.forceCenter(width / 2, height / 2));
   
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    coordinates = currentCoordinates($VIEW);
+    // coordinates = currentCoordinates($VIEW);
+    // console.log(nodes);
+    // console.log(coordinates);
   });
 
 
   beforeUpdate(() => {
+    // Useful if we want to change network layout based on simulation 
+    // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    // console.log(coordinates);
   });
 
 
@@ -60,7 +63,9 @@
 
   function currentCoordinates(view){
     let coordinates;
+
     if (view == "Map") {
+
       coordinates = nodes.map((item) => {
         return {
           x : projection([item.studioLocations[0].lon, item.studioLocations[0].lat])[0],
@@ -69,15 +74,7 @@
       });
 
     } else if (view == "Network")  {
-
-      
-    
-      coordinates = nodes.map((item) => {
-        return {
-          x : item.x,
-          y : item.y
-        }
-      });
+        coordinates = $NETWORKCOORDINATES;
     }
     return coordinates;
   }
@@ -195,6 +192,18 @@ function handleMouseOver(artist){
       </g>
 
       <!-- <g class="links">
+       {#each links as link, index}
+          <line 
+            x1={link.source.x}
+            y1={link.source.y}
+            x2={link.target.x} 
+            y2={link.target.y}
+            >
+          </line>
+        {/each }      
+      </g> -->
+
+       <!-- <g class="links">
        {#each links as link, index}
           <line 
             x1={link.source.x}

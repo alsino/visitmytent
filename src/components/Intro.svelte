@@ -27,9 +27,12 @@
   Artistellar visualizes the relationships between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>. 
   <br /><br /> 
   <div>A visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> – Berlin, 2020.</div>
+
   <div class="controls">
     <label><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
     <label><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
   </div>
+
+  
 </div>
 
