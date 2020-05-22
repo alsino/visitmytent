@@ -33,10 +33,10 @@
   let networkForce = -4;
 
   // No need for simulation anymore -> Coordinates are statically generated in store
-  // let simulation = d3.forceSimulation(nodes)
-  //       .force("link", d3.forceLink(links).id(d => d.name))
-  //       .force("charge", d3.forceManyBody().strength(networkForce))
-  //       .force("center", d3.forceCenter(width / 2, height / 2));
+  let simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.name))
+        .force("charge", d3.forceManyBody().strength(networkForce))
+        .force("center", d3.forceCenter(width / 2, height / 2));
   
   onMount(() => {
     bezirkePath = path(bezirke);  
@@ -51,6 +51,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
+    console.log(links);
   });
 
 
@@ -191,7 +192,7 @@ function handleMouseOver(artist){
         {/each }
       </g>
 
-      <!-- <g class="links">
+      <g class="links">
        {#each links as link, index}
           <line 
             x1={link.source.x}
@@ -201,7 +202,7 @@ function handleMouseOver(artist){
             >
           </line>
         {/each }      
-      </g> -->
+      </g>
 
        <!-- <g class="links">
        {#each links as link, index}
