@@ -7,13 +7,19 @@
   
   let nodes = $NETWORKDATA.nodes;
   let artists = nodes.map(item => {return item.name }).sort();
-  let selectedValue = $selectedArtist;
+  let selectedValue;
 
   let artistCount = nodes.length;
 
+  beforeUpdate(() => {
+    if ($selectedArtist) {
+       selectedValue = $selectedArtist;
+    }
+  });
+
   function handleSelect(selectedVal) {
     selectedArtist.set(selectedVal.detail.value);
-    console.log($selectedArtist);
+    // console.log($selectedArtist);
   }
 
   function handleClear() {
@@ -50,7 +56,7 @@
 
   <div class="selector">
     <Select items={artists}
-    bind:selectedValue 
+    bind:selectedValue
 		placeholder="{`Select one of ${artistCount} artists …`}"
 		noOptionsMessage="No artist found"
     on:select={handleSelect} 

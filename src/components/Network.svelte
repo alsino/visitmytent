@@ -1,4 +1,5 @@
 <script>
+  import ArtistInfo from '../components/ArtistInfo.svelte';   
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, MOUSE } from '../store.js';
@@ -67,7 +68,7 @@
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
     circleColor = function(artist){
-      return artist.name == $selectedArtist ? "red" : "black";
+      return artist.name == $selectedArtist ? "red" : "blue";
     }
 
     circleSize = function(artist){
@@ -78,10 +79,10 @@
 
 
   function handleClick(artist){
-    // selectedArtist.set(artist.name);
+    selectedArtist.set(artist.name);
     // console.log(artist.profileID)
-    let url = `https://visitmytent.com/?p=${artist.profileID}`;
-    window.open(url);
+    // let url = `https://visitmytent.com/?p=${artist.profileID}`;
+    // window.open(url);
   }
 
   function currentCoordinates(view){
@@ -152,7 +153,7 @@ function handleMouseOver(artist){
 }
 
 .map-sbahn {
-  stroke: #4974ff;
+  stroke: #3d3d3d;
   fill: none;
 }
 
@@ -176,6 +177,7 @@ function handleMouseOver(artist){
 
 
   <div id="network">
+  <ArtistInfo/>
     
     <svg width ={width} height={height}>
   
