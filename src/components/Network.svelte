@@ -2,7 +2,7 @@
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, MOUSE } from '../store.js';
-  import { selectedArtist } from '../store.js';
+  import { selectedArtist, hoveredArtist } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -108,15 +108,15 @@
 
 
 function handleMouseMove(e){
-  MOUSE.set({x: e.pageX, y: e.pageY, artistName: $selectedArtist});
+  MOUSE.set({x: e.pageX, y: e.pageY, artistName: $hoveredArtist});
   // console.log($MOUSE)
 }
 
 function handleMouseOver(artist){
-  // $selectedArtist = artist.name;
-  console.log(artist.name)
-  console.log(artist.name == $selectedArtist)
-  console.log(circleColor(artist));
+  $hoveredArtist = artist.name;
+  // console.log(artist.name)
+  // console.log(artist.name == $selectedArtist)
+  // console.log(circleColor(artist));
 }
 
   

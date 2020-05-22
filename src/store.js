@@ -8,6 +8,9 @@ VIEW.set("Network");
 export const selectedArtist = writable(undefined);
 selectedArtist.set(undefined);
 
+export const hoveredArtist = writable(undefined);
+hoveredArtist.set(undefined);
+
 export const GEODATA = writable(undefined);
 GEODATA.set(geoData);
 
