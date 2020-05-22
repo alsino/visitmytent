@@ -6,7 +6,7 @@ export const VIEW = writable(undefined);
 VIEW.set("Network");
 
 export const selectedArtist = writable(undefined);
-selectedArtist.set("");
+export const selectedArtistDetails = writable({});
 
 export const hoveredArtist = writable(undefined);
 hoveredArtist.set(undefined);

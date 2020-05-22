@@ -1,13 +1,73 @@
 <script>
   import { VIEW } from '../store.js';
-  import { selectedArtist } from '../store.js';
+  import { selectedArtist,  selectedArtistDetails } from '../store.js';
+
 </script>
 
-<style>
+<style lang="scss">
+  @import "./style/theme.scss";
+
+  #artist-info {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .portrait {
+    margin-top: $margin-small;
+    height: 300px;
+  }
 </style>
 
+{#if selectedArtist}
+  <div id="artist-info">
 
-<div id="artist-info">
-  <div>{$selectedArtist}</div>
-  <div>Disciplines: dfdfd</div>
+    {#if $selectedArtistDetails.name}
+       <div>{$selectedArtistDetails.name}</div>
+    {/if}
+
+    {#if $selectedArtistDetails.discipline}
+       <div>Disciplines: {$selectedArtistDetails.discipline}</div>
+    {/if}    
+
+    <div>
+      {#if $selectedArtistDetails.birthTown || $selectedArtistDetails.birthCountry || $selectedArtistDetails.birthYear }
+         <span>Born in </span>
+      {/if}
+      
+      {#if $selectedArtistDetails.birthTown}
+          <span>{$selectedArtistDetails.birthTown}, </span>
+      {/if}
+
+      {#if $selectedArtistDetails.birthCountry}
+          <span>{$selectedArtistDetails.birthCountry}</span>
+      {/if}
+
+      {#if $selectedArtistDetails.birthYear}
+          <span>in {$selectedArtistDetails.birthYear}.</span>
+      {/if}     
+    </div>
+
+    {#if $selectedArtistDetails.studioLocations}
+          <div>Studio in {$selectedArtistDetails.studioVisit}</div>
+    {/if}
+
+    {#if $selectedArtistDetails.imageUrl}
+      <div>
+        <img class="portrait" src="images/{$selectedArtistDetails.imageUrl}" alt="Image of {$selectedArtistDetails.name}">
+      </div>
+    {/if}
+
+    {#if $selectedArtistDetails.profileID}
+      <div><a target="_blank" href="https://visitmytent.com/?p={$selectedArtistDetails.profileID}">Open artist profile</a></div>
+    {/if}
+
+    
+
+
+
+    
 </div>
+{/if}
+
+

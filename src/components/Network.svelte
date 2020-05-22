@@ -3,7 +3,7 @@
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, MOUSE } from '../store.js';
-  import { selectedArtist, hoveredArtist } from '../store.js';
+  import { selectedArtist, hoveredArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -30,6 +30,7 @@
   let networkForce = -4;
   let circleColor;
   let circleSize;
+  // let artistDetails = {};
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
@@ -80,6 +81,9 @@
 
   function handleClick(artist){
     selectedArtist.set(artist.name);
+    selectedArtistDetails.set(artist);
+    console.log($selectedArtistDetails.name, $selectedArtistDetails.imageUrl )
+
     // console.log(artist.profileID)
     // let url = `https://visitmytent.com/?p=${artist.profileID}`;
     // window.open(url);
@@ -131,6 +135,7 @@ function handleMouseOver(artist){
    width: 100%;
    background: $color-grey;
    margin-top: $margin-small;
+   position: relative;
  }
 
  svg  {
