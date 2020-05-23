@@ -200,10 +200,19 @@
 			"profileID": "2056",
 			"imageUrl": "fehmi_baumbach.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "Evessen am Elm Studio",
+				"address": "Evessen",
+				"date_in": "01/01/2006",
+				"date_out": "01/01/2016",
+				"lat": 52.186834, 
+				"lon": 10.723997
+			},
+			{
 				"name": "",
 				"address": "Schillerstraße 96, 10625 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2016",
 				"date_out": "now",
 				"lat": 52.510448,
 				"lon": 13.311225
