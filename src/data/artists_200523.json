@@ -3085,10 +3085,19 @@
 			"profileID": "4414",
 			"imageUrl": "peter_welz.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Kopenhagenerstraße 72, 10437 Berlin",
+				"date_in": "01/01/1998",
+				"date_out": "01/01/2005",
+				"lat": 52.548477, 
+				"lon": 13.410837
+			},
+			{
 				"name": "Gerichtshöfe",
 				"address": "Gerichtstraße 12-13, 13347 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 52.543609,
 				"lon": 13.375432
