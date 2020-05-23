@@ -112,7 +112,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Bergholzstraße 8, 12099 Berlin",
-				"date_in": 0,
+				"date_in": "01/08/2018",
 				"date_out": "now",
 				"lat": 52.459064,
 				"lon": 13.419368
@@ -436,7 +436,7 @@
 			"studioLocations": [{
 				"name": "Hobbyraum",
 				"address": "Herrfurthplatz 7, 12049 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2010",
 				"date_out": "now",
 				"lat": 52.476893,
 				"lon": 13.421108
@@ -526,10 +526,19 @@
 			"profileID": 0,
 			"imageUrl": "kaan_bulak.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "Wilde Renate",
+				"address": "Alt-Stralau 70, 10245 Berlin",
+				"date_in": "0",
+				"date_out": "01/01/2017",
+				"lat": 52.497443, 
+				"lon": 13.465190
+			},
+			{
 				"name": "Feral Note Salon",
 				"address": "Thomasiusstraße 4, 10557 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.523353,
 				"lon": 13.350336
@@ -1064,7 +1073,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2014",
 				"date_out": "now",
 				"lat": 52.479099,
 				"lon": 13.364809
