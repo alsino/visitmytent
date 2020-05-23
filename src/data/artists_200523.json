@@ -11,7 +11,7 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 					"name": "Butzke Werke",
-					"address": " Ritterstraße 26, 10969 Berlin",
+					"address": "Ritterstraße 26, 10969 Berlin",
 					"date_in": "01/01/2006",
 					"date_out": "01/01/2016",
 					"lat": 52.503058,
@@ -152,14 +152,14 @@
 					"name": " ",
 					"address": "Christinenstraße 21, 10119 Berlin",
 					"date_in": 0,
-					"date_out": 2019,
+					"date_out": "01/01/2019",
 					"lat": 52.532644,
 					"lon": 13.410908
 				},
 				{
 					"name": " ",
 					"address": "Schlegelstraße 6, 10115 Berlin",
-					"date_in": 2019,
+					"date_in": "01/01/2019",
 					"date_out": "now",
 					"lat": 52.529901,
 					"lon": 13.386103
@@ -179,7 +179,7 @@
 			"studioLocations": [{
 				"name": "WHITEvoid",
 				"address": "Köpenicker Chaussee 4, 10317 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2004",
 				"date_out": "now",
 				"lat": 52.490907,
 				"lon": 13.492447
@@ -249,13 +249,22 @@
 			"imageUrl": "clemens_behr.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
+				"name": "Butzke Werke",
+				"address": "Ritterstraße 26, 10969 Berlin",
+				"date_in": "01/01/2014",
+				"date_out": "01/01/2017",
+				"lat": 52.503058,
+				"lon": 13.407151
+			}, 
+			{
 				"name": "Raum Vollreinigung",
 				"address": "Wassertorstraße 65, 10785 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.499256,
 				"lon": 13.410479
-			}]
+			}
+			]
 		},
 		{
 			"name": "Sebastian Bieniek",
