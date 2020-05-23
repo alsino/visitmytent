@@ -504,7 +504,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Drontheimer Straße 37A, 13359 Berlin",
-				"date_in": 0,
+				"date_in": "01/03/2013",
 				"date_out": "now",
 				"lat": 52.557898,
 				"lon": 13.376080
@@ -2321,11 +2321,11 @@
 			{
 				"name": "",
 				"address": "Weißensee, Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2007",
 				"date_out": "01/01/2008",
 				"lat": 52.553348, 
 				"lon": 13.468462
-			}
+			},
 			{
 				"name": "Uferhallen",
 				"address": "Uferstraße 8, 13357 Berlin",
