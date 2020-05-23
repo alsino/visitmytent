@@ -1193,7 +1193,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Eulerstraße 1A, 13357 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.552387,
 				"lon": 13.389042
@@ -1331,7 +1331,16 @@
 			"profileID": "2691",
 			"imageUrl": "michelle_jezierski.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": " ",
+				"address": "Adalbertstraße, 10997 Berlin",
+				"date_in": "",
+				"date_out": "01/01/2012",
+				"lat": 52.504076, 
+				"lon": 13.421204
+			},
+			{
 				"name": " ",
 				"address": "Urbanstraße 100, 10967 Berlin",
 				"date_in": "01/01/2012",
@@ -2292,7 +2301,7 @@
 			"studioLocations": [{
 				"name": "Uferhallen",
 				"address": "Uferstraße 8, 13357 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2011",
 				"date_out": "now",
 				"lat": 52.551871,
 				"lon": 13.374360
