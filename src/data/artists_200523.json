@@ -1190,7 +1190,24 @@
 			"profileID": "4381",
 			"imageUrl": "janes_haid_schmallenberg.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Rummelsburg, 10317 Berlin",
+				"date_in": "01/01/2011",
+				"date_out": "01/01/2013",
+				"lat": 52.499445, 
+				"lon": 13.486588
+			},
+			{
+				"name": "",
+				"address": "Neukölln, Berlin",
+				"date_in": "01/01/2015",
+				"date_out": "12/01/2015",
+				"lat": 52.465976, 
+				"lon": 13.432951
+			},
+			{
 				"name": " ",
 				"address": "Eulerstraße 1A, 13357 Berlin",
 				"date_in": "01/01/2017",
@@ -2279,10 +2296,19 @@
 			"profileID": "5570",
 			"imageUrl": "baernd_nettmann.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": " ",
+			"studioLocations": [
+ 			{
+				"name": "",
+				"address": "Rudolfkiez, 10245 Berlin",
+				"date_in": "01/01/2004",
+				"date_out": "01/01/2009",
+				"lat": 52.503664, 
+				"lon": 13.455058
+			},
+			{
+				"name": "Travekiez",
 				"address": "Jessnerstraße 47, 10247 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2009",
 				"date_out": "now",
 				"lat": 52.509897,
 				"lon": 13.470735
@@ -2715,8 +2741,8 @@
 			"studioLocations": [{
 				"name": "Gerichtshöfe",
 				"address": "Gerichtstraße 12-13, 13347 Berlin",
-				"date_in": 0,
-				"date_out": 2019,
+				"date_in": "01/05/2019",
+				"date_out": "31/10/2019",
 				"lat": 52.543609,
 				"lon": 13.375432
 			}]
@@ -2784,8 +2810,6 @@
 				"lon": 14.326853
 			}]
 		},
-
-
 
 
 		{
