@@ -269,15 +269,15 @@
 			"studioLocations": [{
 				"name": "Butzke Werke",
 				"address": "Ritterstraße 26, 10969 Berlin",
-				"date_in": "01/01/2014",
-				"date_out": "01/01/2017",
+				"date_in": "01/01/2013",
+				"date_out": "01/01/2016",
 				"lat": 52.503058,
 				"lon": 13.407151
 			}, 
 			{
 				"name": "Raum Vollreinigung",
 				"address": "Wassertorstraße 65, 10785 Berlin",
-				"date_in": "01/01/2017",
+				"date_in": "01/01/2016",
 				"date_out": "now",
 				"lat": 52.499256,
 				"lon": 13.410479
@@ -2537,10 +2537,51 @@
 			"profileID": "10724",
 			"imageUrl": "christian_y_schmidt.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": " ",
+				"address": "Bielefeld",
+				"date_in": 0,
+				"date_out": "01/01/1989",
+				"lat": 52.033530, 
+				"lon": 8.528500
+			},
+			{
+				"name": " ",
+				"address": "Frankfurt am Main",
+				"date_in": "01/01/1989",
+				"date_out": "01/01/1998",
+				"lat": 50.116064, 
+				"lon": 8.671920
+			},
+			{
+				"name": " ",
+				"address": "Blücherstraße, 10961 Berlin",
+				"date_in": "01/01/1998",
+				"date_out": "01/01/2003",
+				"lat": 52.493946, 
+				"lon": 13.399721
+			},
+			{
+				"name": " ",
+				"address": "Singapur",
+				"date_in": "01/01/2003",
+				"date_out": "01/01/2005",
+				"lat": 1.360664, 
+				"lon": 103.863431
+			},
+			{
+				"name": " ",
+				"address": "Peking",
+				"date_in": "01/01/2003",
+				"date_out": "now",
+				"lat": 39.880081, 
+				"lon": 116.407730
+			},
+			{
 				"name": " ",
 				"address": "Liselotte-Herrmann-Straße 14, 10407 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2003",
 				"date_out": "now",
 				"lat": 52.530908,
 				"lon": 13.436841
