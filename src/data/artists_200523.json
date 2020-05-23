@@ -2248,7 +2248,7 @@
 			"studioLocations": [{
 				"name": "Urban Spree",
 				"address": "Revaler Straße 99, 10245 Berlin",
-				"date_in": 0,
+				"date_in": "01/09/2012",
 				"date_out": "now",
 				"lat": 52.507545,
 				"lon": 13.451575
