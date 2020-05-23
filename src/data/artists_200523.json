@@ -691,7 +691,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Bergstraße 26, 10115 Berlin",
-				"date_in": "0",
+				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.531859,
 				"lon": 13.394426
@@ -884,24 +884,24 @@
 					"address": "5ter Bezirk",
 					"date_in": "01/01/2011",
 					"date_out": "now",
-					"lat": 0,
-					"lon": 0
+					"lat": 48.187693, 
+					"lon": 16.354515
 				},
 				{
 					"name": "Studio Peking",
 					"address": " ",
 					"date_in": "01/01/2012",
 					"date_out": "now",
-					"lat": 0,
-					"lon": 0
+					"lat": 40.642984, 
+					"lon": 116.264907
 				},
 				{
 					"name": "Studio Wedding",
 					"address": "am Gesundbrunnen",
-					"date_in": "0",
-					"date_out": "0",
-					"lat": 0,
-					"lon": 0
+					"date_in": 0,
+					"date_out": 0,
+					"lat": 52.555537, 
+					"lon": 13.378633
 				},
 				{
 					"name": "Studio Zuhause",
@@ -1158,14 +1158,6 @@
 			"imageUrl": "lucas_gutierrez.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
-			{
-				"name": "",
-				"address": "",
-				"date_in": 0,
-				"date_out": 0,
-				"lat": 0,
-				"lon": 0
-			},
 			{
 				"name": " ",
 				"address": "Schönhauser Allee 140, 10437 Berlin",
@@ -1942,7 +1934,7 @@
 			"birthYear": 1983,
 			"birthTown": "Bielefeld",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl": "grischa_lichtenberger.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
@@ -2379,7 +2371,7 @@
 			"birthYear": 1946,
 			"birthTown": "Vrakúň",
 			"birthCountry": "Tschechoslowakei",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl": "emerita_pansowova.jpg",
 			"studioVisit": "Biesenthal",
 			"studioLocations": [{
@@ -3258,34 +3250,34 @@
 			{
 				"name": " ",
 				"address": "London",
-				"date_in": "0",
-				"date_out": "0",
-				"lat": 0,
-				"lon": 0
+				"date_in": 0,
+				"date_out": 0,
+				"lat": 51.507140, 
+				"lon": -0.130015
 			},
 			{
 				"name": " ",
 				"address": "Liverpool",
-				"date_in": "0",
-				"date_out": "0",
-				"lat": 0,
-				"lon": 0
+				"date_in": 0,
+				"date_out": 0,
+				"lat": 53.408469, 
+				"lon": -2.992613
 			},
 			{
 				"name": " ",
 				"address": "Leeds",
-				"date_in": "0",
-				"date_out": "0",
-				"lat": 0,
-				"lon": 0
+				"date_in": 0,
+				"date_out": 0,
+				"lat": 53.800508, 
+				"lon": -1.547063
 			},
 			{
 				"name": " ",
-				"address": "Schöneberg",
+				"address": "Schöneberg, Berlin",
 				"date_in": "",
 				"date_out": "01/01/2007",
-				"lat": 0,
-				"lon": 0
+				"lat": 52.486658, 
+				"lon": 13.350006
 			},
 			{
 				"name": " ",
@@ -5066,7 +5058,21 @@
 			"source": "Bärnd Nettmann",
 			"target": "Maria Gideon",
 			"value": 10
-		}, {
+		}, 
+
+		{
+			"source": "Emerita Pansowová",
+			"target": "Lothar Böhme",
+			"value": 10
+		},
+		{
+			"source": "Emerita Pansowová",
+			"target": "Erika Stürmer-Alex",
+			"value": 10
+		},
+
+		
+		{
 			"source": "Manfred Peckl",
 			"target": "Christian Achenbach",
 			"value": 10
