@@ -332,7 +332,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Kurfürstenstraße 21-22, 10785 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.499979,
 				"lon": 13.365048
@@ -372,10 +372,35 @@
 			"profileID": "1689",
 			"imageUrl": "isabelle_borges.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Domstrasse, Köln",
+				"date_in": "01/01/1997",
+				"date_out": "01/01/2000",
+				"lat": 52.530961, 
+				"lon": 13.336689
+			},
+			{
+				"name": "",
+				"address": "Moabit, Berlin",
+				"date_in": "01/01/1997",
+				"date_out": "01/01/2000",
+				"lat": 52.530961, 
+				"lon": 13.336689
+			},
+			{
+				"name": "",
+				"address": "Pappelallee Ecke Stargarder, Berlin",
+				"date_in": "01/01/2000",
+				"date_out": "01/01/2002",
+				"lat": 52.546567, 
+				"lon": 13.418503
+			},
+			{
 				"name": "",
 				"address": "Rodenbergstraße 14, 10439 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2002",
 				"date_out": "now",
 				"lat": 52.550602,
 				"lon": 13.416961
@@ -418,7 +443,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Mittenwalder Straße 6, 10961 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.494306,
 				"lon": 13.396617
