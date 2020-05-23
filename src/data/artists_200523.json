@@ -2373,6 +2373,26 @@
 		},
 
 		{
+			"name": "Emerita Pansowová",
+			"discipline": [6],
+			"gender": "female",
+			"birthYear": 1946,
+			"birthTown": "Vrakúň",
+			"birthCountry": "Tschechoslowakei",
+			"profileID": "0",
+			"imageUrl": "emerita_pansowova.jpg",
+			"studioVisit": "Biesenthal",
+			"studioLocations": [{
+				"name": " ",
+				"address": "Lanker Straße 5, 16359 Biesenthal",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.766370, 
+				"lon": 13.615314
+		}]
+		},
+
+		{
 			"name": "Radio Papesse",
 			"discipline": [14],
 			"gender": "female",
