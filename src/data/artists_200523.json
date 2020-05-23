@@ -1169,7 +1169,7 @@
 			{
 				"name": " ",
 				"address": "Schönhauser Allee 140, 10437 Berlin",
-				"date_in": 0,
+				"date_in": "01/06/2014",
 				"date_out": "now",
 				"lat": 52.542323,
 				"lon": 13.411824
@@ -1255,7 +1255,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Am Lohmühlenpark 1, 20099 Hamburg",
-				"date_in": 0,
+				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 53.557767,
 				"lon": 10.018037
@@ -1271,7 +1271,16 @@
 			"profileID": "3300",
 			"imageUrl": "sibylle_jazra.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [			
+			{
+				"name": "",
+				"address": "Hobrechtstraße 54, 12047 Berlin",
+				"date_in": "01/01/2009",
+				"date_out": "01/01/2012",
+				"lat": 52.491887, 
+				"lon": 13.425501
+			},
+			{
 				"name": "Funkhaus Berlin",
 				"address": "Nalepastraße 18, 12459 Berlin",
 				"date_in": "01/01/2012",
@@ -1325,7 +1334,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Urbanstraße 100, 10967 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.489926,
 				"lon": 13.422039
