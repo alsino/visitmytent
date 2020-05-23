@@ -1,6 +1,6 @@
 import { writable } from 'svelte/store';
 import geoData from './data/geodata.json';
-import networkData from './data/artists_200523.json';
+import networkData from './data/artists_200522.json';
 
 export const VIEW = writable(undefined);
 VIEW.set("Network");
