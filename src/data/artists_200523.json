@@ -81,10 +81,19 @@
 			"profileID": "2431",
 			"imageUrl": "jofroi_amaral.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Schliemannstrasse, 10437 Berlin",
+				"date_in": "01/01/2005",
+				"date_out": "01/01/2012",
+				"lat": 52.542378, 
+				"lon": 13.418328
+			},
+			{
 				"name": "Studios ID",
 				"address": "Genslerstraße 13, 13055 Berlin",
-				"date_in": "01/012012",
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.541492,
 				"lon": 13.499555
@@ -375,11 +384,19 @@
 			"studioLocations": [
 			{
 				"name": "",
-				"address": "Domstrasse, Köln",
-				"date_in": "01/01/1997",
-				"date_out": "01/01/2000",
-				"lat": 52.530961, 
-				"lon": 13.336689
+				"address": "Escola de Artes Visuais do Parque Lage, Rio de Janeiro",
+				"date_in": "01/01/1989",
+				"date_out": "01/01/1992",
+				"lat": -22.959947, 
+				"lon": -43.212053
+			},
+			{
+				"name": "",
+				"address": "Domstraße, 50668 Köln",
+				"date_in": "01/01/1993",
+				"date_out": "01/01/1997",
+				"lat": 50.947433, 
+				"lon": 6.959154
 			},
 			{
 				"name": "",
@@ -585,8 +602,8 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Am Treptower Park, 12435 Berlin",
-				"date_in": 2019,
-				"date_out": 2019,
+				"date_in": "01/01/2019",
+				"date_out": "01/10/2019",
 				"lat": 52.492402,
 				"lon": 13.468887
 			}],
@@ -2300,10 +2317,19 @@
 			"profileID": "462",
 			"imageUrl": "manfred_peckl.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Weißensee, Berlin",
+				"date_in": 0,
+				"date_out": "01/01/2008",
+				"lat": 52.553348, 
+				"lon": 13.468462
+			}
+			{
 				"name": "Uferhallen",
 				"address": "Uferstraße 8, 13357 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 52.551871,
 				"lon": 13.374360
