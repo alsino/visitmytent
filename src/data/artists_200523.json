@@ -1157,7 +1157,16 @@
 			"profileID": "10015",
 			"imageUrl": "lucas_gutierrez.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "",
+				"date_in": 0,
+				"date_out": 0,
+				"lat": 0,
+				"lon": 0
+			},
+			{
 				"name": " ",
 				"address": "Schönhauser Allee 140, 10437 Berlin",
 				"date_in": 0,
@@ -1203,7 +1212,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Rodenbergstraße 14, 10439 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2002",
 				"date_out": "now",
 				"lat": 52.550602,
 				"lon": 13.416961
@@ -1265,7 +1274,7 @@
 			"studioLocations": [{
 				"name": "Funkhaus Berlin",
 				"address": "Nalepastraße 18, 12459 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.480116,
 				"lon": 13.500326
