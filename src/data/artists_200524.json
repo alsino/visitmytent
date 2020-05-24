@@ -2772,7 +2772,7 @@
 			"studioLocations": [{
 				"name": "Die Sterne",
 				"address": "Warnholtzstrasse 4, 22767 Hamburg",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 53.555009,
 				"lon": 9.945380
