@@ -3226,31 +3226,31 @@
 			{
 				"name": " ",
 				"address": "London",
-				"date_in": 0,
-				"date_out": 0,
+				"date_in": "01/01/1998",
+				"date_out": "31/12/2001",
 				"lat": 51.507140, 
 				"lon": -0.130015
 			},
 			{
 				"name": " ",
 				"address": "Liverpool",
-				"date_in": 0,
-				"date_out": 0,
+				"date_in": "01/01/2002",
+				"date_out": "31/12/2005",
 				"lat": 53.408469, 
 				"lon": -2.992613
 			},
 			{
 				"name": " ",
 				"address": "Leeds",
-				"date_in": 0,
-				"date_out": 0,
+				"date_in": "01/01/2006",
+				"date_out": "01/05/2006",
 				"lat": 53.800508, 
 				"lon": -1.547063
 			},
 			{
 				"name": " ",
 				"address": "Schöneberg, Berlin",
-				"date_in": "",
+				"date_in": "01/06/2006",
 				"date_out": "01/01/2007",
 				"lat": 52.486658, 
 				"lon": 13.350006
