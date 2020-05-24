@@ -2954,7 +2954,16 @@
 			"profileID": "7358",
 			"imageUrl": "miriam_vlaming.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": " ",
+				"address": "Liebermann-Straße, Berlin Weißensee",
+				"date_in": "01/01/2006",
+				"date_out": "31/12/2009",
+				"lat": 52.560289, 
+				"lon": 13.475639
+			},
+			{
 				"name": " ",
 				"address": "Spiekermannstraße 31A, 13189 Berlin",
 				"date_in": "01/01/2010",
