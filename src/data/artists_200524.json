@@ -1141,7 +1141,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Adalbertstraße 9, 10999 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2007",
 				"date_out": "now",
 				"lat": 52.500893,
 				"lon": 13.419196
@@ -2359,7 +2359,6 @@
 				"lon": 13.499157
 			}]
 		},
-	
 
 		{
 			"name": "Radio Papesse",
@@ -2582,7 +2581,7 @@
 			"studioLocations": [{
 				"name": "Gerichtshöfe",
 				"address": "Gerichtstraße 12-13, 13347 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2018",
 				"date_out": "now",
 				"lat": 52.543609,
 				"lon": 13.375432
@@ -2958,7 +2957,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Spiekermannstraße 31A, 13189 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2010",
 				"date_out": "now",
 				"lat": 52.554001,
 				"lon": 13.428658
