@@ -11,7 +11,7 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 					"name": "Butzke Werke",
-					"address": " Ritterstraße 26, 10969 Berlin",
+					"address": "Ritterstraße 26, 10969 Berlin",
 					"date_in": "01/01/2006",
 					"date_out": "01/01/2016",
 					"lat": 52.503058,
@@ -81,10 +81,19 @@
 			"profileID": "2431",
 			"imageUrl": "jofroi_amaral.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Schliemannstrasse, 10437 Berlin",
+				"date_in": "01/01/2005",
+				"date_out": "01/01/2012",
+				"lat": 52.542378, 
+				"lon": 13.418328
+			},
+			{
 				"name": "Studios ID",
 				"address": "Genslerstraße 13, 13055 Berlin",
-				"date_in": "01/012012",
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.541492,
 				"lon": 13.499555
@@ -103,7 +112,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Bergholzstraße 8, 12099 Berlin",
-				"date_in": 0,
+				"date_in": "01/08/2018",
 				"date_out": "now",
 				"lat": 52.459064,
 				"lon": 13.419368
@@ -152,14 +161,14 @@
 					"name": " ",
 					"address": "Christinenstraße 21, 10119 Berlin",
 					"date_in": 0,
-					"date_out": 2019,
+					"date_out": "01/01/2019",
 					"lat": 52.532644,
 					"lon": 13.410908
 				},
 				{
 					"name": " ",
 					"address": "Schlegelstraße 6, 10115 Berlin",
-					"date_in": 2019,
+					"date_in": "01/01/2019",
 					"date_out": "now",
 					"lat": 52.529901,
 					"lon": 13.386103
@@ -179,7 +188,7 @@
 			"studioLocations": [{
 				"name": "WHITEvoid",
 				"address": "Köpenicker Chaussee 4, 10317 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2004",
 				"date_out": "now",
 				"lat": 52.490907,
 				"lon": 13.492447
@@ -200,10 +209,19 @@
 			"profileID": "2056",
 			"imageUrl": "fehmi_baumbach.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "Evessen am Elm Studio",
+				"address": "Evessen",
+				"date_in": "01/01/2006",
+				"date_out": "01/01/2016",
+				"lat": 52.186834, 
+				"lon": 10.723997
+			},
+			{
 				"name": "",
 				"address": "Schillerstraße 96, 10625 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2016",
 				"date_out": "now",
 				"lat": 52.510448,
 				"lon": 13.311225
@@ -249,13 +267,22 @@
 			"imageUrl": "clemens_behr.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
+				"name": "Butzke Werke",
+				"address": "Ritterstraße 26, 10969 Berlin",
+				"date_in": "01/01/2013",
+				"date_out": "01/01/2016",
+				"lat": 52.503058,
+				"lon": 13.407151
+			}, 
+			{
 				"name": "Raum Vollreinigung",
 				"address": "Wassertorstraße 65, 10785 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2016",
 				"date_out": "now",
 				"lat": 52.499256,
 				"lon": 13.410479
-			}]
+			}
+			]
 		},
 		{
 			"name": "Sebastian Bieniek",
@@ -314,7 +341,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Kurfürstenstraße 21-22, 10785 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.499979,
 				"lon": 13.365048
@@ -354,10 +381,43 @@
 			"profileID": "1689",
 			"imageUrl": "isabelle_borges.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Escola de Artes Visuais do Parque Lage, Rio de Janeiro",
+				"date_in": "01/01/1989",
+				"date_out": "01/01/1992",
+				"lat": -22.959947, 
+				"lon": -43.212053
+			},
+			{
+				"name": "",
+				"address": "Domstraße, 50668 Köln",
+				"date_in": "01/01/1993",
+				"date_out": "01/01/1997",
+				"lat": 50.947433, 
+				"lon": 6.959154
+			},
+			{
+				"name": "",
+				"address": "Moabit, Berlin",
+				"date_in": "01/01/1997",
+				"date_out": "01/01/2000",
+				"lat": 52.530961, 
+				"lon": 13.336689
+			},
+			{
+				"name": "",
+				"address": "Pappelallee Ecke Stargarder, Berlin",
+				"date_in": "01/01/2000",
+				"date_out": "01/01/2002",
+				"lat": 52.546567, 
+				"lon": 13.418503
+			},
+			{
 				"name": "",
 				"address": "Rodenbergstraße 14, 10439 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2002",
 				"date_out": "now",
 				"lat": 52.550602,
 				"lon": 13.416961
@@ -376,7 +436,7 @@
 			"studioLocations": [{
 				"name": "Hobbyraum",
 				"address": "Herrfurthplatz 7, 12049 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2010",
 				"date_out": "now",
 				"lat": 52.476893,
 				"lon": 13.421108
@@ -400,7 +460,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Mittenwalder Straße 6, 10961 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.494306,
 				"lon": 13.396617
@@ -425,8 +485,8 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Donaustrasse 83, 12043 Berlin",
-				"date_in": 0,
-				"date_out": 0,
+				"date_in": "01/01/2013",
+				"date_out": "now",
 				"lat": 52.479070,
 				"lon": 13.441796
 			}]
@@ -441,14 +501,35 @@
 			"profileID": "9912",
 			"imageUrl": "jenny_brosinski.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+
+
+			{
+				"name": "Kunsthochschule Weißensee",
+				"address": "Bühringstraße 20, 13086 Berlin",
+				"date_in": "01/01/2008",
+				"date_out": "01/01/2012",
+				"lat": 52.558011, 
+				"lon": 13.439314
+			},
+			{
 				"name": "",
 				"address": "Drontheimer Straße 37A, 13359 Berlin",
-				"date_in": 0,
-				"date_out": "now",
+				"date_in": "01/03/2013",
+				"date_out": "30/05/2020",
 				"lat": 52.557898,
 				"lon": 13.376080
-			}],
+			},
+			{
+				"name": "",
+				"address": "Langhansstraße 134, 13086 Berlin",
+				"date_in": "01/06/2020",
+				"date_out": "now",
+				"lat": 52.550143, 
+				"lon": 13.445348
+			}
+
+			],
 			"questions": {
 				"why": "Because I am what I am.",
 				"music": "I normally do not listen to music while I work.",
@@ -466,10 +547,19 @@
 			"profileID": 0,
 			"imageUrl": "kaan_bulak.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "Wilde Renate",
+				"address": "Alt-Stralau 70, 10245 Berlin",
+				"date_in": "12/01/2013",
+				"date_out": "01/01/2017",
+				"lat": 52.497443, 
+				"lon": 13.465190
+			},
+			{
 				"name": "Feral Note Salon",
 				"address": "Thomasiusstraße 4, 10557 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.523353,
 				"lon": 13.350336
@@ -542,8 +632,8 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Am Treptower Park, 12435 Berlin",
-				"date_in": 2019,
-				"date_out": 2019,
+				"date_in": "01/01/2019",
+				"date_out": "01/10/2019",
 				"lat": 52.492402,
 				"lon": 13.468887
 			}],
@@ -601,7 +691,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Bergstraße 26, 10115 Berlin",
-				"date_in": "0",
+				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.531859,
 				"lon": 13.394426
@@ -794,24 +884,24 @@
 					"address": "5ter Bezirk",
 					"date_in": "01/01/2011",
 					"date_out": "now",
-					"lat": 0,
-					"lon": 0
+					"lat": 48.187693, 
+					"lon": 16.354515
 				},
 				{
 					"name": "Studio Peking",
 					"address": " ",
 					"date_in": "01/01/2012",
 					"date_out": "now",
-					"lat": 0,
-					"lon": 0
+					"lat": 40.642984, 
+					"lon": 116.264907
 				},
 				{
 					"name": "Studio Wedding",
 					"address": "am Gesundbrunnen",
-					"date_in": "0",
-					"date_out": "0",
-					"lat": 0,
-					"lon": 0
+					"date_in": 0,
+					"date_out": 0,
+					"lat": 52.555537, 
+					"lon": 13.378633
 				},
 				{
 					"name": "Studio Zuhause",
@@ -823,7 +913,6 @@
 				}
 			]
 		},
-
 
 		{
 			"name": "Moritz Frei",
@@ -1001,10 +1090,19 @@
 			"profileID": "280",
 			"imageUrl": "philip_groezinger.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": " ",
+				"address": "Berlin-Neukölln",
+				"date_in": "01/01/2011",
+				"date_out": "01/01/2014",
+				"lat": 52.478598, 
+				"lon": 13.436056
+			},
+			{
 				"name": " ",
 				"address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2014",
 				"date_out": "now",
 				"lat": 52.479099,
 				"lon": 13.364809
@@ -1059,10 +1157,11 @@
 			"profileID": "10015",
 			"imageUrl": "lucas_gutierrez.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
 				"name": " ",
 				"address": "Schönhauser Allee 140, 10437 Berlin",
-				"date_in": 0,
+				"date_in": "01/06/2014",
 				"date_out": "now",
 				"lat": 52.542323,
 				"lon": 13.411824
@@ -1083,10 +1182,27 @@
 			"profileID": "4381",
 			"imageUrl": "janes_haid_schmallenberg.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Rummelsburg, 10317 Berlin",
+				"date_in": "01/01/2011",
+				"date_out": "01/01/2013",
+				"lat": 52.499445, 
+				"lon": 13.486588
+			},
+			{
+				"name": "",
+				"address": "Neukölln, Berlin",
+				"date_in": "01/01/2015",
+				"date_out": "12/01/2015",
+				"lat": 52.465976, 
+				"lon": 13.432951
+			},
+			{
 				"name": " ",
 				"address": "Eulerstraße 1A, 13357 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.552387,
 				"lon": 13.389042
@@ -1105,7 +1221,7 @@
 			"studioLocations": [{
 				"name": "",
 				"address": "Rodenbergstraße 14, 10439 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2002",
 				"date_out": "now",
 				"lat": 52.550602,
 				"lon": 13.416961
@@ -1148,7 +1264,7 @@
 			"studioLocations": [{
 				"name": " ",
 				"address": "Am Lohmühlenpark 1, 20099 Hamburg",
-				"date_in": 0,
+				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 53.557767,
 				"lon": 10.018037
@@ -1164,10 +1280,19 @@
 			"profileID": "3300",
 			"imageUrl": "sibylle_jazra.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [			
+			{
+				"name": "",
+				"address": "Hobrechtstraße 54, 12047 Berlin",
+				"date_in": "01/01/2009",
+				"date_out": "01/01/2012",
+				"lat": 52.491887, 
+				"lon": 13.425501
+			},
+			{
 				"name": "Funkhaus Berlin",
 				"address": "Nalepastraße 18, 12459 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.480116,
 				"lon": 13.500326
@@ -1178,8 +1303,6 @@
 				"workHours": "9 to 5 to 9 to 5 to 9."
 			}
 		},
-
-
 		{
 			"name": "Jeans Team",
 			"discipline": [9, 14, 16],
@@ -1204,7 +1327,6 @@
 				"workHours": "9 to 5 to 9 to 5 to 9."
 			}
 		},
-
 		{
 			"name": "Michelle Jezierski",
 			"discipline": [1],
@@ -1215,10 +1337,19 @@
 			"profileID": "2691",
 			"imageUrl": "michelle_jezierski.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": " ",
+				"address": "Adalbertstraße, 10997 Berlin",
+				"date_in": "",
+				"date_out": "01/01/2012",
+				"lat": 52.504076, 
+				"lon": 13.421204
+			},
+			{
 				"name": " ",
 				"address": "Urbanstraße 100, 10967 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.489926,
 				"lon": 13.422039
@@ -1745,7 +1876,6 @@
 				"workHours": " "
 			}
 		},
-
 		{
 			"name": "Van Bo Le-Mentzel",
 			"discipline": [7],
@@ -1800,7 +1930,7 @@
 			"birthYear": 1983,
 			"birthTown": "Bielefeld",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl": "grischa_lichtenberger.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
@@ -2114,7 +2244,7 @@
 			"studioLocations": [{
 				"name": "Urban Spree",
 				"address": "Revaler Straße 99, 10245 Berlin",
-				"date_in": 0,
+				"date_in": "01/09/2012",
 				"date_out": "now",
 				"lat": 52.507545,
 				"lon": 13.451575
@@ -2154,10 +2284,19 @@
 			"profileID": "5570",
 			"imageUrl": "baernd_nettmann.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": " ",
+			"studioLocations": [
+ 			{
+				"name": "",
+				"address": "Rudolfkiez, 10245 Berlin",
+				"date_in": "01/01/2004",
+				"date_out": "01/01/2009",
+				"lat": 52.503664, 
+				"lon": 13.455058
+			},
+			{
+				"name": "Travekiez",
 				"address": "Jessnerstraße 47, 10247 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2009",
 				"date_out": "now",
 				"lat": 52.509897,
 				"lon": 13.470735
@@ -2176,7 +2315,7 @@
 			"studioLocations": [{
 				"name": "Uferhallen",
 				"address": "Uferstraße 8, 13357 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2011",
 				"date_out": "now",
 				"lat": 52.551871,
 				"lon": 13.374360
@@ -2220,6 +2359,7 @@
 				"lon": 13.499157
 			}]
 		},
+	
 
 		{
 			"name": "Radio Papesse",
@@ -2257,10 +2397,19 @@
 			"profileID": "462",
 			"imageUrl": "manfred_peckl.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Weißensee, Berlin",
+				"date_in": "01/01/2007",
+				"date_out": "01/01/2008",
+				"lat": 52.553348, 
+				"lon": 13.468462
+			},
+			{
 				"name": "Uferhallen",
 				"address": "Uferstraße 8, 13357 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 52.551871,
 				"lon": 13.374360
@@ -2468,10 +2617,51 @@
 			"profileID": "10724",
 			"imageUrl": "christian_y_schmidt.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": " ",
+				"address": "Bielefeld",
+				"date_in": 0,
+				"date_out": "01/01/1989",
+				"lat": 52.033530, 
+				"lon": 8.528500
+			},
+			{
+				"name": " ",
+				"address": "Frankfurt am Main",
+				"date_in": "01/01/1989",
+				"date_out": "01/01/1998",
+				"lat": 50.116064, 
+				"lon": 8.671920
+			},
+			{
+				"name": " ",
+				"address": "Blücherstraße, 10961 Berlin",
+				"date_in": "01/01/1998",
+				"date_out": "01/01/2003",
+				"lat": 52.493946, 
+				"lon": 13.399721
+			},
+			{
+				"name": " ",
+				"address": "Singapur",
+				"date_in": "01/01/2003",
+				"date_out": "01/01/2005",
+				"lat": 1.360664, 
+				"lon": 103.863431
+			},
+			{
+				"name": " ",
+				"address": "Peking",
+				"date_in": "01/01/2003",
+				"date_out": "now",
+				"lat": 39.880081, 
+				"lon": 116.407730
+			},
+			{
 				"name": " ",
 				"address": "Liselotte-Herrmann-Straße 14, 10407 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2003",
 				"date_out": "now",
 				"lat": 52.530908,
 				"lon": 13.436841
@@ -2540,8 +2730,8 @@
 			"studioLocations": [{
 				"name": "Gerichtshöfe",
 				"address": "Gerichtstraße 12-13, 13347 Berlin",
-				"date_in": 0,
-				"date_out": 2019,
+				"date_in": "01/05/2019",
+				"date_out": "31/10/2019",
 				"lat": 52.543609,
 				"lon": 13.375432
 			}]
@@ -2609,8 +2799,6 @@
 				"lon": 14.326853
 			}]
 		},
-
-
 
 
 		{
@@ -2733,14 +2921,24 @@
 			"profileID": "4996",
 			"imageUrl": "viron_erol_vert.jpg",
 			"studioVisit": "Florence",
-			"studioLocations": [{
+			"studioLocations": [
+			{
 				"name": "Villa Romana",
 				"address": "Via Senese 68, 50124 Florence",
 				"date_in": "01.02.2018",
 				"date_out": "30.11.2018",
 				"lat": 43.753996,
 				"lon": 11.239159
-			}],
+			},
+			{
+				"name": "Kulturakademie Tarabya",
+				"address": "Yeniköy Tarabya Cd. 52-88, Tarabya 34457 İstanbul",
+				"date_in": "01.10.2019",
+				"date_out": "30.01.2020",
+				"lat": 41.135547, 
+				"lon": 29.059710
+			}
+			],
 			"questions": {
 				"why": "To survive.",
 				"music": "all depends on the mood I know that a work is.",
@@ -2855,7 +3053,7 @@
 					"lon": 13.429032
 				},
 				{
-					"name": " ",
+					"name": "Berlin Glas e.V.",
 					"address": "Provinzstraße 42, 13409 Berlin",
 					"date_in": 0,
 					"date_out": 0,
@@ -2900,10 +3098,19 @@
 			"profileID": "4414",
 			"imageUrl": "peter_welz.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
+				"name": "",
+				"address": "Kopenhagenerstraße 72, 10437 Berlin",
+				"date_in": "01/01/1998",
+				"date_out": "01/01/2005",
+				"lat": 52.548477, 
+				"lon": 13.410837
+			},
+			{
 				"name": "Gerichtshöfe",
 				"address": "Gerichtstraße 12-13, 13347 Berlin",
-				"date_in": 0,
+				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 52.543609,
 				"lon": 13.375432
@@ -3016,10 +3223,43 @@
 			"profileID": "4604",
 			"imageUrl": "michaela_zimmer.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
 				"name": " ",
-				"address": "Holsteinische Str. 40, 10717 Berlin",
+				"address": "London",
 				"date_in": 0,
+				"date_out": 0,
+				"lat": 51.507140, 
+				"lon": -0.130015
+			},
+			{
+				"name": " ",
+				"address": "Liverpool",
+				"date_in": 0,
+				"date_out": 0,
+				"lat": 53.408469, 
+				"lon": -2.992613
+			},
+			{
+				"name": " ",
+				"address": "Leeds",
+				"date_in": 0,
+				"date_out": 0,
+				"lat": 53.800508, 
+				"lon": -1.547063
+			},
+			{
+				"name": " ",
+				"address": "Schöneberg, Berlin",
+				"date_in": "",
+				"date_out": "01/01/2007",
+				"lat": 52.486658, 
+				"lon": 13.350006
+			},
+			{
+				"name": " ",
+				"address": "Holsteinische Straße 40, 10717 Berlin",
+				"date_in": "01/01/2007",
 				"date_out": "now",
 				"lat": 52.491123,
 				"lon": 13.324685
@@ -4795,7 +5035,10 @@
 			"source": "Bärnd Nettmann",
 			"target": "Maria Gideon",
 			"value": 10
-		}, {
+		}, 
+
+		
+		{
 			"source": "Manfred Peckl",
 			"target": "Christian Achenbach",
 			"value": 10
