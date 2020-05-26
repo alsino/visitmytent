@@ -194,11 +194,13 @@ function fade(node, {
    width: 100%;
    margin-top: $margin-small;
    position: relative;
+   transition: all 2s;
  }
 
  svg  {
    display: block;
    margin: 0 auto;
+   
  }
 
  circle {
@@ -207,7 +209,6 @@ function fade(node, {
  }
 
  line {
-  //  stroke: rgb(69, 69, 255);
    stroke-opacity: 0.2;
  }
 
@@ -292,7 +293,9 @@ function fade(node, {
             cx={coordinates[index].x} 
             cy={coordinates[index].y} 
             r={circleSize(location)}
-            stroke-width="0" 
+            stroke-width="1"
+            stroke-opacity="0"
+            stroke={colorScheme.circleBorder} 
             fill={circleColor(location)}
             fill-opacity="0.8"
             on:click={() => handleClick(location)}
@@ -310,7 +313,7 @@ function fade(node, {
  
   <div 
     class="tooltip {tooltipVisible ? 'active' : ''}" 
-    style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px;"
+    style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}"
     >{$MOUSE.artistName}
   </div>
 
