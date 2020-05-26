@@ -57,9 +57,8 @@
 
 .active {
   border-bottom: 4px solid blue;
-  font-weight: 900;
+  color: blue;
 }
-
 
 
 </style>
