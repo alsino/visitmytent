@@ -11,9 +11,8 @@
   $: selectedValue = $selectedArtist;
 
   let artistCount = nodes.length;
-  
-  function handleSelect(selectedVal) {
 
+  function handleSelect(selectedVal) {
     // console.log(selectedVal.detail.value);
     
     let result = nodes.filter(function(node) {

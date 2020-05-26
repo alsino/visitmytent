@@ -1,7 +1,7 @@
 <script>
 	import Intro from '../components/Intro.svelte';
 	import Controls from '../components/Controls.svelte';
-	import Network from '../components/Network.svelte';
+	import Viz from '../components/Viz.svelte';
 </script>
 
 <svelte:head>
@@ -11,7 +11,7 @@
 <div id="app-wrapper">
 	<Intro/>
 	<Controls/>
-	<Network/>
+	<Viz/>
 </div>
 
 

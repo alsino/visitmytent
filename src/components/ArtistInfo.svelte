@@ -1,22 +1,6 @@
 <script>
   import { VIEW, LEGEND } from '../store.js';
   import { selectedArtistDetails } from '../store.js';
-  import { onMount, beforeUpdate } from 'svelte';
-
-
-  // $: artistDiscipline = $selectedArtistDetails.discipline;
-
-
-   beforeUpdate(() => {
-    console.log($selectedArtistDetails);
-    console.log($LEGEND);
-   });
-
-  //  let disciplineNew = $LEGEND.filter(function(disciplineItem) {
-  //     return disciplineItem.id == discipline;
-  //   });
-
-
 </script>
 
 <style lang="scss">
