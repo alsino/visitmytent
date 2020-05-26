@@ -213,13 +213,13 @@ function fade(node, {
  }
 
  .map-bezirke {
-  stroke: #c7c7c7;
+  // stroke: #c7c7c7;
   // stroke: rgb(69, 69, 255);
   fill: none;
 }
 
 .map-sbahn {
-  stroke: #3d3d3d;
+  // stroke: #3d3d3d;
   fill: none;
 }
 
@@ -254,12 +254,14 @@ function fade(node, {
           d={bezirkePath} 
           class="map-bezirke"
           transition:fade="{{ duration: 2000 }}"
+          stroke={colorScheme.berlinMap}
           />
 
           <path 
           d={sbahnPath} 
           class="map-sbahn"
           transition:fade="{{ duration: 2000 }}"
+          stroke={colorScheme.berlinSbahn}
           />
 
         {/if}
