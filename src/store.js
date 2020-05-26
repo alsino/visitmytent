@@ -40,9 +40,11 @@ COLORS.set({
   day: {
     network: "rgb(69, 69, 255)",
     circleDefault: "blue",
-    circleSelected: "red",
+    circleSelected: "#D56285",
+    circleBorder: "white",
     textDefault: "black",
     textHeading: "rgb(69, 69, 255)",
+    textTooltip: "black",
     berlinMap: "#c7c7c7",
     berlinSbahn: "#3d3d3d",
     background: "white"
@@ -50,9 +52,11 @@ COLORS.set({
   night: {
     network: "white",
     circleDefault: "white",
-    circleSelected: "red",
+    circleSelected: "yellow",
+    circleBorder: "rgb(51,51,51)",
     textDefault: "white",
-    textHeading: "rgb(69, 69, 255)",
+    textHeading: "white",
+    textTooltip: "black",
     berlinMap: "white",
     berlinSbahn: "white",
     background: "rgb(51,51,51)"
