@@ -9,19 +9,20 @@
 			"profileID": 13086,
 			"imageUrl": "44flavours.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+				{
+					"name": "Studio Berlin Schöneberg",
+					"date_in": "01/01/2016",
+					"date_out": "now",
+					"lat": 52.499628,
+					"lon": 13.366344
+				},
+				{
 					"name": "Butzke Werke",
 					"date_in": "01/01/2006",
 					"date_out": "01/01/2016",
 					"lat": 52.503058,
 					"lon": 13.407151
-				},
-				{
-					"name": " ",
-					"date_in": "01/01/2016",
-					"date_out": "now",
-					"lat": 52.499628,
-					"lon": 13.366344
 				}
 			]
 		},
@@ -37,7 +38,7 @@
 			"imageUrl": "christian_achenbach.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": " ",
+				"name": "Studio Berlin Weißensee",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.550546,
@@ -78,19 +79,20 @@
 			"imageUrl": "jofroi_amaral.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
-			{
-				"name": "",
-				"date_in": "01/01/2005",
-				"date_out": "01/01/2012",
-				"lat": 52.542378, 
-				"lon": 13.418328
-			},
+
 			{
 				"name": "Studios ID",
 				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.541492,
 				"lon": 13.499555
+			},
+			{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": "01/01/2005",
+				"date_out": "01/01/2012",
+				"lat": 52.542378, 
+				"lon": 13.418328
 			}]
 		},
 		{
@@ -104,7 +106,7 @@
 			"imageUrl": "song_ming_ang.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Berlin Tempelhof",
 				"date_in": "01/08/2018",
 				"date_out": "now",
 				"lat": 52.459064,
@@ -123,7 +125,7 @@
 			"imageUrl": "axel_anklam.jpg",
 			"studioVisit": "Bad Freienwalde",
 			"studioLocations": [{
-					"name": "Atelier Bad Freienwalde",
+					"name": "Studio Bad Freienwalde",
 					"date_in": 0,
 					"date_out": "now",
 					"lat": 52.788314,
@@ -148,20 +150,22 @@
 			"profileID": "7695",
 			"imageUrl": "aram_bartholl.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": " ",
-					"date_in": 0,
-					"date_out": "01/01/2019",
-					"lat": 52.532644,
-					"lon": 13.410908
-				},
+			"studioLocations": [
 				{
-					"name": " ",
+					"name": "Studio Berlin Mitte",
 					"date_in": "01/01/2019",
 					"date_out": "now",
 					"lat": 52.529901,
 					"lon": 13.386103
+				},
+				{
+					"name": "Studio Berlin Prenzlauer Berg",
+					"date_in": 0,
+					"date_out": "01/01/2019",
+					"lat": 52.532644,
+					"lon": 13.410908
 				}
+
 			]
 		},
 		{
@@ -199,18 +203,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
+				"name": "Studio Berlin Charlottenburg",
+				"date_in": "01/01/2016",
+				"date_out": "now",
+				"lat": 52.510448,
+				"lon": 13.311225
+			},
+			{
 				"name": "Evessen am Elm Studio",
 				"date_in": "01/01/2006",
 				"date_out": "01/01/2016",
 				"lat": 52.186834, 
 				"lon": 10.723997
-			},
-			{
-				"name": "",
-				"date_in": "01/01/2016",
-				"date_out": "now",
-				"lat": 52.510448,
-				"lon": 13.311225
 			}],
 			"questions": {
 				"why": "Because I do not have time to do something else.",
@@ -229,7 +233,7 @@
 			"imageUrl": "bernd_begemann.jpg",
 			"studioVisit": "Hamburg",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Hamburg",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 53.603608,
@@ -251,13 +255,7 @@
 			"profileID": "967",
 			"imageUrl": "clemens_behr.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "Butzke Werke",
-				"date_in": "01/01/2013",
-				"date_out": "01/01/2016",
-				"lat": 52.503058,
-				"lon": 13.407151
-			}, 
+			"studioLocations": [
 			{
 				"name": "Raum Vollreinigung",
 				"address": "Wassertorstraße 65, 10785 Berlin",
@@ -265,6 +263,13 @@
 				"date_out": "now",
 				"lat": 52.499256,
 				"lon": 13.410479
+			},
+			{
+				"name": "Butzke Werke",
+				"date_in": "01/01/2013",
+				"date_out": "01/01/2016",
+				"lat": 52.503058,
+				"lon": 13.407151
 			}
 			]
 		},
@@ -279,7 +284,7 @@
 			"imageUrl": "sebastian_bieniek.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Berlin Friedrichshain",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.510129,
@@ -303,7 +308,7 @@
 			"imageUrl": "amelie_blendl.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Berlin Schöneberg",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.479099,
@@ -321,7 +326,7 @@
 			"imageUrl": "alex_bodea.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Berlin Schöneberg",
 				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.499979,
@@ -344,7 +349,7 @@
 			"imageUrl": "lothar_boehme.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Berlin Pankow",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.567858,
@@ -363,18 +368,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Rio de Janeiro",
-				"date_in": "01/01/1989",
-				"date_out": "01/01/1992",
-				"lat": -22.959947, 
-				"lon": -43.212053
-			},
+				"name": "Studio Berlin III",
+				"date_in": "01/01/2002",
+				"date_out": "now",
+				"lat": 52.550602,
+				"lon": 13.416961
+			}, 
 			{
-				"name": "Studio Köln",
-				"date_in": "01/01/1993",
-				"date_out": "01/01/1997",
-				"lat": 50.947433, 
-				"lon": 6.959154
+				"name": "Studio Berlin II",
+				"date_in": "01/01/2000",
+				"date_out": "01/01/2002",
+				"lat": 52.546567, 
+				"lon": 13.418503
 			},
 			{
 				"name": "Studio Berlin I",
@@ -384,18 +389,18 @@
 				"lon": 13.336689
 			},
 			{
-				"name": "Studio Berlin II",
-				"date_in": "01/01/2000",
-				"date_out": "01/01/2002",
-				"lat": 52.546567, 
-				"lon": 13.418503
+				"name": "Studio Köln",
+				"date_in": "01/01/1993",
+				"date_out": "01/01/1997",
+				"lat": 50.947433, 
+				"lon": 6.959154
 			},
 			{
-				"name": "Studio Berlin III",
-				"date_in": "01/01/2002",
-				"date_out": "now",
-				"lat": 52.550602,
-				"lon": 13.416961
+				"name": "Studio Rio de Janeiro",
+				"date_in": "01/01/1989",
+				"date_out": "01/01/1992",
+				"lat": -22.959947, 
+				"lon": -43.212053
 			}]
 		},
 		{
@@ -409,7 +414,7 @@
 			"imageUrl": "fritz_bornstueck.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Hobbyraum",
+				"name": "Hobbyraum Berlin Neukölln",
 				"date_in": "01/01/2010",
 				"date_out": "now",
 				"lat": 52.476893,
@@ -432,7 +437,7 @@
 			"imageUrl": "stefano_bosis.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "",
+				"name": "Studio Berlin Kreuzberg",
 				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.494306,
@@ -457,32 +462,32 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Mitte",
-				"date_in": "01/01/2010",
-				"date_out": "31/05/2010",
-				"lat": 52.514241, 
-				"lon": 13.417811
+				"name": "Studio Berlin Neukölln",
+				"date_in": "01/01/2013",
+				"date_out": "now",
+				"lat": 52.479070,
+				"lon": 13.441796
 			},
 			{
-				"name": "Studio Weißensee",
-				"date_in": "01/06/2010",
-				"date_out": "31/12/2011",
-				"lat": 52.557079, 
-				"lon": 13.463011
-			},
-			{
-				"name": "Studio Schöneweide",
+				"name": "Studio Berlin Schöneweide",
 				"date_in": "01/01/20102",
 				"date_out": "31/12/2012",
 				"lat": 52.455909, 
 				"lon": 13.510069
 			},
 			{
-				"name": "Studio Neukölln",
-				"date_in": "01/01/2013",
-				"date_out": "now",
-				"lat": 52.479070,
-				"lon": 13.441796
+				"name": "Studio Berlin Weißensee",
+				"date_in": "01/06/2010",
+				"date_out": "31/12/2011",
+				"lat": 52.557079, 
+				"lon": 13.463011
+			},
+			{
+				"name": "Studio Berlin Mitte",
+				"date_in": "01/01/2010",
+				"date_out": "31/05/2010",
+				"lat": 52.514241, 
+				"lon": 13.417811
 			}]
 		},
 		{
@@ -496,31 +501,27 @@
 			"imageUrl": "jenny_brosinski.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
-
-
 			{
-				"name": "Kunsthochschule Weißensee",
-				"date_in": "01/01/2008",
-				"date_out": "01/01/2012",
-				"lat": 52.558011, 
-				"lon": 13.439314
+				"name": "Studio Berlin Weißensee",
+				"date_in": "01/06/2020",
+				"date_out": "now",
+				"lat": 52.550143, 
+				"lon": 13.445348
 			},
 			{
-				"name": "Studio Wedding",
+				"name": "Studio Berlin Wedding",
 				"date_in": "01/03/2013",
 				"date_out": "30/05/2020",
 				"lat": 52.557898,
 				"lon": 13.376080
 			},
 			{
-				"name": "Studio Weißensee",
-				"date_in": "01/06/2020",
-				"date_out": "now",
-				"lat": 52.550143, 
-				"lon": 13.445348
-			}
-
-			],
+				"name": "Kunsthochschule Weißensee",
+				"date_in": "01/01/2008",
+				"date_out": "01/01/2012",
+				"lat": 52.558011, 
+				"lon": 13.439314
+			}],
 			"questions": {
 				"why": "Because I am what I am.",
 				"music": "I normally do not listen to music while I work.",
@@ -540,18 +541,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Wilde Renate",
-				"date_in": "12/01/2013",
-				"date_out": "01/01/2017",
-				"lat": 52.497443, 
-				"lon": 13.465190
-			},
-			{
 				"name": "Feral Note Salon",
 				"date_in": "01/01/2017",
 				"date_out": "now",
 				"lat": 52.523353,
 				"lon": 13.350336
+			},
+			{
+				"name": "Wilde Renate",
+				"date_in": "12/01/2013",
+				"date_out": "01/01/2017",
+				"lat": 52.497443, 
+				"lon": 13.465190
 			}],
 			"questions": {
 				"why": " ",
@@ -572,7 +573,7 @@
 			"imageUrl": "mimmo_catania.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Hohenschönhausen",
+				"name": "Studio Berlin Hohenschönhausen",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.544471,
@@ -589,21 +590,21 @@
 			"profileID": "4451",
 			"imageUrl": "carla_chan.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": "Studio Schöneberg",
-					"date_in": 2018,
-					"date_out": 2018,
-					"lat": 52.479099,
-					"lon": 13.364809
-				},
+			"studioLocations": [
 				{
-					"name": "Studio Wedding",
+					"name": "Studio Berlin Wedding",
 					"date_in": 2018,
 					"date_out": "now",
 					"lat": 52.550548,
 					"lon": 13.378961
-				}
-			]
+				},
+				{
+					"name": "Studio Berlin Schöneberg",
+					"date_in": 2018,
+					"date_out": 2018,
+					"lat": 52.479099,
+					"lon": 13.364809
+				}]
 		},
 		{
 			"name": "Dirty Doering",
@@ -616,7 +617,7 @@
 			"imageUrl": "dirty_doering.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Wasser Studio",
+				"name": "Wasser Studio Berlin Treptow",
 				"date_in": "01/01/2019",
 				"date_out": "01/10/2019",
 				"lat": 52.492402,
@@ -639,21 +640,21 @@
 			"profileID": "4855",
 			"imageUrl": "grigori_dor.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": "Studio Mitte",
-					"date_in": "01/11/2015",
-					"date_out": "30/04/2017",
-					"lat": 52.529601,
-					"lon": 13.400602
-				},
+			"studioLocations": [
 				{
-					"name": "Studio Wedding",
+					"name": "Studio Berlin Wedding",
 					"date_in": "01/05/2017",
 					"date_out": "now",
 					"lat": 52.556002,
 					"lon": 13.367307
-				}
-			],
+				},
+				{
+					"name": "Studio Berlin Mitte",
+					"date_in": "01/11/2015",
+					"date_out": "30/04/2017",
+					"lat": 52.529601,
+					"lon": 13.400602
+				}],
 			"questions": {
 				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
 				"music": "audiobooks and podcasts.",
@@ -672,7 +673,7 @@
 			"imageUrl": "pauline_doutreluingne.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Mitte",
+				"name": "Studio Berlin Mitte",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.531859,
@@ -720,7 +721,7 @@
 			"imageUrl": "craig_dyer.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Friedrichshain",
+				"name": "Studio Berlin Friedrichshain",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.513187,
@@ -757,13 +758,12 @@
 			"imageUrl": "ornella_fieres.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
-
 				{
-					"name": "Studio Marienfelde",
-					"date_in": "01/01/2015",
-					"date_out": "01/01/2016",
-					"lat": 52.412011,
-					"lon": 13.361277
+					"name": "Studio Berlin Friedrichshain",
+					"date_in": "01/08/2018",
+					"date_out": "now",
+					"lat": 52.515429,
+					"lon": 13.456432
 				},
 				{
 					"name": "Studio New York",
@@ -773,13 +773,12 @@
 					"lon": -73.957372
 				},
 				{
-					"name": "Studio Berlin Friedrichshain",
-					"date_in": "01/08/2018",
-					"date_out": "now",
-					"lat": 52.515429,
-					"lon": 13.456432
-				}
-			]
+					"name": "Studio Berlin Marienfelde",
+					"date_in": "01/01/2015",
+					"date_out": "01/01/2016",
+					"lat": 52.412011,
+					"lon": 13.361277
+				}]
 		},
 		{
 			"name": "Francesco Fillini",
@@ -792,7 +791,7 @@
 			"imageUrl": "francesco_fillini.jpg",
 			"studioVisit": "Pontedera",
 			"studioLocations": [{
-				"name": "Pontedera",
+				"name": "Studio Pontedera",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 43.662268,
@@ -811,7 +810,7 @@
 			"imageUrl": "wolfgang_flad.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Kreuzberg",
+				"name": "Studio Berlin Kreuzberg",
 				"date_in": 0,
 				"date_out": 0,
 				"lat": 52.497515,
@@ -852,12 +851,13 @@
 			"profileID": "13077",
 			"imageUrl": "frederik_foert.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": "Studio Wien 5ter Bezirk",
-					"date_in": "01/01/2011",
+			"studioLocations": [
+				{
+					"name": "Studio Berlin Friedrichshain",
+					"date_in": "01/10/2000",
 					"date_out": "now",
-					"lat": 48.187693, 
-					"lon": 16.354515
+					"lat": 52.512833,
+					"lon": 13.457146
 				},
 				{
 					"name": "Studio Peking",
@@ -867,20 +867,19 @@
 					"lon": 116.264907
 				},
 				{
+					"name": "Studio Wien 5ter Bezirk",
+					"date_in": "01/01/2011",
+					"date_out": "now",
+					"lat": 48.187693, 
+					"lon": 16.354515
+				},
+				{
 					"name": "Studio Wedding",
 					"date_in": 0,
 					"date_out": 0,
 					"lat": 52.555537, 
 					"lon": 13.378633
-				},
-				{
-					"name": "Studio Berlin Friedrichshain",
-					"date_in": "01/10/2000",
-					"date_out": "now",
-					"lat": 52.512833,
-					"lon": 13.457146
-				}
-			]
+				}]
 		},
 
 		{
@@ -1053,18 +1052,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Berlin-Neukölln",
-				"date_in": "01/01/2011",
-				"date_out": "01/01/2014",
-				"lat": 52.478598, 
-				"lon": 13.436056
-			},
-			{
 				"name": "Studio Berlin Schöneberg",
 				"date_in": "01/01/2014",
 				"date_out": "now",
 				"lat": 52.479099,
 				"lon": 13.364809
+			},
+			{
+				"name": "Studio Berlin-Neukölln",
+				"date_in": "01/01/2011",
+				"date_out": "01/01/2014",
+				"lat": 52.478598, 
+				"lon": 13.436056
 			}]
 		},
 		{
@@ -1139,12 +1138,12 @@
 			"imageUrl": "janes_haid_schmallenberg.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
-			{
-				"name": "Studio Berlin Rummelsburg",
-				"date_in": "01/01/2011",
-				"date_out": "01/01/2013",
-				"lat": 52.499445, 
-				"lon": 13.486588
+						{
+				"name": "Studio Berlin Wedding",
+				"date_in": "01/01/2017",
+				"date_out": "now",
+				"lat": 52.552387,
+				"lon": 13.389042
 			},
 			{
 				"name": "Studio Berlin Neukölln",
@@ -1154,11 +1153,11 @@
 				"lon": 13.432951
 			},
 			{
-				"name": "Studio Berlin Wedding",
-				"date_in": "01/01/2017",
-				"date_out": "now",
-				"lat": 52.552387,
-				"lon": 13.389042
+				"name": "Studio Berlin Rummelsburg",
+				"date_in": "01/01/2011",
+				"date_out": "01/01/2013",
+				"lat": 52.499445, 
+				"lon": 13.486588
 			}]
 		},
 		{
@@ -1230,20 +1229,20 @@
 			"profileID": "3300",
 			"imageUrl": "sibylle_jazra.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [			
-			{
-				"name": "Studio Neukölln",
-				"date_in": "01/01/2009",
-				"date_out": "01/01/2012",
-				"lat": 52.491887, 
-				"lon": 13.425501
-			},
+			"studioLocations": [	
 			{
 				"name": "Funkhaus Berlin",
 				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.480116,
 				"lon": 13.500326
+			},		
+			{
+				"name": "Studio Neukölln",
+				"date_in": "01/01/2009",
+				"date_out": "01/01/2012",
+				"lat": 52.491887, 
+				"lon": 13.425501
 			}],
 			"questions": {
 				"why": "Because there is no better way to give form to your inner dialogue.",
@@ -1286,19 +1285,19 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Berlin Kreuzberg I",
-				"date_in": "",
-				"date_out": "01/01/2012",
-				"lat": 52.504076, 
-				"lon": 13.421204
-			},
-			{
 				"name": "Studio Berlin Kreuzberg II",
 				"address": "Urbanstraße 100, 10967 Berlin",
 				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.489926,
 				"lon": 13.422039
+			},
+			{
+				"name": "Studio Berlin Kreuzberg I",
+				"date_in": "",
+				"date_out": "01/01/2012",
+				"lat": 52.504076, 
+				"lon": 13.421204
 			}]
 		},
 		{
@@ -1311,19 +1310,20 @@
 			"profileID": "5428",
 			"imageUrl": "anne_duk_hee_jordan.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": "Unicorn Brunnenviertel",
-					"date_in": 0,
-					"date_out": 0,
-					"lat": 52.540532,
-					"lon": 13.394918
-				},
+			"studioLocations": [
 				{
 					"name": "Studio Berlin Mitte",
 					"date_in": 0,
 					"date_out": "now",
 					"lat": 52.531918,
 					"lon": 13.394455
+				},
+				{
+					"name": "Unicorn Brunnenviertel",
+					"date_in": 0,
+					"date_out": 0,
+					"lat": 52.540532,
+					"lon": 13.394918
 				}
 			]
 		},
@@ -1374,7 +1374,7 @@
 			"imageUrl": "toni_kater.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Prenzlauer Berg",
+				"name": "Studio Berlin Prenzlauer Berg",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.536429,
@@ -1397,7 +1397,7 @@
 			"imageUrl": "malte_kebbel.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Kreuzberg",
+				"name": "Studio Berlin Kreuzberg",
 				"date_in": 0,
 				"date_out": 0,
 				"lat": 52.498697,
@@ -1480,21 +1480,21 @@
 			"profileID": "170",
 			"imageUrl": "astrid_koeppe.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": "Studio Berlin Kreuzberg",
-					"date_in": 0,
-					"date_out": 0,
-					"lat": 52.494678,
-					"lon": 13.429053
-				},
+			"studioLocations": [
 				{
 					"name": "Studio Berlin Charlottenburg",
 					"date_in": 0,
 					"date_out": "now",
 					"lat": 52.545353,
 					"lon": 13.313796
-				}
-			]
+				},
+				{
+					"name": "Studio Berlin Kreuzberg",
+					"date_in": 0,
+					"date_out": 0,
+					"lat": 52.494678,
+					"lon": 13.429053
+				}]
 		},
 		{
 			"name": "Agnieszka Korejba",
@@ -1557,7 +1557,7 @@
 				{
 					"name": "Holzmarkt 25",
 					"date_in": 0,
-					"date_out": 0,
+					"date_out": "now",
 					"lat": 52.511716,
 					"lon": 13.426081
 				}
@@ -1605,7 +1605,7 @@
 			"studioLocations": [{
 				"name": "Studio Oberschöneweide",
 				"date_in": 0,
-				"date_out": 0,
+				"date_out": "now",
 				"lat": 52.456497,
 				"lon": 13.529601
 			}]
@@ -1730,7 +1730,7 @@
 			"studioLocations": [{
 					"name": "Studio Kreuzberg",
 					"date_in": 0,
-					"date_out": 0,
+					"date_out": "now",
 					"lat": 52.506483,
 					"lon": 13.432181
 				},
@@ -1809,8 +1809,8 @@
 			"studioVisit": "Wittenberg",
 			"studioLocations": [{
 				"name": "Studio Lutherstadt Wittenberg",
-				"date_in": 0,
-				"date_out": 0,
+				"date_in": "01/01/2018",
+				"date_out": "01/12/2018",
 				"lat": 51.866235,
 				"lon": 12.642561
 			}],
@@ -1911,21 +1911,19 @@
 			"imageUrl": "robert_lippok.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
-
-				{
-					"name": "Studio Berlin Kreuzberg",
-					"date_in": "01/01/1995",
-					"date_out": "01/01/2005",
-					"lat": 52.500701,
-					"lon": 13.440206
-				},
-
 				{
 					"name": "Studio Berlin Mitte",
 					"date_in": "01/01/2005",
 					"date_out": "now",
 					"lat": 52.527532,
 					"lon": 13.393546
+				},
+				{
+					"name": "Studio Berlin Kreuzberg",
+					"date_in": "01/01/1995",
+					"date_out": "01/01/2005",
+					"lat": 52.500701,
+					"lon": 13.440206
 				}
 			]
 		},
@@ -2186,19 +2184,19 @@
 			"imageUrl": "baernd_nettmann.jpg",
 			"studioVisit": "Berlin",
 			"studioLocations": [
- 			{
-				"name": "Studio Rudolfkiez",
-				"date_in": "01/01/2004",
-				"date_out": "01/01/2009",
-				"lat": 52.503664, 
-				"lon": 13.455058
-			},
 			{
 				"name": "Studio Travekiez",
 				"date_in": "01/01/2009",
 				"date_out": "now",
 				"lat": 52.509897,
 				"lon": 13.470735
+			},
+ 			{
+				"name": "Studio Rudolfkiez",
+				"date_in": "01/01/2004",
+				"date_out": "01/01/2009",
+				"lat": 52.503664, 
+				"lon": 13.455058
 			}]
 		},
 		{
@@ -2293,18 +2291,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Berlin Weißensee",
-				"date_in": "01/01/2007",
-				"date_out": "01/01/2008",
-				"lat": 52.553348, 
-				"lon": 13.468462
-			},
-			{
 				"name": "Uferhallen",
 				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 52.551871,
 				"lon": 13.374360
+			},
+			{
+				"name": "Studio Berlin Weißensee",
+				"date_in": "01/01/2007",
+				"date_out": "01/01/2008",
+				"lat": 52.553348, 
+				"lon": 13.468462
 			}],
 			"questions": {
 				"why": "I believe in art.",
@@ -2359,14 +2357,15 @@
 			"profileID": 0,
 			"imageUrl": "bernhard_rappold.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+				{
 					"name": "Studio Berlin Tiergarten",
-					"date_in": "01/10/2017",
-					"date_out": "30/04/2019",
+					"date_in": "01/12/2019",
+					"date_out": "now",
 					"lat": 52.499790,
 					"lon": 13.365081
-				},
-				{
+				}, 
+								{
 					"name": "Studio Berlin Hasenheide",
 					"date_in": "01/05/2019",
 					"date_out": "30/11/2019",
@@ -2375,12 +2374,11 @@
 				},
 				{
 					"name": "Studio Berlin Tiergarten",
-					"date_in": "01/12/2019",
-					"date_out": "now",
+					"date_in": "01/10/2017",
+					"date_out": "30/04/2019",
 					"lat": 52.499790,
 					"lon": 13.365081
-				}
-			],
+				}],
 			"questions": {
 				"why": "why",
 				"music": " ",
@@ -2500,18 +2498,25 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Bielefeld",
-				"date_in": 0,
-				"date_out": "01/01/1989",
-				"lat": 52.033530, 
-				"lon": 8.528500
-			},
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": "01/01/2003",
+				"date_out": "now",
+				"lat": 52.530908,
+				"lon": 13.436841
+			}, 
 			{
-				"name": "Studio Frankfurt am Main",
-				"date_in": "01/01/1989",
-				"date_out": "01/01/1998",
-				"lat": 50.116064, 
-				"lon": 8.671920
+				"name": "Studio Peking",
+				"date_in": "01/01/2003",
+				"date_out": "now",
+				"lat": 39.880081, 
+				"lon": 116.407730
+			},
+						{
+				"name": "Studio Singapur",
+				"date_in": "01/01/2003",
+				"date_out": "01/01/2005",
+				"lat": 1.360664, 
+				"lon": 103.863431
 			},
 			{
 				"name": "Studio Berlin Kreuzberg",
@@ -2521,25 +2526,18 @@
 				"lon": 13.399721
 			},
 			{
-				"name": "Studio Singapur",
-				"date_in": "01/01/2003",
-				"date_out": "01/01/2005",
-				"lat": 1.360664, 
-				"lon": 103.863431
+				"name": "Studio Frankfurt am Main",
+				"date_in": "01/01/1989",
+				"date_out": "01/01/1998",
+				"lat": 50.116064, 
+				"lon": 8.671920
 			},
 			{
-				"name": "Studio Peking",
-				"date_in": "01/01/2003",
-				"date_out": "now",
-				"lat": 39.880081, 
-				"lon": 116.407730
-			},
-			{
-				"name": "Studio Berlin Prenzlauer Berg",
-				"date_in": "01/01/2003",
-				"date_out": "now",
-				"lat": 52.530908,
-				"lon": 13.436841
+				"name": "Studio Bielefeld",
+				"date_in": 0,
+				"date_out": "01/01/1989",
+				"lat": 52.033530, 
+				"lon": 8.528500
 			}]
 		},
 		{
@@ -2576,7 +2574,8 @@
 			"profileID": 11325,
 			"imageUrl": "alsino_skowronnek.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
 				"name": "Hobbyraum Berlin Treptow",
 				"date_in": "01/09/2019",
 				"date_out": "now",
@@ -2669,7 +2668,6 @@
 			}]
 		},
 
-
 		{
 			"name": "Cornelia Theimer Gardella",
 			"discipline": [4, 6],
@@ -2728,7 +2726,6 @@
 		},
 
 
-
 		{
 			"name": "Tomoyuki Ueno",
 			"discipline": [2, 4, 5],
@@ -2739,21 +2736,21 @@
 			"profileID": "8659",
 			"imageUrl": "tomoyuki_ueno.jpg",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-					"name": "Künstlerhaus Bethanien",
-					"date_in": "01/04/2017",
-					"date_out": "01/04/2018",
-					"lat": 52.497144,
-					"lon": 13.418807
-				},
+			"studioLocations": [
 				{
 					"name": "Studio Berlin Reinickendorf",
 					"date_in": "01/05/2018",
 					"date_out": "now",
 					"lat": 52.567664,
 					"lon": 13.384613
-				}
-			]
+				},
+				{
+					"name": "Künstlerhaus Bethanien",
+					"date_in": "01/04/2017",
+					"date_out": "01/04/2018",
+					"lat": 52.497144,
+					"lon": 13.418807
+				}]
 		},
 		{
 			"name": "Hans Unstern",
@@ -2786,20 +2783,19 @@
 			"studioVisit": "Florence",
 			"studioLocations": [
 			{
-				"name": "Villa Romana",
-				"date_in": "01.02.2018",
-				"date_out": "30.11.2018",
-				"lat": 43.753996,
-				"lon": 11.239159
-			},
-			{
 				"name": "Kulturakademie Tarabya",
 				"date_in": "01.10.2019",
 				"date_out": "30.01.2020",
 				"lat": 41.135547, 
 				"lon": 29.059710
-			}
-			],
+			},
+			{
+				"name": "Villa Romana",
+				"date_in": "01.02.2018",
+				"date_out": "30.11.2018",
+				"lat": 43.753996,
+				"lon": 11.239159
+			}],
 			"questions": {
 				"why": "To survive.",
 				"music": "all depends on the mood I know that a work is.",
@@ -2818,18 +2814,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Berlin Weißensee",
-				"date_in": "01/01/2006",
-				"date_out": "31/12/2009",
-				"lat": 52.560289, 
-				"lon": 13.475639
-			},
-			{
 				"name": "Studio Berlin Pankow",
 				"date_in": "01/01/2010",
 				"date_out": "now",
 				"lat": 52.554001,
 				"lon": 13.428658
+			},
+			{
+				"name": "Berlin Weißensee",
+				"date_in": "01/01/2006",
+				"date_out": "31/12/2009",
+				"lat": 52.560289, 
+				"lon": 13.475639
 			}],
 			"questions": {
 				"why": "I do what I do because I need to.",
@@ -2898,7 +2894,6 @@
 			}
 		},
 
-
 		{
 			"name": "Julius Weiland",
 			"discipline": [1, 6],
@@ -2919,7 +2914,7 @@
 				{
 					"name": "Berlin Glas e.V.",
 					"date_in": 0,
-					"date_out": 0,
+					"date_out": "now",
 					"lat": 52.567997,
 					"lon": 13.378938
 				}
@@ -2962,18 +2957,18 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Berlin Prenzlauer Berg.",
-				"date_in": "01/01/1998",
-				"date_out": "01/01/2005",
-				"lat": 52.548477, 
-				"lon": 13.410837
-			},
-			{
 				"name": "Gerichtshöfe",
 				"date_in": "01/01/2008",
 				"date_out": "now",
 				"lat": 52.543609,
 				"lon": 13.375432
+			},
+			{
+				"name": "Studio Berlin Prenzlauer Berg.",
+				"date_in": "01/01/1998",
+				"date_out": "01/01/2005",
+				"lat": 52.548477, 
+				"lon": 13.410837
 			}],
 			"questions": {
 				"why": "Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
@@ -3038,7 +3033,7 @@
 				{
 					"name": "Studio Hansa Berlin Mitte",
 					"date_in": 0,
-					"date_out": 0,
+					"date_out": "now",
 					"lat": 52.529578,
 					"lon": 13.403429
 				}
@@ -3080,25 +3075,11 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio London",
-				"date_in": "01/01/1998",
-				"date_out": "31/12/2001",
-				"lat": 51.507140, 
-				"lon": -0.130015
-			},
-			{
-				"name": "Studio Liverpool",
-				"date_in": "01/01/2002",
-				"date_out": "31/12/2005",
-				"lat": 53.408469, 
-				"lon": -2.992613
-			},
-			{
-				"name": "Studio Leeds",
-				"date_in": "01/01/2006",
-				"date_out": "01/05/2006",
-				"lat": 53.800508, 
-				"lon": -1.547063
+				"name": "Studio Berlin Wilmersdorf",
+				"date_in": "01/01/2007",
+				"date_out": "now",
+				"lat": 52.491123,
+				"lon": 13.324685
 			},
 			{
 				"name": "Studio Berlin Schöneberg",
@@ -3108,11 +3089,25 @@
 				"lon": 13.350006
 			},
 			{
-				"name": "Studio Berlin Wilmersdorf",
-				"date_in": "01/01/2007",
-				"date_out": "now",
-				"lat": 52.491123,
-				"lon": 13.324685
+				"name": "Studio Leeds",
+				"date_in": "01/01/2006",
+				"date_out": "01/05/2006",
+				"lat": 53.800508, 
+				"lon": -1.547063
+			},
+			{
+				"name": "Studio Liverpool",
+				"date_in": "01/01/2002",
+				"date_out": "31/12/2005",
+				"lat": 53.408469, 
+				"lon": -2.992613
+			},
+			{
+				"name": "Studio London",
+				"date_in": "01/01/1998",
+				"date_out": "31/12/2001",
+				"lat": 51.507140, 
+				"lon": -0.130015
 			}],
 			"questions": {
 				"why": "I love it.",
