@@ -46,7 +46,7 @@
       {/if}
 
       {#if $selectedArtistDetails.birthYear}
-          <span>in {$selectedArtistDetails.birthYear}.</span>
+          <span>in {$selectedArtistDetails.birthYear}</span>
       {/if}     
     </div>
 

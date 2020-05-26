@@ -5,10 +5,15 @@
   import { VIEW, MOUSE } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
-  import * as d3 from "d3";
-  import { geoMercator, geoPath } from "d3-geo";
   import { feature } from "topojson";
   import { fade } from 'svelte/transition';
+
+  import * as d3 from "d3";
+  import { geoMercator, geoPath } from "d3-geo";
+  import { scaleSqrt } from 'd3-scale';
+  import { extent, max, min } from "d3-array";
+
+  
 
   import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
@@ -30,26 +35,39 @@
   let networkForce = -4;
   let circleColor;
   let circleSize;
-  // let artistDetails = {};
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
   let nodesWithLinks = nodes.map((item, index) => {
 
-    // Return all links by one artist
-    let artistLinks = links.filter(function(link) {
+    // Return all links from one artist - OUT
+    let artistLinksOut = links.filter(function(link) {
       return link.source == item.name;
+    });
+
+    // Return all links from one artist - IN
+    let artistLinksIn = links.filter(function(link) {
+      return link.target == item.name;
     });
 
     // Return artist coordinates
     let artistCoordinates = currentCoordinates($VIEW)[index];
 
-    item.links = artistLinks;
+    item.links = [...artistLinksOut, ...artistLinksIn];
+    item.noLinks = item.links.length;
     item.artistCoordinates = artistCoordinates;
 
     return item
   })
+
+  $: minLinks = min(nodesWithLinks, d => d.noLinks);
+  $: maxLinks = max(nodesWithLinks, d => d.noLinks);
+  $: extentLinks = extent(nodesWithLinks, d => d.noLinks);
+
+  $: circleScale = scaleSqrt()
+		.domain([minLinks, maxLinks])
+		.range([2, 8]);
 
   // No need for simulation anymore -> Coordinates are statically generated in store
   let simulation = d3.forceSimulation(nodes)
@@ -60,7 +78,6 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // console.log($VIEW);
   });
 
 
@@ -68,6 +85,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
+    console.log($selectedArtistDetails);
 
     
     circleColor = function(artist){
@@ -79,11 +97,28 @@
     }
 
     circleSize = function(artist){
-      if ($selectedArtistDetails){
-        return artist.name == $selectedArtistDetails.name ? 10 : 4;
-      } else {
-        return 4;
+
+      if($VIEW == "Map"){
+
+         if ($selectedArtistDetails){
+          return artist.name == $selectedArtistDetails.name ? 3 * 1.5 : 3;
+        } else {
+          return 3
+        }
+
+      } else if ($VIEW == "Network"){
+
+        if ($selectedArtistDetails){
+          return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
+        } else {
+          return circleScale(artist.noLinks);
+        }
+
       }
+
+
+     
+      
     }
 
   });
@@ -148,6 +183,7 @@ function handleMouseOver(artist){
 
  circle {
    cursor: pointer;
+   fill-opacity: 1;
  }
 
  line {
