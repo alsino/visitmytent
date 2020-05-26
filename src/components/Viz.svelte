@@ -33,7 +33,7 @@
   let circleColor;
   let circleSize;
 
-	$: radiusScale = scaleSqrt()
+	$: circleScale = scaleSqrt()
 		.domain([0, 20])
 		.range([2, 10]);
 
@@ -42,15 +42,20 @@
 
   let nodesWithLinks = nodes.map((item, index) => {
 
-    // Return all links by one artist
-    let artistLinks = links.filter(function(link) {
+    // Return all links from one artist - OUT
+    let artistLinksOut = links.filter(function(link) {
       return link.source == item.name;
+    });
+
+    // Return all links from one artist - IN
+    let artistLinksIn = links.filter(function(link) {
+      return link.target == item.name;
     });
 
     // Return artist coordinates
     let artistCoordinates = currentCoordinates($VIEW)[index];
 
-    item.links = artistLinks;
+    item.links = [...artistLinksOut, ...artistLinksIn];
     item.artistCoordinates = artistCoordinates;
 
     return item
@@ -72,7 +77,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    // console.log(radiusScale(81));
+    console.log($selectedArtistDetails);
 
     
     circleColor = function(artist){
@@ -88,8 +93,7 @@
       if ($selectedArtistDetails){
         return artist.name == $selectedArtistDetails.name ? 10 : 4;
       } else {
-        console.log(radiusScale(artist.links.length))
-        return radiusScale(artist.links.length);
+        return circleScale(artist.links.length);
       }
       
     }
