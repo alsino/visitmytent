@@ -98,12 +98,26 @@
 
     circleSize = function(artist){
 
-      if ($selectedArtistDetails){
-        // return circleScale(artist.noLinks);
-        return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
-      } else {
-        return circleScale(artist.noLinks);
+      if($VIEW == "Map"){
+
+         if ($selectedArtistDetails){
+          return artist.name == $selectedArtistDetails.name ? 3 * 1.5 : 3;
+        } else {
+          return 3
+        }
+
+      } else if ($VIEW == "Network"){
+
+        if ($selectedArtistDetails){
+          return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
+        } else {
+          return circleScale(artist.noLinks);
+        }
+
       }
+
+
+     
       
     }
 
@@ -169,6 +183,7 @@ function handleMouseOver(artist){
 
  circle {
    cursor: pointer;
+   fill-opacity: 1;
  }
 
  line {
