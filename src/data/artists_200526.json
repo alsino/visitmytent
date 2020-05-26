@@ -7,7 +7,7 @@
 			"birthTown": "Bielefeld",
 			"birthCountry": "Germany",
 			"profileID": 13086,
-			"imageUrl": "44flavours.jpg",
+			"imageUrl": "44flavours.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -35,7 +35,7 @@
 			"birthTown": "Siegen",
 			"birthCountry": "Germany",
 			"profileID": "3357",
-			"imageUrl": "christian_achenbach.jpg",
+			"imageUrl": "christian_achenbach.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Weißensee",
@@ -53,7 +53,7 @@
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "joerg_uwe_albig.jpg",
+			"imageUrl": "joerg_uwe_albig.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Heikonaut",
@@ -76,7 +76,7 @@
 			"birthTown": "Brussels",
 			"birthCountry": "Belgium",
 			"profileID": "2431",
-			"imageUrl": "jofroi_amaral.jpg",
+			"imageUrl": "jofroi_amaral.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 
@@ -103,7 +103,7 @@
 			"birthTown": "Singapore",
 			"birthCountry": "Singapore",
 			"profileID": "7969",
-			"imageUrl": "song_ming_ang.jpg",
+			"imageUrl": "song_ming_ang.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Tempelhof",
@@ -122,7 +122,7 @@
 			"birthTown": "Wriezen",
 			"birthCountry": "GDR",
 			"profileID": 0,
-			"imageUrl": "axel_anklam.jpg",
+			"imageUrl": "axel_anklam.png",
 			"studioVisit": "Bad Freienwalde",
 			"studioLocations": [{
 					"name": "Studio Bad Freienwalde",
@@ -148,7 +148,7 @@
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
 			"profileID": "7695",
-			"imageUrl": "aram_bartholl.jpg",
+			"imageUrl": "aram_bartholl.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -176,7 +176,7 @@
 			"birthTown": "Stuttgart",
 			"birthCountry": "Germany",
 			"profileID": "2966",
-			"imageUrl": "christopher_bauder.jpg",
+			"imageUrl": "christopher_bauder.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "WHITEvoid",
@@ -199,7 +199,7 @@
 			"birthTown": "Braunschweig",
 			"birthCountry": "Germany",
 			"profileID": "2056",
-			"imageUrl": "fehmi_baumbach.jpg",
+			"imageUrl": "fehmi_baumbach.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -230,7 +230,7 @@
 			"birthTown": "Braunschweig",
 			"birthCountry": "Germany",
 			"profileID": "8612",
-			"imageUrl": "bernd_begemann.jpg",
+			"imageUrl": "bernd_begemann.png",
 			"studioVisit": "Hamburg",
 			"studioLocations": [{
 				"name": "Studio Hamburg",
@@ -253,7 +253,7 @@
 			"birthTown": "Koblenz",
 			"birthCountry": "Germany",
 			"profileID": "967",
-			"imageUrl": "clemens_behr.jpg",
+			"imageUrl": "clemens_behr.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -281,7 +281,7 @@
 			"birthTown": "Czarnowanz",
 			"birthCountry": "Poland",
 			"profileID": "2689",
-			"imageUrl": "sebastian_bieniek.jpg",
+			"imageUrl": "sebastian_bieniek.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Friedrichshain",
@@ -305,7 +305,7 @@
 			"birthTown": "Regensburg",
 			"birthCountry": "Germany",
 			"profileID": "286",
-			"imageUrl": "amelie_blendl.jpg",
+			"imageUrl": "amelie_blendl.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Schöneberg",
@@ -323,7 +323,7 @@
 			"birthTown": "Cluj",
 			"birthCountry": "Romania",
 			"profileID": "1683",
-			"imageUrl": "alex_bodea.jpg",
+			"imageUrl": "alex_bodea.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Schöneberg",
@@ -346,7 +346,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
 			"profileID": "9467",
-			"imageUrl": "lothar_boehme.jpg",
+			"imageUrl": "lothar_boehme.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Pankow",
@@ -364,7 +364,7 @@
 			"birthTown": "Salvador",
 			"birthCountry": "Brazil",
 			"profileID": "1689",
-			"imageUrl": "isabelle_borges.jpg",
+			"imageUrl": "isabelle_borges.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -411,7 +411,7 @@
 			"birthTown": "Weilburg",
 			"birthCountry": "Germany",
 			"profileID": "5195",
-			"imageUrl": "fritz_bornstueck.jpg",
+			"imageUrl": "fritz_bornstueck.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Hobbyraum Berlin Neukölln",
@@ -434,7 +434,7 @@
 			"birthTown": "Milano",
 			"birthCountry": "Italy",
 			"profileID": "9918",
-			"imageUrl": "stefano_bosis.jpg",
+			"imageUrl": "stefano_bosis.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
@@ -458,7 +458,7 @@
 			"birthTown": "Sittard",
 			"birthCountry": "Netherlands",
 			"profileID": "1050",
-			"imageUrl": "bram_braam.jpg",
+			"imageUrl": "bram_braam.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -498,7 +498,7 @@
 			"birthTown": "Celle",
 			"birthCountry": "Germany",
 			"profileID": "9912",
-			"imageUrl": "jenny_brosinski.jpg",
+			"imageUrl": "jenny_brosinski.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -537,7 +537,7 @@
 			"birthTown": "Aachen",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "kaan_bulak.jpg",
+			"imageUrl": "kaan_bulak.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -570,7 +570,7 @@
 			"birthTown": "Vittoria",
 			"birthCountry": "Italy",
 			"profileID": 0,
-			"imageUrl": "mimmo_catania.jpg",
+			"imageUrl": "mimmo_catania.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Hohenschönhausen",
@@ -588,7 +588,7 @@
 			"birthTown": "Guangdong",
 			"birthCountry": "China",
 			"profileID": "4451",
-			"imageUrl": "carla_chan.jpg",
+			"imageUrl": "carla_chan.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -614,7 +614,7 @@
 			"birthTown": "Leipzig",
 			"birthCountry": "GDR",
 			"profileID": "9720",
-			"imageUrl": "dirty_doering.jpg",
+			"imageUrl": "dirty_doering.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Wasser Studio Berlin Treptow",
@@ -638,7 +638,7 @@
 			"birthTown": "Ulan-Ude",
 			"birthCountry": "USSR",
 			"profileID": "4855",
-			"imageUrl": "grigori_dor.jpg",
+			"imageUrl": "grigori_dor.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -670,7 +670,7 @@
 			"birthTown": "Kortrijk",
 			"birthCountry": "Belgium",
 			"profileID": "12614",
-			"imageUrl": "pauline_doutreluingne.jpg",
+			"imageUrl": "pauline_doutreluingne.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Mitte",
@@ -695,7 +695,7 @@
 			"birthTown": "Nassau",
 			"birthCountry": "Germany",
 			"profileID": "3294",
-			"imageUrl": "sven_druehl.jpg",
+			"imageUrl": "sven_druehl.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Uferhallen",
@@ -718,7 +718,7 @@
 			"birthTown": "Manchester",
 			"birthCountry": "United Kingdom",
 			"profileID": "5643",
-			"imageUrl": "craig_dyer.jpg",
+			"imageUrl": "craig_dyer.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Friedrichshain",
@@ -736,7 +736,7 @@
 			"birthTown": "Tallinn",
 			"birthCountry": "Estonia",
 			"profileID": "9557",
-			"imageUrl": "liisi_eelmaa.jpg",
+			"imageUrl": "liisi_eelmaa.png",
 			"studioVisit": "Tallinn",
 			"studioLocations": [{
 				"name": "ARS house",
@@ -755,7 +755,7 @@
 			"birthTown": "Frankfurt/Main",
 			"birthCountry": "Germany",
 			"profileID": "6464",
-			"imageUrl": "ornella_fieres.jpg",
+			"imageUrl": "ornella_fieres.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -788,7 +788,7 @@
 			"birthTown": "",
 			"birthCountry": "Italy",
 			"profileID": "5000",
-			"imageUrl": "francesco_fillini.jpg",
+			"imageUrl": "francesco_fillini.png",
 			"studioVisit": "Pontedera",
 			"studioLocations": [{
 				"name": "Studio Pontedera",
@@ -807,7 +807,7 @@
 			"birthTown": "Reutlingen",
 			"birthCountry": "Germany",
 			"profileID": "4147",
-			"imageUrl": "wolfgang_flad.jpg",
+			"imageUrl": "wolfgang_flad.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
@@ -825,7 +825,7 @@
 			"birthTown": "São Paulo",
 			"birthCountry": "Brazil",
 			"profileID": "9215",
-			"imageUrl": "alex_flemming.jpg",
+			"imageUrl": "alex_flemming.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Prenzlauer Berg",
@@ -849,7 +849,7 @@
 			"birthTown": "München",
 			"birthCountry": "Germany",
 			"profileID": "13077",
-			"imageUrl": "frederik_foert.jpg",
+			"imageUrl": "frederik_foert.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -890,7 +890,7 @@
 			"birthTown": "Frankfurt/Main",
 			"birthCountry": "Germany",
 			"profileID": "1853",
-			"imageUrl": "moritz_frei.jpg",
+			"imageUrl": "moritz_frei.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Neukölln",
@@ -908,7 +908,7 @@
 			"birthTown": "Ochsenfurt",
 			"birthCountry": "Germany",
 			"profileID": "2112",
-			"imageUrl": "peter_freitag.jpg",
+			"imageUrl": "peter_freitag.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Friedrichshain",
@@ -926,7 +926,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "5941",
-			"imageUrl": "paul_frick.jpg",
+			"imageUrl": "paul_frick.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Neukölln",
@@ -950,7 +950,7 @@
 			"birthTown": "Halle/Saale",
 			"birthCountry": "GDR",
 			"profileID": "2009",
-			"imageUrl": "jay_gard.jpg",
+			"imageUrl": "jay_gard.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Schöneberg",
@@ -968,7 +968,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "868",
-			"imageUrl": "maria_gideon.jpg",
+			"imageUrl": "maria_gideon.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Wedding",
@@ -986,7 +986,7 @@
 			"birthTown": "Chełmno",
 			"birthCountry": "Poland",
 			"profileID": "1873",
-			"imageUrl": "lukas_glinkowski.jpg",
+			"imageUrl": "lukas_glinkowski.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studios ID",
@@ -1005,7 +1005,7 @@
 			"birthTown": "Stockholm",
 			"birthCountry": "Sweden",
 			"profileID": "10148",
-			"imageUrl": "hannah_goldstein.jpg",
+			"imageUrl": "hannah_goldstein.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Wedding",
@@ -1029,7 +1029,7 @@
 			"birthTown": "Lemgo",
 			"birthCountry": "Germany",
 			"profileID": "3685",
-			"imageUrl": "oliver_groene.jpg",
+			"imageUrl": "oliver_groene.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Pankow",
@@ -1048,7 +1048,7 @@
 			"birthTown": "Braunschweig",
 			"birthCountry": "Germany",
 			"profileID": "280",
-			"imageUrl": "philip_groezinger.jpg",
+			"imageUrl": "philip_groezinger.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -1074,7 +1074,7 @@
 			"birthTown": "Rotenburg a.d. Wümme",
 			"birthCountry": "Germany",
 			"profileID": "3703",
-			"imageUrl": "daniel_gruettner.jpg",
+			"imageUrl": "daniel_gruettner.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wedding",
@@ -1093,7 +1093,7 @@
 			"birthTown": "Ravensburg",
 			"birthCountry": "Germany",
 			"profileID": "2433",
-			"imageUrl": "stefanie_gutheil.jpg",
+			"imageUrl": "stefanie_gutheil.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Kreuzberg",
@@ -1111,7 +1111,7 @@
 			"birthTown": "Belén/Catamarca",
 			"birthCountry": "Argentina",
 			"profileID": "10015",
-			"imageUrl": "lucas_gutierrez.jpg",
+			"imageUrl": "lucas_gutierrez.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -1135,7 +1135,7 @@
 			"birthTown": "Warstein",
 			"birthCountry": "Germany",
 			"profileID": "4381",
-			"imageUrl": "janes_haid_schmallenberg.jpg",
+			"imageUrl": "janes_haid_schmallenberg.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 						{
@@ -1168,7 +1168,7 @@
 			"birthTown": "Meiningen",
 			"birthCountry": "GDR",
 			"profileID": "1687",
-			"imageUrl": "jens_hausmann.jpg",
+			"imageUrl": "jens_hausmann.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Prenzlauer Berg",
@@ -1191,7 +1191,7 @@
 			"birthTown": "Munich",
 			"birthCountry": "Germany",
 			"profileID": "7232",
-			"imageUrl": "robert_henke.jpg",
+			"imageUrl": "robert_henke.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Ritter Butzke",
@@ -1209,7 +1209,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "1691",
-			"imageUrl": "gepa_hinrichsen.jpg",
+			"imageUrl": "gepa_hinrichsen.png",
 			"studioVisit": "Hamburg",
 			"studioLocations": [{
 				"name": "Studio Hamburg St. Georg",
@@ -1227,7 +1227,7 @@
 			"birthTown": "Heidelberg",
 			"birthCountry": "Germany",
 			"profileID": "3300",
-			"imageUrl": "sibylle_jazra.jpg",
+			"imageUrl": "sibylle_jazra.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [	
 			{
@@ -1258,7 +1258,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "jeans_team.jpg",
+			"imageUrl": "jeans_team.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "MDN1 Studio Berlin Wedding",
@@ -1281,7 +1281,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "2691",
-			"imageUrl": "michelle_jezierski.jpg",
+			"imageUrl": "michelle_jezierski.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -1308,7 +1308,7 @@
 			"birthTown": "",
 			"birthCountry": "South Korea",
 			"profileID": "5428",
-			"imageUrl": "anne_duk_hee_jordan.jpg",
+			"imageUrl": "anne_duk_hee_jordan.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -1335,7 +1335,7 @@
 			"birthTown": "Auburn, California",
 			"birthCountry": "United States",
 			"profileID": "10434",
-			"imageUrl": "rajkamal_kahlon.jpg",
+			"imageUrl": "rajkamal_kahlon.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
 				"name": "Villa Romana",
@@ -1353,7 +1353,7 @@
 			"birthTown": "Offenbach/Main",
 			"birthCountry": "Germany",
 			"profileID": "1402",
-			"imageUrl": "carolin_kastner.jpg",
+			"imageUrl": "carolin_kastner.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Pankow",
@@ -1371,7 +1371,7 @@
 			"birthTown": "Blankenburg",
 			"birthCountry": "GDR",
 			"profileID": "2299",
-			"imageUrl": "toni_kater.jpg",
+			"imageUrl": "toni_kater.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Prenzlauer Berg",
@@ -1394,7 +1394,7 @@
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
 			"profileID": "2328",
-			"imageUrl": "malte_kebbel.jpg",
+			"imageUrl": "malte_kebbel.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
@@ -1412,7 +1412,7 @@
 			"birthTown": "Wurzen",
 			"birthCountry": "GDR",
 			"profileID": "79",
-			"imageUrl": "klaus_killisch.jpg",
+			"imageUrl": "klaus_killisch.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Pankow",
@@ -1436,7 +1436,7 @@
 			"birthTown": "Dresden",
 			"birthCountry": "GDR",
 			"profileID": "5207",
-			"imageUrl": "franziska_klotz.jpg",
+			"imageUrl": "franziska_klotz.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Pankow",
@@ -1454,7 +1454,7 @@
 			"birthTown": "Graz",
 			"birthCountry": "Austria",
 			"profileID": "81",
-			"imageUrl": "kevin_kopacka.jpg",
+			"imageUrl": "kevin_kopacka.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studios ID",
@@ -1478,7 +1478,7 @@
 			"birthTown": "Köthen/Anhalt",
 			"birthCountry": "Germany",
 			"profileID": "170",
-			"imageUrl": "astrid_koeppe.jpg",
+			"imageUrl": "astrid_koeppe.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -1504,7 +1504,7 @@
 			"birthTown": "Gdynia",
 			"birthCountry": "Poland",
 			"profileID": "5528",
-			"imageUrl": "agnieszka_korejba.jpg",
+			"imageUrl": "agnieszka_korejba.png",
 			"studioVisit": "Potsdam",
 			"studioLocations": [{
 				"name": " Rechenzentrum Potsdam",
@@ -1527,7 +1527,7 @@
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "bettina_koester.jpg",
+			"imageUrl": "bettina_koester.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Charlottenburg",
@@ -1545,7 +1545,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
 			"profileID": "7210",
-			"imageUrl": "pilocka_krach.jpg",
+			"imageUrl": "pilocka_krach.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 					"name": "Greatest Hits International",
@@ -1577,7 +1577,7 @@
 			"birthTown": "Bonn",
 			"birthCountry": "Germany",
 			"profileID": "10726",
-			"imageUrl": "zora_kreuzer.jpg",
+			"imageUrl": "zora_kreuzer.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Tempelhof",
@@ -1600,7 +1600,7 @@
 			"birthTown": "Erlangen",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "peter_kroening.jpg",
+			"imageUrl": "peter_kroening.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Oberschöneweide",
@@ -1619,7 +1619,7 @@
 			"birthTown": "Wickede/Ruhr",
 			"birthCountry": "Germany",
 			"profileID": "4053",
-			"imageUrl": "caroline_kryzecki.jpg",
+			"imageUrl": "caroline_kryzecki.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
@@ -1642,7 +1642,7 @@
 			"birthTown": "Black Forest",
 			"birthCountry": "Germany",
 			"profileID": "392",
-			"imageUrl": "michel_lamoller.jpg",
+			"imageUrl": "michel_lamoller.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Schöneberg",
@@ -1660,7 +1660,7 @@
 			"birthTown": "Montreuil-sous-bois",
 			"birthCountry": "France",
 			"profileID": "9559",
-			"imageUrl": "camille_laurelli.jpg",
+			"imageUrl": "camille_laurelli.png",
 			"studioVisit": "Tallinn",
 			"studioLocations": [{
 				"name": "ARS house",
@@ -1683,7 +1683,7 @@
 			"birthTown": "Ascot",
 			"birthCountry": "United Kingdom",
 			"profileID": "8393",
-			"imageUrl": "alanna_lawley.jpg",
+			"imageUrl": "alanna_lawley.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Mitte",
@@ -1701,7 +1701,7 @@
 			"birthTown": "Magdeburg",
 			"birthCountry": "GDR",
 			"profileID": "1258",
-			"imageUrl": "alex_lebus.jpg",
+			"imageUrl": "alex_lebus.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wedding",
@@ -1725,7 +1725,7 @@
 			"birthTown": "Seoul",
 			"birthCountry": "Korea",
 			"profileID": "4105",
-			"imageUrl": "jeewi_lee.jpg",
+			"imageUrl": "jeewi_lee.png",
 			"studioVisit": "Berlin, Florence",
 			"studioLocations": [{
 					"name": "Studio Kreuzberg",
@@ -1757,7 +1757,7 @@
 			"birthTown": "Meiningen",
 			"birthCountry": "GDR",
 			"profileID": 0,
-			"imageUrl": "stefan_leyh.jpg",
+			"imageUrl": "stefan_leyh.png",
 			"studioVisit": "Erfurt",
 			"studioLocations": [{
 				"name": "Wächterhaus 3",
@@ -1782,7 +1782,7 @@
 			"birthTown": "Meiningen",
 			"birthCountry": "GDR",
 			"profileID": "10881",
-			"imageUrl": "annekatrin_lemke.jpg",
+			"imageUrl": "annekatrin_lemke.png",
 			"studioVisit": "Erfurt",
 			"studioLocations": [{
 				"name": "Wächterhaus 3",
@@ -1805,7 +1805,7 @@
 			"birthTown": "",
 			"birthCountry": "Laos",
 			"profileID": "4383",
-			"imageUrl": "van_bo_le_mentzel.jpg",
+			"imageUrl": "van_bo_le_mentzel.png",
 			"studioVisit": "Wittenberg",
 			"studioLocations": [{
 				"name": "Studio Lutherstadt Wittenberg",
@@ -1829,7 +1829,7 @@
 			"birthTown": "Dresden",
 			"birthCountry": "GDR",
 			"profileID": 0,
-			"imageUrl": "via_lewandowsky.jpg",
+			"imageUrl": "via_lewandowsky.png",
 			"studioLocation": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Moabit",
@@ -1849,7 +1849,7 @@
 			"birthTown": "Bielefeld",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "grischa_lichtenberger.jpg",
+			"imageUrl": "grischa_lichtenberger.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Kreuzberg",
@@ -1867,7 +1867,7 @@
 			"birthTown": "Dortmund",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "stephan_lieb.jpg",
+			"imageUrl": "stephan_lieb.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Friedrichshain",
@@ -1890,7 +1890,7 @@
 			"birthTown": "Stalinstadt",
 			"birthCountry": "GDR",
 			"profileID": "4844",
-			"imageUrl": "friedrich_liechtenstein.jpg",
+			"imageUrl": "friedrich_liechtenstein.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Mitte",
@@ -1908,7 +1908,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
 			"profileID": "9856",
-			"imageUrl": "robert_lippok.jpg",
+			"imageUrl": "robert_lippok.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -1935,7 +1935,7 @@
 			"birthTown": "",
 			"birthCountry": "",
 			"profileID": 0,
-			"imageUrl": "christian_mio_loclair.jpg",
+			"imageUrl": "christian_mio_loclair.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Mitte",
@@ -1954,7 +1954,7 @@
 			"birthCountry": "Portugal",
 			"studio": "workshop, the place where things get built...",
 			"profileID": "5430",
-			"imageUrl": "pedro_lopes.jpg",
+			"imageUrl": "pedro_lopes.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "HPI",
@@ -1977,7 +1977,7 @@
 			"birthTown": "Chicago",
 			"birthCountry": "USA",
 			"profileID": "5430",
-			"imageUrl": "sean_derrick_cooper_marquardt.jpg",
+			"imageUrl": "sean_derrick_cooper_marquardt.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wedding",
@@ -2001,7 +2001,7 @@
 			"birthTown": "Karlsruhe",
 			"birthCountry": "Germany",
 			"profileID": "1593",
-			"imageUrl": "sandra_meisel.jpg",
+			"imageUrl": "sandra_meisel.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wedding",
@@ -2019,7 +2019,7 @@
 			"birthTown": "Kirchheim unter Teck",
 			"birthCountry": "Germany",
 			"profileID": "6977",
-			"imageUrl": "bjorn_melhus.jpg",
+			"imageUrl": "bjorn_melhus.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Prenzlauer Berg",
@@ -2038,7 +2038,7 @@
 			"birthCountry": "Germany",
 			"studio": "second home",
 			"profileID": "5530",
-			"imageUrl": "sebastian_meschenmoser.jpg",
+			"imageUrl": "sebastian_meschenmoser.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Hasenheide",
@@ -2061,7 +2061,7 @@
 			"birthTown": "Minsk",
 			"birthCountry": "Belarus",
 			"profileID": "2687",
-			"imageUrl": "ekaterina_mitichkina.jpg",
+			"imageUrl": "ekaterina_mitichkina.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Weißensee",
@@ -2080,7 +2080,7 @@
 			"birthTown": "San Fernando",
 			"birthCountry": "Chile ",
 			"profileID": "10430",
-			"imageUrl": "marcela_moraga.jpg",
+			"imageUrl": "marcela_moraga.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
 				"name": "Villa Romana",
@@ -2104,7 +2104,7 @@
 			"birthTown": "Hagen",
 			"birthCountry": "Germany",
 			"profileID": "5002",
-			"imageUrl": "barbara_morgenstern.jpg",
+			"imageUrl": "barbara_morgenstern.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Mitte",
@@ -2122,7 +2122,7 @@
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "jan_muche.jpg",
+			"imageUrl": "jan_muche.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Uferhallen",
@@ -2140,7 +2140,7 @@
 			"birthTown": "Offenburg",
 			"birthCountry": "Germany",
 			"profileID": "3963",
-			"imageUrl": "johannes_mundinger.jpg",
+			"imageUrl": "johannes_mundinger.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Urban Spree",
@@ -2158,7 +2158,7 @@
 			"birthTown": "Lubumbashi",
 			"birthCountry": "Democratic Republic of Congo",
 			"profileID": "4998",
-			"imageUrl": "christophe_ndabananiye.jpg",
+			"imageUrl": "christophe_ndabananiye.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
 				"name": "Villa Romana",
@@ -2181,7 +2181,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
 			"profileID": "5570",
-			"imageUrl": "baernd_nettmann.jpg",
+			"imageUrl": "baernd_nettmann.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -2207,7 +2207,7 @@
 			"birthTown": "Cham",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "rainer_neumeier.jpg",
+			"imageUrl": "rainer_neumeier.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Uferhallen",
@@ -2225,7 +2225,7 @@
 			"birthTown": "Mainz",
 			"birthCountry": "Germany",
 			"profileID": "4051",
-			"imageUrl": "nik_nowak.jpg",
+			"imageUrl": "nik_nowak.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
@@ -2243,7 +2243,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "7702",
-			"imageUrl": "ostberlin_androgyn.jpg",
+			"imageUrl": "ostberlin_androgyn.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Hohenschönhausen",
@@ -2262,7 +2262,7 @@
 			"birthTown": "Siena",
 			"birthCountry": "Italy",
 			"profileID": 0,
-			"imageUrl": "radio_papesse.jpg",
+			"imageUrl": "radio_papesse.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
 				"name": "Villa Romana",
@@ -2287,7 +2287,7 @@
 			"birthTown": "Wels",
 			"birthCountry": "Austria",
 			"profileID": "462",
-			"imageUrl": "manfred_peckl.jpg",
+			"imageUrl": "manfred_peckl.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -2318,7 +2318,7 @@
 			"birthTown": "Tallinn",
 			"birthCountry": "USSR",
 			"profileID": "9561",
-			"imageUrl": "laura_pold.jpg",
+			"imageUrl": "laura_pold.png",
 			"studioVisit": "Tallinn",
 			"studioLocations": [{
 				"name": "ARS house",
@@ -2336,7 +2336,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "9914",
-			"imageUrl": "max_prosa.jpg",
+			"imageUrl": "max_prosa.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Neukölln",
@@ -2355,7 +2355,7 @@
 			"birthTown": "Vienna",
 			"birthCountry": "Austria",
 			"profileID": 0,
-			"imageUrl": "bernhard_rappold.jpg",
+			"imageUrl": "bernhard_rappold.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -2394,7 +2394,7 @@
 			"birthTown": "Quilpué",
 			"birthCountry": "Chile",
 			"profileID": "3680",
-			"imageUrl": "gonzalo_reyes_araos.jpg",
+			"imageUrl": "gonzalo_reyes_araos.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wedding",
@@ -2417,7 +2417,7 @@
 			"birthTown": "Bückeburg",
 			"birthCountry": "Germany",
 			"profileID": "5985",
-			"imageUrl": "stefan_roigk.jpg",
+			"imageUrl": "stefan_roigk.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Prenzlauer Berg",
@@ -2440,7 +2440,7 @@
 			"birthTown": "Stuttgart",
 			"birthCountry": "Germany",
 			"profileID": "14",
-			"imageUrl": "pietro_sanguineti.jpg",
+			"imageUrl": "pietro_sanguineti.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wilhelmsruh",
@@ -2458,7 +2458,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "1684",
-			"imageUrl": "susanne_schirdewahn.jpg",
+			"imageUrl": "susanne_schirdewahn.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Gerichtshöfe",
@@ -2476,7 +2476,7 @@
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "erik_schmidt.jpg",
+			"imageUrl": "erik_schmidt.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Wedding",
@@ -2494,7 +2494,7 @@
 			"birthTown": "Bielefeld",
 			"birthCountry": "Germany",
 			"profileID": "10724",
-			"imageUrl": "christian_y_schmidt.jpg",
+			"imageUrl": "christian_y_schmidt.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -2548,7 +2548,7 @@
 			"birthTown": "Mafikeg",
 			"birthCountry": "South Africa",
 			"profileID": "4994",
-			"imageUrl": "lerato_shadi.jpg",
+			"imageUrl": "lerato_shadi.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
 				"name": "Villa Romana",
@@ -2572,7 +2572,7 @@
 			"birthTown": "Duisburg",
 			"birthCountry": "Germany",
 			"profileID": 11325,
-			"imageUrl": "alsino_skowronnek.jpg",
+			"imageUrl": "alsino_skowronnek.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -2597,7 +2597,7 @@
 			"birthTown": "Oakland",
 			"birthCountry": "USA",
 			"profileID": "7884",
-			"imageUrl": "tracey_snelling.jpg",
+			"imageUrl": "tracey_snelling.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Gerichtshöfe",
@@ -2615,7 +2615,7 @@
 			"birthTown": "Marburg",
 			"birthCountry": "Germany",
 			"profileID": "375",
-			"imageUrl": "kitty_solaris.jpg",
+			"imageUrl": "kitty_solaris.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Prenzlauer Berg",
@@ -2638,7 +2638,7 @@
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
 			"profileID": "8605",
-			"imageUrl": "frank_spilker.jpg",
+			"imageUrl": "frank_spilker.png",
 			"studioVisit": "Hamburg",
 			"studioLocations": [{
 				"name": "Die Sterne Studio Hamburg Altona",
@@ -2657,7 +2657,7 @@
 			"birthTown": "Wriezen",
 			"birthCountry": "GDR",
 			"profileID": 0,
-			"imageUrl": "erika_stuermer_alex.jpg",
+			"imageUrl": "erika_stuermer_alex.png",
 			"studioVisit": "Lietzen",
 			"studioLocations": [{
 				"name": "Kunsthof Lietzen",
@@ -2676,7 +2676,7 @@
 			"birthTown": "Erfurt",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "cornelia_theimer_gardella.jpg",
+			"imageUrl": "cornelia_theimer_gardella.png",
 			"studioVisit": "Erfurt",
 			"studioLocations": [{
 				"name": "Wächterhaus 3",
@@ -2695,7 +2695,7 @@
 			"birthTown": "Heidelburg",
 			"birthCountry": "Germany",
 			"profileID": "6495",
-			"imageUrl": "t_raumschmiere.jpg",
+			"imageUrl": "t_raumschmiere.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Neukölln",
@@ -2714,7 +2714,7 @@
 			"birthTown": " Istanbul",
 			"birthCountry": "Turkey",
 			"profileID": "12069",
-			"imageUrl": "vahit_tuna.jpg",
+			"imageUrl": "vahit_tuna.png",
 			"studioVisit": "Istanbul",
 			"studioLocations": [{
 				"name": "Studio Beşiktaş Istanbul",
@@ -2734,7 +2734,7 @@
 			"birthTown": "Kobe",
 			"birthCountry": "Japan",
 			"profileID": "8659",
-			"imageUrl": "tomoyuki_ueno.jpg",
+			"imageUrl": "tomoyuki_ueno.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
@@ -2760,7 +2760,7 @@
 			"birthTown": "",
 			"birthCountry": "",
 			"profileID": "8785",
-			"imageUrl": "hans_unstern.jpg",
+			"imageUrl": "hans_unstern.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Neukölln",
@@ -2779,7 +2779,7 @@
 			"birthTown": "Varel",
 			"birthCountry": "Germany",
 			"profileID": "4996",
-			"imageUrl": "viron_erol_vert.jpg",
+			"imageUrl": "viron_erol_vert.png",
 			"studioVisit": "Florence",
 			"studioLocations": [
 			{
@@ -2810,7 +2810,7 @@
 			"birthTown": "Düsseldorf",
 			"birthCountry": "Germany",
 			"profileID": "7358",
-			"imageUrl": "miriam_vlaming.jpg",
+			"imageUrl": "miriam_vlaming.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -2841,7 +2841,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "5426",
-			"imageUrl": "wiebke_maria_wachmann.jpg",
+			"imageUrl": "wiebke_maria_wachmann.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Milchhof Berlin",
@@ -2859,7 +2859,7 @@
 			"birthTown": "Tel Aviv",
 			"birthCountry": "Israel",
 			"profileID": "5967",
-			"imageUrl": "shira_wachsmann.jpg",
+			"imageUrl": "shira_wachsmann.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
@@ -2878,7 +2878,7 @@
 			"birthTown": "Leipzig",
 			"birthCountry": "GDR",
 			"profileID": "10879",
-			"imageUrl": "norbert_wagenbrett.jpg",
+			"imageUrl": "norbert_wagenbrett.png",
 			"studioVisit": "Leipzig",
 			"studioLocations": [{
 				"name": "Studio Leipzeig",
@@ -2902,7 +2902,7 @@
 			"birthTown": "Lübeck",
 			"birthCountry": "Germany",
 			"profileID": "1781",
-			"imageUrl": "julius_weiland.jpg",
+			"imageUrl": "julius_weiland.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 					"name": "Studio Berlin Friedrichshain",
@@ -2934,7 +2934,7 @@
 			"birthTown": "Kempten",
 			"birthCountry": "Germany",
 			"profileID": "12623",
-			"imageUrl": "hermann_august_weizenegger.jpg",
+			"imageUrl": "hermann_august_weizenegger.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Aufbau Haus",
@@ -2953,7 +2953,7 @@
 			"birthTown": "Lauingen",
 			"birthCountry": "Germany",
 			"profileID": "4414",
-			"imageUrl": "peter_welz.jpg",
+			"imageUrl": "peter_welz.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
@@ -2984,7 +2984,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
 			"profileID": "9469",
-			"imageUrl": "trak_wendisch.jpg",
+			"imageUrl": "trak_wendisch.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Pankow",
@@ -3003,7 +3003,7 @@
 			"birthTown": "Hattingen",
 			"birthCountry": "Germany",
 			"profileID": "3406",
-			"imageUrl": "sinta_werner.jpg",
+			"imageUrl": "sinta_werner.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Reinickendorf",
@@ -3021,7 +3021,7 @@
 			"birthTown": "Düsseldorf",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "hansa_wisskirchen.jpg",
+			"imageUrl": "hansa_wisskirchen.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 					"name": "Salon Hansa Berlin Reinickendorf",
@@ -3047,7 +3047,7 @@
 			"birthTown": "Bad Kötzting",
 			"birthCountry": "Germany",
 			"profileID": "4424",
-			"imageUrl": "markus_wueste.jpg",
+			"imageUrl": "markus_wueste.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Pankow",
@@ -3071,7 +3071,7 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "4604",
-			"imageUrl": "michaela_zimmer.jpg",
+			"imageUrl": "michaela_zimmer.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
