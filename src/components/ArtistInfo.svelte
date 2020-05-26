@@ -1,6 +1,21 @@
 <script>
-  import { VIEW } from '../store.js';
+  import { VIEW, LEGEND } from '../store.js';
   import { selectedArtistDetails } from '../store.js';
+  import { onMount, beforeUpdate } from 'svelte';
+
+
+  // $: artistDiscipline = $selectedArtistDetails.discipline;
+
+
+   beforeUpdate(() => {
+    console.log($selectedArtistDetails);
+    console.log($LEGEND);
+   });
+
+  //  let disciplineNew = $LEGEND.filter(function(disciplineItem) {
+  //     return disciplineItem.id == discipline;
+  //   });
+
 
 </script>
 
@@ -20,6 +35,7 @@
 </style>
 
 {#if $selectedArtistDetails}
+
   <div id="artist-info">
 
     {#if $selectedArtistDetails.name}
@@ -27,7 +43,9 @@
     {/if}
 
     {#if $selectedArtistDetails.discipline}
-       <div>Disciplines: {$selectedArtistDetails.discipline}</div>
+      {#each $selectedArtistDetails.discipline as discipline, i}
+      <div>{$LEGEND.filter(d => {return d.id == discipline})[0].label}</div>
+      {/each }
     {/if}    
 
     <div>
@@ -61,11 +79,6 @@
     {#if $selectedArtistDetails.profileID}
       <div><a target="_blank" href="https://visitmytent.com/?p={$selectedArtistDetails.profileID}">Open artist profile</a></div>
     {/if}
-
-    
-
-
-
     
 </div>
 {/if}

@@ -11,19 +11,7 @@
   $: selectedValue = $selectedArtist;
 
   let artistCount = nodes.length;
-
-  beforeUpdate(() => {
-    // selectedValue = $selectedArtistDetails.name;
-
-    // if ($selectedArtistDetails) {
-    //   //  console.log($selectedArtistDetails)
-     
-    // } else {
-    //   selectedValue = undefined;
-    // }
-
-  });
-
+  
   function handleSelect(selectedVal) {
 
     // console.log(selectedVal.detail.value);
