@@ -3,7 +3,7 @@
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, MOUSE } from '../store.js';
-  import { hoveredArtist, selectedArtistDetails } from '../store.js';
+  import { hoveredArtist, selectedArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -68,19 +68,29 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
+
+    
     circleColor = function(artist){
-      return artist.name == $selectedArtistDetails.name ? "red" : "blue";
+      if ($selectedArtistDetails){
+        return artist.name == $selectedArtistDetails.name ? "red" : "blue"; 
+      } else {
+        return "blue";
+      }
     }
 
     circleSize = function(artist){
-      return artist.name == $selectedArtistDetails.name ? "10" : "4";
+      if ($selectedArtistDetails){
+        return artist.name == $selectedArtistDetails.name ? 10 : 4;
+      } else {
+        return 4;
+      }
     }
 
   });
 
 
   function handleClick(artist){
-    // selectedArtist.set(artist.name);
+    selectedArtist.set(artist.name);
     selectedArtistDetails.set(artist);
     // console.log($selectedArtistDetails)
   }
