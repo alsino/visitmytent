@@ -34,7 +34,7 @@
   display: flex;
 }
 
-.switch {
+.switch, .viewmode {
   flex: 1;
 }
 
@@ -42,19 +42,39 @@
   flex: 1;
 }
 
+.switch label, .viewmode label {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.switch input[type="radio"] {
+  display: none;
+}
+
+.viewmode input[type="radio"] {
+  display: none;
+}
+
+.active {
+  border-bottom: 4px solid blue;
+  font-weight: 900;
+}
+
+
+
 </style>
 
 
 <div class="controls">
 
   <div class="switch">
-    <label><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
-    <label><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
+    <label class={$VIEW == "Network"? "active" : ""}><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
+    <label class={$VIEW == "Map"? "active" : ""}><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
   </div>
 
     <div class="viewmode">
-    <label><input type=radio bind:group={$VIEWMODE} value={"Day"}>Day</label>
-    <label><input type=radio bind:group={$VIEWMODE} value={"Night"}>Night</label>
+    <label class={$VIEWMODE == "Day"? "active" : ""}><input type=radio bind:group={$VIEWMODE} value={"Day"}>Day</label>
+    <label class={$VIEWMODE == "Night"? "active" : ""}><input type=radio bind:group={$VIEWMODE} value={"Night"}>Night</label>
   </div>
   
 
