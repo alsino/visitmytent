@@ -7,6 +7,8 @@
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
+  import { scaleSqrt } from 'd3-scale';
+  import { scaleLinear } from 'd3-scale';
   import { feature } from "topojson";
   import { fade } from 'svelte/transition';
 
@@ -30,7 +32,10 @@
   let networkForce = -4;
   let circleColor;
   let circleSize;
-  // let artistDetails = {};
+
+	$: radiusScale = scaleSqrt()
+		.domain([0, 20])
+		.range([2, 10]);
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
@@ -60,7 +65,6 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // console.log($VIEW);
   });
 
 
@@ -68,6 +72,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
+    // console.log(radiusScale(81));
 
     
     circleColor = function(artist){
@@ -79,11 +84,14 @@
     }
 
     circleSize = function(artist){
+
       if ($selectedArtistDetails){
         return artist.name == $selectedArtistDetails.name ? 10 : 4;
       } else {
-        return 4;
+        console.log(radiusScale(artist.links.length))
+        return radiusScale(artist.links.length);
       }
+      
     }
 
   });
