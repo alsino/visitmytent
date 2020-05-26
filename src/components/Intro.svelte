@@ -9,9 +9,9 @@
 <style lang="scss">
  @import "./style/theme.scss";
 
-//  h2 {
-//   color: $color-primary;
-//  }
+ h2 {
+  transition: all 2s;
+ }
 
  div {
    color: $color-text;
