@@ -2,7 +2,7 @@
   import ArtistInfo from '../components/ArtistInfo.svelte';   
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
-  import { VIEW, MOUSE } from '../store.js';
+  import { VIEW, VIEWMODE, MOUSE, COLORS } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import { feature } from "topojson";
@@ -11,8 +11,6 @@
   import { geoMercator, geoPath } from "d3-geo";
   import { scaleSqrt } from 'd3-scale';
   import { extent, max, min } from "d3-array";
-
-  
 
   import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
@@ -37,6 +35,8 @@
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
+
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
   let nodesWithLinks = nodes.map((item, index) => {
 
@@ -68,40 +68,34 @@
 		.domain([minLinks, maxLinks])
     .range([2, 8]);
     
-  let attractForce = d3.forceManyBody().strength(5).distanceMax(10);
-  // let repelForce = d3.forceManyBody().strength(-100).distanceMax(10);
-
   // No need for simulation anymore -> Coordinates are statically generated in store
   let simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(links).id(d => d.name))
         .force("charge", d3.forceManyBody().strength(networkForce))
         .force("center", d3.forceCenter(width / 2, height / 2))
-        // .force("attractForce", attractForce)
-        // .force("repelForce", repelForce);
         .force("x", d3.forceX())
-      .force("y", d3.forceY());
-        // .force('collision', d3.forceCollide().radius(() => {
-        //      return 10
-        // }));
+        .force("y", d3.forceY());
+
   
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
+    // console.log(colorScheme);
   });
 
 
   beforeUpdate(() => {
     // Useful if we want to change network layout based on simulation 
-    simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
+    // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    // console.log($selectedArtistDetails);
+    // console.log(colorScheme);
 
     
     circleColor = function(artist){
       if ($selectedArtistDetails){
-        return artist.name == $selectedArtistDetails.name ? "red" : "blue"; 
+        return artist.name == $selectedArtistDetails.name ? colorScheme.circleSelected : colorScheme.circleDefault; 
       } else {
-        return "blue";
+        return colorScheme.circleDefault;
       }
     }
 
@@ -198,7 +192,6 @@ function fade(node, {
 
  #network {
    width: 100%;
-   background: $color-white;
    margin-top: $margin-small;
    position: relative;
  }
@@ -214,7 +207,7 @@ function fade(node, {
  }
 
  line {
-   stroke: rgb(69, 69, 255);
+  //  stroke: rgb(69, 69, 255);
    stroke-opacity: 0.2;
  }
 
@@ -245,10 +238,10 @@ function fade(node, {
 
 
 
-  <svelte:window on:mousemove={handleMouseMove}/>
+  <svelte:window on:mousemove={handleMouseMove} style="background:{colorScheme.background}; color:{colorScheme.textDefault}"/>
 
 
-  <div id="network">
+  <div id="network" style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
   <ArtistInfo/>
     
     <svg width ={width} height={height}>
@@ -282,6 +275,7 @@ function fade(node, {
             y1={node.artistCoordinates.y}
             x2={link.target.artistCoordinates.x}
             y2={link.target.artistCoordinates.y}
+            stroke={colorScheme.network}
             >
           </line>
 

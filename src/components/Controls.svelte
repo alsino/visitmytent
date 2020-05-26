@@ -1,5 +1,5 @@
 <script>
-  import { VIEW } from '../store.js';
+  import { VIEW, VIEWMODE } from '../store.js';
   import Select from 'svelte-select';
   import { onMount, beforeUpdate } from 'svelte';
   import { NETWORKDATA } from '../store.js';
@@ -51,6 +51,12 @@
     <label><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
     <label><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
   </div>
+
+    <div class="viewmode">
+    <label><input type=radio bind:group={$VIEWMODE} value={"Day"}>Day</label>
+    <label><input type=radio bind:group={$VIEWMODE} value={"Night"}>Night</label>
+  </div>
+  
 
   <div class="selector">
     <Select items={artists}
