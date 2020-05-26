@@ -6,7 +6,6 @@
   import { hoveredArtist, selectedArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import { feature } from "topojson";
-  import { fade } from 'svelte/transition';
 
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
@@ -32,7 +31,7 @@
   let sbahnPath;
 
   let coordinates;
-  let networkForce = -4;
+  let networkForce = -40;
   let circleColor;
   let circleSize;
 
@@ -67,13 +66,23 @@
 
   $: circleScale = scaleSqrt()
 		.domain([minLinks, maxLinks])
-		.range([2, 8]);
+    .range([2, 8]);
+    
+  let attractForce = d3.forceManyBody().strength(5).distanceMax(10);
+  // let repelForce = d3.forceManyBody().strength(-100).distanceMax(10);
 
   // No need for simulation anymore -> Coordinates are statically generated in store
   let simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(links).id(d => d.name))
         .force("charge", d3.forceManyBody().strength(networkForce))
-        .force("center", d3.forceCenter(width / 2, height / 2));
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        // .force("attractForce", attractForce)
+        // .force("repelForce", repelForce);
+        .force("x", d3.forceX())
+      .force("y", d3.forceY());
+        // .force('collision', d3.forceCollide().radius(() => {
+        //      return 10
+        // }));
   
   onMount(() => {
     bezirkePath = path(bezirke);  
@@ -83,9 +92,9 @@
 
   beforeUpdate(() => {
     // Useful if we want to change network layout based on simulation 
-    // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
+    simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    console.log($selectedArtistDetails);
+    // console.log($selectedArtistDetails);
 
     
     circleColor = function(artist){
@@ -115,10 +124,6 @@
         }
 
       }
-
-
-     
-      
     }
 
   });
@@ -144,6 +149,14 @@
 
     } else if (view == "Network")  {
         coordinates = $NETWORKCOORDINATES;
+
+      // coordinates = nodes.map((item) => {
+      //   return {
+      //     x : item.x,
+      //     y : item.y,
+      //   }
+      // });
+     
     }
     return coordinates;
   }
@@ -160,6 +173,20 @@ function handleMouseMove(e){
 
 function handleMouseOver(artist){
   $hoveredArtist = artist.name;
+}
+
+
+function fade(node, {
+	delay = 0,
+	duration = 0
+}) {
+	const o = +getComputedStyle(node).opacity;
+
+	return {
+		delay,
+		duration,
+		css: t => `opacity: ${t * o}`
+	};
 }
 
   
@@ -187,12 +214,13 @@ function handleMouseOver(artist){
  }
 
  line {
-   stroke: blue;
+   stroke: rgb(69, 69, 255);
    stroke-opacity: 0.2;
  }
 
  .map-bezirke {
   stroke: #c7c7c7;
+  // stroke: rgb(69, 69, 255);
   fill: none;
 }
 
@@ -245,7 +273,7 @@ function handleMouseOver(artist){
 
       
       {#if $VIEW == "Network"}
-      <g class="links" transition:fade="{{ duration: 2000 }}">
+      <g class="links" in:fade="{{duration: 1000, delay: 1200 }}" out:fade="{{ duration: 0 }}">
        {#each nodesWithLinks as node, index}
           {#each node.links as link, index}
 
