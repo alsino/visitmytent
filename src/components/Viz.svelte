@@ -5,12 +5,15 @@
   import { VIEW, MOUSE } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
+  import { feature } from "topojson";
+  import { fade } from 'svelte/transition';
+
   import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
   import { scaleSqrt } from 'd3-scale';
-  import { scaleLinear } from 'd3-scale';
-  import { feature } from "topojson";
-  import { fade } from 'svelte/transition';
+  import { extent, max, min } from "d3-array";
+
+  
 
   import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
@@ -33,10 +36,6 @@
   let circleColor;
   let circleSize;
 
-	$: circleScale = scaleSqrt()
-		.domain([0, 20])
-		.range([2, 10]);
-
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
@@ -56,10 +55,19 @@
     let artistCoordinates = currentCoordinates($VIEW)[index];
 
     item.links = [...artistLinksOut, ...artistLinksIn];
+    item.noLinks = item.links.length;
     item.artistCoordinates = artistCoordinates;
 
     return item
   })
+
+  $: minLinks = min(nodesWithLinks, d => d.noLinks);
+  $: maxLinks = max(nodesWithLinks, d => d.noLinks);
+  $: extentLinks = extent(nodesWithLinks, d => d.noLinks);
+
+  $: circleScale = scaleSqrt()
+		.domain([minLinks, maxLinks])
+		.range([2, 8]);
 
   // No need for simulation anymore -> Coordinates are statically generated in store
   let simulation = d3.forceSimulation(nodes)
@@ -91,9 +99,10 @@
     circleSize = function(artist){
 
       if ($selectedArtistDetails){
-        return artist.name == $selectedArtistDetails.name ? 10 : 4;
+        // return circleScale(artist.noLinks);
+        return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
       } else {
-        return circleScale(artist.links.length);
+        return circleScale(artist.noLinks);
       }
       
     }
