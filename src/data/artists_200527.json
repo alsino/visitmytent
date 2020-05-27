@@ -1009,8 +1009,22 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [{
 				"name": "Studio Berlin Wedding",
-				"date_in": 0,
+				"date_in": "01/01/2018",
 				"date_out": "now",
+				"lat": 52.558215,
+				"lon": 13.391963
+			},
+			{
+				"name": "Willner Brauerei Berlin",
+				"date_in": "01/01/2013",
+				"date_out": "31/12/2017",
+				"lat": 52.555882, 
+				"lon": 13.415010
+			},
+			{
+				"name": "Studio Berlin Wedding",
+				"date_in": "01/01/2012",
+				"date_out": "31/12/2012",
 				"lat": 52.558215,
 				"lon": 13.391963
 			}],
