@@ -311,8 +311,8 @@
 				"name": "Studio Berlin Schöneberg",
 				"date_in": 0,
 				"date_out": "now",
-				"lat": 52.479099,
-				"lon": 13.364809
+				"lat": 52.479351, 
+				"lon": 13.364935
 			}]
 		},
 		{
@@ -701,8 +701,8 @@
 				"name": "Uferhallen",
 				"date_in": 0,
 				"date_out": "now",
-				"lat": 52.552118,
-				"lon": 13.374188
+				"lat": 52.552614, 
+				"lon": 13.372884
 			}],
 			"questions": {
 				"why": "Because I grew up in the 90s!",
@@ -956,8 +956,8 @@
 				"name": "Studio Schöneberg",
 				"date_in": 0,
 				"date_out": "now",
-				"lat": 52.479099,
-				"lon": 13.364809
+				"lat": 52.479975, 
+				"lon": 13.365016
 			}]
 		},
 		{
@@ -992,8 +992,8 @@
 				"name": "Studios ID",
 				"date_in": 0,
 				"date_out": "now",
-				"lat": 52.541492,
-				"lon": 13.499555
+				"lat": 52.541202, 
+				"lon": 13.498518
 			}]
 		},
 
@@ -1055,8 +1055,8 @@
 				"name": "Studio Berlin Schöneberg",
 				"date_in": "01/01/2014",
 				"date_out": "now",
-				"lat": 52.479099,
-				"lon": 13.364809
+				"lat": 52.478740, 
+				"lon": 13.364914
 			},
 			{
 				"name": "Studio Berlin-Neukölln",
@@ -1461,8 +1461,8 @@
 				"address": "Genslerstraße 13, 13055 Berlin",
 				"date_in": 0,
 				"date_out": 0,
-				"lat": 52.541492,
-				"lon": 13.499555
+				"lat": 52.541789, 
+				"lon": 13.499055
 			}],
 			"questions": {
 				"why": "Because it's the thing I most like doing at this time.",
@@ -2128,8 +2128,8 @@
 				"name": "Uferhallen",
 				"date_in": 0,
 				"date_out": "now",
-				"lat": 52.551871,
-				"lon": 13.374360
+				"lat": 52.552340, 
+				"lon": 13.373031
 			}]
 		},
 		{
@@ -2294,8 +2294,8 @@
 				"name": "Uferhallen",
 				"date_in": "01/01/2008",
 				"date_out": "now",
-				"lat": 52.551871,
-				"lon": 13.374360
+				"lat": 52.553128, 
+				"lon": 13.373823
 			},
 			{
 				"name": "Studio Berlin Weißensee",
@@ -2464,8 +2464,8 @@
 				"name": "Gerichtshöfe",
 				"date_in": "01/01/2018",
 				"date_out": "now",
-				"lat": 52.543609,
-				"lon": 13.375432
+				"lat": 52.543535, 
+				"lon": 13.375571
 			}]
 		},
 		{
@@ -2603,8 +2603,8 @@
 				"name": "Gerichtshöfe",
 				"date_in": "01/05/2019",
 				"date_out": "31/10/2019",
-				"lat": 52.543609,
-				"lon": 13.375432
+				"lat": 52.544458, 
+				"lon": 13.376642
 			}]
 		},
 		{
@@ -2960,8 +2960,8 @@
 				"name": "Gerichtshöfe",
 				"date_in": "01/01/2008",
 				"date_out": "now",
-				"lat": 52.543609,
-				"lon": 13.375432
+				"lat": 52.545195, 
+				"lon": 13.377071
 			},
 			{
 				"name": "Studio Berlin Prenzlauer Berg.",

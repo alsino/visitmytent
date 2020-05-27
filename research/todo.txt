@@ -1,10 +1,29 @@
 
 TODO 
 
-bei mehreren locations date-in bis "now" als aktuelle location nehmen 
 
-artists nach studio locations + zeiten fragen
-
-
+/ Layout
+/ Disziplinen
 
 
+Netzwerk
+/ Einzelansicht 
+/ Kollaborationen
+
+
+Map
+/ Lösung für mehrere an einem Ort (zb Uferhallen (5), Studios ID (3), Gerichtshöfe) (zb Zahl dran, Zoom)
+/ evtl Timeslider, Bewegungen im Stadtraum 
+
+
+
+Ein cooles Feature, zb:
+	/ Textwolken – "Wann weiß ich wann ein Werk fertig ist?"
+					"Warum mache ich was ich tue?"
+					"Mein Studio ist mein..."
+	/ Uhr – welcher Künstler arbeitet noch
+
+
+
+
+Evtl Filter nach Alter, Geschlecht
