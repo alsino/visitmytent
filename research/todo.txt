@@ -12,7 +12,7 @@ Netzwerk
 
 
 Map
-/ Lösung für mehrere an einem Ort (zb Uferhallen (5), Studios ID (3), Gerichtshöfe) (zb Zahl dran, Zoom)
+/ Lösung für mehrere an einem Ort zb Uferhallen (5), Studios ID (3), Gerichtshöfe (3) – zb Zahl dran, Zoom
 / evtl Timeslider, Bewegungen im Stadtraum 
 
 

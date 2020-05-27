@@ -874,7 +874,7 @@
 					"lon": 16.354515
 				},
 				{
-					"name": "Studio Wedding",
+					"name": "Studio Berlin Wedding",
 					"date_in": 0,
 					"date_out": 0,
 					"lat": 52.555537, 
@@ -929,7 +929,7 @@
 			"imageUrl": "paul_frick.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Neukölln",
+				"name": "Studio Berlin Neukölln",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.484830,
@@ -953,7 +953,7 @@
 			"imageUrl": "jay_gard.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Schöneberg",
+				"name": "Studio Berlin Schöneberg",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.479975, 
@@ -971,7 +971,7 @@
 			"imageUrl": "maria_gideon.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Wedding",
+				"name": "Studio Berlin Wedding",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.550421,
@@ -1008,7 +1008,7 @@
 			"imageUrl": "hannah_goldstein.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Wedding",
+				"name": "Studio Berlin Wedding",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.558215,
@@ -1032,7 +1032,7 @@
 			"imageUrl": "oliver_groene.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Pankow",
+				"name": "Studio Berlin Pankow",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.555444,
@@ -1059,7 +1059,7 @@
 				"lon": 13.364914
 			},
 			{
-				"name": "Studio Berlin-Neukölln",
+				"name": "Studio Berlin Neukölln",
 				"date_in": "01/01/2011",
 				"date_out": "01/01/2014",
 				"lat": 52.478598, 
@@ -1096,7 +1096,7 @@
 			"imageUrl": "stefanie_gutheil.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio Kreuzberg",
+				"name": "Studio Berlin Kreuzberg",
 				"date_in": "01/01/2007",
 				"date_out": "now",
 				"lat": 52.500893,
@@ -1115,7 +1115,7 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 			{
-				"name": "Studio Prenzlauer Berg",
+				"name": "Studio Berlin Prenzlauer Berg",
 				"date_in": "01/06/2014",
 				"date_out": "now",
 				"lat": 52.542323,
