@@ -1300,7 +1300,6 @@
 			"studioLocations": [
 			{
 				"name": "Studio Berlin Kreuzberg II",
-				"address": "Urbanstraße 100, 10967 Berlin",
 				"date_in": "01/01/2012",
 				"date_out": "now",
 				"lat": 52.489926,
@@ -1308,8 +1307,8 @@
 			},
 			{
 				"name": "Studio Berlin Kreuzberg I",
-				"date_in": "",
-				"date_out": "01/01/2012",
+				"date_in": "01/01/1010",
+				"date_out": "31/12/2011",
 				"lat": 52.504076, 
 				"lon": 13.421204
 			}]
