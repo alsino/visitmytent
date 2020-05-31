@@ -2874,10 +2874,18 @@
 			"profileID": "5967",
 			"imageUrl": "shira_wachsmann.png",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "Studio Berlin Kreuzberg",
-				"date_in": 0,
+			"studioLocations": [
+			{
+				"name": "Studio Berlin Treptow",
+				"date_in": "01/01/2019",
 				"date_out": "now",
+				"lat": 52.437908, 
+				"lon": 13.605866
+			},
+			{
+				"name": "Studio Berlin Kreuzberg",
+				"date_in": "01/01/2017",
+				"date_out": "31/12/2018",
 				"lat": 52.495387,
 				"lon": 13.426032
 			}]
