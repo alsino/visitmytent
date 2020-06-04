@@ -14,6 +14,9 @@
 
   // import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
+  // let windowWidth = window.innerWidth;
+  // $ : width = windowWidth < 640 ? 200 : 700;
+
   let width = 700;
   let height = 600;
   let paddingMap = 20;
@@ -91,15 +94,15 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    // console.log($selectedArtistDetails.name);
-
     
     circleColor = function(artist){
+
       if ($selectedArtistDetails){
         return artist.name == $selectedArtistDetails.name ? colorScheme.circleSelected : colorScheme.circleDefault; 
       } else {
         return colorScheme.circleDefault;
       }
+      
     }
 
     circleSize = function(artist){
@@ -220,6 +223,7 @@ function fade(node, {
 
  .link {
   stroke-opacity: 0.2;
+  transition: all 0s;
  }
 
  .link-inactive  {
