@@ -4,6 +4,7 @@
   import { onMount, beforeUpdate } from 'svelte';
   import { NETWORKDATA } from '../store.js';
   import { selectedArtistDetails, selectedArtist } from '../store.js';
+  import { handleClear } from '../store.js';
   
   let nodes = $NETWORKDATA.nodes;
   let artists = nodes.map(item => {return item.name }).sort();
@@ -22,9 +23,6 @@
     selectedArtistDetails.set(result);
   }
 
-  function handleClear() {
-    selectedArtistDetails.set("");
-  }
 
 
 </script>

@@ -12,7 +12,7 @@
   import { scaleSqrt } from 'd3-scale';
   import { extent, max, min } from "d3-array";
 
-  import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
+  // import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
 
   let width = 700;
   let height = 600;
@@ -32,11 +32,14 @@
   let networkForce = -40;
   let circleColor;
   let circleSize;
+  let getLinkClass;
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
+  $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
 
   let nodesWithLinks = nodes.map((item, index) => {
 
@@ -88,7 +91,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     coordinates = currentCoordinates($VIEW);
-    // console.log(colorScheme);
+    // console.log($selectedArtistDetails.name);
 
     
     circleColor = function(artist){
@@ -120,13 +123,21 @@
       }
     }
 
+    getLinkClass = function(link){
+
+      if ($selectedArtistDetails){
+          return link.source.name == $selectedArtistDetails.name || link.target.name == $selectedArtistDetails.name  ? 'link-active' : 'link-inactive'
+        } else {
+          return "link-active"
+        }
+      }
+
   });
 
 
   function handleClick(artist){
     selectedArtist.set(artist.name);
     selectedArtistDetails.set(artist);
-    // console.log($selectedArtistDetails)
   }
 
   function currentCoordinates(view){
@@ -169,7 +180,6 @@ function handleMouseOver(artist){
   $hoveredArtist = artist.name;
 }
 
-
 function fade(node, {
 	delay = 0,
 	duration = 0
@@ -208,10 +218,18 @@ function fade(node, {
    fill-opacity: 1;
  }
 
- line {
-   stroke-opacity: 0.2;
+ .link {
+  stroke-opacity: 0.2;
  }
 
+ .link-inactive  {
+   stroke-opacity: 0;
+ }
+
+ .link-active {
+   stroke-opacity: 0.2;
+ }
+ 
  .map-bezirke {
   // stroke: #c7c7c7;
   // stroke: rgb(69, 69, 255);
@@ -267,13 +285,14 @@ function fade(node, {
         {/if}
       </g>
 
-      
+        
       {#if $VIEW == "Network"}
       <g class="links" in:fade="{{duration: 1000, delay: 1200 }}" out:fade="{{ duration: 0 }}">
        {#each nodesWithLinks as node, index}
           {#each node.links as link, index}
 
           <line 
+            class="link {getLinkClass(link)}"
             x1={node.artistCoordinates.x}
             y1={node.artistCoordinates.y}
             x2={link.target.artistCoordinates.x}
