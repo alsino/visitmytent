@@ -66,6 +66,7 @@
 .disciplines label {
   display: block;
   cursor: pointer;
+  margin-bottom: 0.3rem;
 }
 
 label {
@@ -82,6 +83,10 @@ label {
 }
 
 .viewmode input[type="radio"] {
+  display: none;
+}
+
+.disciplines input[type="radio"] {
   display: none;
 }
 
@@ -130,9 +135,9 @@ label {
     ></Select>
   </div>
 
-  <div class="disciplines" style="color:{colorScheme.textDefault}">
+  <div class="disciplines">
    {#each $LEGEND as discipline, index}
-   <label><input type=radio bind:group={$selectedDiscipline} value={discipline.id}>{ discipline.label }</label>
+   <label style="color:{colorScheme.textDefault}" class={ discipline.id == $selectedDiscipline ? getClassName("active") : "" }><input type=radio bind:group={$selectedDiscipline} value={discipline.id}>{ discipline.label }</label>
   {/each }
   </div>
 

@@ -40,6 +40,8 @@
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
+  $: console.log($selectedDiscipline);
+
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
   $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
@@ -66,7 +68,7 @@
     return item
   })
 
-  $: console.log($selectedDiscipline);
+  
 
   $: minLinks = min(nodesWithLinks, d => d.noLinks);
   $: maxLinks = max(nodesWithLinks, d => d.noLinks);
