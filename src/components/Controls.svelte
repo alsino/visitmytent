@@ -61,6 +61,10 @@
   flex: 1;
   margin-left: 1rem;
   transition: all 2s;
+  position: absolute;
+  right: 8vw;
+  z-index: 200000;
+  top: 30vh;
 }
 
 .disciplines label {
