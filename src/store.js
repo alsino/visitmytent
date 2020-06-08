@@ -10,6 +10,7 @@ VIEWMODE.set("Day");
 
 export const selectedArtist = writable(undefined);
 export const selectedArtistDetails = writable(undefined);
+export const selectedDiscipline = writable(0);
 
 export const hoveredArtist = writable(undefined);
 hoveredArtist.set(undefined);
@@ -25,6 +26,7 @@ MOUSE.set({ x: 0, y: 0});
 
 export const LEGEND = writable(undefined);
 LEGEND.set([
+  {id: 0, label:  "All" },
   {id: 1, label:  "Painting / Drawing / Collage" },
   {id: 2, label:  "Installation / Performance" },
   {id: 3, label:  "Music / Sound" },

@@ -5,11 +5,11 @@
   import { NETWORKDATA } from '../store.js';
   import { selectedArtistDetails, selectedArtist } from '../store.js';
   import { handleClear } from '../store.js';
-  import { COLORS } from '../store.js';
+  import { COLORS, LEGEND } from '../store.js';
+  import { selectedDiscipline } from '../store.js';
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
   let getClassName;
-
   
   let nodes = $NETWORKDATA.nodes;
   let artists = nodes.map(item => {return item.name }).sort();
@@ -38,7 +38,6 @@
           return className+"-dark"
         }
     }
-
   })
 
 
@@ -56,6 +55,17 @@
 
 .selector {
   flex: 1;
+}
+
+.disciplines {
+  flex: 1;
+  margin-left: 1rem;
+  transition: all 2s;
+}
+
+.disciplines label {
+  display: block;
+  cursor: pointer;
 }
 
 label {
@@ -118,6 +128,12 @@ label {
     on:select={handleSelect} 
     on:clear={handleClear}
     ></Select>
+  </div>
+
+  <div class="disciplines" style="color:{colorScheme.textDefault}">
+   {#each $LEGEND as discipline, index}
+   <label><input type=radio bind:group={$selectedDiscipline} value={discipline.id}>{ discipline.label }</label>
+  {/each }
   </div>
 
 </div>

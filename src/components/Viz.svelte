@@ -3,7 +3,7 @@
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, VIEWMODE, MOUSE, COLORS } from '../store.js';
-  import { hoveredArtist, selectedArtist, selectedArtistDetails } from '../store.js';
+  import { hoveredArtist, selectedArtist, selectedArtistDetails, selectedDiscipline } from '../store.js';
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import { feature } from "topojson";
 
@@ -35,7 +35,7 @@
   let networkForce = -40;
   let circleColor;
   let circleSize;
-  let getLinkClass;
+  let getLinkClass, getNodeClass;
 
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
@@ -65,6 +65,8 @@
 
     return item
   })
+
+  $: console.log($selectedDiscipline);
 
   $: minLinks = min(nodesWithLinks, d => d.noLinks);
   $: maxLinks = max(nodesWithLinks, d => d.noLinks);
@@ -127,13 +129,21 @@
     }
 
     getLinkClass = function(link){
-
       if ($selectedArtistDetails){
           return link.source.name == $selectedArtistDetails.name || link.target.name == $selectedArtistDetails.name  ? 'link-active' : 'link-inactive'
         } else {
           return "link-active"
         }
       }
+
+    getNodeClass = function(node){
+       if ($selectedDiscipline) {
+        return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
+      }
+    }
+
+
+     
 
   });
 
@@ -233,6 +243,14 @@ function fade(node, {
  .link-active {
    stroke-opacity: 0.2;
  }
+
+ .node-inactive  {
+   fill-opacity: 0;
+ }
+
+ .node-active {
+   fill-opacity: 1;
+ }
  
  .map-bezirke {
   // stroke: #c7c7c7;
@@ -296,7 +314,7 @@ function fade(node, {
           {#each node.links as link, index}
 
           <line 
-            class="link {getLinkClass(link)}"
+            class="link {getLinkClass(link, node)}"
             x1={node.artistCoordinates.x}
             y1={node.artistCoordinates.y}
             x2={link.target.artistCoordinates.x}
@@ -315,6 +333,7 @@ function fade(node, {
       <g class="circles">
         {#each nodes as location, index}
           <circle 
+            class={getNodeClass(location)}
             cx={coordinates[index].x} 
             cy={coordinates[index].y} 
             r={circleSize(location)}
