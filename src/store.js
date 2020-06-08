@@ -55,7 +55,7 @@ COLORS.set({
     circleSelected: "yellow",
     circleBorder: "rgb(51,51,51)",
     textDefault: "white",
-    textHeading: "white",
+    textHeading: "yellow",
     textTooltip: "black",
     berlinMap: "white",
     berlinSbahn: "white",

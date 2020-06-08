@@ -5,6 +5,11 @@
   import { NETWORKDATA } from '../store.js';
   import { selectedArtistDetails, selectedArtist } from '../store.js';
   import { handleClear } from '../store.js';
+  import { COLORS } from '../store.js';
+
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+  let getClassName;
+
   
   let nodes = $NETWORKDATA.nodes;
   let artists = nodes.map(item => {return item.name }).sort();
@@ -24,6 +29,19 @@
   }
 
 
+  beforeUpdate(() => {
+
+    getClassName = function(className){
+      if ($VIEWMODE == "Day") {
+       return className+"-bright"
+        } else {
+          return className+"-dark"
+        }
+    }
+
+  })
+
+
 
 </script>
 
@@ -40,6 +58,10 @@
   flex: 1;
 }
 
+label {
+  transition: color border-color 2s;
+}
+
 .switch label, .viewmode label {
   padding: 10px;
   cursor: pointer;
@@ -53,9 +75,22 @@
   display: none;
 }
 
-.active {
+.active-bright {
   border-bottom: 4px solid blue;
   color: blue;
+}
+
+.active-dark {
+  border-bottom: 4px solid yellow;
+  color: yellow;
+}
+
+.inactive-bright {
+  color: black;
+}
+
+.inactive-dark {
+  color: white;
 }
 
 
@@ -65,13 +100,13 @@
 <div class="controls">
 
   <div class="switch">
-    <label class={$VIEW == "Network"? "active" : ""}><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
-    <label class={$VIEW == "Map"? "active" : ""}><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
+    <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
+    <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
   </div>
 
     <div class="viewmode">
-    <label class={$VIEWMODE == "Day"? "active" : ""}><input type=radio bind:group={$VIEWMODE} value={"Day"}>Day</label>
-    <label class={$VIEWMODE == "Night"? "active" : ""}><input type=radio bind:group={$VIEWMODE} value={"Night"}>Night</label>
+    <label class={ $VIEWMODE == "Day" ? getClassName("active") : getClassName("inactive")  }><input type=radio bind:group={$VIEWMODE} value={"Day"}>Day</label>
+    <label class={ $VIEWMODE == "Night" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEWMODE} value={"Night"}>Night</label>
   </div>
   
 
