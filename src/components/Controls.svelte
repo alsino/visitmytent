@@ -63,7 +63,7 @@
   transition: all 2s;
   position: absolute;
   right: 8vw;
-  z-index: 200000;
+  z-index: 1;
   top: 30vh;
 }
 
