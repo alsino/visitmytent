@@ -58,10 +58,6 @@
   flex: 1;
 }
 
-label {
-  transition: color border-color 2s;
-}
-
 .switch label, .viewmode label {
   padding: 10px;
   cursor: pointer;
