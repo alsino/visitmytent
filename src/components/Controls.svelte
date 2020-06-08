@@ -135,9 +135,9 @@ label {
     ></Select>
   </div>
 
-  <div class="disciplines">
+  <div class="disciplines" style="color:{colorScheme.textDefault}">
    {#each $LEGEND as discipline, index}
-   <label style="color:{colorScheme.textDefault}" class={ discipline.id == $selectedDiscipline ? getClassName("active") : "" }><input type=radio bind:group={$selectedDiscipline} value={discipline.id}>{ discipline.label }</label>
+   <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$selectedDiscipline} value={discipline.id}>{ discipline.label }</label>
   {/each }
   </div>
 
