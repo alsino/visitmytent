@@ -40,7 +40,7 @@
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
-  $: console.log($selectedDiscipline);
+  // $: console.log($selectedDiscipline);
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
@@ -130,12 +130,29 @@
       }
     }
 
-    getLinkClass = function(link){
+    getLinkClass = function(link, node){
+
+       if ($selectedDiscipline) {
+         if (node.discipline.includes($selectedDiscipline)) {
+          // console.log(node);
+
+          node.links.forEach( item => {
+            // console.log(item);
+            return item.source.discipline.includes($selectedDiscipline) ? 'link-active' : 'link-inactive';
+          })
+
+         } else {
+           return 'link-inactive';
+         }
+      }
+
+
       if ($selectedArtistDetails){
           return link.source.name == $selectedArtistDetails.name || link.target.name == $selectedArtistDetails.name  ? 'link-active' : 'link-inactive'
         } else {
           return "link-active"
         }
+
       }
 
     getNodeClass = function(node){
