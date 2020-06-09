@@ -247,7 +247,7 @@ function fade(node, {
  }
 
  .node-inactive  {
-   fill-opacity: 0;
+   fill-opacity: 0.1;
  }
 
  .node-active {
