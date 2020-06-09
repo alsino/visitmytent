@@ -134,10 +134,8 @@
 
        if ($selectedDiscipline) {
          if (node.discipline.includes($selectedDiscipline)) {
-          // console.log(node);
-
+           
           node.links.forEach( item => {
-            // console.log(item);
             return item.source.discipline.includes($selectedDiscipline) ? 'link-active' : 'link-inactive';
           })
 
@@ -156,9 +154,15 @@
       }
 
     getNodeClass = function(node){
+
        if ($selectedDiscipline) {
         return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
       }
+
+       if ($selectedArtistDetails){
+        return node.name == $selectedArtistDetails.name ? 'node-active' : 'node-inactive'
+      }
+
     }
 
 
