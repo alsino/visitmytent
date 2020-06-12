@@ -2275,11 +2275,10 @@
 			"birthTown": "Vrakun",
 			"birthCountry": "Tschechoslowakei",
 			"profileID": "13178",
-			"imageUrl": "emerita_pansowova.jpg",
+			"imageUrl": "emerita_pansowova.png",
 			"studioVisit": "Biesenthal",
 			"studioLocations": [{
 				"name": " ",
-				"address": "Lanker Straße 5, 16359 Biesenthal",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.766370, 
