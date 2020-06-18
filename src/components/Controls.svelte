@@ -28,6 +28,8 @@
     selectedArtistDetails.set(result);
   }
 
+  
+
 
 
 
@@ -143,7 +145,7 @@ label {
 
   <div class="disciplines" style="color:{colorScheme.textDefault}">
    {#each $LEGEND as discipline, index}
-   <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$selectedDiscipline} value={discipline.id}>{ discipline.label }</label>
+   <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$selectedDiscipline} value={discipline.id} on:click={handleClear} >{ discipline.label }</label>
   {/each }
   </div>
 

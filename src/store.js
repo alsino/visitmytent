@@ -70,5 +70,6 @@ NETWORKCOORDINATES.set([{"x":304.2214464191955,"y":246.47348031716575},{"x":352.
 
 
 export function handleClear() {
-  selectedArtistDetails.set("");
+  selectedArtistDetails.set(undefined);
+  selectedArtist.set(undefined);
 }
