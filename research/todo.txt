@@ -18,6 +18,7 @@ Map
 Verhalten
 / Wechsel bei Disziplinen hebt automatisch Personenauswahl auf
 / Bei Netzwerkansicht wird Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
+/Emerita Pansowova Phänomen (200611)
 
 
 Ein cooles Feature, zb:
