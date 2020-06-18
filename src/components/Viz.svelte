@@ -46,6 +46,36 @@
 
   $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
 
+  $: getNodeClass = function(node){
+
+       if ($selectedDiscipline){
+        return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
+      }
+
+
+       if ($selectedArtistDetails){
+         let test;
+
+         if(node.links.length != 0 ){
+
+          node.links.forEach(item => {
+            // console.log(item);
+            test = item.source.name == $selectedArtistDetails.name || item.target.name == $selectedArtistDetails.name  ? 'node-active' : 'node-inactive';
+            return test;
+          });
+
+         } else {
+           test = 'node-inactive';
+         }
+
+         return test;
+       }
+
+
+
+    }
+    
+
   let nodesWithLinks = nodes.map((item, index) => {
 
     // Return all links from one artist - OUT
@@ -90,7 +120,7 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // console.log(colorScheme);
+    // console.log();
   });
 
 
@@ -152,18 +182,6 @@
         }
 
       }
-
-    getNodeClass = function(node){
-
-       if ($selectedDiscipline) {
-        return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
-      }
-
-       if ($selectedArtistDetails){
-        return node.name == $selectedArtistDetails.name ? 'node-active' : 'node-inactive'
-      }
-
-    }
 
 
      
