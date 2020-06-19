@@ -5272,6 +5272,18 @@
 
 
 		{
+			"source": "Hans Unstern",
+			"target": "T.Raumschmiere",
+			"value": 10
+		},
+
+		{
+			"source": "Hans Unstern",
+			"target": "Paul Frick",
+			"value": 10
+		},
+
+		{
 			"source": "Viron Erol Vert",
 			"target": "Jeewi Lee",
 			"value": 10
