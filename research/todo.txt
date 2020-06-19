@@ -19,7 +19,8 @@ Verhalten
 / Wechsel bei Disziplinen hebt automatisch Personenauswahl auf
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
 / Bei Netzwerkansicht wird Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
-/Emerita Pansowova Phänomen (200611)
+/ Emerita Pansowova Phänomen (200611)
+/ Unstern Phänomen bzw das Problem der Neuen
 
 
 Ein cooles Feature, zb:
