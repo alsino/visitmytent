@@ -1117,6 +1117,7 @@
 				"lon": 13.419196
 			}]
 		},
+
 		{
 			"name": "Lucas Gutierrez",
 			"discipline": [3, 5],
@@ -1141,6 +1142,27 @@
 				"workHours": "Usually I work from noon until late."
 			}
 		},
+
+
+		{
+			"name": "Ulrich Gutmair",
+			"discipline": [7],
+			"gender": "female",
+			"birthYear": 1968,
+			"birthTown": " Dillingen an der Donau",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "ulrich gutmair.png",
+			"studioVisit": "Istanbul",
+			"studioLocations": [{
+				"name": "Kulturakademie Tarabya",
+				"date_in": "01.10.2019",
+				"date_out": "30.01.2020",
+				"lat": 41.135859, 
+				"lon": 29.059025
+			}]
+		},
+		
 		{
 			"name": "Janes Haid-Schmallenberg",
 			"discipline": [1, 6],
@@ -3999,7 +4021,17 @@
 			"source": "Lucas Gutierrez",
 			"target": "Gonzalo Reyes Araos",
 			"value": 10
-		}, {
+		}, 
+
+
+		{
+			"source": "Ulrich Gutmair",
+			"target": "Viron Erol Vert",
+			"value": 10
+		}, 
+
+
+		{
 			"source": "Janes Haid-Schmallenberg",
 			"target": "Fritz Bornstück",
 			"value": 10
