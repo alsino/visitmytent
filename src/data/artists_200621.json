@@ -1152,7 +1152,7 @@
 			"birthTown": " Dillingen an der Donau",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl": "ulrich gutmair.png",
+			"imageUrl": "ulrich_gutmair.png",
 			"studioVisit": "Istanbul",
 			"studioLocations": [{
 				"name": "Kulturakademie Tarabya",
@@ -1162,7 +1162,7 @@
 				"lon": 29.059025
 			}]
 		},
-		
+
 		{
 			"name": "Janes Haid-Schmallenberg",
 			"discipline": [1, 6],
