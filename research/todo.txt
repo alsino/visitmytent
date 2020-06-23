@@ -18,8 +18,9 @@ Map
 Verhalten
 / Wechsel bei Disziplinen hebt automatisch Personenauswahl auf
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
-/ Bei Netzwerkansicht wird Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
-/ Emerita Pansowova Phänomen (200611)
+/ Klicken in Weißraum hebt Auswahl auf
+/ Bei Netzwerkansicht könnte Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer werden (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
+/ Emerita Pansowova, Ulrich Gutmair Phänomen (200611, 200621)
 / Unstern Phänomen bzw das Problem der Neuen
 
 
@@ -36,7 +37,7 @@ Evtl Filter nach Alter, Geschlecht
 
 
 / Feedback einholen von Jonas, Jonas, Schinko, Marian, Künstler*innen
-Jonas: Es wäre interessant, die unterschhiedlichen Motivationen der Leute kennenzulernen, dann werden auch die Versbindungen interessanter; derzeit eher Archiv-Charakter; Audio/Video wäre auch toll; darstellung ob leute davon leben können
+Jonas: Es wäre interessant, die unterschhiedlichen Motivationen der Leute kennenzulernen, dann werden auch die Versbindungen interessanter; derzeit eher Archiv-Charakter; Audio/Video wäre auch toll; Darstellung ob Leute davon leben können
 
 
 / Doku senden an Futurium, bbk Berlin, DAAD, Vogue, Weltkunst, Wire,... 
