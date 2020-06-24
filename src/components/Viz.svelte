@@ -178,7 +178,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     // coordinates = currentCoordinates($VIEW);
-    console.log(nodesWithLinks);
+    // console.log(nodesWithLinks);
   });
 
 

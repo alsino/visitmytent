@@ -15,10 +15,11 @@
   let artists = nodes.map(item => {return item.name }).sort();
 
   $: selectedValue = $selectedArtist;
+  $: console.log($selectedArtist, $selectedArtistDetails);
 
   let artistCount = nodes.length;
 
-  function handleSelect(selectedVal) {
+  $: handleSelect = function(selectedVal) {
     // console.log(selectedVal.detail.value);
     
     let result = nodes.filter(function(node) {
@@ -26,6 +27,7 @@
     })[0];
 
     selectedArtistDetails.set(result);
+    selectedArtist.set(selectedVal.detail.value);
   }
 
   $: getClassName = function(className){
