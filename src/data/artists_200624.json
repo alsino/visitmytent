@@ -3124,31 +3124,6 @@
 			}
 		},
 
-		{
-			"name": "ZZ Top",
-			"discipline": [3],
-			"gender": "male",
-			"birthYear": 1980,
-			"birthTown": "ZZ Town",
-			"birthCountry": "Germany",
-			"profileID": "4424",
-			"imageUrl": "markus_wueste.png",
-			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "ZZ",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 52.593096,
-				"lon": 13.438344
-			}],
-			"questions": {
-				"why": "Curiosity.",
-				"music": "greek radio.",
-				"workHours": "morning until evening."
-			}
-		},
-
-
 
 		{
 			"name": "Michaela Zimmer",
@@ -5551,26 +5526,6 @@
 			"target": "Jofroi Amaral",
 			"value": 10
 		}, 
-
-
-		{
-			"source": "ZZ Top",
-			"target": "Axel Anklam",
-			"value": 10
-		},
-
-		{
-			"source": "ZZ Top",
-			"target": "Peter Welz",
-			"value": 15
-		},
-
-		{
-			"source": "ZZ Top",
-			"target": "Alsino Skowronnek",
-			"value": 10
-		},
-
 
 
 		{
