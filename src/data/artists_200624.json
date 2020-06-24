@@ -2400,6 +2400,27 @@
 			}]
 		},
 
+
+		{
+			"name": "Quintessenz",
+			"discipline": [2, 5],
+			"gender": "male",
+			"birthYear": 2010,
+			"birthTown": "Hildesheim",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "quintessenz.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Oberschöneweide",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.463392, 
+				"lon": 13.508925
+			}]
+		},
+
+
 		{
 			"name": "Bernhard Rappold",
 			"discipline": [1, 6],
