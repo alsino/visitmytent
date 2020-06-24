@@ -40,7 +40,7 @@
   let nodes = $NETWORKDATA.nodes;
   let links = $NETWORKDATA.links;
 
-  // $: console.log($selectedDiscipline);
+  $: coordinates = currentCoordinates($VIEW);
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
@@ -51,7 +51,6 @@
        if ($selectedDiscipline){
         return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
       }
-
 
        if ($selectedArtistDetails){
          let test;
@@ -67,13 +66,63 @@
          } else {
            test = 'node-inactive';
          }
-
          return test;
        }
-
-
-
     }
+
+    $: circleColor = function(artist){
+
+      if ($selectedArtistDetails){
+        return artist.name == $selectedArtistDetails.name ? colorScheme.circleSelected : colorScheme.circleDefault; 
+      } else {
+        return colorScheme.circleDefault;
+      }
+    }
+
+
+    $: circleSize = function(artist){
+
+      if($VIEW == "Map"){
+
+         if ($selectedArtistDetails){
+          return artist.name == $selectedArtistDetails.name ? 3 * 1.5 : 3;
+        } else {
+          return 3
+        }
+
+      } else if ($VIEW == "Network"){
+
+        if ($selectedArtistDetails){
+          return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
+        } else {
+          return circleScale(artist.noLinks);
+        }
+
+      }
+    }
+
+    $: getLinkClass = function(link, node){
+
+       if ($selectedDiscipline) {
+         if (node.discipline.includes($selectedDiscipline)) {
+           
+          node.links.forEach( item => {
+            return item.source.discipline.includes($selectedDiscipline) ? 'link-active' : 'link-inactive';
+          })
+
+         } else {
+           return 'link-inactive';
+         }
+      }
+
+
+      if ($selectedArtistDetails){
+          return link.source.name == $selectedArtistDetails.name || link.target.name == $selectedArtistDetails.name  ? 'link-active' : 'link-inactive'
+        } else {
+          return "link-active"
+        }
+
+      }
     
 
   let nodesWithLinks = nodes.map((item, index) => {
@@ -98,7 +147,7 @@
     return item
   })
 
-  $: coordinates = currentCoordinates($VIEW);
+
 
   
 
@@ -122,73 +171,13 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // console.log();
-    coordinates = currentCoordinates($VIEW);
   });
 
 
   beforeUpdate(() => {
     // Useful if we want to change network layout based on simulation 
-    simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
+    // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     // coordinates = currentCoordinates($VIEW);
-    
-    circleColor = function(artist){
-
-      if ($selectedArtistDetails){
-        return artist.name == $selectedArtistDetails.name ? colorScheme.circleSelected : colorScheme.circleDefault; 
-      } else {
-        return colorScheme.circleDefault;
-      }
-      
-    }
-
-    circleSize = function(artist){
-
-      if($VIEW == "Map"){
-
-         if ($selectedArtistDetails){
-          return artist.name == $selectedArtistDetails.name ? 3 * 1.5 : 3;
-        } else {
-          return 3
-        }
-
-      } else if ($VIEW == "Network"){
-
-        if ($selectedArtistDetails){
-          return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
-        } else {
-          return circleScale(artist.noLinks);
-        }
-
-      }
-    }
-
-    getLinkClass = function(link, node){
-
-       if ($selectedDiscipline) {
-         if (node.discipline.includes($selectedDiscipline)) {
-           
-          node.links.forEach( item => {
-            return item.source.discipline.includes($selectedDiscipline) ? 'link-active' : 'link-inactive';
-          })
-
-         } else {
-           return 'link-inactive';
-         }
-      }
-
-
-      if ($selectedArtistDetails){
-          return link.source.name == $selectedArtistDetails.name || link.target.name == $selectedArtistDetails.name  ? 'link-active' : 'link-inactive'
-        } else {
-          return "link-active"
-        }
-
-      }
-
-
-     
-
   });
 
 

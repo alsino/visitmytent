@@ -28,23 +28,15 @@
     selectedArtistDetails.set(result);
   }
 
-  
-
-
-
-
-  beforeUpdate(() => {
-
-    getClassName = function(className){
+  $: getClassName = function(className){
       if ($VIEWMODE == "Day") {
        return className+"-bright"
         } else {
           return className+"-dark"
         }
     }
-  })
 
-
+  
 
 </script>
 
