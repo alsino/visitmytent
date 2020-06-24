@@ -7,7 +7,6 @@ TODO
 
 Netzwerk
 / Bei Einzelansicht evtl Namen der Verknüpften anzeigen
-/ evtl ausgegrautes Netz im Hintergrund
 / Kollaborationen
 
 
