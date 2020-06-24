@@ -181,12 +181,6 @@
     // console.log(nodesWithLinks);
   });
 
-
-  function handleClick(artist){
-    selectedArtist.set(artist.name);
-    selectedArtistDetails.set(artist);
-  }
-
   function currentCoordinates(view){
     let coordinates;
 
@@ -225,6 +219,26 @@ function handleMouseMove(e){
 
 function handleMouseOver(artist){
   $hoveredArtist = artist.name;
+  handleClick(artist);
+}
+
+
+function handleClick(artist){
+  selectedArtist.set(artist.name);
+  selectedArtistDetails.set(artist);
+}
+
+function handleMouseEnter(artist){
+  tooltipVisible = true;
+  $hoveredArtist = artist.name;
+  selectedArtist.set(artist.name);
+  selectedArtistDetails.set(artist);
+}
+
+function handleMouseLeave(artist){
+  tooltipVisible = false;
+  selectedArtist.set(undefined);
+  selectedArtistDetails.set(undefined);
 }
 
 function fade(node, {
@@ -378,9 +392,8 @@ function fade(node, {
             fill-opacity="0.8"
             on:click={() => handleClick(location)}
             style={`transition: all 2s, fill 0s`}
-            on:mouseover={() => handleMouseOver(location)} 
-            on:mouseenter={() => tooltipVisible = true} 
-            on:mouseleave={() =>  tooltipVisible = false} 
+            on:mouseenter={() => handleMouseEnter(location)} 
+            on:mouseleave={() =>  handleMouseLeave(location)} 
             />
         {/each }
       </g>
