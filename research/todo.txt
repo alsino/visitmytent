@@ -6,7 +6,8 @@ TODO
 
 
 Netzwerk
-/ Einzelansicht 
+/ Bei Einzelansicht evtl Namen der Verknüpften anzeigen
+/ evtl ausgegrautes Netz im Hintergrund
 / Kollaborationen
 
 
@@ -18,14 +19,11 @@ Map
 Verhalten
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
 / Bei Netzwerkansicht könnte Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer werden (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
-/ evtl: Klicken in Weißraum hebt Auswahl auf
 
 
 Ein cooles Feature, zb:
 	/ Wo alle herkommen (Fäden Weltkarte) 
-	/ Textwolken – "Wann weiß ich wann ein Werk fertig ist?"
-					"Warum mache ich was ich tue?"
-					"Mein Studio ist mein..."
+	/ Motivationen ("Warum mache ich was ich tue?", "Wann weiß ich wann ein Werk fertig ist?")
 	/ Uhr – welcher Künstler arbeitet noch
 
 
@@ -37,7 +35,6 @@ Jonas: Es wäre interessant, die unterschiedlichen Motivationen der Leute kennen
 
 
 / Doku senden an Futurium, bbk Berlin, DAAD, Vogue, Weltkunst, Wire,... 
-
 
 
 Funding

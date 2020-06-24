@@ -2290,6 +2290,25 @@
 		},
 
 		{
+			"name": "Otgonbayar Ershuu",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "Ulaanbaatar",
+			"birthCountry": "Mongolei",
+			"profileID": 0,
+			"imageUrl": "otgonbayar_ershuu.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Otgo Studio",
+				"date_in": "0",
+				"date_out": "now",
+				"lat": 52.488238, 
+				"lon": 13.326871
+			}]
+		},
+
+		{
 			"name": "Emerita Pansowova",
 			"discipline": [6],
 			"gender": "female",
@@ -3602,6 +3621,13 @@
 			"source": "Pauline Doutreluingne",
 			"target": "Anne Duk Hee Jordan",
 			"value": 25
+		},
+
+
+		{
+			"source": "Otgonbayar Ershuu",
+			"target": "Grigori Dor",
+			"value": 10
 		},
 
 		{
