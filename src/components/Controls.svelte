@@ -15,7 +15,7 @@
   let artists = nodes.map(item => {return item.name }).sort();
 
   $: selectedValue = $selectedArtist;
-  $: console.log($selectedArtist, $selectedArtistDetails);
+  // $: console.log($selectedArtist, $selectedArtistDetails);
 
   let artistCount = nodes.length;
 

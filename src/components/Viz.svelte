@@ -46,6 +46,7 @@
 
   $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
 
+
   $: getNodeClass = function(node){
 
        if ($selectedDiscipline){
@@ -53,25 +54,12 @@
       }
 
        if ($selectedArtistDetails){
-         let test;
-
+  
          if(node.links.length != 0 ){
-
-          node.links.forEach(item => {
-            console.log(item);
-            test = item.source.name == $selectedArtistDetails.name || item.target.name == $selectedArtistDetails.name  ? 'node-active' : 'node-inactive';
-            return test;
-          });
-
-         
-
-
-           test = 'node-active';
-
+            return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
          } else {
-           test = 'node-inactive';
+           return 'node-inactive';
          }
-         return test;
        }
 
        
@@ -146,10 +134,25 @@
 
     // Return artist coordinates
     // let artistCoordinates = currentCoordinates($VIEW)[index];
+    // item.artistCoordinates = artistCoordinates;
 
     item.links = [...artistLinksOut, ...artistLinksIn];
     item.noLinks = item.links.length;
-    // item.artistCoordinates = artistCoordinates;
+
+   let linkNames = item.links.map(link => {
+
+       if (link.source == item.name) {
+        return link.target;
+      } else if (link.target == item.name) {
+        return link.source;
+      }
+
+    });
+
+    let uniqueLinks = [...new Set(linkNames)]; 
+    item.linksPlain = uniqueLinks;
+
+   
 
     return item
   })
@@ -178,6 +181,7 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
+    console.log(nodesWithLinks);
   });
 
 
