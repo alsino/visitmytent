@@ -58,16 +58,23 @@
          if(node.links.length != 0 ){
 
           node.links.forEach(item => {
-            // console.log(item);
+            console.log(item);
             test = item.source.name == $selectedArtistDetails.name || item.target.name == $selectedArtistDetails.name  ? 'node-active' : 'node-inactive';
             return test;
           });
+
+         
+
+
+           test = 'node-active';
 
          } else {
            test = 'node-inactive';
          }
          return test;
        }
+
+       
     }
 
     $: circleColor = function(artist){
