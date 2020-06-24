@@ -138,11 +138,11 @@
     });
 
     // Return artist coordinates
-    let artistCoordinates = currentCoordinates($VIEW)[index];
+    // let artistCoordinates = currentCoordinates($VIEW)[index];
 
     item.links = [...artistLinksOut, ...artistLinksIn];
     item.noLinks = item.links.length;
-    item.artistCoordinates = artistCoordinates;
+    // item.artistCoordinates = artistCoordinates;
 
     return item
   })
@@ -178,6 +178,7 @@
     // Useful if we want to change network layout based on simulation 
     // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
     // coordinates = currentCoordinates($VIEW);
+    console.log(nodesWithLinks);
   });
 
 
@@ -348,10 +349,10 @@ function fade(node, {
 
           <line 
             class="link {getLinkClass(link, node)}"
-            x1={node.artistCoordinates.x}
-            y1={node.artistCoordinates.y}
-            x2={link.target.artistCoordinates.x}
-            y2={link.target.artistCoordinates.y}
+            x1={node.x}
+            y1={node.y}
+            x2={link.target.x}
+            y2={link.target.y}
             stroke={colorScheme.network}
             >
           </line>
