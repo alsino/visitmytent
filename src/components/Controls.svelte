@@ -123,8 +123,8 @@ label {
 <div class="controls">
 
   <div class="switch">
-    <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
     <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
+    <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
   </div>
 
     <div class="viewmode">

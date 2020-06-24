@@ -98,6 +98,8 @@
     return item
   })
 
+  $: coordinates = currentCoordinates($VIEW);
+
   
 
   $: minLinks = min(nodesWithLinks, d => d.noLinks);
@@ -121,13 +123,14 @@
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
     // console.log();
+    coordinates = currentCoordinates($VIEW);
   });
 
 
   beforeUpdate(() => {
     // Useful if we want to change network layout based on simulation 
-    // simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
-    coordinates = currentCoordinates($VIEW);
+    simulation.on('end', function() { console.log('ended!'); console.log(JSON.stringify(coordinates)) });
+    // coordinates = currentCoordinates($VIEW);
     
     circleColor = function(artist){
 
@@ -207,14 +210,14 @@
       });
 
     } else if (view == "Network")  {
-        coordinates = $NETWORKCOORDINATES;
+        // coordinates = $NETWORKCOORDINATES;
 
-      // coordinates = nodes.map((item) => {
-      //   return {
-      //     x : item.x,
-      //     y : item.y,
-      //   }
-      // });
+      coordinates = nodes.map((item) => {
+        return {
+          x : item.x,
+          y : item.y,
+        }
+      });
      
     }
     return coordinates;
