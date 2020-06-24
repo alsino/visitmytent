@@ -16,11 +16,9 @@ Map
 
 
 Verhalten
-/ Wechsel bei Disziplinen hebt automatisch Personenauswahl auf
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
 / Klicken in Weißraum hebt Auswahl auf
 / Bei Netzwerkansicht könnte Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer werden (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
-/ Emerita Pansowova, Ulrich Gutmair Phänomen (200611, 200621)
 / Unstern Phänomen bzw das Problem der Neuen
 
 
