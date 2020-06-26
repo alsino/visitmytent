@@ -12,6 +12,7 @@ Netzwerk
 
 Map
 / Lösung für mehrere an einem Ort zb Uferhallen (5), Studios ID (3), Gerichtshöfe (3) 
+/ Emerita Pansowova obstacle (sie ist nicht auf Karte aber ihre Verknüpfungen)
 / evtl Timeslider für Bewegungen im Stadtraum
 
 
