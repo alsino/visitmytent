@@ -33,7 +33,6 @@
 
   let coordinates;
   let networkForce = -40;
-  let circleColor;
   let circleSize;
   let getLinkClass, getNodeClass;
 
@@ -56,22 +55,16 @@
        if ($selectedArtistDetails){
   
          if(node.links.length != 0 ){
-            return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
+           if(node.name == $selectedArtistDetails.name) { return "red"} else {
+             return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
+             };
+            
          } else {
            return 'node-inactive';
          }
        }
 
        
-    }
-
-    $: circleColor = function(artist){
-
-      if ($selectedArtistDetails){
-        return artist.name == $selectedArtistDetails.name ? colorScheme.circleSelected : colorScheme.circleDefault; 
-      } else {
-        return colorScheme.circleDefault;
-      }
     }
 
 
@@ -310,6 +303,10 @@ function fade(node, {
  .node-active {
    fill-opacity: 1;
  }
+
+ .red {
+   fill: red;
+ }
  
  .map-bezirke {
   // stroke: #c7c7c7;
@@ -388,7 +385,6 @@ function fade(node, {
       {/if}
 
 
-
       <g class="circles">
         {#each nodes as location, index}
           <circle 
@@ -399,7 +395,7 @@ function fade(node, {
             stroke-width="1"
             stroke-opacity="0"
             stroke={colorScheme.circleBorder} 
-            fill={circleColor(location)}
+            
             fill-opacity="0.8"
             on:click={() => handleClick(location)}
             style={`transition: all 2s, fill 0s`}
