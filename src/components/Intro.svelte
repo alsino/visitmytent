@@ -18,7 +18,9 @@
    margin-top: 0;
    margin-bottom: $margin-small;
    width: 80%;
+  //  width: 100%;
    transition: all 2s;
+
  }
 
 
