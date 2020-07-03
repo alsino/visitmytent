@@ -18,7 +18,7 @@ Map
 Verhalten
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
 / Bei Netzwerkansicht könnte Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer werden (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
-/ open artist profile geht nur bei Dropdown/Suche
+/ open artist profile geht nur bei Dropdown/Suche – vielleicht bei on click zum Studiobesuch
 
 / responsive (mobile)
 
