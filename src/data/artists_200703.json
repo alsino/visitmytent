@@ -1645,6 +1645,28 @@
 				"lon": 13.529601
 			}]
 		},
+
+
+		{
+			"name": "Gerd Kroske",
+			"discipline": [4],
+			"gender": "male",
+			"birthYear": 1958,
+			"birthTown": "Dessau",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl": "gerd_kroske.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio ND-Gebäude",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.512809, 
+				"lon": 13.440221
+			}]
+		},
+
+
 		{
 			"name": "Caroline Kryzecki",
 			"discipline": [1],
@@ -2559,6 +2581,13 @@
 				"date_out": "now",
 				"lat": 52.543535, 
 				"lon": 13.375571
+			},
+			{
+				"name": "Studio Petersburger",
+				"date_in": "2006",
+				"date_out": "31/12/2017",
+				"lat": 52.521277, 
+				"lon": 13.450862
 			}]
 		},
 		{
