@@ -306,11 +306,11 @@ function fade(node, {
  }
 
  .artist-selected-day {
-   fill: #D56285;
+   fill: #D56285 !important;
  }
 
  .artist-selected-night {
-   fill: yellow;
+   fill: yellow !important;
  }
  
  .map-bezirke {
@@ -399,6 +399,7 @@ function fade(node, {
             cx={coordinates[index].x} 
             cy={coordinates[index].y}
             r={circleSize(location)}
+            fill={colorScheme.circleDefault} 
             stroke-width="1"
             stroke-opacity="0"
             stroke={colorScheme.circleBorder} 
