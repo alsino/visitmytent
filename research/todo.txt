@@ -6,7 +6,6 @@ TODO
 
 
 Netzwerk
-/ evtl ausgegrautes Netz für Kontext (wie bei alter Version)
 / Bei Einzelansicht evtl Namen der Verknüpften anzeigen
 / Kollaborationen
 
