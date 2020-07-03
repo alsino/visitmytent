@@ -13,14 +13,15 @@ Netzwerk
 
 Map
 / Lösung für mehrere an einem Ort zb Uferhallen (5), Studios ID (3), Gerichtshöfe (3) 
-/ Emerita Pansowova obstacle (sie ist nicht auf Karte aber ihre Verknüpfungen)
 / evtl Timeslider für Bewegungen im Stadtraum
 
 
 Verhalten
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
 / Bei Netzwerkansicht könnte Auswahl-Punkt evtl nur kurzzeitig bei Aktivierung größer werden (da es sonst die Info zur Anzahl der Verknüpfungen verzerrt)
-/ open artist profile geht nur bei dropdown/suche
+/ open artist profile geht nur bei Dropdown/Suche
+
+/ responsive (mobile)
 
 
 Ein cooles Feature, zb:
@@ -32,7 +33,7 @@ Ein cooles Feature, zb:
 Evtl Filter nach Alter, Geschlecht
 
 
-/ Feedback einholen von Jonas, Jonas, Schinko, Marian, Künstler*innen
+/ Feedback
 Jonas: Es wäre interessant, die unterschiedlichen Motivationen der Leute kennenzulernen, dann werden auch die Versbindungen interessanter; derzeit eher Archiv-Charakter; Audio/Video (beim erkunden der Karte) wäre auch toll; + Darstellung ob Leute davon leben können
 Janet: bei Musikern Sound/Musik (was machen sie für Musik), evtl: bei aktiven Leuten Soundregler (was hören sie grad)
 
