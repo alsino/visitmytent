@@ -55,10 +55,11 @@
        if ($selectedArtistDetails){
   
          if(node.links.length != 0 ){
-           if(node.name == $selectedArtistDetails.name) { return "red"} else {
-             return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
+           if(node.name == $selectedArtistDetails.name) { 
+             return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
+             } else {
+                return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
              };
-            
          } else {
            return 'node-inactive';
          }
@@ -73,7 +74,7 @@
       if($VIEW == "Map"){
 
          if ($selectedArtistDetails){
-          return artist.name == $selectedArtistDetails.name ? 3 * 1.5 : 3;
+          return artist.name == $selectedArtistDetails.name ? 3 : 3;
         } else {
           return 3
         }
@@ -81,12 +82,12 @@
       } else if ($VIEW == "Network"){
 
         if ($selectedArtistDetails){
-          return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) * 1.5 : circleScale(artist.links.length);
+          return artist.name == $selectedArtistDetails.name ? circleScale(artist.links.length) : circleScale(artist.links.length);
         } else {
           return circleScale(artist.noLinks);
         }
-
       }
+      
     }
 
     $: getLinkClass = function(link, node){
@@ -304,8 +305,12 @@ function fade(node, {
    fill-opacity: 1;
  }
 
- .red {
-   fill: red;
+ .artist-selected-day {
+   fill: #D56285;
+ }
+
+ .artist-selected-night {
+   fill: yellow;
  }
  
  .map-bezirke {
@@ -385,17 +390,18 @@ function fade(node, {
       {/if}
 
 
+    <!-- r={circleSize(location)} -->
+
       <g class="circles">
         {#each nodes as location, index}
           <circle 
             class={getNodeClass(location)}
             cx={coordinates[index].x} 
-            cy={coordinates[index].y} 
+            cy={coordinates[index].y}
             r={circleSize(location)}
             stroke-width="1"
             stroke-opacity="0"
             stroke={colorScheme.circleBorder} 
-            
             fill-opacity="0.8"
             on:click={() => handleClick(location)}
             style={`transition: all 2s, fill 0s`}
