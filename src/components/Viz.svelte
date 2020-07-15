@@ -61,10 +61,10 @@
                 return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
              };
          } else {
-           if(node.name == $selectedArtistDetails.name) { 
-             return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
-             }
-          //  return 'node-inactive';
+          //  if(node.name == $selectedArtistDetails.name) { 
+          //    return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
+          //    }
+           return 'node-inactive';
          }
        }
 
