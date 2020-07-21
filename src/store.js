@@ -1,6 +1,6 @@
 import { readable, writable } from 'svelte/store';
 import geoData from './data/geodata.json';
-import networkData from './data/artists_200703.json';
+import networkData from './data/artists_200716.json';
 
 export const VIEW = writable(undefined);
 VIEW.set("Map");
@@ -45,7 +45,7 @@ COLORS.set({
     circleSelected: "#D56285",
     circleBorder: "white",
     textDefault: "black",
-    textHeading: "rgb(69, 69, 255)",
+    textHeading: "black",
     textTooltip: "black",
     berlinMap: "#c7c7c7",
     berlinSbahn: "#3d3d3d",
@@ -57,7 +57,7 @@ COLORS.set({
     circleSelected: "yellow",
     circleBorder: "rgb(51,51,51)",
     textDefault: "white",
-    textHeading: "yellow",
+    textHeading: "white",
     textTooltip: "black",
     berlinMap: "white",
     berlinSbahn: "white",
