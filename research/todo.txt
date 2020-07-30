@@ -3,8 +3,10 @@ TODO
 
 / Layout
 
+
 Netzwerk
 / Kollaborationen
+/ Verbindung Künstlerbeitrag zu Ansicht im Netzwerk 
 
 
 Map
