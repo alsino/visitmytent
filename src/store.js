@@ -31,7 +31,7 @@ LEGEND.set([
   {id: 2, label:  "Installation / Performance" },
   {id: 3, label:  "Music / Sound" },
   {id: 4, label:  "Photography / Film" },
-  {id: 5, label:  "Conceptual art / Mixed media / Generative art" },
+  {id: 5, label:  "Conceptual art / Mixed media" },
   {id: 6, label:  "Sculpture" },
   {id: 7, label:  "Writing" },
   {id: 8, label:  "Curator" },

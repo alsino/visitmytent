@@ -29,6 +29,6 @@ a {
 
 
 #app-wrapper {
-	padding: $margin-default;
+	padding: $margin-small * 2 $margin-default;
 	transition: all 2s;
 }
