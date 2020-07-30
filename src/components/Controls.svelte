@@ -68,6 +68,8 @@
   display: block;
   cursor: pointer;
   margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 label {
@@ -75,8 +77,10 @@ label {
 }
 
 .switch label, .viewmode label {
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.9em;
 }
 
 .switch input[type="radio"] {
@@ -92,12 +96,12 @@ label {
 }
 
 .active-bright {
-  border-bottom: 4px solid blue;
+  border-bottom: 1px solid blue;
   color: blue;
 }
 
 .active-dark {
-  border-bottom: 4px solid yellow;
+  border-bottom: 1px solid yellow;
   color: yellow;
 }
 
@@ -126,13 +130,13 @@ label {
 <div class="controls">
 
   <div class="switch">
-    <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>Map</label>
-    <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>Network</label>
+    <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>&#9863; Map</label>
+    <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>&#9883; Network</label>
   </div>
 
     <div class="viewmode">
-    <label class={ $VIEWMODE == "Day" ? getClassName("active") : getClassName("inactive")  }><input type=radio bind:group={$VIEWMODE} value={"Day"}>Day</label>
-    <label class={ $VIEWMODE == "Night" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEWMODE} value={"Night"}>Night</label>
+    <label class={ $VIEWMODE == "Day" ? getClassName("active") : getClassName("inactive")  }><input type=radio bind:group={$VIEWMODE} value={"Day"}>&#x25CF; Day</label>
+    <label class={ $VIEWMODE == "Night" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEWMODE} value={"Night"}>&#9900; Night</label>
   </div>
   
 

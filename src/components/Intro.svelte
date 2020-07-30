@@ -37,10 +37,13 @@
 
 .toggle {
   text-transform: uppercase;
-  // color: $color-primary;
   font-size: 0.7em;
   margin: 1em 0 2em 0;
   cursor: pointer;
+}
+
+.toggle:hover {
+  font-style: italic; 
 }
 
 
