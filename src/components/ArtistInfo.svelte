@@ -8,14 +8,21 @@
 
   #artist-info {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    left: 2em;
   }
 
   .portrait {
     margin-top: $margin-small;
     height: 300px;
   }
+
+
+  @media (max-width: 1024px) {
+  #artist-info {
+    left: 0em;
+  }
+}
+
 </style>
 
 {#if $selectedArtistDetails}

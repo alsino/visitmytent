@@ -45,6 +45,7 @@
 <style>
 .controls {
   display: flex;
+  position: relative;
 }
 
 .switch, .viewmode {
@@ -56,13 +57,11 @@
 }
 
 .disciplines {
-  flex: 1;
-  margin-left: 1rem;
   transition: all 2s;
   position: absolute;
-  right: 8vw;
+  right: 13vw;
   z-index: 1;
-  top: 30vh;
+  top: 4em;
 }
 
 .disciplines label {
@@ -108,6 +107,16 @@ label {
 
 .inactive-dark {
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .disciplines {
+    right: 2em;
+  }
+
+  .selectContainer {
+    margin-left: 2em;
+  }
 }
 
 

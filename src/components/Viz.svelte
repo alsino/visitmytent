@@ -222,7 +222,7 @@
 
 function handleMouseMove(e){
   MOUSE.set({x: e.pageX, y: e.pageY, artistName: $hoveredArtist});
-  // console.log($MOUSE)
+  console.log($MOUSE)
 }
 
 function handleMouseOver(artist){
@@ -239,14 +239,14 @@ function handleClick(artist){
 function handleMouseEnter(artist){
   tooltipVisible = true;
   $hoveredArtist = artist.name;
-  selectedArtist.set(artist.name);
-  selectedArtistDetails.set(artist);
+  // selectedArtist.set(artist.name);
+  // selectedArtistDetails.set(artist);
 }
 
 function handleMouseLeave(artist){
   tooltipVisible = false;
-  selectedArtist.set(undefined);
-  selectedArtistDetails.set(undefined);
+  // selectedArtist.set(undefined);
+  // selectedArtistDetails.set(undefined);
 }
 
 function fade(node, {
