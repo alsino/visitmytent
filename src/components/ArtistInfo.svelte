@@ -8,7 +8,8 @@
 
   #artist-info {
     position: absolute;
-    left: 2em;
+    right: 3em;
+    width: 300px;
   }
 
   .portrait {
@@ -28,6 +29,12 @@
 {#if $selectedArtistDetails}
 
   <div id="artist-info">
+
+    {#if $selectedArtistDetails.imageUrl}
+        <div>
+          <img class="portrait" src="images/{$selectedArtistDetails.imageUrl}" alt="Image of {$selectedArtistDetails.name}">
+        </div>
+    {/if}
 
     {#if $selectedArtistDetails.name}
        <div>{$selectedArtistDetails.name}</div>
@@ -61,11 +68,7 @@
           <div>Studio in {$selectedArtistDetails.studioVisit}</div>
     {/if}
 
-    {#if $selectedArtistDetails.imageUrl}
-      <div>
-        <img class="portrait" src="images/{$selectedArtistDetails.imageUrl}" alt="Image of {$selectedArtistDetails.name}">
-      </div>
-    {/if}
+    
 
     {#if $selectedArtistDetails.profileID}
       <div><a target="_blank" href="https://visitmytent.com/?p={$selectedArtistDetails.profileID}">Open artist profile</a></div>

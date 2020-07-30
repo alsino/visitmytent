@@ -59,17 +59,17 @@
 .disciplines {
   transition: all 2s;
   position: absolute;
-  right: 13vw;
+  /* right: 13vw; */
   z-index: 1;
-  top: 4em;
+  top: 5em;
 }
 
 .disciplines label {
   display: block;
   cursor: pointer;
   margin-bottom: 0.3rem;
-  text-transform: uppercase;
-  font-size: 0.8em;
+  /* text-transform: uppercase; */
+  font-size: 0.95em;
 }
 
 label {
@@ -79,8 +79,8 @@ label {
 .switch label, .viewmode label {
   padding: 5px;
   cursor: pointer;
-  text-transform: uppercase;
-  font-size: 0.9em;
+  /* text-transform: uppercase; */
+  font-size: 0.95em;
 }
 
 .switch input[type="radio"] {
@@ -129,6 +129,16 @@ label {
 
 <div class="controls">
 
+<div class="selector">
+    <Select items={artists}
+    bind:selectedValue
+		placeholder="{`Select one of ${artistCount} artists …`}"
+		noOptionsMessage="No artist found"
+    on:select={handleSelect} 
+    on:clear={handleClear}
+    ></Select>
+  </div>
+
   <div class="switch">
     <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>&#9863; Map</label>
     <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>&#9883; Network</label>
@@ -140,15 +150,7 @@ label {
   </div>
   
 
-  <div class="selector">
-    <Select items={artists}
-    bind:selectedValue
-		placeholder="{`Select one of ${artistCount} artists …`}"
-		noOptionsMessage="No artist found"
-    on:select={handleSelect} 
-    on:clear={handleClear}
-    ></Select>
-  </div>
+  
 
   <div class="disciplines" style="color:{colorScheme.textDefault}">
    {#each $LEGEND as discipline, index}
