@@ -222,7 +222,7 @@
 
 function handleMouseMove(e){
   MOUSE.set({x: e.pageX, y: e.pageY, artistName: $hoveredArtist});
-  console.log($MOUSE)
+  // console.log($MOUSE)
 }
 
 function handleMouseOver(artist){
