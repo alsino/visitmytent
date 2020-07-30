@@ -239,14 +239,14 @@ function handleClick(artist){
 function handleMouseEnter(artist){
   tooltipVisible = true;
   $hoveredArtist = artist.name;
-  selectedArtist.set(artist.name);
-  selectedArtistDetails.set(artist);
+  // selectedArtist.set(artist.name);
+  // selectedArtistDetails.set(artist);
 }
 
 function handleMouseLeave(artist){
   tooltipVisible = false;
-  selectedArtist.set(undefined);
-  selectedArtistDetails.set(undefined);
+  // selectedArtist.set(undefined);
+  // selectedArtistDetails.set(undefined);
 }
 
 function fade(node, {
