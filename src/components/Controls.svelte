@@ -49,11 +49,12 @@
 }
 
 .switch, .viewmode {
-  flex: 1;
+  flex: 1.4;
 }
 
 .selector {
   flex: 1;
+  margin-right: 2.9em;
 }
 
 .disciplines {
@@ -140,7 +141,7 @@ label {
   </div>
 
   <div class="switch">
-    <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>&#10752; Map</label>
+    <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>&#8857; Map</label>
     <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>&#9903; Network</label>
   </div>
 

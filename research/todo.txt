@@ -15,6 +15,8 @@ Map
 
 Verhalten
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
+/ Wenn man die Seite zusammenschiebt wechseln links und rechts
+/ Klick auf Artistbild könnte auch zu Beitragsseite führen
 
 
 / responsive (mobile)

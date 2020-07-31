@@ -77,5 +77,4 @@
     </div>
 </div>
 
-<!-- <div><em>Exploring Artists’ Networks</em> – Artistellar visualizes studio locations as well as connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>. A visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> – Berlin, 2020.</div> -->
 
