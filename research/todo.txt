@@ -1,8 +1,8 @@
 
 TODO 
 
-/ Layout
-
+Layout
+/ Legende (Connections, Punktgröße)
 
 Netzwerk
 / Kollaborationen
@@ -17,6 +17,8 @@ Verhalten
 / Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
 / Wenn man die Seite zusammenschiebt wechseln links und rechts
 / Klick auf Artistbild könnte auch zu Beitragsseite führen
+/ Artistinfo ragt in Karte
+/ Leute ohne Kontakte tauchen nicht auf der Karte auf (zb Kelm, Rappold)
 
 
 / responsive (mobile)
