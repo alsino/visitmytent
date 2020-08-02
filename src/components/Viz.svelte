@@ -1,18 +1,19 @@
 <script>
+  import { onMount, beforeUpdate, afterUpdate } from 'svelte';
+  import { stores } from "@sapper/app"; 
+
   import ArtistInfo from '../components/ArtistInfo.svelte';   
   import { GEODATA } from '../store.js';
   import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
   import { VIEW, VIEWMODE, MOUSE, COLORS } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails, selectedDiscipline } from '../store.js';
-  import { onMount, beforeUpdate, afterUpdate } from 'svelte';
+ 
   import { feature } from "topojson";
 
-  import * as d3 from "d3";
   import { geoMercator, geoPath } from "d3-geo";
   import { scaleSqrt } from 'd3-scale';
-  import { extent, max, min } from "d3-array";
-
-  // import { forceSimulation, forceLink, forceManyBody, forceCenter } from 'd3-force';
+  import { max, min } from "d3-array";
+  import { forceSimulation, forceLink, forceManyBody, forceCenter, forceX, forceY } from "d3-force";
 
   // let windowWidth = window.innerWidth;
   // $ : width = windowWidth < 640 ? 200 : 700;
@@ -21,6 +22,9 @@
   let height = 600;
   let paddingMap = 20;
   let tooltipVisible = false;
+
+  const page = stores();
+  // const { slug } = $page.params;
 
   const bezirke = feature($GEODATA, $GEODATA.objects.bezirke);
   const sBahn = feature($GEODATA, $GEODATA.objects.sbahn);
@@ -45,16 +49,15 @@
 
   $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
 
-  // $: console.log($selectedDiscipline);
-
 
   $: getNodeClass = function(node){
 
       if ($selectedDiscipline){
 
+
         if ($selectedArtistDetails ){
-          if(node.name == $selectedArtistDetails.name) { 
-                return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
+          if (node.name == $selectedArtistDetails.name) { 
+            return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
           }
         } else {
           return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
@@ -172,25 +175,23 @@
 
   $: minLinks = min(nodesWithLinks, d => d.noLinks);
   $: maxLinks = max(nodesWithLinks, d => d.noLinks);
-  $: extentLinks = extent(nodesWithLinks, d => d.noLinks);
 
   $: circleScale = scaleSqrt()
 		.domain([minLinks, maxLinks])
     .range([2, 8]);
     
   // No need for simulation anymore -> Coordinates are statically generated in store
-  let simulation = d3.forceSimulation(nodes)
-        .force("link", d3.forceLink(links).id(d => d.name))
-        .force("charge", d3.forceManyBody().strength(networkForce))
-        .force("center", d3.forceCenter(width / 2, height / 2))
-        .force("x", d3.forceX())
-        .force("y", d3.forceY());
+  let simulation = forceSimulation(nodes)
+        .force("link", forceLink(links).id(d => d.name))
+        .force("charge", forceManyBody().strength(networkForce))
+        .force("center", forceCenter(width / 2, height / 2))
+        .force("x", forceX())
+        .force("y", forceY());
 
   
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    // console.log(nodesWithLinks);
   });
 
 
@@ -312,16 +313,9 @@ function fade(node, {
    stroke-opacity: 0.2;
  }
 
- .discipline-inactive  {
-   fill-opacity: 0.1;
- }
-
- .discipline-active {
-   fill-opacity: 1;
- }
-
  .node-inactive  {
    fill-opacity: 0.1;
+   pointer-events: none;
  }
 
  .node-active {
@@ -444,14 +438,3 @@ function fade(node, {
     style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}"
     >{$MOUSE.artistName}
   </div>
-
-
-
-<!-- <br>
-Example: D3 w/ svelte
-<div>https://svelte.dev/repl/01a5774b53e9416584428c025668407b?version=3.15.0</div>
-<div>https://www.youtube.com/watch?time_continue=1&v=bnd64ZrHC0U&feature=emb_title</div> -->
-
-<!-- <br>
-<div>{JSON.stringify($NETWORKDATA)}</div> -->
-

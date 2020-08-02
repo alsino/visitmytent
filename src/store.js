@@ -1,4 +1,4 @@
-import { readable, writable } from 'svelte/store';
+import { writable } from 'svelte/store';
 import geoData from './data/geodata.json';
 import networkData from './data/artists_200730.json';
 
