@@ -178,7 +178,7 @@
   onMount(() => {
     bezirkePath = path(bezirke);  
     sbahnPath = path(sBahn); 
-    console.log(nodesWithLinks);
+    // console.log(nodesWithLinks);
   });
 
 

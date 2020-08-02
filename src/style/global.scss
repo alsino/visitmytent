@@ -44,3 +44,8 @@ a {
  flex: 0.3;
  margin-right: $margin-small * 1.5; 
 }
+
+.selectContainer input::placeholder {
+	font-family: 'Amira', serif !important;
+	font-size: var(--inputFontSize, 15px) !important;
+}

@@ -6,7 +6,7 @@
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
-  $: console.log($VIEWMODE)
+  // $: console.log($VIEWMODE)
 
 </script>
 
