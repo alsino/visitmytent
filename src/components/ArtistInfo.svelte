@@ -8,7 +8,7 @@
 
   #artist-info {
     position: absolute;
-    right: 3em;
+    right: 0.1em;
     width: 300px;
   }
 
