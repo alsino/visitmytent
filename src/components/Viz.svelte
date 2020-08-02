@@ -45,28 +45,40 @@
 
   $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
 
+  // $: console.log($selectedDiscipline);
+
 
   $: getNodeClass = function(node){
 
-       if ($selectedDiscipline){
-        return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
+      if ($selectedDiscipline){
+
+        if ($selectedArtistDetails ){
+          if(node.name == $selectedArtistDetails.name) { 
+                return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
+          }
+        } else {
+          return node.discipline.includes($selectedDiscipline) ? 'node-active' : 'node-inactive'
+        }
+
       }
 
-       if ($selectedArtistDetails){
-  
-         if(node.links.length != 0 ){
-           if(node.name == $selectedArtistDetails.name) { 
-             return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
-             } else {
-                return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
-             };
-         } else {
-          //  if(node.name == $selectedArtistDetails.name) { 
-          //    return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
-          //    }
-           return 'node-inactive';
-         }
-       }
+
+      if ($selectedArtistDetails ){
+
+        if(node.links.length != 0 ){
+          if(node.name == $selectedArtistDetails.name) { 
+              return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
+            } else {
+              return $selectedArtistDetails.linksPlain.includes(node.name) ? 'node-active' : 'node-inactive'
+            };
+        } else {
+          if(node.name == $selectedArtistDetails.name) { 
+            return $VIEWMODE == "Day" ?  "artist-selected-day" : "artist-selected-night"
+            }
+          return 'node-inactive';
+        }
+        
+      }
 
        
     }
@@ -298,6 +310,14 @@ function fade(node, {
 
  .link-active {
    stroke-opacity: 0.2;
+ }
+
+ .discipline-inactive  {
+   fill-opacity: 0.1;
+ }
+
+ .discipline-active {
+   fill-opacity: 1;
  }
 
  .node-inactive  {
