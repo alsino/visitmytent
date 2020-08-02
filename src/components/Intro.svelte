@@ -24,17 +24,6 @@
    transition: all 2s;
  }
 
- .row {
-   display: flex;
-   justify-content: flex-start;
-   position: relative;
- }
-
-.column {
-  flex: 0.3;
-  margin-right: $margin-small * 1.5; 
-}
-
 .toggle {
   text-transform: uppercase;
   font-size: 0.7em;

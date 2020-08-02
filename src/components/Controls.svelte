@@ -43,18 +43,9 @@
 </script>
 
 <style>
-.controls {
-  display: flex;
-  position: relative;
-}
 
 .switch, .viewmode {
-  flex: 1.4;
-}
-
-.selector {
-  flex: 1;
-  margin-right: 2.9em;
+  flex: 0.3;
 }
 
 .disciplines {
@@ -76,6 +67,11 @@
 label {
   transition: color 2s, border-color 2s;
 }
+
+label:hover {
+  font-style: italic;
+}
+
 
 .switch label, .viewmode label {
   padding: 5px;
@@ -128,9 +124,9 @@ label {
 </style>
 
 
-<div class="controls">
+<div class="row">
 
-<div class="selector">
+<div class="selector column">
     <Select items={artists}
     bind:selectedValue
 		placeholder="{`Select one of ${artistCount} artists …`}"
@@ -140,12 +136,12 @@ label {
     ></Select>
   </div>
 
-  <div class="switch">
+  <div class="switch column">
     <label class={ $VIEW == "Map" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Map"}>&#8857; Map</label>
     <label class={ $VIEW == "Network" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEW} value={"Network"}>&#9903; Network</label>
   </div>
 
-    <div class="viewmode">
+    <div class="viewmode column">
     <label class={ $VIEWMODE == "Day" ? getClassName("active") : getClassName("inactive")  }><input type=radio bind:group={$VIEWMODE} value={"Day"}>&#x25CF; Day</label>
     <label class={ $VIEWMODE == "Night" ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$VIEWMODE} value={"Night"}>&#9900; Night</label>
   </div>
@@ -153,7 +149,7 @@ label {
 
   
 
-  <div class="disciplines" style="color:{colorScheme.textDefault}">
+  <div class="disciplines column" style="color:{colorScheme.textDefault}">
    {#each $LEGEND as discipline, index}
    <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$selectedDiscipline} value={discipline.id} on:click={handleClear} >{ discipline.label }</label>
   {/each }

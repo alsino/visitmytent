@@ -32,3 +32,15 @@ a {
 	padding: $margin-small * 2 $margin-default;
 	transition: all 2s;
 }
+
+
+.row {
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+
+.column {
+ flex: 0.3;
+ margin-right: $margin-small * 1.5; 
+}
