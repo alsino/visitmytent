@@ -1,7 +1,10 @@
 
 TODO 
 
-/ Layout
+/ Klick auf Punkt oder Artistbild könnte zu Beitragsseite führen
+/ Legende (Connections, Punktgröße)
+/ Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
+/ Wenn man die Seite zusammenschiebt wechseln links und rechts
 
 
 Netzwerk
@@ -11,12 +14,6 @@ Netzwerk
 
 Map
 / Lösung für mehrere an einem Ort zb Uferhallen (5), Studios ID (3), Gerichtshöfe (3) 
-
-
-Verhalten
-/ Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
-/ Wenn man die Seite zusammenschiebt wechseln links und rechts
-/ Klick auf Artistbild könnte auch zu Beitragsseite führen
 
 
 / responsive (mobile)

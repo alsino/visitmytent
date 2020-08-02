@@ -52,7 +52,7 @@
 			"birthYear": 1960,
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
-			"profileID": 0,
+			"profileID": "694",
 			"imageUrl": "joerg_uwe_albig.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
@@ -1035,6 +1035,26 @@
 			}
 		},
 
+
+		{
+			"name": "Ben Greber",
+			"discipline": [5, 6],
+			"gender": "male",
+			"birthYear": 1979,
+			"birthTown": "Halle",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl": "ben_greber.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.529516, 
+				"lon": 13.426001
+			}]
+		},
+
 		{
 			"name": "Oliver Gröne",
 			"discipline": [1, 3],
@@ -1434,11 +1454,33 @@
 			"studioLocations": [{
 				"name": "Studio Berlin Kreuzberg",
 				"date_in": 0,
-				"date_out": 0,
+				"date_out": "now",
 				"lat": 52.498697,
 				"lon": 13.400124
 			}]
 		},
+
+
+		{
+			"name": "Katia Kelm",
+			"discipline": [2, 6],
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Burlington/Vermont",
+			"birthCountry": "USA",
+			"profileID": "1104",
+			"imageUrl": "katja_kelm.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Moabit",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.532252, 
+				"lon": 13.328180
+			}]
+		},
+
+
 		{
 			"name": "Klaus Killisch",
 			"discipline": [1, 3, 5],
@@ -2311,24 +2353,6 @@
 			}]
 		},
 
-		{
-			"name": "Otgonbayar Ershuu",
-			"discipline": [1],
-			"gender": "male",
-			"birthYear": 1981,
-			"birthTown": "Ulaanbaatar",
-			"birthCountry": "Mongolei",
-			"profileID": 0,
-			"imageUrl": "otgonbayar_ershuu.png",
-			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "Otgo Studio",
-				"date_in": "0",
-				"date_out": "now",
-				"lat": 52.488238, 
-				"lon": 13.326871
-			}]
-		},
 
 		{
 			"name": "Emerita Pansowova",
@@ -3673,12 +3697,6 @@
 
 
 		{
-			"source": "Otgonbayar Ershuu",
-			"target": "Grigori Dor",
-			"value": 10
-		},
-
-		{
 			"source": "Ornella Fieres",
 			"target": "Jofroi Amaral",
 			"value": 10
@@ -3872,6 +3890,27 @@
 		}, {
 			"source": "Jay Gard",
 			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+		{
+			"source": "Ben Greber",
+			"target": "Frederik Foert",
+			"value": 10
+		},
+		{
+			"source": "Ben Greber",
+			"target": "Anne Duk Hee Jordan",
+			"value": 10
+		},
+		{
+			"source": "Ben Greber",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Ben Greber",
+			"target": "Michaela Zimmer",
 			"value": 10
 		},
 
