@@ -3366,6 +3366,37 @@
 		},
 
 		{
+			"source": "Christian Achenbach",
+			"target": "Mimmo Catania",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+		{
 			"source": "Christopher Bauder",
 			"target": "Robert Henke",
 			"value": 10
@@ -3665,6 +3696,39 @@
 			"source": "Kaan Bulak",
 			"target": "Robert Lippok",
 			"value": 25
+		},
+
+
+
+		{
+			"source": "Mimmo Catania",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Hansa Wißkirchen",
+			"value": 10
 		},
 
 
