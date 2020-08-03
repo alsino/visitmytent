@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
 import networkData from './data/artists_200803.json';
 
@@ -120,4 +121,14 @@ NETWORKCOORDINATES.set([{"x":304.2214464191955,"y":246.47348031716575},{"x":352.
 export function handleClear() {
   selectedArtistDetails.set(undefined);
   selectedArtist.set(undefined);
+  navigateToUrl(true, undefined);
+}
+
+export async function navigateToUrl(goHome, artistName) {
+  if (goHome) {
+    await goto(`/`);
+  } else {
+    let slug = artistName.toLowerCase().split(' ').join('-');
+    await goto(`/${slug}`);
+  }
 }

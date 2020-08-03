@@ -1,13 +1,15 @@
 <script>
-  import { goto } from '@sapper/app';
   import { VIEW, VIEWMODE } from '../store.js';
   import Select from 'svelte-select';
   import { onMount, beforeUpdate } from 'svelte';
   import { NETWORKDATA } from '../store.js';
   import { selectedArtistDetails, selectedArtist } from '../store.js';
-  import { handleClear } from '../store.js';
+  
   import { COLORS, LEGEND } from '../store.js';
   import { selectedDiscipline } from '../store.js';
+
+  import { handleClear } from '../store.js';
+  import { navigateToUrl } from '../store.js';
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
   let getClassName;
@@ -29,7 +31,7 @@
 
     selectedArtistDetails.set(result);
     selectedArtist.set(selectedVal.detail.value);
-    navigateToUrl(selectedVal.detail.value);
+    navigateToUrl(false, selectedVal.detail.value);
   }
 
   $: getClassName = function(className){
@@ -40,10 +42,10 @@
         }
     }
 
-  $: navigateToUrl = async function (artistName) {
-    let slug = artistName.toLowerCase().split(' ').join('-');
-    await goto(`/${slug}`);
-  }
+  // $: navigateToUrl = async function (artistName) {
+  //   let slug = artistName.toLowerCase().split(' ').join('-');
+  //   await goto(`/${slug}`);
+  // }
 
   
 
