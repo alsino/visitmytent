@@ -41,12 +41,6 @@
           return className+"-dark"
         }
     }
-
-  // $: navigateToUrl = async function (artistName) {
-  //   let slug = artistName.toLowerCase().split(' ').join('-');
-  //   await goto(`/${slug}`);
-  // }
-
   
 
 </script>

@@ -8,11 +8,12 @@ import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
 import { selectedArtistDetails } from '../store.js';
 
 let nodes = $NETWORKDATA.nodes;
-export let segment;
 
 import { VIEWMODE, COLORS } from '../store.js';
 
 $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
+export let segment;
 
 // $ : console.log($selectedArtistDetails)
 
@@ -41,18 +42,18 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 	<div id="app-wrapper" style="background:{colorScheme.background};">
 		<Intro/>
 		<Controls/>
-		{#if !$selectedArtistDetails}
-			<Viz/>
-		{/if}
+		<Viz></Viz>
+		<slot></slot>
 	</div>
 
-	<slot></slot>
-
+	
+		<!-- Link List is hidden -->
 		<ul class="link-list">
 			{#each nodes as node}
 				<li><a aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
 			{/each}
 		</ul>
+
 
 </main>
 

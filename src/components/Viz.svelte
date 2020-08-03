@@ -12,10 +12,7 @@
   import { scaleSqrt } from 'd3-scale';
   import { max, min } from "d3-array";
   import { forceSimulation, forceLink, forceManyBody, forceCenter, forceX, forceY } from "d3-force";
-
-  // import { stores } from '@sapper/app';
-  // const { preloading, page, session } = stores();  
-
+ 
   // let windowWidth = window.innerWidth;
   // $ : width = windowWidth < 640 ? 200 : 700;
 
@@ -316,7 +313,7 @@ function fade(node, {
 
 
   <div id="network" style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
-  <ArtistInfo/>
+    <!-- <ArtistInfo/> -->
     
     <svg width ={width} height={height}>
   
