@@ -694,7 +694,7 @@
 			"birthYear": 1968,
 			"birthTown": "Nassau",
 			"birthCountry": "Germany",
-			"profileID": "3294",
+			"profileID": 0,
 			"imageUrl": "sven_druehl.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
@@ -1530,7 +1530,7 @@
 			"birthYear": 1987,
 			"birthTown": "Graz",
 			"birthCountry": "Austria",
-			"profileID": "81",
+			"profileID": 0,
 			"imageUrl": "kevin_kopacka.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
@@ -2379,7 +2379,7 @@
 			"birthYear": 2006,
 			"birthTown": "Siena",
 			"birthCountry": "Italy",
-			"profileID": 0,
+			"profileID": "10432",
 			"imageUrl": "radio_papesse.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
@@ -3366,6 +3366,37 @@
 		},
 
 		{
+			"source": "Christian Achenbach",
+			"target": "Mimmo Catania",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+		{
 			"source": "Christopher Bauder",
 			"target": "Robert Henke",
 			"value": 10
@@ -3665,6 +3696,39 @@
 			"source": "Kaan Bulak",
 			"target": "Robert Lippok",
 			"value": 25
+		},
+
+
+
+		{
+			"source": "Mimmo Catania",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Mimmo Catania",
+			"target": "Hansa Wißkirchen",
+			"value": 10
 		},
 
 
@@ -5632,6 +5696,27 @@
 			"value": 10
 		},
 
+		{
+			"source": "Raul Walch",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Raul Walch",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Raul Walch",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+
+		{
+			"source": "Raul Walch",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
 
 		{
 			"source": "Julius Weiland",

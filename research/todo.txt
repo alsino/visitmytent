@@ -1,10 +1,8 @@
 
 TODO 
 
-/ Klick auf Artistbild könnte zu Beitragsseite führen
 / Wenn man die Seite zusammenschiebt wechseln links und rechts
-/ Netzwerklegende nur bei Netzwerkansicht sichtbar
-
+/ Was machen wir, wenn jemand in einer Disziplin ist und dann nach irgendeinem Namen sucht – zurück auf Anzeige wie bei all?
 
 Netzwerk
 / Kollaborationen
