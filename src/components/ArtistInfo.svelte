@@ -12,6 +12,14 @@
     width: 300px;
   }
 
+  .artist-img {
+     transition: all 0.5s;
+  }
+
+  .artist-img:hover {
+     transform: translateY(-8px)
+  }
+
   .portrait {
     margin-top: $margin-small;
     height: 300px;
@@ -32,7 +40,7 @@
   <div id="artist-info">
 
     {#if $selectedArtistDetails.imageUrl}
-        <div>
+        <div class="artist-img">
           <a target="_blank" href="https://visitmytent.com/?p={$selectedArtistDetails.profileID}">
              <img class="portrait" src="images/{$selectedArtistDetails.imageUrl}" alt="Image of {$selectedArtistDetails.name}">
           </a>

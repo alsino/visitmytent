@@ -331,13 +331,10 @@ function fade(node, {
  }
  
  .map-bezirke {
-  // stroke: #c7c7c7;
-  // stroke: rgb(69, 69, 255);
   fill: none;
 }
 
 .map-sbahn {
-  // stroke: #3d3d3d;
   fill: none;
 }
 
@@ -435,6 +432,6 @@ function fade(node, {
  
   <div 
     class="tooltip {tooltipVisible ? 'active' : ''}" 
-    style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}"
+    style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}; background: {colorScheme.bgTooltip}"
     >{$MOUSE.artistName}
   </div>

@@ -1387,7 +1387,7 @@
 			"discipline": [1, 5],
 			"gender": "female",
 			"birthYear": 1974,
-			"birthTown": "Auburn, California",
+			"birthTown": "Auburn",
 			"birthCountry": "United States",
 			"profileID": "10434",
 			"imageUrl": "rajkamal_kahlon.png",
@@ -5410,6 +5410,12 @@
 		{
 			"source": "Alsino Skowronnek",
 			"target": "44FLAVOURS",
+			"value": 25
+		},
+
+		{
+			"source": "Alsino Skowronnek",
+			"target": "Johannes Mundinger",
 			"value": 25
 		},
 
