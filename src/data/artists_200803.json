@@ -2379,7 +2379,7 @@
 			"birthYear": 2006,
 			"birthTown": "Siena",
 			"birthCountry": "Italy",
-			"profileID": 0,
+			"profileID": "10432",
 			"imageUrl": "radio_papesse.png",
 			"studioVisit": "Florence",
 			"studioLocations": [{
@@ -5645,6 +5645,12 @@
 		{
 			"source": "Raul Walch",
 			"target": "Robert Lippok",
+			"value": 10
+		},
+
+		{
+			"source": "Raul Walch",
+			"target": "Michaela Zimmer",
 			"value": 10
 		},
 
