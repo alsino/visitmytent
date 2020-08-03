@@ -48,6 +48,16 @@
   flex: 0.3;
 }
 
+.netlegend {
+  transition: all 2s;
+  position: absolute;
+  z-index: 1;
+  top: 26em;
+  width: 16em;
+
+}
+
+
 .disciplines {
   transition: all 2s;
   position: absolute;
@@ -55,6 +65,7 @@
   z-index: 1;
   top: 5em;
 }
+
 
 .disciplines label {
   display: block;
@@ -153,6 +164,13 @@ label:hover {
    {#each $LEGEND as discipline, index}
    <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$selectedDiscipline} value={discipline.id} on:click={handleClear} >{ discipline.label }</label>
   {/each }
+  </div>
+
+
+  <div class="netlegend" style="color:{colorScheme.textDefault}">
+    <label style="color:{colorScheme.circleDefault}">&#x25CF </label>size depends on number of connections <br />
+    <label style="color:{colorScheme.circleDefault}">–</label> artists exhibited/performed together
+
   </div>
 
 </div>
