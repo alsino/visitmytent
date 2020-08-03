@@ -97,7 +97,6 @@ label:hover {
 .switch label, .viewmode label {
   padding: 5px;
   cursor: pointer;
-  /* text-transform: uppercase; */
   font-size: 0.95em;
 }
 
@@ -124,7 +123,7 @@ label:hover {
 }
 
 .inactive-bright {
-  color: black;
+  color: rgb(51,51,51);
 }
 
 .inactive-dark {
