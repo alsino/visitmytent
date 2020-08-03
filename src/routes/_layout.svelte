@@ -20,6 +20,10 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
 <style lang="scss" global>
 	 @import "./style/global.scss";
+
+	 .link-list {
+		 visibility: hidden;
+	 }
 	
 </style>
 
@@ -36,7 +40,7 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
 		<ul class="link-list">
 			{#each nodes as node}
-				<li><a hidden aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
+				<li><a aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
 			{/each}
 		</ul>
 
