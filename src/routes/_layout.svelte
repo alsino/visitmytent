@@ -14,6 +14,8 @@ import { VIEWMODE, COLORS } from '../store.js';
 
 $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
+// $ : console.log($selectedArtistDetails)
+
 
 </script>
 
@@ -39,7 +41,7 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 	<div id="app-wrapper" style="background:{colorScheme.background};">
 		<Intro/>
 		<Controls/>
-		{#if !selectedArtistDetails}
+		{#if !$selectedArtistDetails}
 			<Viz/>
 		{/if}
 	</div>
