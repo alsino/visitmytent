@@ -49,7 +49,8 @@ COLORS.set({
     textTooltip: "black",
     berlinMap: "#c7c7c7",
     berlinSbahn: "#3d3d3d",
-    background: "white"
+    background: "white",
+    circleOutline: "white"
   }, 
   night: {
     network: "white",
@@ -61,7 +62,8 @@ COLORS.set({
     textTooltip: "black",
     berlinMap: "white",
     berlinSbahn: "white",
-    background: "rgb(51,51,51)"
+    background: "rgb(51,51,51)",
+    circleOutline: "rgb(51,51,51)"
   }
 });
 

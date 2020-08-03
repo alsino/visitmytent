@@ -42,19 +42,29 @@
 
 </script>
 
-<style>
+<style lang="scss">
+  @import "./style/theme.scss";
 
 .switch, .viewmode {
   flex: 0.3;
 }
 
-.netlegend {
+.legend-network {
   transition: all 2s;
   position: absolute;
   z-index: 1;
-  top: 26em;
+  top: 25em;
   width: 16em;
+  font-size: 0.95em;
+}
 
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-item svg {
+ margin-right: $margin-small / 2;
 }
 
 
@@ -166,11 +176,33 @@ label:hover {
   {/each }
   </div>
 
+  {#if $VIEW == "Network"}
+    <div class="legend-network" style="color:{colorScheme.textDefault}">
 
-  <div class="netlegend" style="color:{colorScheme.textDefault}">
-    <label style="color:{colorScheme.circleDefault}">&#x25CF </label>size depends on number of connections <br />
-    <label style="color:{colorScheme.circleDefault}">–</label> artists exhibited/performed together
+      <div class="legend-item" style="color:{colorScheme.textDefault}">
+        <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="legend-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Group" transform="translate(1.000000, 1.000000)" fill="{colorScheme.circleDefault}" fill-rule="nonzero" stroke="{colorScheme.circleOutline}">
+                <circle id="Oval" cx="10" cy="10" r="10"></circle>
+                <circle id="Oval" cx="10.3333333" cy="15" r="5"></circle>
+                <circle id="Oval" cx="10.3333333" cy="18.3333333" r="1.66666667"></circle>
+            </g>
+          </g>
+        </svg>
+        <div>number of connections</div>
+      </div>
 
-  </div>
+      <div class="legend-item" style="color:{colorScheme.textDefault}">
+        <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="legend-line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+              <line x1="3" y1="11.5" x2="20" y2="11.5" id="Path" stroke="{colorScheme.circleDefault}" fill-rule="nonzero"></line>
+          </g>
+        </svg>
+        <div>exhibited/performed together</div>
+      </div>
+    </div>
+  {/if}
+
+  
 
 </div>
