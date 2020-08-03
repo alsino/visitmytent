@@ -33,7 +33,9 @@
 
     {#if $selectedArtistDetails.imageUrl}
         <div>
-          <img class="portrait" src="images/{$selectedArtistDetails.imageUrl}" alt="Image of {$selectedArtistDetails.name}">
+          <a target="_blank" href="https://visitmytent.com/?p={$selectedArtistDetails.profileID}">
+             <img class="portrait" src="images/{$selectedArtistDetails.imageUrl}" alt="Image of {$selectedArtistDetails.name}">
+          </a>
         </div>
     {/if}
 
