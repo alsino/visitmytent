@@ -14,11 +14,13 @@ import { VIEWMODE, COLORS } from '../store.js';
 
 $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
+
 </script>
 
 
 <style lang="scss" global>
- 	@import "./style/global.scss";
+	 @import "./style/global.scss";
+	
 </style>
 
 <main>
@@ -32,11 +34,12 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
 	<slot></slot>
 
-	<ul>
-	{#each nodes as node}
-		<li><a aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
-	{/each}
-</ul>
+		<ul class="link-list">
+			{#each nodes as node}
+				<li><a hidden aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
+			{/each}
+		</ul>
+
 </main>
 
 
