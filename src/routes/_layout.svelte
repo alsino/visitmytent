@@ -23,6 +23,7 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
 <main>
 
+
 	<div id="app-wrapper" style="background:{colorScheme.background};">
 		<Intro/>
 		<Controls/>
@@ -30,11 +31,14 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 	</div>
 
 	<slot></slot>
-</main>
 
-<!-- <ul>
+	<ul>
 	{#each nodes as node}
 		<li><a aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
 	{/each}
-</ul> -->
+</ul>
+</main>
+
+
+
 

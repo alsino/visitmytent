@@ -220,6 +220,7 @@ function handleClick(artist){
   selectedArtistDetails.set(artist);
 }
 
+
 function handleMouseEnter(artist){
   tooltipVisible = true;
   $hoveredArtist = artist.name;
