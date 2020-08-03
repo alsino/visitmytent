@@ -22,7 +22,13 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 	 @import "./style/global.scss";
 
 	 .link-list {
-		 visibility: hidden;
+		 visibility: visible;
+		 font-size: 0.001em;
+		 color: transparent;
+	 }
+
+	  ul li {
+		 display: inline;
 	 }
 	
 </style>
@@ -33,7 +39,9 @@ $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 	<div id="app-wrapper" style="background:{colorScheme.background};">
 		<Intro/>
 		<Controls/>
-		<!-- <Viz/> -->
+		{#if !selectedArtistDetails}
+			<Viz/>
+		{/if}
 	</div>
 
 	<slot></slot>
