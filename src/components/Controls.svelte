@@ -1,4 +1,5 @@
 <script>
+  import { goto } from '@sapper/app';
   import { VIEW, VIEWMODE } from '../store.js';
   import Select from 'svelte-select';
   import { onMount, beforeUpdate } from 'svelte';
@@ -28,6 +29,7 @@
 
     selectedArtistDetails.set(result);
     selectedArtist.set(selectedVal.detail.value);
+    navigateToUrl(selectedVal.detail.value);
   }
 
   $: getClassName = function(className){
@@ -37,6 +39,11 @@
           return className+"-dark"
         }
     }
+
+  $: navigateToUrl = async function (artistName) {
+    let slug = artistName.toLowerCase().split(' ').join('-');
+    await goto(`/${slug}`);
+  }
 
   
 

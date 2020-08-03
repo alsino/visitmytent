@@ -12,10 +12,10 @@
 	<title>Visitmytent network</title>
 </svelte:head>
 
-<div id="app-wrapper" style="background:{colorScheme.background};">
+<!-- <div id="app-wrapper" style="background:{colorScheme.background};">
 	<Intro/>
 	<Controls/>
 	<Viz/>
-</div>
+</div> -->
 
 

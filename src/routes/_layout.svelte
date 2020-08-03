@@ -1,4 +1,19 @@
 <script>
+
+import Intro from '../components/Intro.svelte';
+import Controls from '../components/Controls.svelte';
+import Viz from '../components/Viz.svelte';
+
+import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
+import { selectedArtistDetails } from '../store.js';
+
+let nodes = $NETWORKDATA.nodes;
+export let segment;
+
+import { VIEWMODE, COLORS } from '../store.js';
+
+$: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
 </script>
 
 
@@ -7,5 +22,19 @@
 </style>
 
 <main>
+
+	<div id="app-wrapper" style="background:{colorScheme.background};">
+		<Intro/>
+		<Controls/>
+		<!-- <Viz/> -->
+	</div>
+
 	<slot></slot>
 </main>
+
+<!-- <ul>
+	{#each nodes as node}
+		<li><a aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
+	{/each}
+</ul> -->
+

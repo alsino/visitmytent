@@ -1,3 +1,14 @@
+<script context="module">
+  export function preload(page){
+    return {artist: page.params.artist };
+  }
+</script>
+
+<!-- 
+<div><a href='.'>Back</a></div>
+<h1>{artist}</h1> -->
+
+
 <script>
   import { onMount, beforeUpdate, afterUpdate } from 'svelte';
   import ArtistInfo from '../components/ArtistInfo.svelte';   
@@ -12,6 +23,8 @@
   import { scaleSqrt } from 'd3-scale';
   import { max, min } from "d3-array";
   import { forceSimulation, forceLink, forceManyBody, forceCenter, forceX, forceY } from "d3-force";
+
+  export let artist;
 
   // import { stores } from '@sapper/app';
   // const { preloading, page, session } = stores();  
@@ -393,3 +406,9 @@ function fade(node, {
     style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}; background: {colorScheme.bgTooltip}"
     >{$MOUSE.artistName}
   </div>
+
+
+
+
+
+
