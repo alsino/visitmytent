@@ -24,6 +24,10 @@ export let segment;
 <style lang="scss" global>
 	 @import "./style/global.scss";
 
+	//  #app-wrapper {
+		 
+	//  }
+
 	 .link-list {
 		 visibility: visible;
 		 font-size: 0.001em;
@@ -47,7 +51,7 @@ export let segment;
 	</div>
 
 	
-		<!-- Link List is hidden -->
+		<!-- Link list is hidden -->
 		<ul class="link-list">
 			{#each nodes as node}
 				<li><a aria-current='{segment === node.name ? "page" : undefined}' href={node.slug}>{node.name}</a></li>
