@@ -1,10 +1,9 @@
 
 TODO 
 
-/ Klick auf Punkt oder Artistbild könnte zu Beitragsseite führen
-/ Legende (Connections, Punktgröße)
-/ Wenn ich in einer Diziplinenauswahl bin und dann auf eine außenstehende Person klicke wirds komisch
+/ Klick auf Artistbild könnte zu Beitragsseite führen
 / Wenn man die Seite zusammenschiebt wechseln links und rechts
+/ Netzwerklegende nur bei Netzwerkansicht sichtbar
 
 
 Netzwerk
