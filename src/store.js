@@ -108,10 +108,13 @@ export const nodesWithLinks = nodes.map((item, index) => {
 
   item.slug = item.name.toLowerCase().split(' ').join('-');
 
- 
 
   return item
 })
+
+// nodesWithLinks.forEach((item) => {
+//   console.log("/pathToURL/"+ item.slug)
+// })
 
 
 export const NETWORKCOORDINATES = writable(undefined);
