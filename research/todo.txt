@@ -2,11 +2,11 @@
 TODO 
 
 / Wenn man die Seite zusammenschiebt wechseln links und rechts
+/ im Nachtmodus verschwindet Artistinfo
 / Was machen wir, wenn jemand in einer Disziplin ist und dann nach irgendeinem Namen sucht – zurück auf Anzeige wie bei all?
 
 Netzwerk
 / Kollaborationen
-/ Verbindung Künstlerbeitrag zu Ansicht im Netzwerk 
 
 
 Map
@@ -28,12 +28,9 @@ Evtl Filter nach Alter, Geschlecht
 
 
 / Feedback
-Marian: 
-Die Visualisierung sieht interessant aus. Ich finde, dass es noch etwas mehr Erklärung bedarf, um zu verstehen, was z.B. Verbindungen bedeuten oder die Kreisgrößen. Auch wäre es cool, wenn man tatsächlich aus der Visualisierung in das jeweilige Profil einer ausgewählten Person käme—wenn ich auf "Open artist profile" klicken will, geht das immer gleich wieder weg—und vielleicht auch zurück: Was würde es bedeuten, die Visualisierung mit einem Namen zu starten? also wenn es von jedem Eintrag auf visitmytent einen speizifischen Link in die VIsualisierung gebe) …
+
 Jonas: 
 Es wäre interessant, die unterschiedlichen Motivationen der Leute kennenzulernen, dann werden auch die Versbindungen interessanter; derzeit eher Archiv-Charakter; Audio/Video (beim erkunden der Karte) wäre auch toll; + Darstellung ob Leute davon leben können
-Janet: 
-bei Musikern Sound/Musik (was machen sie für Musik)
 
 
 / Doku senden an Futurium, bbk Berlin, DAAD, Vogue, Weltkunst, Wire,... 
