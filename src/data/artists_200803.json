@@ -689,12 +689,12 @@
 
 		{
 			"name": "Sven Drühl",
-			"discipline": [1, 6],
+			"discipline": [1],
 			"gender": "male",
 			"birthYear": 1968,
 			"birthTown": "Nassau",
 			"birthCountry": "Germany",
-			"profileID": 0,
+			"profileID": "3294",
 			"imageUrl": "sven_druehl.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
