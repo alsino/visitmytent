@@ -4241,11 +4241,33 @@
 			"value": 10
 		}, 
 
+		{
+			"source": "Ulrich Gutmair",
+			"target": "Jörg-Uwe Albig",
+			"value": 25
+		}, 
+		{
+			"source": "Ulrich Gutmair",
+			"target": "Robert Lippok",
+			"value": 25
+		}, 
+
+		{
+			"source": "Ulrich Gutmair",
+			"target": "Frank Spilker",
+			"value": 25
+		}, 
 
 		{
 			"source": "Ulrich Gutmair",
 			"target": "Viron Erol Vert",
 			"value": 10
+		}, 
+
+		{
+			"source": "Ulrich Gutmair",
+			"target": "Viron Erol Vert",
+			"value": 15
 		}, 
 
 
