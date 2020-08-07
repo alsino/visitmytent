@@ -720,27 +720,43 @@
 			"profileID": "5643",
 			"imageUrl": "craig_dyer.png",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
+			"studioLocations": [
+			{
 				"name": "Studio Berlin Friedrichshain",
 				"date_in": 0,
 				"date_out": "now",
 				"lat": 52.513187,
 				"lon": 13.459518
+			},
+			{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": "01/08/2019",
+				"date_out": "now",
+				"lat": 52.532417, 
+				"lon": 13.432988
 			}]
 		},
 		{
 			"name": "Olya Dyer",
 			"discipline": [3, 4],
 			"gender": "female",
-			"birthYear": 0,
+			"birthYear": 1987,
 			"birthTown": "Omsk",
 			"birthCountry": "Russia",
 			"profileID": "13699",
 			"imageUrl": "olya_dyer.png",
 			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "Studio Berlin Prenzlauer Berg",
+			"studioLocations": [
+			{
+				"name": "Studio Berlin Friedrichshain",
 				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.513187,
+				"lon": 13.459518
+			},
+			{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": "01/08/2019",
 				"date_out": "now",
 				"lat": 52.532417, 
 				"lon": 13.432988
