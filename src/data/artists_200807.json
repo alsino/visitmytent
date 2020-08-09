@@ -29,7 +29,7 @@
 
 		{
 			"name": "Christian Achenbach",
-			"discipline": [1, 6],
+			"discipline": [1, 6, 8],
 			"gender": "male",
 			"birthYear": 1978,
 			"birthTown": "Siegen",
@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "Aram Bartholl",
-			"discipline": [2, 5],
+			"discipline": [2, 5, 8],
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Bremen",
@@ -193,7 +193,7 @@
 		},
 		{
 			"name": "Fehmi Baumbach",
-			"discipline": [1],
+			"discipline": [1,8],
 			"gender": "female",
 			"birthYear": 1971,
 			"birthTown": "Braunschweig",
@@ -317,7 +317,7 @@
 		},
 		{
 			"name": "Alex Bodea",
-			"discipline": [1],
+			"discipline": [1,8],
 			"gender": "female",
 			"birthYear": 1981,
 			"birthTown": "Cluj",
@@ -451,7 +451,7 @@
 		},
 		{
 			"name": "Bram Braam",
-			"discipline": [1, 4, 6],
+			"discipline": [1,6,8],
 			"gallery": "galerie burster",
 			"gender": "male",
 			"birthYear": 1980,
@@ -631,7 +631,7 @@
 		},
 		{
 			"name": "Grigori Dor",
-			"discipline": [1],
+			"discipline": [1,8],
 			"gallery": "Galerie Rothamel",
 			"gender": "male",
 			"birthYear": 1970,
@@ -877,7 +877,7 @@
 
 		{
 			"name": "Frederik Foert",
-			"discipline": [1, 2, 5],
+			"discipline": [5],
 			"gender": "male",
 			"birthYear": 1971,
 			"birthTown": "München",
@@ -1033,7 +1033,7 @@
 
 		{
 			"name": "Hannah Goldstein",
-			"discipline": [4],
+			"discipline": [4,8],
 			"gender": "female",
 			"birthYear": 1981,
 			"birthTown": "Stockholm",
@@ -1109,7 +1109,7 @@
 		},
 		{
 			"name": "Philip Grözinger",
-			"discipline": [1],
+			"discipline": [1, 8],
 			"gallery": "Sexauer",
 			"gender": "male",
 			"birthYear": 1972,
@@ -1311,7 +1311,7 @@
 		},
 		{
 			"name": "Sibylle Jazra",
-			"discipline": [1, 2, 5],
+			"discipline": [5,8],
 			"gender": "female",
 			"birthYear": 1973,
 			"birthTown": "Heidelberg",
@@ -1787,7 +1787,7 @@
 		},
 		{
 			"name": "Camille Laurelli",
-			"discipline": [2, 5],
+			"discipline": [2, 5,8],
 			"gender": "male",
 			"birthYear": 1981,
 			"birthTown": "Montreuil-sous-bois",
@@ -2433,7 +2433,7 @@
 
 		{
 			"name": "Manfred Peckl",
-			"discipline": [1, 3],
+			"discipline": [1, 3, 8],
 			"gender": "male",
 			"birthYear": 1968,
 			"birthTown": "Wels",
@@ -3084,7 +3084,7 @@
 
 		{
 			"name": "Raul Walch",
-			"discipline": [1,2,4],
+			"discipline": [2,4,8],
 			"gender": "male",
 			"birthYear": 1980,
 			"birthTown": "Frankfurt/Main",
@@ -3222,7 +3222,7 @@
 		},
 		{
 			"name": "Hansa Wißkirchen",
-			"discipline": [1, 5],
+			"discipline": [1,5,8],
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Düsseldorf",
