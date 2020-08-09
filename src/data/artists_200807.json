@@ -52,7 +52,7 @@
 			"birthYear": 1960,
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
-			"profileID": "694",
+			"profileID": 0,
 			"imageUrl": "joerg_uwe_albig.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
