@@ -3404,9 +3404,25 @@
 			"target": "Mimmo Catania",
 			"value": 10
 		},
+
+		{
+			"source": "Christian Achenbach",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
 		{
 			"source": "Christian Achenbach",
 			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Christian Achenbach",
+			"target": "Jeewi Lee",
 			"value": 10
 		},
 		{
@@ -4974,7 +4990,13 @@
 			"source": "Jeewi Lee",
 			"target": "Manfred Peckl",
 			"value": 10
-		}, {
+		},
+ 		{
+			"source": "Jeewi Lee",
+			"target": "Erik Schmidt",
+			"value": 10
+		},
+		 {
 			"source": "Jeewi Lee",
 			"target": "Lerato Shadi",
 			"value": 10
@@ -5510,6 +5532,29 @@
 		}, {
 			"source": "Susanne Schirdewahn",
 			"target": "Wiebke Maria Wachmann",
+			"value": 10
+		},
+
+
+		{
+			"source": "Erik Schmidt",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+				{
+			"source": "Erik Schmidt",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Erik Schmidt",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+
+		{
+			"source": "Erik Schmidt",
+			"target": "Jeewi Lee",
 			"value": 10
 		},
 
