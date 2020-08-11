@@ -1309,6 +1309,24 @@
 				"lon": 10.018037
 			}]
 		},
+				{
+			"name": "René Holm",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": "1967",
+			"birthTown": "Esbjerg",
+			"birthCountry": "Denmark",
+			"profileID": "13815",
+			"imageUrl": "rene_holm.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Friedrichshain",
+				"date_in": "0",
+				"date_out": "now",
+				"lat": 52.514234, 
+				"lon": 13.450675
+			}]
+		},
 		{
 			"name": "Sibylle Jazra",
 			"discipline": [5,8],
@@ -4467,6 +4485,128 @@
 			"target": "Shira Wachsmann",
 			"value": 25
 		},
+
+		{
+			"source": "René Holm",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Fehmi Baumbach",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Mimmo Catania",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Grigori Dor",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Alex Flemming",
+			"value": 10
+		},		
+		{
+			"source": "René Holm",
+			"target": "Moritz Frei",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Philip Grözinger",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Jens Hausmann",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Franziska Klotz",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Jeewi Lee",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Manfred Peckl",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Erik Schmidt",
+			"value": 10
+		},	
+		{
+			"source": "René Holm",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "René Holm",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
 
 		{
 			"source": "Rajkamal Kahlon",
