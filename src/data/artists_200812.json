@@ -1309,7 +1309,7 @@
 				"lon": 10.018037
 			}]
 		},
-				{
+		{
 			"name": "René Holm",
 			"discipline": [1],
 			"gender": "male",
@@ -1325,6 +1325,24 @@
 				"date_out": "now",
 				"lat": 52.514234, 
 				"lon": 13.450675
+			}]
+		},
+		{
+			"name": "Stine Marie Jacobsen",
+			"discipline": [5],
+			"gender": "female",
+			"birthYear": "1977",
+			"birthTown": "Sønderborg",
+			"birthCountry": "Denmark",
+			"profileID": "13828",
+			"imageUrl": "stine_marie_jacobsen.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": "01/01/2019",
+				"date_out": "now",
+				"lat": 52.531017, 
+				"lon": 13.427771
 			}]
 		},
 		{
