@@ -2883,6 +2883,24 @@
 				"lon": 14.326853
 			}]
 		},
+		{
+			"name": "Aiko Tezuka",
+			"discipline": [5],
+			"gender": "female",
+			"birthYear": 1976,
+			"birthTown": "Tokyo",
+			"birthCountry": "Japan",
+			"profileID": "7804",
+			"imageUrl": "aiko_tezuka.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.469964, 
+				"lon": 13.455889
+			}]
+		},
 
 		{
 			"name": "Cornelia Theimer Gardella",
@@ -4624,6 +4642,58 @@
 			"target": "Hansa Wißkirchen",
 			"value": 10
 		},
+
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Song-Ming Ang",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Song-Ming Ang",
+			"value": 15
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Pauline Doutreluingne",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Anne Duk Hee Jordan",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Aiko Tezuka",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Aiko Tezuka",
+			"value": 15
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Stine Marie Jacobsen",
+			"target": "Raul Walch",
+			"value": 10
+		},
+
 
 
 		{
