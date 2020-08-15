@@ -16,8 +16,8 @@
   // let windowWidth = window.innerWidth;
   // $ : width = windowWidth < 640 ? 200 : 700;
 
-  let width = 700;
-  let height = 600;
+  let width = 760;
+  let height = 560;
   let paddingMap = 20;
   let tooltipVisible = false;
 
