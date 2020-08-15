@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
-import networkData from './data/artists_200812.json';
+import networkData from './data/artists_200815.json';
 
 export const VIEW = writable(undefined);
 VIEW.set("Map");
