@@ -5,7 +5,7 @@ TODO
 / im Nachtmodus verschwindet Artistinfo
 / Was machen wir, wenn jemand in einer Disziplin ist und dann nach irgendeinem Namen sucht – zurück auf Anfang wie bei all?
 / auf der Karte rutscht ausgewählter Künstler zt hinter seine Kontakte (zb Sven Drühl)
-
+/ Search im Nachtmodus invertieren?
 
 Netzwerk
 / Kollaborationen
@@ -26,7 +26,7 @@ Ein cooles Feature, zb:
 	/ Übersicht aller Künstlerfotos (zb alle freigestellten auf einer Seite)
 
 
-Evtl Filter nach Alter, Geschlecht
+Evtl Filter nach Geschlecht, Alters-Slider
 
 
 / Feedback

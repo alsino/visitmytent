@@ -5527,8 +5527,18 @@
 		}, 
 		{
 			"source": "Stephanie Neumann",
+			"target": "Jeans Team",
+			"value": 25
+		}, 
+		{
+			"source": "Stephanie Neumann",
 			"target": "Carolin Kastner",
 			"value": 10
+		},
+		{
+			"source": "Stephanie Neumann",
+			"target": "Toni Kater",
+			"value": 25
 		},
 		{
 			"source": "Stephanie Neumann",
@@ -5558,7 +5568,7 @@
 		{
 			"source": "Stephanie Neumann",
 			"target": "Alsino Skowronnek",
-			"value": 10
+			"value": 25
 		}, 
 		{
 			"source": "Stephanie Neumann",
