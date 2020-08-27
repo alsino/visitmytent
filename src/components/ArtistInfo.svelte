@@ -8,9 +8,9 @@
 
   #artist-info {
     position: absolute;
-    right: 2em;
+    right: 1.5em;
     top: 15em;
-    width: 300px;
+    width: 220px;
   }
 
   .artist-img {
