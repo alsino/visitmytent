@@ -2661,7 +2661,7 @@
 		},
 
 				{
-			"name": "RONG KONG KOMA",
+			"name": "Rong Kong Koma",
 			"discipline": [3, 7],
 			"gender": "male",
 			"birthYear": 2017,
@@ -5863,7 +5863,7 @@
 		}, 
 
 		{
-			"source": "RONG KONG KOMA",
+			"source": "Rong Kong Koma",
 			"target": "Sebastian Meschenmoser",
 			"value": 10
 		}, 
