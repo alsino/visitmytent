@@ -559,6 +559,25 @@
 		},
 
 		{
+			"name": "Joanna Buchowska",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1967,
+			"birthTown": "Olesnica",
+			"birthCountry": "Poland",
+			"profileID": "14044",
+			"imageUrl": "joanna_buchowska.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Friedrichshain",
+				"date_in": "01/01/1998",
+				"date_out": "now",
+				"lat": 52.503881, 
+				"lon": 13.453790
+			}]
+		},
+
+		{
 			"name": "Kaan Bulak",
 			"discipline": [3, 7],
 			"gender": "male",
