@@ -4030,7 +4030,46 @@
 			"value": 15
 		},
 
-
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Fehmi Baumbach",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Clemens Behr",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Clemens Behr",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Clemens Behr",
+			"value": 25
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Moritz Frei",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Maria Gideon",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Maria Gideon",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
 		{
 			"source": "Pauline Doutreluingne",
 			"target": "Anne Duk Hee Jordan",
@@ -4045,6 +4084,86 @@
 			"source": "Pauline Doutreluingne",
 			"target": "Anne Duk Hee Jordan",
 			"value": 25
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Van Bo Le-Mentzel",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Johannes Mundinger",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Johannes Mundinger",
+			"value": 15
+		},		
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Christophe Ndabananiye",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Christophe Ndabananiye",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Radio Papesse",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Alsino Skowronnek",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Alsino Skowronnek",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Viron Erol Vert",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Viron Erol Vert",
+			"value": 25
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Shira Wachsmann",
+			"value": 15
+		},
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Sinta Werner",
+			"value": 10
 		},
 
 		{
@@ -6332,7 +6451,7 @@
 			"target": "Michelle Jezierski",
 			"value": 10
 		},
-		
+
 		{
 			"source": "Norbert Wagenbrett",
 			"target": "Klaus Killisch",
