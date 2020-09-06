@@ -4067,6 +4067,11 @@
 		},
 		{
 			"source": "Pauline Doutreluingne",
+			"target": "Hannah Goldstein",
+			"value": 25
+		},
+		{
+			"source": "Pauline Doutreluingne",
 			"target": "Philip Grözinger",
 			"value": 10
 		},
@@ -4998,7 +5003,6 @@
 		},
 
 
-
 		{
 			"source": "Rajkamal Kahlon",
 			"target": "Marcela Moraga",
@@ -5009,7 +5013,15 @@
 			"source": "Carolin Kastner",
 			"target": "Bram Braam",
 			"value": 10
-		}, {
+		}, 
+
+		{
+			"source": "Katia Kelm",
+			"target": "Jofroi Amaral",
+			"value": 10
+		}, 
+
+		{
 			"source": "Klaus Killisch",
 			"target": "Lothar Böhme",
 			"value": 10
@@ -6265,14 +6277,21 @@
 			"source": "Kitty Solaris",
 			"target": "Toni Kater",
 			"value": 25
-		}, {
+		}, 
+		{
 			"source": "Frank Spilker",
 			"target": "Fehmi Baumbach",
 			"value": 10
-		}, {
+		}, 
+		{
 			"source": "Frank Spilker",
 			"target": "Bernd Begemann",
 			"value": 10
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Gepa Hinrichsen",
+			"value": 25
 		},
 
 		{

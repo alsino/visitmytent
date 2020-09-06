@@ -3,9 +3,9 @@ TODO
 
 / Wenn man die Seite zusammenschiebt wechseln links und rechts
 / im Nachtmodus verschwindet Artistinfo
-/ Was machen wir, wenn jemand in einer Disziplin ist und dann nach irgendeinem Namen sucht – zurück auf Anfang wie bei all?
-/ auf der Karte rutscht ausgewählter Künstler zt hinter seine Kontakte (zb Sven Drühl)
-/ Search im Nachtmodus invertieren?
+/ Wenn man in einer Disziplin ist und dann nach irgendeinem Namen sucht – zurück auf Anfang ("all")?
+/ auf der Karte rutscht ausgewählter Künstler z.T. hinter seine Kontakte (zb Sven Drühl)
+/ Anzahl der Connections im Introtext anzeigen?
 
 Netzwerk
 / Kollaborationen
