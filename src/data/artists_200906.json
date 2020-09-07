@@ -4644,6 +4644,11 @@
 		},
 		{
 			"source": "Stefanie Gutheil",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Stefanie Gutheil",
 			"target": "Jan Muche",
 			"value": 10
 		},
@@ -5638,7 +5643,34 @@
 			"source": "Robert Lippok",
 			"target": "Barbara Morgenstern",
 			"value": 25
-		}, {
+		}, 
+
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Fritz Bornstück",
+			"value": 10
+		}, 
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		}, 
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Philip Grözinger",
+			"value": 10
+		}, 
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Jan Muche",
+			"value": 10
+		}, 
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Manfred Peckl",
+			"value": 10
+		}, 
+		{
 			"source": "Ekaterina Mitichkina",
 			"target": "Axel Anklam",
 			"value": 10
