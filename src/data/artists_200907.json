@@ -1000,6 +1000,7 @@
 				"lon": 13.447457
 			}]
 		},
+
 		{
 			"name": "Paul Frick",
 			"discipline": [3, 7],
@@ -3109,6 +3110,26 @@
 				"lon": 13.434833
 			}]
 		},
+
+		{
+			"name": "Luke Velten",
+			"discipline": [1,4,5],
+			"gender": "male",
+			"birthYear": 2007,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "luke_velten.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio KMA",
+				"date_in": "01/01/2015",
+				"date_out": "now",
+				"lat": 52.516548,
+				"lon": 13.452545
+			}]
+		},
+
 		{
 			"name": "Viron Erol Vert",
 			"discipline": [2, 5],
@@ -6363,6 +6384,13 @@
 			"target": "Paul Frick",
 			"value": 10
 		},
+
+		{
+			"source": "Luke Velten",
+			"target": "Stephanie Neumann",
+			"value": 25
+		},
+
 
 		{
 			"source": "Viron Erol Vert",
