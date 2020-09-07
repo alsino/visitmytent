@@ -1,6 +1,10 @@
 <script>
   import { VIEW, LEGEND } from '../store.js';
   import { selectedArtistDetails } from '../store.js';
+  import { VIEWMODE, COLORS } from '../store.js';
+
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
 </script>
 
 <style lang="scss">
@@ -38,7 +42,7 @@
 
 {#if $selectedArtistDetails}
 
-  <div id="artist-info">
+  <div id="artist-info" style="color:{colorScheme.textDefault}">
 
     {#if $selectedArtistDetails.imageUrl}
         <div class="artist-img">
