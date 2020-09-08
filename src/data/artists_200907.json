@@ -2419,7 +2419,7 @@
 		},
 		{
 			"name": "Stephanie Neumann",
-			"discipline": [4],
+			"discipline": [4,5],
 			"gender": "female",
 			"birthYear": 1980,
 			"birthTown": "Berlin",

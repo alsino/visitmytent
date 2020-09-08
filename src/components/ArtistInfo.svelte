@@ -31,12 +31,12 @@
   }
 
 
-  @media (max-width: 1024px) {
-  #artist-info {
-    left: 0em;
+  //@media (max-width: 1024px) {
+  //#artist-info {
+   // ((left: 0em;
     // right: 0.6px
-  }
-}
+ // }
+//}
 
 </style>
 

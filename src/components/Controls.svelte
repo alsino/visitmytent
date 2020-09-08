@@ -133,15 +133,15 @@ label:hover {
   color: white;
 }
 
-@media (max-width: 1024px) {
-  .disciplines {
-    right: 2em;
-  }
+//@media (max-width: 1024px) {
+  //.disciplines {
+    //right: 2em;
+  //}
 
-  .selectContainer {
-    margin-left: 2em;
-  }
-}
+  //.selectContainer {
+    //margin-left: 2em;
+  //}
+//}
 
 
 </style>
