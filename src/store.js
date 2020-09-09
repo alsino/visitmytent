@@ -35,7 +35,7 @@ LEGEND.set([
   {id: 5, label:  "Conceptual art / Mixed media" },
   {id: 6, label:  "Sculpture" },
   {id: 7, label:  "Writing" },
-  {id: 8, label:  "Curator" },
+  {id: 8, label:  "Curating" },
 ]);
 
 export const COLORS = writable(undefined);

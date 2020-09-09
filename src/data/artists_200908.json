@@ -1027,7 +1027,7 @@
 
 		{
 			"name": "Holm Friebe",
-			"discipline": [5, 7],
+			"discipline": [7, 8],
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Lüdenscheid",
@@ -1539,6 +1539,27 @@
 				"lon": 11.239159
 			}]
 		},
+
+		{
+			"name": "Behzad Karim-Khani",
+			"discipline": [7],
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "Teheran",
+			"birthCountry": "Iran",
+			"profileID": "14239",
+			"imageUrl": "behzad-karim-khani.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Bullys Bakery",
+				"date_in": "01.01.2017",
+				"date_out": "now",
+				"lat": 52.488210, 
+				"lon": 13.428156
+			}]
+		},
+
+
 		{
 			"name": "Carolin Kastner",
 			"discipline": [1],
