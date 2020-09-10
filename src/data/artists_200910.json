@@ -4402,14 +4402,30 @@
 		}, 
 		{
 			"source": "Holm Friebe",
+			"target": "Nik Nowak",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
 			"target": "Pietro Sanguineti",
-			"value": 25
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Luke Velten",
+			"value": 10
 		}, 
 		{
 			"source": "Holm Friebe",
 			"target": "Luke Velten",
 			"value": 25
 		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Raul Walch",
+			"value": 10
+		}, 
+
 
 		{
 			"source": "Jay Gard",
