@@ -1036,6 +1036,13 @@
 			"imageUrl": "holm_friebe.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
+				"name": "Studio PB",
+				"date_in": "01/03/2020",
+				"date_out": "now",
+				"lat": 52.531916, 
+				"lon": 13.422680
+			},
+			{
 				"name": "Studio KMA",
 				"date_in": "01/01/2015",
 				"date_out": "now",
@@ -4409,6 +4416,16 @@
 			"source": "Holm Friebe",
 			"target": "Pietro Sanguineti",
 			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Christian Y. Schmidt",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Christian Y. Schmidt",
+			"value": 25
 		}, 
 		{
 			"source": "Holm Friebe",
