@@ -3161,7 +3161,7 @@
 
 		{
 			"name": "Luke Velten",
-			"discipline": [1,4,5],
+			"discipline": [1, 4],
 			"gender": "male",
 			"birthYear": 2007,
 			"birthTown": "Berlin",
