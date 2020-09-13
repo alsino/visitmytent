@@ -1036,7 +1036,7 @@
 			"imageUrl": "holm_friebe.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
-				"name": "Studio PB",
+				"name": "Studio Impresario",
 				"date_in": "01/03/2020",
 				"date_out": "now",
 				"lat": 52.531916, 
@@ -6499,7 +6499,22 @@
 
 		{
 			"source": "Luke Velten",
+			"target": "Holm Friebe",
+			"value": 10
+		},
+		{
+			"source": "Luke Velten",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Luke Velten",
 			"target": "Stephanie Neumann",
+			"value": 25
+		},
+		{
+			"source": "Luke Velten",
+			"target": "Christian Y. Schmidt",
 			"value": 25
 		},
 
