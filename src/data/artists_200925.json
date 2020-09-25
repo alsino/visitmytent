@@ -628,7 +628,6 @@
 			}
 		},
 
-
 		{
 			"name": "Mimmo Catania",
 			"discipline": [1],
@@ -1084,6 +1083,25 @@
 		},
 
 		{
+			"name": "Fridge and Plodge",
+			"discipline": [4],
+			"gender": "female",
+			"birthYear": 2019,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "14374",
+			"imageUrl": "fridge_and_plodge.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Kunsthaus Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.479975, 
+				"lon": 13.365016
+			}]
+		},
+
+		{
 			"name": "Holm Friebe",
 			"discipline": [7, 8],
 			"gender": "male",
@@ -1106,26 +1124,6 @@
 				"date_out": "now",
 				"lat": 52.516548,
 				"lon": 13.452545
-			}]
-		},
-
-		
-		{
-			"name": "Fridge and Plodge",
-			"discipline": [4],
-			"gender": "female",
-			"birthYear": 0,
-			"birthTown": "?",
-			"birthCountry": "Germany",
-			"profileID": "14374",
-			"imageUrl": "fridge_and_plodge.png",
-			"studioVisit": "Essen",
-			"studioLocations": [{
-				"name": "Kunsthaus Essen",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 52.479975, 
-				"lon": 13.365016
 			}]
 		},
 
@@ -1223,6 +1221,24 @@
 			}
 		},
 
+		{
+			"name": "Pierre Granoux",
+			"discipline": [5, 8],
+			"gender": "male",
+			"birthYear": 1963,
+			"birthTown": "Gap",
+			"birthCountry": "France",
+			"profileID": "14352",
+			"imageUrl": "pierre_granoux.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Lage Egal",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.533364, 
+				"lon": 13.430376
+			}]
+		},
 
 		{
 			"name": "Ben Greber",
@@ -4534,6 +4550,12 @@
 		}, 
 
 		{
+			"source": "Fridge and Plodge",
+			"target": "Renate Neuser",
+			"value": 25
+		}, 
+
+		{
 			"source": "Holm Friebe",
 			"target": "Klaus Killisch",
 			"value": 10
@@ -4674,6 +4696,102 @@
 		}, {
 			"source": "Jay Gard",
 			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+		{
+			"source": "Pierre Granoux",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Frank Arndt",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Frederik Foert",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Holm Friebe",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Lukas Glinkowski",
+			"value": 25
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Sinta Werner",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Markus Wüste",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
+			"target": "Michaela Zimmer",
 			"value": 10
 		},
 
