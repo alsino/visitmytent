@@ -868,6 +868,25 @@
 			}]
 		},
 		{
+			"name": "Christoph Esser",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Essen",
+			"birthCountry": "Germany",
+			"profileID": "14364",
+			"imageUrl": "christoph_esser.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.460759, 
+				"lon": 7.015999
+			}]
+		},
+
+		{
 			"name": "Ornella Fieres",
 			"discipline": [4, 5],
 			"gallery": "Sexauer",
@@ -1087,6 +1106,26 @@
 				"date_out": "now",
 				"lat": 52.516548,
 				"lon": 13.452545
+			}]
+		},
+
+		
+		{
+			"name": "Fridge And Plodge",
+			"discipline": [4],
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "14374",
+			"imageUrl": "fridge_and_plodge.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Kunsthaus Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.479975, 
+				"lon": 13.365016
 			}]
 		},
 
@@ -1710,6 +1749,26 @@
 				"workHours": "usually from 11am until 5pm."
 			}
 		},
+
+		{
+			"name": "Gisoo Kim",
+			"discipline": [4,5],
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Seoul",
+			"birthCountry": "Korea",
+			"profileID": "14368",
+			"imageUrl": "gisoo_kim.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.434005, 
+				"lon": 7.012015
+			}]
+		},
+
 		{
 			"name": "Franziska Klotz",
 			"discipline": [1],
@@ -2541,6 +2600,24 @@
 			}]
 		},
 		{
+			"name": "Renate Neuser",
+			"discipline": [6],
+			"gender": "female",
+			"birthYear": 1939,
+			"birthTown": "Kiel",
+			"birthCountry": "Germany",
+			"profileID": "14372",
+			"imageUrl": "renate_neuser.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Kunsthaus Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.425748, 
+				"lon": 7.052714
+			}]
+		},
+		{
 			"name": "Nik Nowak",
 			"discipline": [2, 3, 5],
 			"gender": "male",
@@ -2773,6 +2850,24 @@
 			}
 		},
 		{
+			"name": "Daniela Risch",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1969,
+			"birthTown": "Dahme/Mark",
+			"birthCountry": "GDR",
+			"profileID": "14370",
+			"imageUrl": "daniela_risch.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.460247, 
+				"lon": 7.016643
+			}]
+		},
+		{
 			"name": "Stefan Roigk",
 			"discipline": [3, 6],
 			"gender": "male",
@@ -2796,7 +2891,7 @@
 			}
 		},
 
-				{
+		{
 			"name": "Rong Kong Koma",
 			"discipline": [3, 7],
 			"gender": "male",
