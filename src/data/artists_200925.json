@@ -1111,7 +1111,7 @@
 
 		
 		{
-			"name": "Fridge And Plodge",
+			"name": "Fridge and Plodge",
 			"discipline": [4],
 			"gender": "female",
 			"birthYear": 0,
@@ -3869,6 +3869,11 @@
 		{
 			"source": "Anne Berlit",
 			"target": "Tim Cierpiszewski",
+			"value": 10
+		}, 
+		{
+			"source": "Anne Berlit",
+			"target": "Renate Neuser",
 			"value": 10
 		}, 
 
