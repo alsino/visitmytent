@@ -675,7 +675,7 @@
 
 		{
 			"name": "Tim Cierpiszewski",
-			"discipline": [1,5],
+			"discipline": [1,5,8],
 			"gender": "male",
 			"birthYear": 1978,
 			"birthTown": "Bottrop",
