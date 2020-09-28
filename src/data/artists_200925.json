@@ -4135,6 +4135,31 @@
 		},
 		{
 			"source": "Joanna Buchowska",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Fehmi Baumbach",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Sebastian Bieniek",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
 			"target": "Fritz Bornstück",
 			"value": 10
 		},
@@ -4150,12 +4175,62 @@
 		},
 		{
 			"source": "Joanna Buchowska",
+			"target": "Grigori Dor",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Sven Drühl",
+			"value": 25
+		},
+		{
+			"source": "Joanna Buchowska",
 			"target": "Wolfgang Flad",
 			"value": 10
 		},
 		{
 			"source": "Joanna Buchowska",
 			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Oliver Gröne",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "David Grüttner",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Stefanie Gutheil",
 			"value": 10
 		},
 		{
@@ -4170,7 +4245,47 @@
 		},
 		{
 			"source": "Joanna Buchowska",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Kevin Kopacka",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Peter Kröning",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Annekatrin Lemke",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
 			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Pedro Lopes",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Sandra Meisel",
 			"value": 10
 		},
 		{
@@ -4185,6 +4300,21 @@
 		},
 		{
 			"source": "Joanna Buchowska",
+			"target": "Ekaterina Mitichkina",
+			"value": 25
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Jan Muche",
+			"value": 25
+		},
+		{
+			"source": "Joanna Buchowska",
 			"target": "Stephanie Neumann",
 			"value": 10
 		},
@@ -4195,7 +4325,37 @@
 		},
 		{
 			"source": "Joanna Buchowska",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Nik Nowak",
+			"value": 25
+		},
+		{
+			"source": "Joanna Buchowska",
 			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Manfred Peckl",
+			"value": 25
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Julius Weiland",
 			"value": 10
 		},
 		{
@@ -4203,8 +4363,16 @@
 			"target": "Hansa Wißkirchen",
 			"value": 10
 		},
-
-
+		{
+			"source": "Joanna Buchowska",
+			"target": "Hansa Wißkirchen",
+			"value": 25
+		},
+		{
+			"source": "Joanna Buchowska",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
 
 		{
 			"source": "Kaan Bulak",
