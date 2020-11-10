@@ -12,6 +12,8 @@
   import { scaleSqrt } from 'd3-scale';
   import { max, min } from "d3-array";
   import { forceSimulation, forceLink, forceManyBody, forceCenter, forceX, forceY } from "d3-force";
+
+
  
   // let windowWidth = window.innerWidth;
   // $ : width = windowWidth < 640 ? 200 : 700;
@@ -304,6 +306,7 @@ function fade(node, {
 .active {
   display: block;
 }
+
 
 </style>
 
