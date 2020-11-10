@@ -23,9 +23,14 @@
 					"date_out": "01/01/2016",
 					"lat": 52.503058,
 					"lon": 13.407151
-				}
-			]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
+
+
 
 		{
 			"name": "Christian Achenbach",
@@ -193,9 +198,7 @@
 					"date_out": "01/01/2019",
 					"lat": 52.532644,
 					"lon": 13.410908
-				}
-
-			]
+				}]
 		},
 		{
 			"name": "Christopher Bauder",
@@ -299,8 +302,7 @@
 				"date_out": "01/01/2016",
 				"lat": 52.503058,
 				"lon": 13.407151
-			}
-			]
+			}]
 		},
 		{
 			"name": "Anne Berlit",
@@ -627,8 +629,7 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 
@@ -775,8 +776,7 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 
@@ -854,7 +854,11 @@
 				"date_out": "now",
 				"lat": 52.532417, 
 				"lon": 13.432988
-			}]
+			}],
+			"questions": {
+				"why": "...",
+				"finished": "..."
+			}
 		},
 		{
 			"name": "Liisi Eelmaa",
@@ -943,7 +947,11 @@
 				"date_out": "now",
 				"lat": 43.662268,
 				"lon": 10.628927
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Wolfgang Flad",
@@ -962,7 +970,11 @@
 				"date_out": 0,
 				"lat": 52.497515,
 				"lon": 13.423452
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Alex Flemming",
@@ -1045,7 +1057,11 @@
 				"date_out": "now",
 				"lat": 52.486309,
 				"lon": 13.423416
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Peter Freitag",
@@ -1063,7 +1079,11 @@
 				"date_out": "now",
 				"lat": 52.522090,
 				"lon": 13.447457
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1106,7 +1126,11 @@
 				"date_out": "now",
 				"lat": 52.479975, 
 				"lon": 13.365016
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -2639,7 +2663,11 @@
 				"date_out": "now",
 				"lat": 51.425748, 
 				"lon": 7.052714
-			}]
+			}],
+			"questions": {
+				"why": "weil ich in dieser Tätigkeit Befriedigung empfinde.",
+				"finished": "wenn mich das Weitermachen langweilen würde."
+			}
 		},
 		{
 			"name": "Nik Nowak",
