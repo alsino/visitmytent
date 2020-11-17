@@ -424,8 +424,8 @@
 				"why": "Because I like stories.",
 				"music": "none (I listen to BBC though).",
 				"workHours": "11:00 am until 18:30 pm.",
-				"finished": " "
-				
+				"finished": "when everything fits or when I know how to do a better one."
+
 			}
 		},
 		{
@@ -1729,7 +1729,11 @@
 				"date_out": "now",
 				"lat": 52.488210, 
 				"lon": 13.428156
-			}]
+			}],
+			"questions": {
+				"why": "Cause it needs to be done.",
+				"finished": "When it looks at me like 'Who are you? Get the fuck outta here.'"
+			}
 		},
 
 
