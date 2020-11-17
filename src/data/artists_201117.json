@@ -4825,6 +4825,21 @@
 
 		{
 			"source": "Holm Friebe",
+			"target": "Fehmi Baumbach",
+			"value": 25
+		},
+		{
+			"source": "Holm Friebe",
+			"target": "Pierre Granoux",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Sibylle Jazra",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
 			"target": "Klaus Killisch",
 			"value": 10
 		}, 
@@ -4866,6 +4881,11 @@
 		{
 			"source": "Holm Friebe",
 			"target": "Christian Y. Schmidt",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Bettina Semmer",
 			"value": 25
 		}, 
 		{
