@@ -1599,8 +1599,13 @@
 				"date_out": "now",
 				"lat": 52.531017, 
 				"lon": 13.427771
-			}]
+			}],
+			"questions": {
+				"why": "I have a different motivation for each project I do.",
+				"finished": "I don't think a piece is ever truly finished."
+			}
 		},
+
 		{
 			"name": "Sibylle Jazra",
 			"discipline": [5,8],
@@ -1651,9 +1656,8 @@
 				"lon": 13.382333
 			}],
 			"questions": {
-				"why": "Because there is no better way to give form to your inner dialogue.",
-				"music": "Four Tet.",
-				"workHours": "9 to 5 to 9 to 5 to 9."
+				"why": " ",
+				"finished": " "
 			}
 		},
 		{
