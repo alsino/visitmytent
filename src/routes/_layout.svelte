@@ -3,7 +3,6 @@
 import Intro from '../components/Intro.svelte';
 import Controls from '../components/Controls.svelte';
 import Viz from '../components/Viz.svelte';
-import Circle from '../components/Circle.svelte';
 
 
 import { NETWORKDATA, NETWORKCOORDINATES } from '../store.js';
@@ -49,7 +48,6 @@ export let segment;
 		<Intro/>
 		<Controls/>
 		<Viz></Viz>
-		<Circle/>
 		<slot></slot>
 	</div>
 

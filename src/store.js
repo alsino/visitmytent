@@ -45,7 +45,7 @@ COLORS.set({
   day: {
     network: "rgb(69, 69, 255)",
     circleDefault: "blue",
-    circleSelected: "#D56285",
+    circleSelected: "red",
     circleBorder: "white",
     textDefault: "rgb(51,51,51)",
     textHeading: "black",

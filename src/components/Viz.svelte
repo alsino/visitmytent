@@ -5,6 +5,8 @@
   import { NETWORKDATA, NETWORKCOORDINATES, nodesWithLinks } from '../store.js';
   import { VIEW, VIEWMODE, MOUSE, COLORS } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails, selectedDiscipline } from '../store.js';
+  import Circle from '../components/Circle.svelte';
+
  
   import { feature } from "topojson";
 
@@ -387,9 +389,15 @@ function fade(node, {
     </svg>
   </div>
 
+  {#if $selectedArtist}
+    <Circle artistDetails={selectedArtistDetails}/>
+  {/if}
+
  
   <div 
     class="tooltip {tooltipVisible ? 'active' : ''}" 
     style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}; background: {colorScheme.bgTooltip}"
     >{$MOUSE.artistName}
   </div>
+
+

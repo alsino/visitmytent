@@ -3,17 +3,41 @@
     import { onMount } from 'svelte';
     import { SPLITTING } from '../store.js';
     import { MOUSE } from '../store.js';
-	import { VIEWMODE, COLORS } from '../store.js';
-
-
-    $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
-
+    import { VIEWMODE, COLORS } from '../store.js';
+    
+    export let artistDetails;
 
 
     let textWidth = 300;
     let textHeight = 300;
 
-    let buttonPusehd = false;
+    $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
+    let circleText;
+
+    // $: if ($artistDetails.questions){
+    //     circleText = $artistDetails.questions.why;
+    // }
+
+    $: if($artistDetails.questions) {
+        console.log($artistDetails)
+        circleText = $artistDetails.questions.why.split(" ").join("-");
+    };
+
+
+
+    
+
+    
+
+
+
+
+    onMount(() => {
+        Splitting();
+        console.log($artistDetails.questions.why);
+    });
+
 
     $: handleClick = function() {
         console.log("clicked");
@@ -21,13 +45,6 @@
         textHeight = 500;
     }
 
-
-
-
-    onMount(() => {
-        
-        Splitting();
-    });
 
 </script>
 
@@ -66,10 +83,10 @@
 	// Required to override splitting.js styles
 	display: block !important;
 	position: absolute !important;
-    color: rgb(20, 23, 238);
-    color: #D56285;
-    color: yellow;
-    color: red;
+    // color: rgb(20, 23, 238);
+    // color: #D56285;
+    // color: yellow;
+    // color: red;
 	
 	&::before,
 	&::after {
@@ -91,32 +108,19 @@
     }
 }
 
-
-// @keyframes move {
-// 	100% {
-// 		--i: 2rem;
-// 		offset-distance: calc(var(--offset) + 12rem);
-// 	}
-// }
-
 </style>
 
 
+{#if $artistDetails.questions}
 <div 
     data-splitting  
     class="text" 
-    style="top: {$MOUSE.y -150}px; left:{$MOUSE.x - 150}px; width:{textWidth}px; height:{textHeight}px"
-    >Because - I - do - not - have - time - to - do - something - else.
+    style="top: {$MOUSE.y -150}px; left:{$MOUSE.x - 150}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
+    >{circleText}
 </div>
+{/if}
 
 
 
 <button on:click={handleClick}>test</button>
-
-
-  <!-- <h1 data-splitting>
-	Text in a circle with Splitting
-</h1> -->
-
-
 
