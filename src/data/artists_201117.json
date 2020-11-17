@@ -491,8 +491,13 @@
 				"date_out": "01/01/1992",
 				"lat": -22.959947, 
 				"lon": -43.212053
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
+
 		{
 			"name": "Fritz Bornstück",
 			"discipline": [1, 6],
@@ -1567,8 +1572,13 @@
 				"date_out": "now",
 				"lat": 52.514234, 
 				"lon": 13.450675
-			}]
+			}],
+			"questions": {
+				"why": "People! What we do to each other – good and bad! And Nature.",
+				"finished": "when I don't need to work on it anymore."
+			}
 		},
+
 		{
 			"name": "Stine Marie Jacobsen",
 			"discipline": [5],
@@ -1615,7 +1625,8 @@
 			"questions": {
 				"why": "Because there is no better way to give form to your inner dialogue.",
 				"music": "Four Tet.",
-				"workHours": "9 to 5 to 9 to 5 to 9."
+				"workHours": "9 to 5 to 9 to 5 to 9.", 
+				"finished": "when it feels like."
 			}
 		},
 		{
@@ -2087,7 +2098,8 @@
 			"questions": {
 				"why": "Because I love it and it's the best thing I can imagine to do. The whole world in one profession.",
 				"music": "from Bach to Buzzcocks and from Reich to Bowie.",
-				"workHours": "morning until evening. But my concentration is best from late afternoon to evening."
+				"workHours": "morning until evening. But my concentration is best from late afternoon to evening.",
+				"finished": "it's finished."
 			}
 		},
 		{
@@ -2106,7 +2118,11 @@
 				"date_out": "now",
 				"lat": 52.494904,
 				"lon": 13.357121
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Camille Laurelli",
@@ -2128,7 +2144,8 @@
 			"questions": {
 				"why": "Because someone else can do it also.",
 				"music": "stupeflip.",
-				"workHours": "from now until now."
+				"workHours": "from now until now.",
+				"finished": "I never know when a piece is finished. Usually the spectator knows."
 			}
 		},
 		{
@@ -2147,7 +2164,11 @@
 				"date_out": "now",
 				"lat": 52.511948,
 				"lon": 13.418550
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Alex Lebus",
@@ -2224,8 +2245,7 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 
@@ -2249,8 +2269,7 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 		{
@@ -2653,7 +2672,11 @@
 				"date_out": "01/01/2009",
 				"lat": 52.503664, 
 				"lon": 13.455058
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Stephanie Neumann",
@@ -2671,8 +2694,13 @@
 				"date_out": "now",
 				"lat": 52.528101, 
 				"lon": 13.422834
-			}]
+			}],
+			"questions": {
+				"why": "to answer questions.",
+				"finished": "when there is nothing further to add."
+			}
 		},
+
 		{
 			"name": "Rainer Neumeier",
 			"discipline": [1, 6],
@@ -2729,7 +2757,11 @@
 				"date_out": 0,
 				"lat": 52.492577,
 				"lon": 13.399034
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Ostberlin Androgyn",
@@ -6588,6 +6620,11 @@
 		{
 			"source": "Stephanie Neumann",
 			"target": "Manfred Peckl",
+			"value": 10
+		}, 
+		{
+			"source": "Stephanie Neumann",
+			"target": "Bettina Semmer",
 			"value": 10
 		}, 
 		{
