@@ -100,8 +100,8 @@
 				"lon": 13.418328
 			}],
 			"questions": {
-				"why": " ",
-				"finished": " "
+				"why": "Cause I know nothing else.",
+				"finished": "when i feel exhausted."
 			}
 		},
 
@@ -325,8 +325,13 @@
 				"date_out": "01/01/2016",
 				"lat": 52.503058,
 				"lon": 13.407151
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
+
 		{
 			"name": "Anne Berlit",
 			"discipline": [1,5],
@@ -370,7 +375,8 @@
 			"questions": {
 				"why": "You just do in the way like you just are. There is just what you do, without a necessary reason. Reasons are made retrospective. I don’t have a retrospective point of view.",
 				"music": "-",
-				"workHours": "I always work. Even when I sleep."
+				"workHours": "I always work. Even when I sleep.",
+				"finished": "when I’m finished. "
 			}
 		},
 		{
@@ -390,8 +396,13 @@
 				"date_out": "now",
 				"lat": 52.479351, 
 				"lon": 13.364935
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
+
 		{
 			"name": "Alex Bodea",
 			"discipline": [1,8],
@@ -412,7 +423,9 @@
 			"questions": {
 				"why": "Because I like stories.",
 				"music": "none (I listen to BBC though).",
-				"workHours": "11:00 am until 18:30 pm."
+				"workHours": "11:00 am until 18:30 pm.",
+				"finished": " "
+				
 			}
 		},
 		{
