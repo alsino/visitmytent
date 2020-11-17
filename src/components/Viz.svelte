@@ -280,7 +280,7 @@ function fade(node, {
  }
 
  .artist-selected-day {
-   fill: #D56285 !important;
+   fill: red !important;
  }
 
  .artist-selected-night {
