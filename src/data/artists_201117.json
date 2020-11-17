@@ -1517,7 +1517,7 @@
 			"questions": {
 				"why": "Künstlerische Arbeit, künstlerisches Denken, ist eine zunehmend relevante Art mit der Wirklichkeit umzugehen.",
 				"music": "bewusst nur Musik ohne Gesang – neue Musik, elektronische Musik, J.S. Bach.",
-				"workHours": " "
+				"finished": "Ein jeweils fertiges Bild hat sehr verschiedene Wirkungen auf mich. Manchmal eine Enttäuschung, dass es schon wieder meiner Erwartung nicht entspricht, aber gleichzeitig keine Option des weiter daran Arbeitens zulässt. Oder, bei besseren Bildern, eine Verstörung ob das nun ein gutes Bild ist, oder nicht. Oder der Galerist nimmt es in Beschlag. Selten habe ich den inneren Frieden, der im Idealfall sein sollte, der signalisiert das Bild ist fertig, weil es mich auf eine wahrhaftige Art etwas weitergebracht hat."
 			}
 		},
 		{
@@ -1554,7 +1554,11 @@
 				"date_out": "now",
 				"lat": 53.557767,
 				"lon": 10.018037
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "René Holm",
@@ -2190,7 +2194,8 @@
 			"questions": {
 				"why": "Higher force.",
 				"music": "audiobooks.",
-				"workHours": "from constantly to never."
+				"workHours": "from constantly to never.",
+				"finished": "it says so."
 			}
 		},
 		{
@@ -2222,7 +2227,8 @@
 			"questions": {
 				"why": "I do what I do, because I never thought of doing something else.",
 				"music": "80´s music.",
-				"workHours": "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning."
+				"workHours": "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning.",
+				"finished": "when it feels finished and I don´t have open questions." 
 			}
 		},
 
@@ -2292,7 +2298,8 @@
 			"questions": {
 				"why": "Everyone should live where she wants to live independent from her status, religion and passport. My parents couldn’t just go to Germany. They had to risk their lifes.",
 				"music": "EPMD.",
-				"workHours": "10 am until 3 pm."
+				"workHours": "10 am until 3 pm.",
+				"finished": "when I can share it on insta."
 			}
 		},
 
@@ -2354,7 +2361,8 @@
 			"questions": {
 				"why": "...",
 				"music": "If I don’t work on music I prefer classic and all of Basic Channel. It’s kind of classic too.",
-				"workHours": "Constantly."
+				"workHours": "Constantly.", 
+				"finished": "There’s always something unfinished."
 			}
 		},
 		{
@@ -2441,7 +2449,8 @@
 			"questions": {
 				"why": "To answer questions that constantly make me feeling curious and uncomfortable.",
 				"music": "Cepia for writing (research papers, etc) and Autechre for building (making circuits, etc).",
-				"workHours": "11 am until 11 pm (when in Berlin, now it has been more like 9 am to 9 pm with many breaks and fun moments in between)."
+				"workHours": "11 am until 11 pm (when in Berlin, now it has been more like 9 am to 9 pm with many breaks and fun moments in between).",
+				"finished": "when either the question or the answer that this piece is trying to put out there resonates with people that I've shown it too."
 			}
 		},
 		{
@@ -2464,7 +2473,8 @@
 			"questions": {
 				"why": "One morning, after a sudden season of troubles, I ended up sailing under a clear sky.",
 				"music": "It very much depends on the mood and energy of the composition.",
-				"workHours": "24/7. I am always picking up signals, visual patterns and lines of vibrations which leaves me working almost nonstop."
+				"workHours": "24/7. I am always picking up signals, visual patterns and lines of vibrations which leaves me working almost nonstop.",
+				"finished": "My compositions are never finished, they are just fragments, sketches that can be drawn upon and shared."
 			}
 		},
 		{
@@ -2525,7 +2535,8 @@
 			"questions": {
 				"why": "Because I cannot imagine doing anything else.",
 				"music": "Tom Waits, Leonard Cohen, Portishead.",
-				"workHours": "10 am until 6 pm."
+				"workHours": "10 am until 6 pm.",
+				"finished": "when I have no more questions to the painting."
 			}
 		},
 		{
@@ -2567,7 +2578,8 @@
 			"questions": {
 				"why": "This allows me to perceive different dimensions of life.",
 				"music": "those recordings of sounds of birds, rivers, forest, etc. sometimes I listen nothing.",
-				"workHours": "I like to work in the mornings until I get hungry."
+				"workHours": "I like to work in the mornings until I get hungry.",
+				"finished": "when I tell the whole story."
 			}
 		},
 
