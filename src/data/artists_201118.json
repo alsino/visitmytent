@@ -1695,7 +1695,11 @@
 				"date_out": "31/12/2011",
 				"lat": 52.504076, 
 				"lon": 13.421204
-			}]
+			}],
+			"questions": {
+				"why": "",
+				"finished": ""
+			}
 		},
 		{
 			"name": "Anne Duk Hee Jordan",
@@ -1721,8 +1725,11 @@
 					"date_out": 0,
 					"lat": 52.540532,
 					"lon": 13.394918
-				}
-			]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Rajkamal Kahlon",
@@ -1740,7 +1747,11 @@
 				"date_out": "30.11.2018",
 				"lat": 43.753996,
 				"lon": 11.239159
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1783,7 +1794,11 @@
 				"date_out": "now",
 				"lat": 52.570235,
 				"lon": 13.410323
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Toni Kater",
@@ -1805,7 +1820,8 @@
 			"questions": {
 				"why": "Because I can't help it.",
 				"music": "I do not hear music at work, except mine :-)",
-				"workHours": "I have no regular working hours."
+				"workHours": "I have no regular working hours.",
+				"finished": "when I get a goose bump."
 			}
 		},
 		{
@@ -1824,7 +1840,11 @@
 				"date_out": "now",
 				"lat": 52.498697,
 				"lon": 13.400124
-			}]
+				}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -1844,7 +1864,11 @@
 				"date_out": "now",
 				"lat": 52.532252, 
 				"lon": 13.328180
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -1868,7 +1892,8 @@
 			"questions": {
 				"why": "I love to hang out in my studio and paint.",
 				"music": "ambientfunk, KaiSaR, Sendelica, Big Sun, Winter Moon.",
-				"workHours": "usually from 11am until 5pm."
+				"workHours": "usually from 11am until 5pm.",
+				"finished": "Painting can be sometimes quite painful. Often I have to destroy the work, scratch off the paint. This is good for a fresh start. The next morning I know for sure if the painting is finished."
 			}
 		},
 
@@ -1888,7 +1913,11 @@
 				"date_out": "now",
 				"lat": 51.434005, 
 				"lon": 7.012015
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1908,8 +1937,13 @@
 				"date_out": 0,
 				"lat": 52.562640,
 				"lon": 13.426629
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
+
 		{
 			"name": "Kevin Kopacka",
 			"discipline": [1, 4],
@@ -1931,7 +1965,8 @@
 			"questions": {
 				"why": "Because it's the thing I most like doing at this time.",
 				"music": "Binaural frequencies.",
-				"workHours": "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm."
+				"workHours": "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm.",
+				"finished": "I can look at it the next week and not find anything I'd want to change."
 			}
 		},
 		{
