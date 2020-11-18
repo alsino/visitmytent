@@ -1299,7 +1299,8 @@
 			"questions": {
 				"why": "Because I have do to it to be able to be me.",
 				"music": "I usually listen to the radio, but at the moment I am listening to Kate Tempest.",
-				"workHours": "Usually I work from when I can until I’m too tired."
+				"workHours": "Usually I work from when I can until I’m too tired.",
+				"finished": "when I put it in the 'finished' box."
 			}
 		},
 
@@ -1445,7 +1446,8 @@
 			"questions": {
 				"why": "I feel the need to do what I do.",
 				"music": "super random. From Argentinian radio shows to YouTube videos.",
-				"workHours": "Usually I work from noon until late."
+				"workHours": "Usually I work from noon until late.",
+				"finished": "when I'm getting confused."
 			}
 		},
 
