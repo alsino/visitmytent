@@ -2015,7 +2015,8 @@
 			"questions": {
 				"why": "Ich mache Kunst und Kunst macht mich. Geht nicht anders.",
 				"music": "Klassik, Jazz und meinen Gedanken.",
-				"workHours": "meistens arbeite ich nachdem ich meine Hunde ausführe und Frühstück, bis ich sie wieder ausführen muss und Mittagbrot gebe. Dann habe ich noch Zeit vor dem Abendbrot."
+				"workHours": "meistens arbeite ich nachdem ich meine Hunde ausführe und Frühstück, bis ich sie wieder ausführen muss und Mittagbrot gebe. Dann habe ich noch Zeit vor dem Abendbrot.",
+				"finished": "Es ist nie fertig. Ende ist immer nur ein trauriger Kompromiss."
 			}
 		},
 		{
@@ -2063,8 +2064,7 @@
 			],
 			"questions": {
 				"why": "To make me happy.",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 
@@ -2087,8 +2087,7 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 		{
@@ -2107,7 +2106,11 @@
 				"date_out": "now",
 				"lat": 52.456497,
 				"lon": 13.529601
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -2127,7 +2130,11 @@
 				"date_out": "now",
 				"lat": 52.512809, 
 				"lon": 13.440221
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -2369,7 +2376,11 @@
 				"date_out": "now",
 				"lat": 52.532860,
 				"lon": 13.359317
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -2389,7 +2400,11 @@
 				"date_out": "now",
 				"lat": 52.505302,
 				"lon": 13.431019
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Stephan Lieb",
@@ -2431,7 +2446,11 @@
 				"date_out": 2018,
 				"lat": 52.524397,
 				"lon": 13.408780
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Robert Lippok",
@@ -2457,8 +2476,11 @@
 					"date_out": "01/01/2005",
 					"lat": 52.500701,
 					"lon": 13.440206
-				}
-			]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Christian Mio Loclair",
@@ -2476,7 +2498,11 @@
 				"date_out": "now",
 				"lat": 52.547721,
 				"lon": 13.408878
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Pedro Lopes",
@@ -2544,7 +2570,11 @@
 				"date_out": "now",
 				"lat": 52.539189,
 				"lon": 13.360871
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Bjørn Melhus",
@@ -2562,7 +2592,11 @@
 				"date_out": "now",
 				"lat": 52.528790,
 				"lon": 13.412159
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Sebastian Meschenmoser",
@@ -2605,7 +2639,11 @@
 				"date_out": "now",
 				"lat": 52.550763,
 				"lon": 13.456285
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -2649,7 +2687,11 @@
 				"date_out": "now",
 				"lat": 52.529996,
 				"lon": 13.392310
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Jan Muche",
@@ -2667,7 +2709,11 @@
 				"date_out": "now",
 				"lat": 52.552340, 
 				"lon": 13.373031
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Johannes Mundinger",
@@ -2685,7 +2731,11 @@
 				"date_out": "now",
 				"lat": 52.507545,
 				"lon": 13.451575
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Christophe Ndabananiye",
@@ -2707,7 +2757,8 @@
 			"questions": {
 				"why": "To survive...",
 				"music": "the radio.",
-				"workHours": "no comment."
+				"workHours": "no comment.",
+				"finished": "It takes a long time! Sometimes more than 6 years ... Like the work: Selbstporträt III (Self-Portrait III), 2012-2018, Mixed media on canvas (6 parts), 100 x 480 cm."
 			}
 		},
 		{
@@ -2779,7 +2830,11 @@
 				"date_out": "now",
 				"lat": 52.551871,
 				"lon": 13.374360
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Renate Neuser",
@@ -2861,7 +2916,11 @@
 				"date_out": "now",
 				"lat": 52.766295, 
 				"lon": 13.615371
-		}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Radio Papesse",
@@ -2883,7 +2942,8 @@
 			"questions": {
 				"why": " ",
 				"music": " ",
-				"workHours": " "
+				"workHours": " ",
+				"finished": " "
 			}
 		},
 
@@ -2916,7 +2976,8 @@
 			"questions": {
 				"why": "I believe in art.",
 				"music": "I hear voices.",
-				"workHours": "8am-12pm."
+				"workHours": "8am-12pm.",
+				"finished": " "
 			}
 		},
 		{
@@ -2935,7 +2996,11 @@
 				"date_out": "now",
 				"lat": 59.408800,
 				"lon": 24.734704
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Max Prosa",
@@ -2953,7 +3018,11 @@
 				"date_out": "now",
 				"lat": 52.479445,
 				"lon": 13.436738
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -2973,7 +3042,11 @@
 				"date_out": "now",
 				"lat": 52.463392, 
 				"lon": 13.508925
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -3012,7 +3085,8 @@
 			"questions": {
 				"why": "why",
 				"music": " ",
-				"workHours": " "
+				"workHours": " ",
+				"finished":" "
 			}
 		},
 
@@ -3036,7 +3110,8 @@
 			"questions": {
 				"why": "What I do are reflections of my daily life and cultural and social situation. I do what I do because I feel engaged to tell what I see and think to the rest of the people.",
 				"music": "techno, minimal and concrete music, diverse artists.",
-				"workHours": "from 5pm until 5am, yes, I’m a night bird."
+				"workHours": "from 5pm until 5am, yes, I’m a night bird.",
+				"finished": " "
 			}
 		},
 		{
@@ -3055,7 +3130,11 @@
 				"date_out": "now",
 				"lat": 51.460247, 
 				"lon": 7.016643
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Stefan Roigk",
@@ -3077,7 +3156,8 @@
 			"questions": {
 				"why": "Ideas just pop up in my mind and the only way to get rid of the pressure they cause in my mind is to make them real.",
 				"music": "Coil, Current 93, Scott Walker, Panda Bear & Animal Collective, John Cage, Iannis Xenakis, Rolf Julius, This Heat.",
-				"workHours": "9:00 pm to 10:00 am."
+				"workHours": "9:00 pm to 10:00 am.",
+				"finished":"when I am still happy after the presentation."
 			}
 		},
 
@@ -3097,7 +3177,11 @@
 				"date_out": "now",
 				"lat": 52.464168, 
 				"lon": 13.497540
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3139,7 +3223,11 @@
 					"date_out": "now",
 					"lat": 52.567664,
 					"lon": 13.384613
-				}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3165,7 +3253,11 @@
 				"date_out": "31/12/2017",
 				"lat": 52.521277, 
 				"lon": 13.450862
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Erik Schmidt",
@@ -3183,7 +3275,11 @@
 				"date_out": "now",
 				"lat": 52.557898,
 				"lon": 13.376080
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Christian Y. Schmidt",
@@ -3259,7 +3355,8 @@
 			"questions": {
 				"why": "It’s who I am.",
 				"music": "if I am reading or concentrating its a mixture of jazz, piano, and guitar.",
-				"workHours": "Work times varies according to what else needs to be done,time now as I write this is 11:45 pm."
+				"workHours": "Work times varies according to what else needs to be done,time now as I write this is 11:45 pm.",
+				"finished": " "
 			}
 		},
 
@@ -3279,7 +3376,11 @@
 				"date_out": "now",
 				"lat": 52.860737, 
 				"lon": 11.980916
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3302,8 +3403,7 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " "
+				"finished": " "
 			}
 		},
 
@@ -3323,7 +3423,11 @@
 				"date_out": "31/10/2019",
 				"lat": 52.544458, 
 				"lon": 13.376642
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Kitty Solaris",
@@ -3345,7 +3449,8 @@
 			"questions": {
 				"why": " I don´t know.",
 				"music": "...I have to listen to my own music. ;)",
-				"workHours": "19:00pm until 1:00am."
+				"workHours": "19:00pm until 1:00am.",
+				"finished": "when I managed to put it on a record."
 			}
 		},
 		{
@@ -3364,7 +3469,11 @@
 				"date_out": "now",
 				"lat": 53.555009,
 				"lon": 9.945380
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3383,7 +3492,11 @@
 				"date_out": "now",
 				"lat": 52.455551,
 				"lon": 14.326853
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Aiko Tezuka",
@@ -3401,7 +3514,11 @@
 				"date_out": "now",
 				"lat": 52.469964, 
 				"lon": 13.455889
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3420,7 +3537,11 @@
 				"date_out": "now",
 				"lat": 50.989148,
 				"lon": 11.014846
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3439,7 +3560,11 @@
 				"date_out": "now",
 				"lat": 52.484830,
 				"lon": 13.434833
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3458,7 +3583,11 @@
 				"date_out": "now",
 				"lat": 41.043297,
 				"lon": 29.002261
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -3486,7 +3615,11 @@
 					"date_out": "01/04/2018",
 					"lat": 52.497144,
 					"lon": 13.418807
-				}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Hans Unstern",
@@ -3504,7 +3637,11 @@
 				"date_out": "now",
 				"lat": 52.484830,
 				"lon": 13.434833
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3523,7 +3660,11 @@
 				"date_out": "now",
 				"lat": 52.516548,
 				"lon": 13.452545
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3555,7 +3696,8 @@
 			"questions": {
 				"why": "To survive.",
 				"music": "all depends on the mood I know that a work is.",
-				"workHours": "always."
+				"workHours": "always.",
+				"finished": "when i feel it."
 			}
 		},
 		{
@@ -3586,7 +3728,8 @@
 			"questions": {
 				"why": "I do what I do because I need to.",
 				"music": "al kind of music, Agnes Obey or Hörspiele, classic or punk. It depends on the mood I am in.",
-				"workHours": "I like to work at night. But usually from morning till afternoon."
+				"workHours": "I like to work at night. But usually from morning till afternoon.",
+				"finished": "when my inner voice tells me this very directly and straight. This is a clear feeling I cannot ignore."
 			}
 		},
 		{
@@ -3605,7 +3748,11 @@
 				"date_out": "now",
 				"lat": 52.538151,
 				"lon": 13.405162
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Shira Wachsmann",
@@ -3631,7 +3778,11 @@
 				"date_out": "31/12/2018",
 				"lat": 52.495387,
 				"lon": 13.426032
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3654,7 +3805,8 @@
 			"questions": {
 				"why": "Eine Stimme in mir sagt, male diese Bilder.",
 				"music": "nur gute Musik.",
-				"workHours": "sogut wie immer nachts."
+				"workHours": "sogut wie immer nachts.",
+				"finished": "wenn es mein Gefühl und mein Verstand und ... es sagt."
 			}
 		},
 
@@ -3674,8 +3826,12 @@
 				"date_out": "now",
 				"lat": 52.466300, 
 				"lon": 13.365284
-				}
-			]},
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
+		},
 
 		{
 			"name": "Julius Weiland",
@@ -3705,7 +3861,8 @@
 			"questions": {
 				"why": "The best moment is when I don‘t think too much about it. I always try to develop my work and look for new challenges. This way it keeps me going and it never gets boring.",
 				"music": " jazz, classical, electronics, but often I like to work in silence.",
-				"workHours": "somewhere between 10:00 and 20:00, everything I touch before gets wrong. And when it‘s getting late my eyes get too tired."
+				"workHours": "somewhere between 10:00 and 20:00, everything I touch before gets wrong. And when it‘s getting late my eyes get too tired.",
+				"finished":"I wish there was a rule for this..."
 			}
 		},
 
@@ -3725,7 +3882,11 @@
 				"date_out": "now",
 				"lat": 52.502690,
 				"lon": 13.409589
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -3756,7 +3917,8 @@
 			"questions": {
 				"why": "Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
 				"music": "Spotify enables you not to have to listen to a track twice in a life time.",
-				"workHours": "early afternoons till open end."
+				"workHours": "early afternoons till open end.",
+				"finished": "when it feels right."
 			}
 		},
 		{
@@ -3775,7 +3937,11 @@
 				"date_out": "now",
 				"lat": 52.566485,
 				"lon": 13.399281
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Sinta Werner",
@@ -3794,7 +3960,11 @@
 				"date_out": "now",
 				"lat": 52.568306,
 				"lon": 13.376099
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Hansa Wißkirchen",
@@ -3819,8 +3989,11 @@
 					"date_out": "now",
 					"lat": 52.529578,
 					"lon": 13.403429
-				}
-			]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Markus Wüste",
@@ -3842,7 +4015,8 @@
 			"questions": {
 				"why": "Curiosity.",
 				"music": "greek radio.",
-				"workHours": "morning until evening."
+				"workHours": "morning until evening.",
+				"finished": "when it got a good place."
 			}
 		},
 
@@ -3897,7 +4071,8 @@
 			"questions": {
 				"why": "I love it.",
 				"music": "none, except my neighbor listens to some.",
-				"workHours": "early on after running til very late."
+				"workHours": "early on after running til very late.",
+				"finished": "I know that it’s finished."
 			}
 		}
 	],
