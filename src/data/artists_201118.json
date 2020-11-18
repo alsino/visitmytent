@@ -1541,7 +1541,11 @@
 				"date_out": "now",
 				"lat": 52.503091,
 				"lon": 13.407863
-			}]
+			}],
+			"questions": {
+				"why": "I can't really find a rational explanation for what drives me. All I know is that when I do certain creative things, which can include making music, but also writing code or solving a hardware development  puzzle, they completely occupy me and make me forget about time. And when I did achieve what I was aiming for I feel a great joy. Hence I want to experience this again.",
+				"finished": "when I have no ideas anymore. In other words, it is never finished, it is just in a certain plateaux state, from which it could be developed further or in a different direction or it could stay there for ever."
+			}
 		},
 		{
 			"name": "Gepa Hinrichsen",
