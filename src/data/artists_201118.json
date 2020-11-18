@@ -3333,8 +3333,13 @@
 				"date_out": "01/01/1989",
 				"lat": 52.033530, 
 				"lon": 8.528500
-			}]
+			}],
+			"questions": {
+				"why": "To impress girls and become immortal. Money.",
+				"finished": "when I reread the text stoned and think: How great is that? Who is the guy who wrote this?"
+			}
 		},
+
 		{
 			"name": "Lerato Shadi",
 			"discipline": [2, 5],
