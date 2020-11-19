@@ -640,7 +640,11 @@
 				"date_out": "now",
 				"lat": 52.503881, 
 				"lon": 13.453790
-			}]
+			}],
+			"questions": {
+				"why": "My motivation results primarily from the inner urge to deal with art. Only then do other factors come into play, for example - to mix my visions, wishes, inspirations etc. with each other, and to communicate them to the viewers and recipients.",
+				"finished": "when I no longer feel the need to change something, when the work doesn’t irritate or annoy me anymore. Actually this is just clear at some point, then the moment comes when you know - the work is done, finished and nothing more can/should be added."
+			}
 		},
 
 		{
@@ -902,8 +906,8 @@
 				"lon": 13.432988
 			}],
 			"questions": {
-				"why": "...",
-				"finished": "..."
+				"why": "Because I'm a perfectionist.",
+				"finished": "Never. Because I'm a perfectionist."
 			}
 		},
 		{
@@ -1105,8 +1109,8 @@
 				"lon": 13.423416
 			}],
 			"questions": {
-				"why": " ",
-				"finished": " "
+				"why": "What I do know is that I have a tendency to surprise myself. David Frankel, Marley & Me, 2008.",
+				"finished": "A bomb is finished when it has exploded but the Golem will go on and on forever. Herbert J. Leder, It!, 1967."
 			}
 		},
 		{
