@@ -3434,8 +3434,8 @@
 				"lon": 13.376642
 			}],
 			"questions": {
-				"why": " ",
-				"finished": " "
+				"why": "First of all, I have this motivation to create. I’m not sure why, but if I don’t make some kind of artwork for awhile I feel less happy. It seems to ground me regardless of where I am. As to the subject choice, I’m often drawn to places and buildings that I find beautiful or exciting, even if they would be considered banal or ugly to most people. When I recreate  a building I feel like I have some kind of ownership of that place. It’s also a way of documenting a location that will eventually change or be destroyed.",
+				"finished": "when it’s finished! It’s just something you know..."
 			}
 		},
 		{
@@ -3480,8 +3480,8 @@
 				"lon": 9.945380
 			}],
 			"questions": {
-				"why": " ",
-				"finished": " "
+				"why": "It’s not just doing what you love, it’s about creating something you have been missing so badly.",
+				"finished": "when I still like it after three weeks."
 			}
 		},
 
@@ -5319,6 +5319,13 @@
 			"target": "Lukas Glinkowski",
 			"value": 25
 		},
+
+		{
+			"source": "Pierre Granoux",
+			"target": "Ben Greber",
+			"value": 10
+		},
+
 		{
 			"source": "Pierre Granoux",
 			"target": "Sibylle Jazra",
