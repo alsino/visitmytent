@@ -70,7 +70,8 @@
 			"questions": {
 				"why": "Communication.",
 				"music": "strictly instrumental (jazz, classical, electronics).",
-				"workHours": "12 am to 5 pm."
+				"workHours": "12 am to 5 pm.",
+				"finished": "when it looks familiar but still strange enough. "
 			}
 		},
 		{
@@ -518,7 +519,8 @@
 			"questions": {
 				"why": "I've got nothing else to do.",
 				"music": "right now: Steve Reich. But when I'm painting I pay no attention to music.",
-				"workHours": "when I wake up till I'm tired."
+				"workHours": "when I wake up till I'm tired.",
+				"finished": "when the dialogue between me and the piece is finished."
 			}
 		},
 		{
@@ -541,7 +543,8 @@
 			"questions": {
 				"why": "Because I want to save the world.",
 				"music": "no music in this time and when I do it I listen to Bossa Nova or Flamenco.",
-				"workHours": "14pm until 22pm usually."
+				"workHours": "14pm until 22pm usually.",
+				"finished": "when it starts to sing or talk (depending on the painting)."
 			}
 		},
 		{
@@ -620,7 +623,8 @@
 			"questions": {
 				"why": "Because I am what I am.",
 				"music": "I normally do not listen to music while I work.",
-				"workHours": "9am to 3 pm."
+				"workHours": "9am to 3 pm.",
+				"finished": "when it gets quiet."
 			}
 		},
 
@@ -766,7 +770,8 @@
 			"questions": {
 				"why": "It’s my passion.",
 				"music": "my favourite album is silence.",
-				"workHours": "noon to late."
+				"workHours": "noon to late.",
+				"finished": "when it leaves my computer."
 			}
 		},
 		{
@@ -798,7 +803,8 @@
 			"questions": {
 				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
 				"music": "audiobooks and podcasts.",
-				"workHours": "11 am until 8-9 pm."
+				"workHours": "11 am until 8-9 pm.",
+				"finished": "when the picture does not require any further intervention."
 			}
 		},
 
@@ -846,7 +852,8 @@
 			"questions": {
 				"why": "Because I grew up in the 90s!",
 				"music": "Melvins, Napalm Death, and all kind of swing music.",
-				"workHours": "13.00 to 18.00."
+				"workHours": "13.00 to 18.00.",
+				"finished": "when it’s dry!"
 			}
 		},
 		{
@@ -1046,7 +1053,8 @@
 			"questions": {
 				"why": "Because it is the only thing I know to do.",
 				"music": "Bossa Nova.",
-				"workHours": "from noon to 8 pm."
+				"workHours": "from noon to 8 pm.", 
+				"finished": "when I signed it."
 			}
 		},
 
@@ -1156,7 +1164,8 @@
 			"questions": {
 				"why": "I like music.",
 				"music": "I usually have to listen to what I'm working on, so...",
-				"workHours": "noon until midnight, but shifting all the time."
+				"workHours": "noon until midnight, but shifting all the time.",
+				"finished": "when I listen back to it on several occasions - with some distance - and then still think it's finished."
 			}
 		},
 
@@ -1472,7 +1481,11 @@
 				"date_out": "30.01.2020",
 				"lat": 41.135859, 
 				"lon": 29.059025
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1506,7 +1519,11 @@
 				"date_out": "01/01/2013",
 				"lat": 52.499445, 
 				"lon": 13.486588
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Jens Hausmann",
@@ -1997,7 +2014,11 @@
 					"date_out": 0,
 					"lat": 52.494678,
 					"lon": 13.429053
-				}]
+			}],
+			"questions": {
+				"why": "Because I want to make the images in my mind‘s eye real and bring them into existence.",
+				"finished": "when it looks like it needs to."
+			}
 		},
 		{
 			"name": "Agnieszka Korejba",
@@ -2900,7 +2921,11 @@
 				"date_out": "now",
 				"lat": 52.526850,
 				"lon": 13.499157
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 
@@ -2945,8 +2970,6 @@
 			}],
 			"questions": {
 				"why": " ",
-				"music": " ",
-				"workHours": " ",
 				"finished": " "
 			}
 		},
@@ -2981,7 +3004,7 @@
 				"why": "I believe in art.",
 				"music": "I hear voices.",
 				"workHours": "8am-12pm.",
-				"finished": " "
+				"finished": "when it's perfect."
 			}
 		},
 		{
@@ -3087,10 +3110,8 @@
 					"lon": 13.365081
 				}],
 			"questions": {
-				"why": "why",
-				"music": " ",
-				"workHours": " ",
-				"finished":" "
+				"why": " ",
+				"finished": " "
 			}
 		},
 
@@ -3115,7 +3136,7 @@
 				"why": "What I do are reflections of my daily life and cultural and social situation. I do what I do because I feel engaged to tell what I see and think to the rest of the people.",
 				"music": "techno, minimal and concrete music, diverse artists.",
 				"workHours": "from 5pm until 5am, yes, I’m a night bird.",
-				"finished": " "
+				"finished": "In the physical universe the “Control + Z” doesn't work, it’s why I like to operate as a scientist, or as a mathematician would do. You have a formula, then you have a result. So the result of that formula will be the final work. I don’t push so much, the result is the result, the rest is cosmetic. The strongest part of my work lies in the formula, the idea of the process."
 			}
 		},
 		{
