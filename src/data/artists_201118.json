@@ -445,7 +445,11 @@
 				"date_out": "now",
 				"lat": 52.567858,
 				"lon": 13.398685
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Isabelle Borges",
@@ -586,7 +590,11 @@
 				"date_out": "31/05/2010",
 				"lat": 52.514241, 
 				"lon": 13.417811
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Jenny Brosinski",
@@ -698,7 +706,11 @@
 				"date_out": "now",
 				"lat": 52.544471,
 				"lon": 13.498622
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Carla Chan",
@@ -724,7 +736,11 @@
 					"date_out": 2018,
 					"lat": 52.479099,
 					"lon": 13.364809
-				}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -933,7 +949,11 @@
 				"date_out": "now",
 				"lat": 59.408800,
 				"lon": 24.734704
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Christoph Esser",
@@ -951,7 +971,11 @@
 				"date_out": "now",
 				"lat": 51.460759, 
 				"lon": 7.015999
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -986,7 +1010,11 @@
 					"date_out": "01/01/2016",
 					"lat": 52.412011,
 					"lon": 13.361277
-				}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Francesco Fillini",
@@ -1243,7 +1271,11 @@
 				"date_out": "now",
 				"lat": 52.479975, 
 				"lon": 13.365016
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Maria Gideon",
@@ -1283,7 +1315,11 @@
 				"date_out": "now",
 				"lat": 52.541202, 
 				"lon": 13.498518
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1341,7 +1377,11 @@
 				"date_out": "now",
 				"lat": 52.533364, 
 				"lon": 13.430376
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1360,7 +1400,11 @@
 				"date_out": "now",
 				"lat": 52.529516, 
 				"lon": 13.426001
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1379,7 +1423,11 @@
 				"date_out": "now",
 				"lat": 52.555444,
 				"lon": 13.416804
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Philip Grözinger",
@@ -1429,7 +1477,11 @@
 				"date_out": "now",
 				"lat": 52.553650,
 				"lon": 13.390724
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Stefanie Gutheil",
@@ -1448,7 +1500,11 @@
 				"date_out": "now",
 				"lat": 52.500893,
 				"lon": 13.419196
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 
 		{
@@ -1811,7 +1867,6 @@
 			}
 		},
 
-
 		{
 			"name": "Carolin Kastner",
 			"discipline": [1],
@@ -1881,7 +1936,6 @@
 			}
 		},
 
-
 		{
 			"name": "Katia Kelm",
 			"discipline": [2, 6],
@@ -1904,7 +1958,6 @@
 				"finished": " "
 			}
 		},
-
 
 		{
 			"name": "Klaus Killisch",
@@ -2073,7 +2126,11 @@
 				"date_out": 0,
 				"lat": 52.507954,
 				"lon": 13.319263
-			}]
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
 		},
 		{
 			"name": "Pilocka Krach",
