@@ -5,37 +5,19 @@
     import { MOUSE } from '../store.js';
     import { VIEWMODE, COLORS } from '../store.js';
     
-    export let artistDetails;
-
+    import {selectedArtistDetails} from '../store.js';
 
     let textWidth = 300;
     let textHeight = 300;
 
+
     $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
-    let circleText;
-
-    // $: if ($artistDetails.questions){
-    //     circleText = $artistDetails.questions.why;
-    // }
-
-    $: if($artistDetails.questions) {
-        console.log($artistDetails)
-        circleText = $artistDetails.questions.why.split(" ").join("-");
-    };
-
-
-
-    
-
-    
-
-
+    $: console.log($selectedArtistDetails);
 
 
     onMount(() => {
-        Splitting();
-        console.log($artistDetails.questions.why);
+        // Splitting();
     });
 
 
@@ -60,40 +42,36 @@
 .text {
     font-size: 1em;
     // font-style: italic;
-    transition: width 2s, height 2s;
+    // transition: width 2s, height 2s;
     position: absolute;
     pointer-events: none;
     display: block;
     background-color: transparent;
-    animation: spin 120s infinite linear;
+    // animation: spin 120s infinite linear;
 }
 
 
-:global(.char) {
-    --units: 1;
-    --l: calc(var(--char-total) + 1);
-	--rotationUnit: calc((1turn / var(--l)) * var(--char-index, 1));
-	transform: rotate(var(--rotationUnit));
-	transform-origin: center;
-	width: calc(100% - 2rem);
-	height: calc(100% - 2rem);
-	top: 1rem;
-	left: 1rem;
-	text-align: center;
-	// Required to override splitting.js styles
-	display: block !important;
-	position: absolute !important;
-    // color: rgb(20, 23, 238);
-    // color: #D56285;
-    // color: yellow;
-    // color: red;
+// :global(.char) {
+//     --units: 1;
+//     --l: calc(var(--char-total) + 1);
+// 	--rotationUnit: calc((1turn / var(--l)) * var(--char-index, 1));
+// 	transform: rotate(var(--rotationUnit));
+// 	transform-origin: center;
+// 	width: calc(100% - 2rem);
+// 	height: calc(100% - 2rem);
+// 	top: 1rem;
+// 	left: 1rem;
+// 	text-align: center;
+// 	// Required to override splitting.js styles
+// 	display: block !important;
+// 	position: absolute !important;
 	
-	&::before,
-	&::after {
-		display: none;
-	}
+// 	&::before,
+// 	&::after {
+// 		display: none;
+// 	}
 
-}
+// }
 
 
 
@@ -110,17 +88,23 @@
 
 </style>
 
+<div class="text">{$selectedArtistDetails}</div>
 
-{#if $artistDetails.questions}
-<div 
-    data-splitting  
+
+  <div 
     class="text" 
     style="top: {$MOUSE.y -150}px; left:{$MOUSE.x - 150}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
-    >{circleText}
+    >
+    hello
 </div>
-{/if}
 
 
+    <!-- <div 
+        data-splitting  
+        class="text" 
+        style="top: {$MOUSE.y -150}px; left:{$MOUSE.x - 150}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
+        >{$selectedArtistDetails}
+    </div> -->
 
-<button on:click={handleClick}>test</button>
+
 

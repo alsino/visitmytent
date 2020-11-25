@@ -388,10 +388,10 @@ function fade(node, {
 
     </svg>
   </div>
-
+<!-- 
   {#if $selectedArtist}
     <Circle artistDetails={selectedArtistDetails}/>
-  {/if}
+  {/if} -->
 
  
   <div 
