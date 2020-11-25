@@ -14,11 +14,10 @@
   import { selectedArtist, selectedArtistDetails } from '../store.js';
   import { VIEWMODE, COLORS } from '../store.js';
 
-  import Circle from '../components/Circle.svelte';
-
 
   export let artist;
-  let textWidth = 500;
+
+  let textWidth = 300;
   let textHeight = 500;
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
@@ -42,12 +41,11 @@
 
 
 {#if $selectedArtistDetails}
-  <!-- <Circle /> -->
  
   {#if $selectedArtistDetails.questions}
     <div 
       class="text" 
-      style="top: {$MOUSE.y -150}px; left:{$MOUSE.x - 150}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
+      style="top: {$MOUSE.y - 30}px; left:{$MOUSE.x}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
       >
       {$selectedArtistDetails.questions.why}
     </div>
