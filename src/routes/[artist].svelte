@@ -7,7 +7,7 @@
 </script>
 
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, beforeUpdate } from 'svelte';
   import { MOUSE } from '../store.js';
   import ArtistInfo from '../components/ArtistInfo.svelte';   
   import { nodesWithLinks } from '../store.js';
@@ -21,27 +21,36 @@
   let textHeight = 500;
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
-  $: console.log($selectedArtistDetails);
 
+  // $: name = $selectedArtist;
+  // $: console.log($selectedArtistDetails)
 
-
+  
   let startName = nodesWithLinks.filter((item) => {
       return item.slug == artist;
     })[0].name;
 
+  let startDetails = nodesWithLinks.filter((item) => {
+    return item.slug == artist;
+  })[0];
+
+
   onMount(() => {
-    // console.log(startName);
     $selectedArtist = startName;
+    $selectedArtistDetails = startDetails;
 
+    // console.log(startName);
+    // console.log($selectedArtistDetails);
 
-    // BLOTTER - Example 2
-    let text = new Blotter.Text("observation", {
-      family : "'EB Garamond', serif",
-      size : 27,
-      fill : "#171717",
-      paddingLeft : 40,
-      paddingRight : 40
-    });
+    let text = new Blotter.Text(startName, {
+        family : "'EB Garamond', serif",
+        size : 54,
+        fill : "#000",
+        paddingLeft : 40,
+        paddingRight : 40
+      });
+
+   
 
     let material = new Blotter.LiquidDistortMaterial();
 
@@ -66,8 +75,9 @@
 
     scope.appendTo(elem);
 
-
   });
+
+  
 
 
 
@@ -91,12 +101,10 @@
 {/if} -->
 
 
-<div 
-id="plain-text"
-style="top: {$MOUSE.y - 30}px; left:{$MOUSE.x}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
-></div>
-
-
+  <div 
+  id="plain-text"
+  style="top: {$MOUSE.y - 30}px; left:{$MOUSE.x}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
+  ></div>
 
 
 
