@@ -20,12 +20,14 @@
   let textWidth = 300;
   let textHeight = 500;
 
+  let blotterText;
+  let material;
+  let blotter;
+  let elem;
+  let scope;
+
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
-  // $: name = $selectedArtist;
-  // $: console.log($selectedArtistDetails)
-
-  
   let startName = nodesWithLinks.filter((item) => {
       return item.slug == artist;
     })[0].name;
@@ -35,24 +37,29 @@
   })[0];
 
 
+  $: updateBlotterText = function(){
+      blotterText.value = $selectedArtist;
+      blotterText.needsUpdate = true;
+      console.log($selectedArtist);
+  }
+
+  // $: console.log($selectedArtist);
+
   onMount(() => {
     $selectedArtist = startName;
     $selectedArtistDetails = startDetails;
 
-    // console.log(startName);
-    // console.log($selectedArtistDetails);
 
-    let text = new Blotter.Text(startName, {
+    blotterText = new Blotter.Text(startName, {
         family : "'EB Garamond', serif",
         size : 54,
         fill : "#000",
         paddingLeft : 40,
         paddingRight : 40
       });
+    
 
-   
-
-    let material = new Blotter.LiquidDistortMaterial();
+    material = new Blotter.LiquidDistortMaterial();
 
     // Play with the value for uSpeed. Lower values slow
     // down animation, while higher values speed it up. At
@@ -66,27 +73,21 @@
     // the value below 1.0.
     // material.uniforms.uVolatility.value = 0.30;
 
-    let blotter = new Blotter(material, {
-      texts : text
+    blotter = new Blotter(material, {
+      texts : blotterText
     });
 
-    let elem = document.getElementById("plain-text");
-    let scope = blotter.forText(text);
-
+    elem = document.getElementById("plain-text");
+    scope = blotter.forText(blotterText);
     scope.appendTo(elem);
 
   });
-
-  
-
-
 
 
 </script>
 
 
 <ArtistInfo/>
-
 
 <!-- {#if $selectedArtistDetails}
  
@@ -105,6 +106,8 @@
   id="plain-text"
   style="top: {$MOUSE.y - 30}px; left:{$MOUSE.x}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
   ></div>
+
+  <button on:click={updateBlotterText}>click</button>
 
 
 
