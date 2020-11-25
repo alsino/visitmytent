@@ -50,6 +50,30 @@
 				"lon": 13.438563
 			}]
 		},
+
+		{
+			"name": "Menno Aden",
+			"discipline": [4,5],
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Weener",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "menno_aden.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 0, 
+				"lon": 0
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
+		},
+
 		{
 			"name": "Jörg-Uwe Albig",
 			"discipline": [7],
@@ -1683,6 +1707,31 @@
 				"finished": "when I don't need to work on it anymore."
 			}
 		},
+
+		
+		{
+			"name": "Mascha Jacobs",
+			"discipline": [7],
+			"gender": "female",
+			"birthYear": "1978",
+			"birthTown": " ",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "mascha_jacobs.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.532423, 
+				"lon": 13.425808
+			}],
+			"questions": {
+				"why": " ",
+				"finished": " "
+			}
+		},
+
 
 		{
 			"name": "Stine Marie Jacobsen",
@@ -4302,6 +4351,122 @@
 		},
 
 		{
+			"source": "Menno Aden",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Frederik Foert",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Pierre Granoux",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Pierre Granoux",
+			"value": 25
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Stephanie Neumann",
+			"value": 25
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Bettina Semmer",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Sinta Werner",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+
+		{
 			"source": "Christopher Bauder",
 			"target": "Robert Henke",
 			"value": 10
@@ -6028,6 +6193,22 @@
 			"source": "René Holm",
 			"target": "Hansa Wißkirchen",
 			"value": 10
+		},
+
+		{
+			"source": "Mascha Jacobs",
+			"target": "Jörg-Uwe Albig",
+			"value": 25
+		},
+		{
+			"source": "Mascha Jacobs",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Mascha Jacobs",
+			"target": "Ulrich Gutmair",
+			"value": 25
 		},
 
 		{
