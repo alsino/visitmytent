@@ -32,7 +32,65 @@
   onMount(() => {
     // console.log(startName);
     $selectedArtist = startName;
+
+
+  // // BLOTTER - Example 1
+  //   var text = new Blotter.Text("observation", {
+  //     family : "'EB Garamond', serif",
+  //     size : 27,
+  //     fill : "#202020"
+  //   });
+
+  // // var material = new Blotter.Material();
+  // // var material = new Blotter.ChannelSplitMaterial();
+  // const material = new Blotter.LiquidDistortMaterial();
+
+  // var blotter = new Blotter(material, {
+  //   texts : text
+  // });
+
+  // var elem = document.getElementById("plain-text");
+  // var scope = blotter.forText(text);
+
+  // scope.appendTo(elem);
+
+  // BLOTTER - Example 2
+var text = new Blotter.Text("observation", {
+  family : "'EB Garamond', serif",
+  size : 27,
+  fill : "#171717",
+  paddingLeft : 40,
+  paddingRight : 40
+});
+
+var material = new Blotter.LiquidDistortMaterial();
+
+// Play with the value for uSpeed. Lower values slow
+// down animation, while higher values speed it up. At
+// a speed of 0.0, animation is stopped entirely.
+material.uniforms.uSpeed.value = 0.25;
+
+// Try uncommenting the following line to play with
+// the "volatility" of the effect. Higher values here will
+// produce more dramatic changes in the appearance of your
+// text as it animates, but you will likely want to keep
+// the value below 1.0.
+//material.uniforms.uVolatility.value = 0.30;
+
+var blotter = new Blotter(material, {
+  texts : text
+});
+
+var elem = document.getElementById("plain-text");
+var scope = blotter.forText(text);
+
+scope.appendTo(elem);
+
+
   });
+
+
+
 
 </script>
 
@@ -40,17 +98,25 @@
 <ArtistInfo/>
 
 
-{#if $selectedArtistDetails}
+<!-- {#if $selectedArtistDetails}
  
   {#if $selectedArtistDetails.questions}
     <div 
-      class="text" 
+      id="text" 
       style="top: {$MOUSE.y - 30}px; left:{$MOUSE.x}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
       >
       {$selectedArtistDetails.questions.why}
     </div>
   {/if}
-{/if}
+{/if} -->
+
+
+<div 
+id="plain-text"
+style="top: {$MOUSE.y - 30}px; left:{$MOUSE.x}px; width:{textWidth}px; height:{textHeight}px; color:{colorScheme.circleSelected};"
+></div>
+
+
 
 
 
@@ -59,6 +125,14 @@
 
   * {
     box-sizing: border-box;
+  }
+
+  #plain-text {
+      font-size: 1em;
+      position: absolute;
+      pointer-events: none;
+      display: block;
+      background-color: transparent;
   }
   
   
