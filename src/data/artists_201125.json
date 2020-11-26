@@ -53,7 +53,7 @@
 
 		{
 			"name": "Menno Aden",
-			"discipline": [4,5],
+			"discipline": [4],
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Weener",
@@ -5608,6 +5608,11 @@
 		},
 		{
 			"source": "Pierre Granoux",
+			"target": "Stephanie Neumann",
+			"value": 10
+		},
+		{
+			"source": "Pierre Granoux",
 			"target": "Gonzalo Reyes Araos",
 			"value": 10
 		},
@@ -7158,7 +7163,7 @@
 		{
 			"source": "Stephanie Neumann",
 			"target": "Bettina Semmer",
-			"value": 10
+			"value": 25
 		}, 
 		{
 			"source": "Stephanie Neumann",
@@ -7499,6 +7504,41 @@
 			"value": 10
 		},
 
+		{
+			"source": "Bettina Semmer",
+			"target": "Joanna Buchowska",
+			"value": 10
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Stephanie Neumann",
+			"value": 25
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},
 
 		{
 			"source": "Lerato Shadi",
