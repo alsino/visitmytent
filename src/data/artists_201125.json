@@ -5398,6 +5398,11 @@
 		}, 
 		{
 			"source": "Holm Friebe",
+			"target": "Friedrich Liechtenstein",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
 			"target": "Stephanie Neumann",
 			"value": 10
 		}, 
@@ -7423,7 +7428,6 @@
 			"target": "Michaela Zimmer",
 			"value": 10
 		}, 
-
 
 
 		{
