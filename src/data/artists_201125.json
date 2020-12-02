@@ -2427,7 +2427,7 @@
 				}
 			],
 			"questions": {
-				"why": "I do what I do, because I never thought of doing something else.",
+				"why": ["I do what I do, because I never", "thought of doing something else."],
 				"music": "80´s music.",
 				"workHours": "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning.",
 				"finished": "when it feels finished and I don´t have open questions." 
