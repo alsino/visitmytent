@@ -2500,8 +2500,8 @@
 				"lon": 12.642561
 			}],
 			"questions": {
-				"why": "Everyone should live where she wants to live independent from her status, religion and passport. My parents couldn’t just go to Germany. They had to risk their lifes.",
-				"music": "EPMD.",
+				"why" : ["Everyone should live where she wants to live independent", "from her status, religion and passport. My parents couldn’t just go to Germany.", "They had to risk their lifes."],
+				"music": "EPMD",
 				"workHours": "10 am until 3 pm.",
 				"finished": "when I can share it on insta."
 			}
