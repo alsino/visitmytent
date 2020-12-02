@@ -16,11 +16,13 @@
 
   export let artist;
 
+  
   let text1, text2, text3;
   let elem1, elem2, elem3;
   let scope1, scope2, scope3;
   let material;
   let blotter;
+  let textSize = 40;
   
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
@@ -36,8 +38,8 @@
 
   beforeUpdate(() => {
 
-    if ($selectedArtist == "Van Bo Le-Mentzel") {
-    // if ($selectedArtist) {
+    // if ($selectedArtist == "Van Bo Le-Mentzel") {
+    if ($selectedArtist) {
 
       if ($selectedArtistDetails.questions.why != " ") {
 
@@ -66,7 +68,7 @@
 
     let styleProperties = {
         family : "'EB Garamond', serif",
-        size : 40,
+        size : textSize,
         fill : "#000",
         paddingLeft : 40,
         paddingRight : 40
@@ -119,17 +121,17 @@
 
   <div 
   id="plain-text"
-  style="top: {$MOUSE.y - 120}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - textSize * 3}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
   <div 
   id="plain-text-2"
-  style="top: {$MOUSE.y - 80}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - textSize * 2}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
   <div 
   id="plain-text-3"
-  style="top: {$MOUSE.y - 40}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - textSize}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
   <!-- <button on:click={updatetext1}>click</button> -->
