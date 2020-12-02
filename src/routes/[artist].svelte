@@ -16,9 +16,9 @@
 
   export let artist;
 
-  let text1, text2;
-  let elem1, elem2;
-  let scope1, scope2;
+  let text1, text2, text3;
+  let elem1, elem2, elem3;
+  let scope1, scope2, scope3;
   let material;
   let blotter;
   
@@ -36,17 +36,20 @@
 
   beforeUpdate(() => {
 
-    if ($selectedArtist == "Jeewi Lee") {
+    if ($selectedArtist == "Van Bo Le-Mentzel") {
     // if ($selectedArtist) {
 
       if ($selectedArtistDetails.questions.why != " ") {
 
-        if (text1 && text2) {
+        if (text1 && text2 && text3) {
           text1.value = $selectedArtistDetails.questions.why[0];
           text1.needsUpdate = true;
 
           text2.value = $selectedArtistDetails.questions.why[1];
           text2.needsUpdate = true;
+
+          text3.value = $selectedArtistDetails.questions.why[2];
+          text3.needsUpdate = true;
         }
 
       }
@@ -70,7 +73,8 @@
     };
 
     text1 = new Blotter.Text("", styleProperties);
-    text2= new Blotter.Text("", styleProperties);
+    text2 = new Blotter.Text("", styleProperties);
+    text3 = new Blotter.Text("", styleProperties);
 
     
     material = new Blotter.LiquidDistortMaterial();
@@ -88,11 +92,12 @@
     material.uniforms.uVolatility.value = 0.06;
 
     blotter = new Blotter(material, {
-      texts : [text1, text2]
+      texts : [text1, text2, text3]
     });
 
     elem1 = document.getElementById("plain-text");
     elem2 = document.getElementById("plain-text-2");
+    elem3 = document.getElementById("plain-text-3");
   
     scope1 = blotter.forText(text1);
     scope1.appendTo(elem1);
@@ -100,7 +105,8 @@
     scope2 = blotter.forText(text2);
     scope2.appendTo(elem2);
 
-
+    scope3 = blotter.forText(text3);
+    scope3.appendTo(elem3);
 
   });
 
@@ -113,11 +119,16 @@
 
   <div 
   id="plain-text"
-  style="top: {$MOUSE.y - 80}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - 120}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
   <div 
   id="plain-text-2"
+  style="top: {$MOUSE.y - 80}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  ></div>
+
+  <div 
+  id="plain-text-3"
   style="top: {$MOUSE.y - 40}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
@@ -142,6 +153,15 @@
   }
 
   #plain-text-2 {
+      font-size: 1em;
+      position: absolute;
+      pointer-events: none;
+      display: block;
+      background-color: transparent;
+      width: 500px;
+  }
+
+  #plain-text-3 {
       font-size: 1em;
       position: absolute;
       pointer-events: none;
