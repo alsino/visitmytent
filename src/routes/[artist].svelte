@@ -89,7 +89,7 @@
     // produce more dramatic changes in the appearance of your
     // text as it animates, but you will likely want to keep
     // the value below 1.0.
-    material.uniforms.uVolatility.value = 0.06;
+    material.uniforms.uVolatility.value = 0.03;
 
     blotter = new Blotter(material, {
       texts : [text1, text2, text3]
