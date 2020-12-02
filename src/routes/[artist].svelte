@@ -22,7 +22,7 @@
   let scope1, scope2, scope3;
   let material;
   let blotter;
-  let textSize = 40;
+  let textSize = 34;
   
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;

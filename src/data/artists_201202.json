@@ -1481,7 +1481,7 @@
 				"lon": 13.436056
 			}],
 			"questions": {
-				"why": "I've wanted to paint things since I can think.",
+				"why": ["I've wanted to paint things", "since I can think.", " "],
 				"finished": "The paintings tell me when they are finished. Too bad that sometimes years later I see that they weren't always right."
 			}
 		},
@@ -1504,7 +1504,7 @@
 				"lon": 13.390724
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1527,7 +1527,7 @@
 				"lon": 13.419196
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1551,7 +1551,7 @@
 				"lon": 13.411824
 			}],
 			"questions": {
-				"why": "I feel the need to do what I do.",
+				"why": ["I feel the need to do what I do.", " ", " "],
 				"music": "super random. From Argentinian radio shows to YouTube videos.",
 				"workHours": "Usually I work from noon until late.",
 				"finished": "when I'm getting confused."
@@ -1577,7 +1577,7 @@
 				"lon": 29.059025
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1615,7 +1615,7 @@
 				"lon": 13.486588
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1637,7 +1637,7 @@
 				"lon": 13.416961
 			}],
 			"questions": {
-				"why": "Künstlerische Arbeit, künstlerisches Denken, ist eine zunehmend relevante Art mit der Wirklichkeit umzugehen.",
+				"why": ["Künstlerische Arbeit, künstlerisches", "Denken, ist eine zunehmend relevante Art,", "mit der Wirklichkeit umzugehen."],
 				"music": "bewusst nur Musik ohne Gesang – neue Musik, elektronische Musik, J.S. Bach.",
 				"finished": "Ein jeweils fertiges Bild hat sehr verschiedene Wirkungen auf mich. Manchmal eine Enttäuschung, dass es schon wieder meiner Erwartung nicht entspricht, aber gleichzeitig keine Option des weiter daran Arbeitens zulässt. Oder, bei besseren Bildern, eine Verstörung ob das nun ein gutes Bild ist, oder nicht. Oder der Galerist nimmt es in Beschlag. Selten habe ich den inneren Frieden, der im Idealfall sein sollte, der signalisiert das Bild ist fertig, weil es mich auf eine wahrhaftige Art etwas weitergebracht hat."
 			}
@@ -1682,7 +1682,7 @@
 				"lon": 10.018037
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1704,7 +1704,7 @@
 				"lon": 13.450675
 			}],
 			"questions": {
-				"why": "People! What we do to each other – good and bad! And Nature.",
+				"why": ["People! What we do to each other –", "good and bad! And Nature.", " "],
 				"finished": "when I don't need to work on it anymore."
 			}
 		},
@@ -1728,7 +1728,7 @@
 				"lon": 13.425808
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1752,7 +1752,7 @@
 				"lon": 13.427771
 			}],
 			"questions": {
-				"why": "I have a different motivation for each project I do.",
+				"why": ["I have a different motivation", "for each project I do.", " "],
 				"finished": "I don't think a piece is ever truly finished."
 			}
 		},
@@ -1783,7 +1783,7 @@
 				"lon": 13.425501
 			}],
 			"questions": {
-				"why": "Because there is no better way to give form to your inner dialogue.",
+				"why": ["Because there is no better way to give " ,"form to your inner dialogue.", " "],
 				"music": "Four Tet.",
 				"workHours": "9 to 5 to 9 to 5 to 9.", 
 				"finished": "when it feels like."
@@ -1807,7 +1807,7 @@
 				"lon": 13.382333
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1837,7 +1837,7 @@
 				"lon": 13.421204
 			}],
 			"questions": {
-				"why": "",
+				"why": [" ", " ", " "],
 				"finished": ""
 			}
 		},
@@ -1867,7 +1867,7 @@
 					"lon": 13.394918
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1889,7 +1889,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1912,7 +1912,7 @@
 				"lon": 13.428156
 			}],
 			"questions": {
-				"why": "Cause it needs to be done.",
+				"why": ["Cause it needs to be done.", " ", " "],
 				"finished": "When it looks at me like 'Who are you? Get the fuck outta here.'"
 			}
 		},
@@ -1935,7 +1935,7 @@
 				"lon": 13.410323
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1957,7 +1957,7 @@
 				"lon": 13.435566
 			}],
 			"questions": {
-				"why": "Because I can't help it.",
+				"why": ["Because I can't help it.", " ", " "],
 				"music": "I do not hear music at work, except mine :-)",
 				"workHours": "I have no regular working hours.",
 				"finished": "when I get a goose bump."
@@ -1981,7 +1981,7 @@
 				"lon": 13.400124
 				}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2004,7 +2004,7 @@
 				"lon": 13.328180
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2027,7 +2027,7 @@
 				"lon": 13.398299
 			}],
 			"questions": {
-				"why": "I love to hang out in my studio and paint.",
+				"why": ["I love to hang out in my", "studio and paint.", " "],
 				"music": "ambientfunk, KaiSaR, Sendelica, Big Sun, Winter Moon.",
 				"workHours": "usually from 11am until 5pm.",
 				"finished": "Painting can be sometimes quite painful. Often I have to destroy the work, scratch off the paint. This is good for a fresh start. The next morning I know for sure if the painting is finished."
@@ -2076,7 +2076,7 @@
 				"lon": 13.426629
 			}],
 			"questions": {
-				"why": "If I knew why, I would not do it.",
+				"why": ["If I knew why, I would not do it.", " ", " "],
 				"finished": "when it says."
 			}
 		},
