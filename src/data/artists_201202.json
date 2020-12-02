@@ -2100,7 +2100,7 @@
 				"lon": 13.499055
 			}],
 			"questions": {
-				"why": "Because it's the thing I most like doing at this time.",
+				"why": ["Because it's the thing I most ", "like doing at this time.", " "],
 				"music": "Binaural frequencies.",
 				"workHours": "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm.",
 				"finished": "I can look at it the next week and not find anything I'd want to change."
@@ -2132,7 +2132,7 @@
 					"lon": 13.429053
 			}],
 			"questions": {
-				"why": "Because I want to make the images in my mind‘s eye real and bring them into existence.",
+				"why": ["Because I want to make the images", "in my mind‘s eye real and bring them", "into existence."],
 				"finished": "when it looks like it needs to."
 			}
 		},
@@ -2154,7 +2154,7 @@
 				"lon": 13.053786
 			}],
 			"questions": {
-				"why": "Ich mache Kunst und Kunst macht mich. Geht nicht anders.",
+				"why": ["Ich mache Kunst und Kunst macht", "mich. Geht nicht anders.", " "],
 				"music": "Klassik, Jazz und meinen Gedanken.",
 				"workHours": "meistens arbeite ich nachdem ich meine Hunde ausführe und Frühstück, bis ich sie wieder ausführen muss und Mittagbrot gebe. Dann habe ich noch Zeit vor dem Abendbrot.",
 				"finished": "Es ist nie fertig. Ende ist immer nur ein trauriger Kompromiss."
@@ -2208,7 +2208,7 @@
 				}
 			],
 			"questions": {
-				"why": "To make me happy.",
+				"why": ["To make me happy.", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2253,7 +2253,7 @@
 				"lon": 13.529601
 			}],
 			"questions": {
-				"why": "To materialize what I cannot say with words.",
+				"why": ["To materialize what I cannot", "say with words.", " "],
 				"finished": "when I have to smile."
 			}
 		},
@@ -2302,7 +2302,7 @@
 				"lon": 13.430406
 			}],
 			"questions": {
-				"why": "Because I love it and it's the best thing I can imagine to do. The whole world in one profession.",
+				"why": ["Because I love it and it's the best", "thing I can imagine to do.", "The whole world in one profession."],
 				"music": "from Bach to Buzzcocks and from Reich to Bowie.",
 				"workHours": "morning until evening. But my concentration is best from late afternoon to evening.",
 				"finished": "it's finished."
@@ -2348,7 +2348,7 @@
 				"lon": 24.734704
 			}],
 			"questions": {
-				"why": "Because someone else can do it also.",
+				"why": ["Because someone else can do it also.", " ", " "],
 				"music": "stupeflip.",
 				"workHours": "from now until now.",
 				"finished": "I never know when a piece is finished. Usually the spectator knows."
@@ -2372,7 +2372,7 @@
 				"lon": 13.418550
 			}],
 			"questions": {
-				"why": "I need somewhere to get rid of the excess mental energy.",
+				"why": ["I need somewhere to get rid", "of the excess mental energy.", " "],
 				"finished": "when the anxiety dissipates!"
 			}
 		},
@@ -2394,7 +2394,7 @@
 				"lon": 13.371857
 			}],
 			"questions": {
-				"why": "Higher force.",
+				"why": ["Higher force.", " ", " "],
 				"music": "audiobooks.",
 				"workHours": "from constantly to never.",
 				"finished": "it says so."
