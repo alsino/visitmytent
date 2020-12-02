@@ -45,14 +45,17 @@
 
 
   beforeUpdate(() => {
-    if (blotterText) {
 
-      // if ($selectedArtistDetails.questions.why != " ") {
+    if ($selectedArtist) {
+
+      if (blotterText) {
         blotterText.value = $selectedArtistDetails.name;
         blotterText.needsUpdate = true;
-      // }
-     
+      }
+
     }
+
+    
   })
 
 
