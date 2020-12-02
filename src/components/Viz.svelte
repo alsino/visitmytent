@@ -110,7 +110,11 @@
 
     $: getLinkClass = function(link, node){
 
+       
+
        if ($selectedDiscipline) {
+         // Hier fehlt noch ein Fix: Wenn eine Disziplin im Netzwerk ausgewählt ist und von einem Künstler zu einem anderen gewechselt wird, dann werden nicht alle Linien gezeichnet
+
          if (node.discipline.includes($selectedDiscipline)) {
            
           node.links.forEach( item => {
@@ -120,6 +124,7 @@
          } else {
            return 'link-inactive';
          }
+
       }
 
 

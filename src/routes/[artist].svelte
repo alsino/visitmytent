@@ -40,10 +40,10 @@
   $: updateBlotterText = function(){
       blotterText.value = $selectedArtist;
       blotterText.needsUpdate = true;
-      console.log($selectedArtist);
+      // console.log($selectedArtist);
   }
 
-  // $: console.log($selectedArtist);
+  $: console.log($selectedArtist);
 
   onMount(() => {
     $selectedArtist = startName;
