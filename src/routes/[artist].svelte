@@ -48,9 +48,13 @@
 
     if ($selectedArtist) {
 
-      if (blotterText) {
-        blotterText.value = $selectedArtistDetails.name;
-        blotterText.needsUpdate = true;
+      if ($selectedArtistDetails.questions.why != " ") {
+
+        if (blotterText) {
+          blotterText.value = $selectedArtistDetails.questions.why;
+          blotterText.needsUpdate = true;
+        }
+
       }
 
     }
@@ -63,7 +67,7 @@
     $selectedArtist = startName;
     $selectedArtistDetails = startDetails;
 
-    blotterText = new Blotter.Text("old", {
+    blotterText = new Blotter.Text("", {
         family : "'EB Garamond', serif",
         size : 40,
         fill : "#000",
@@ -84,7 +88,7 @@
     // produce more dramatic changes in the appearance of your
     // text as it animates, but you will likely want to keep
     // the value below 1.0.
-    material.uniforms.uVolatility.value = 0.10;
+    material.uniforms.uVolatility.value = 0.06;
 
     blotter = new Blotter(material, {
       texts : blotterText
