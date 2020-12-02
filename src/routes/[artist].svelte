@@ -37,6 +37,7 @@
   beforeUpdate(() => {
 
     if ($selectedArtist == "Jeewi Lee") {
+    // if ($selectedArtist) {
 
       if ($selectedArtistDetails.questions.why != " ") {
 
@@ -112,12 +113,12 @@
 
   <div 
   id="plain-text"
-  style="top: {$MOUSE.y - 40}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - 80}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
   <div 
   id="plain-text-2"
-  style="top: {$MOUSE.y }px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - 40}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
   ></div>
 
   <!-- <button on:click={updatetext1}>click</button> -->
