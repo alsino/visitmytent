@@ -7,6 +7,7 @@
   import { hoveredArtist, selectedArtist, selectedArtistDetails, selectedDiscipline } from '../store.js';
   import Circle from '../components/Circle.svelte';
 
+
  
   import { feature } from "topojson";
 
@@ -211,6 +212,7 @@ function handleMouseOver(artist){
 function handleClick(artist){
   selectedArtist.set(artist.name);
   selectedArtistDetails.set(artist);
+  // console.log("test")
 }
 
 function handleMouseEnter(artist){

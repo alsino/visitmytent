@@ -7,7 +7,6 @@
 
 	$: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
-
 	onMount(() => {
 });
 

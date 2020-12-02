@@ -14,7 +14,6 @@
   import { selectedArtist, selectedArtistDetails } from '../store.js';
   import { VIEWMODE, COLORS } from '../store.js';
 
-
   export let artist;
 
   let textWidth = 300;
@@ -38,21 +37,32 @@
 
 
   $: updateBlotterText = function(){
-      blotterText.value = $selectedArtist;
+      // blotterText.value = $selectedArtistDetails.questions.why;
+      blotterText.value = $selectedArtistDetails.name;
       blotterText.needsUpdate = true;
-      // console.log($selectedArtist);
+      // console.log(blotterText);
   }
 
-  $: console.log($selectedArtist);
+
+  beforeUpdate(() => {
+    if (blotterText) {
+
+      // if ($selectedArtistDetails.questions.why != " ") {
+        blotterText.value = $selectedArtistDetails.name;
+        blotterText.needsUpdate = true;
+      // }
+     
+    }
+  })
+
 
   onMount(() => {
     $selectedArtist = startName;
     $selectedArtistDetails = startDetails;
 
-
-    blotterText = new Blotter.Text(startName, {
+    blotterText = new Blotter.Text("old", {
         family : "'EB Garamond', serif",
-        size : 54,
+        size : 40,
         fill : "#000",
         paddingLeft : 40,
         paddingRight : 40
@@ -64,14 +74,14 @@
     // Play with the value for uSpeed. Lower values slow
     // down animation, while higher values speed it up. At
     // a speed of 0.0, animation is stopped entirely.
-    material.uniforms.uSpeed.value = 0.25;
+    material.uniforms.uSpeed.value = 0.2;
 
     // Try uncommenting the following line to play with
     // the "volatility" of the effect. Higher values here will
     // produce more dramatic changes in the appearance of your
     // text as it animates, but you will likely want to keep
     // the value below 1.0.
-    // material.uniforms.uVolatility.value = 0.30;
+    material.uniforms.uVolatility.value = 0.10;
 
     blotter = new Blotter(material, {
       texts : blotterText
