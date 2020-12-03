@@ -2529,7 +2529,7 @@
 				"lon": 13.359317
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2553,7 +2553,7 @@
 				"lon": 13.431019
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2599,7 +2599,7 @@
 				"lon": 13.408780
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2629,7 +2629,7 @@
 					"lon": 13.440206
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2651,7 +2651,7 @@
 				"lon": 13.408878
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2674,7 +2674,7 @@
 				"lon": 13.133472
 			}],
 			"questions": {
-				"why": "To answer questions that constantly make me feeling curious and uncomfortable.",
+				"why": ["To answer questions that constantly make", "me feeling curious and uncomfortable.", " "],
 				"music": "Cepia for writing (research papers, etc) and Autechre for building (making circuits, etc).",
 				"workHours": "11 am until 11 pm (when in Berlin, now it has been more like 9 am to 9 pm with many breaks and fun moments in between).",
 				"finished": "when either the question or the answer that this piece is trying to put out there resonates with people that I've shown it too."
@@ -2698,7 +2698,7 @@
 				"lon": 13.383202
 			}],
 			"questions": {
-				"why": "One morning, after a sudden season of troubles, I ended up sailing under a clear sky.",
+				"why": ["One morning, after a sudden", "season of troubles I ended up", "sailing under a clear sky."],
 				"music": "It very much depends on the mood and energy of the composition.",
 				"workHours": "24/7. I am always picking up signals, visual patterns and lines of vibrations which leaves me working almost nonstop.",
 				"finished": "My compositions are never finished, they are just fragments, sketches that can be drawn upon and shared."
@@ -2723,7 +2723,7 @@
 				"lon": 13.360871
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2745,7 +2745,7 @@
 				"lon": 13.412159
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2792,7 +2792,7 @@
 				"lon": 13.456285
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2815,7 +2815,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": "This allows me to perceive different dimensions of life.",
+				"why": ["This allows me to perceive", "different dimensions of life.", " "],
 				"music": "those recordings of sounds of birds, rivers, forest, etc. sometimes I listen nothing.",
 				"workHours": "I like to work in the mornings until I get hungry.",
 				"finished": "when I tell the whole story."
@@ -2862,7 +2862,7 @@
 				"lon": 13.373031
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2884,7 +2884,7 @@
 				"lon": 13.451575
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -2906,7 +2906,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": "To survive...",
+				"why": ["To survive...", " ", " "],
 				"music": "the radio.",
 				"workHours": "no comment.",
 				"finished": "It takes a long time! Sometimes more than 6 years ... Like the work: Selbstporträt III (Self-Portrait III), 2012-2018, Mixed media on canvas (6 parts), 100 x 480 cm."
@@ -2938,7 +2938,7 @@
 				"lon": 13.455058
 			}],
 			"questions": {
-				"why": "Because I have an idea sometimes.",
+				"why": ["Because I have an idea sometimes.", " ", " "],
 				"music": "classic 70s Punk Rock.",
 				"workHours": "from start to finish.",
 				"finished": "Um, somehow it's never quite finished. A dot or a dash is always missing somewhere."
@@ -2962,7 +2962,7 @@
 				"lon": 13.422834
 			}],
 			"questions": {
-				"why": "to answer questions.",
+				"why": ["To answer questions.", " ", " "],
 				"finished": "when there is nothing further to add."
 			}
 		},
@@ -2985,7 +2985,7 @@
 				"lon": 13.374360
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3007,7 +3007,7 @@
 				"lon": 7.052714
 			}],
 			"questions": {
-				"why": "weil ich in dieser Tätigkeit Befriedigung empfinde.",
+				"why": ["Weil ich in dieser Tätigkeit", "Befriedigung empfinde.", " "],
 				"finished": "wenn mich das Weitermachen langweilen würde."
 			}
 		},
@@ -3029,7 +3029,7 @@
 				"lon": 13.399034
 			}],
 			"questions": {
-				"why": "Its my way of resistence.",
+				"why": ["It's my way of resistence.", " ", " "],
 				"finished": "when it disconnects from me and I can look at it as if I hadn't made it."
 			}
 		},
@@ -3051,7 +3051,7 @@
 				"lon": 13.499157
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3075,7 +3075,7 @@
 				"lon": 13.615371
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3097,7 +3097,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3129,7 +3129,7 @@
 				"lon": 13.468462
 			}],
 			"questions": {
-				"why": "I believe in art.",
+				"why": ["I believe in art.", " ", " "],
 				"music": "I hear voices.",
 				"workHours": "8am-12pm.",
 				"finished": "when it's perfect."
@@ -3175,7 +3175,7 @@
 				"lon": 13.436738
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3199,7 +3199,7 @@
 				"lon": 13.508925
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3285,7 +3285,7 @@
 				"lon": 7.016643
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3307,7 +3307,7 @@
 				"lon": 13.408868
 			}],
 			"questions": {
-				"why": "Ideas just pop up in my mind and the only way to get rid of the pressure they cause in my mind is to make them real.",
+				"why": ["Ideas just pop up in my mind and the", "only way to get rid of the pressure they", "cause in my mind is to make them real."],
 				"music": "Coil, Current 93, Scott Walker, Panda Bear & Animal Collective, John Cage, Iannis Xenakis, Rolf Julius, This Heat.",
 				"workHours": "9:00 pm to 10:00 am.",
 				"finished":"when I am still happy after the presentation."
@@ -3332,7 +3332,7 @@
 				"lon": 13.497540
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3355,7 +3355,7 @@
 				"lon": 13.357955
 				}],
 			"questions": {
-				"why": "I do what I am doing to learn why I do what does me.",
+				"why": ["I do what I am doing to", "learn why I do what does me.", " "],
 				"finished": "Good art is always finished, so I don’t know."
 			}
 		},
@@ -3378,7 +3378,7 @@
 					"lon": 13.384613
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3408,7 +3408,7 @@
 				"lon": 13.450862
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3430,7 +3430,7 @@
 				"lon": 13.376080
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3488,7 +3488,7 @@
 				"lon": 8.528500
 			}],
 			"questions": {
-				"why": "To impress girls and become immortal. Money.",
+				"why": ["To impress girls and", "become immortal. Money.", " "],
 				"finished": "when I reread the text stoned and think: How great is that? Who is the guy who wrote this?"
 			}
 		},
@@ -3511,7 +3511,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": "It’s who I am.",
+				"why": ["It’s who I am.", " ", " "],
 				"music": "if I am reading or concentrating its a mixture of jazz, piano, and guitar.",
 				"workHours": "Work times varies according to what else needs to be done,time now as I write this is 11:45 pm.",
 				"finished": " "
@@ -3536,7 +3536,7 @@
 				"lon": 11.980916
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3605,7 +3605,7 @@
 				"lon": 13.427277
 			}],
 			"questions": {
-				"why": " I don´t know.",
+				"why": ["I don't know.", " ", " "],
 				"music": "...I have to listen to my own music. ;)",
 				"workHours": "19:00pm until 1:00am.",
 				"finished": "when I managed to put it on a record."
@@ -3629,7 +3629,7 @@
 				"lon": 9.945380
 			}],
 			"questions": {
-				"why": "It’s not just doing what you love, it’s about creating something you have been missing so badly.",
+				"why": ["It’s not just doing what you love,", "it’s about creating something", "you have been missing so badly."],
 				"finished": "when I still like it after three weeks."
 			}
 		},
@@ -3652,7 +3652,7 @@
 				"lon": 14.326853
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3674,7 +3674,7 @@
 				"lon": 13.455889
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3697,7 +3697,7 @@
 				"lon": 11.014846
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3720,7 +3720,7 @@
 				"lon": 13.434833
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3743,7 +3743,7 @@
 				"lon": 29.002261
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3775,7 +3775,7 @@
 					"lon": 13.418807
 			}],
 			"questions": {
-				"why": "Maybe because I'd like to see or get something extraordinary.",
+				"why": ["Maybe because I'd like to see", "or get something extraordinary.", " "],
 				"finished": "when the deadline comes."
 			}
 		},
@@ -3797,7 +3797,7 @@
 				"lon": 13.434833
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3820,7 +3820,7 @@
 				"lon": 13.452545
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3852,7 +3852,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": "To survive.",
+				"why": ["To survive.", " ", " "],
 				"music": "all depends on the mood I know that a work is.",
 				"workHours": "always.",
 				"finished": "when i feel it."
