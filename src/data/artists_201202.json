@@ -25,7 +25,7 @@
 					"lon": 13.407151
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -48,7 +48,11 @@
 				"date_out": "now",
 				"lat": 52.550546,
 				"lon": 13.438563
-			}]
+			}],
+			"questions": {
+				"why": [" ", " ", " "],
+				"finished": " "
+			}
 		},
 
 		{
@@ -69,7 +73,7 @@
 				"lon": 0
 			}],
 			"questions": {
-				"why": "Because someone has to do it.",
+				"why": ["Because someone has to do it.", " ", " "],
 				"finished": "when the deadline has expired and I have to deliver (for an exhibition). Actually my works never feel finished for me. Therefore all my series are ongoing series."
 			}
 		},
@@ -92,7 +96,7 @@
 				"lon": 13.506287
 			}],
 			"questions": {
-				"why": "Communication.",
+				"why": ["Communication.", " ", " "],
 				"music": "strictly instrumental (jazz, classical, electronics).",
 				"workHours": "12 am to 5 pm.",
 				"finished": "when it looks familiar but still strange enough. "
@@ -125,7 +129,7 @@
 				"lon": 13.418328
 			}],
 			"questions": {
-				"why": "Cause I know nothing else.",
+				"why": ["Cause I know nothing else.", " ", " "],
 				"finished": "when i feel exhausted."
 			}
 		},
@@ -148,7 +152,7 @@
 				"lon": 13.419368
 			}],
 			"questions": {
-				"why": "Because I love it and I believe there's value in it.",
+				"why": ["Because I love it and I believe", "there's value in it.", " "],
 				"finished": "I don't feel the urge to add or subtract anything from the work."
 			}
 		},
@@ -179,7 +183,7 @@
 					"lon": 13.374360
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -209,7 +213,7 @@
 				"lon": 13.498241
 			}],
 			"questions": {
-				"why": "Ich kann nichts anderes und auch nur das eine machen, was ich liebe.",
+				"why": ["Ich kann nichts anderes und auch", "nur das eine machen, was ich liebe.", " "],
 				"finished": "wenn ich es fühle."
 			}
 		},
@@ -240,7 +244,7 @@
 					"lon": 13.410908
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -352,7 +356,7 @@
 				"lon": 13.407151
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -423,7 +427,7 @@
 				"lon": 13.364935
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -471,7 +475,7 @@
 				"lon": 13.398685
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -522,7 +526,7 @@
 				"lon": -43.212053
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -545,7 +549,7 @@
 				"lon": 13.421108
 			}],
 			"questions": {
-				"why": "I've got nothing else to do.",
+				"why": ["I've got nothing else to do.", " ", " "],
 				"music": "right now: Steve Reich. But when I'm painting I pay no attention to music.",
 				"workHours": "when I wake up till I'm tired.",
 				"finished": "when the dialogue between me and the piece is finished."
@@ -569,7 +573,7 @@
 				"lon": 13.396617
 			}],
 			"questions": {
-				"why": "Because I want to save the world.",
+				"why": ["Because I want to save the world.", " ", " "],
 				"music": "no music in this time and when I do it I listen to Bossa Nova or Flamenco.",
 				"workHours": "14pm until 22pm usually.",
 				"finished": "when it starts to sing or talk (depending on the painting)."
@@ -616,7 +620,7 @@
 				"lon": 13.417811
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -653,7 +657,7 @@
 				"lon": 13.439314
 			}],
 			"questions": {
-				"why": "Because I am what I am.",
+				"why": ["Because I am what I am.", " ", " "],
 				"music": "I normally do not listen to music while I work.",
 				"workHours": "9am to 3 pm.",
 				"finished": "when it gets quiet."
@@ -709,7 +713,7 @@
 				"lon": 13.465190
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -732,7 +736,7 @@
 				"lon": 13.498622
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -762,7 +766,7 @@
 					"lon": 13.364809
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -808,7 +812,7 @@
 				"lon": 13.468887
 			}],
 			"questions": {
-				"why": "It’s my passion.",
+				"why": ["It’s my passion.", " ", " "],
 				"music": "my favourite album is silence.",
 				"workHours": "noon to late.",
 				"finished": "when it leaves my computer."
@@ -841,7 +845,7 @@
 					"lon": 13.400602
 				}],
 			"questions": {
-				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
+				"why": ["An inner urge and great pleasure in", "making an idea that is not visible to", "others almost real and tangible."],
 				"music": "audiobooks and podcasts.",
 				"workHours": "11 am until 8-9 pm.",
 				"finished": "when the picture does not require any further intervention."
@@ -866,7 +870,7 @@
 				"lon": 13.394426
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -890,7 +894,7 @@
 				"lon": 13.372884
 			}],
 			"questions": {
-				"why": "Because I grew up in the 90s!",
+				"why": ["Because I grew up in the 90s!", " ", " "],
 				"music": "Melvins, Napalm Death, and all kind of swing music.",
 				"workHours": "13.00 to 18.00.",
 				"finished": "when it’s dry!"
@@ -953,7 +957,7 @@
 				"lon": 13.432988
 			}],
 			"questions": {
-				"why": "Because I'm a perfectionist.",
+				"why": ["Because I'm a perfectionist.", " ", " "],
 				"finished": "Never. Because I'm a perfectionist."
 			}
 		},
@@ -975,8 +979,8 @@
 				"lon": 24.734704
 			}],
 			"questions": {
-				"why": "I'm doing art to have a deeper relationship with myself. It helps me to understand myself better as a human. It is self-development and a journey.",
-				"finished": "if I feel that I don't want to ruin it."
+				"why": ["I'm doing art to have a deeper", "relationship with myself.", "It is self-development and a journey."],
+				"finished": "when I feel that I don't want to ruin it."
 			}
 		},
 		{
@@ -997,7 +1001,7 @@
 				"lon": 7.015999
 			}],
 			"questions": {
-				"why": "It matters to me.",
+				"why": ["It matters to me.", " ", " "],
 				"finished": "It depends. Sometimes when a problem is solved, a sculpture is coated, an image is painted or a question is answered..but not necessarily."
 			}
 		},
@@ -1036,7 +1040,7 @@
 					"lon": 13.361277
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1058,7 +1062,7 @@
 				"lon": 10.628927
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1081,7 +1085,7 @@
 				"lon": 13.423452
 			}],
 			"questions": {
-				"why": "I have an inner image which I follow. One urged to realize this picture and the feeling connected with it. In any case, it is the best thing I can do in this life, where I can best put my view and my abilities into practice.",
+				"why": ["I have an inner image which I follow.", "One urged to realize this picture", "and the feeling connected with it ..."],
 				"finished": "I see it when my work is finished. However, there is also the fact that my work lives strongly from material cycles, and my own work is also constantly being transformed into new works. Therefore it is more like a big never ending process..."
 			}
 		},
@@ -1103,7 +1107,7 @@
 				"lon": 13.412014
 			}],
 			"questions": {
-				"why": "Because it is the only thing I know to do.",
+				"why": ["Because it is the only thing", "I know to do.", " "],
 				"music": "Bossa Nova.",
 				"workHours": "from noon to 8 pm.", 
 				"finished": "when I signed it."
@@ -1150,7 +1154,7 @@
 					"lon": 13.378633
 			}],
 			"questions": {
-				"why": "I’m only in it for the money!",
+				"why": ["I’m only in it for the money!", " ", " "],
 				"finished": "when it is sold!"
 			}
 		},
@@ -1173,7 +1177,7 @@
 				"lon": 13.423416
 			}],
 			"questions": {
-				"why": "What I do know is that I have a tendency to surprise myself. David Frankel, Marley & Me, 2008.",
+				"why": ["What I do know is that I have a", "tendency to surprise myself.", "David Frankel, Marley & Me, 2008."],
 				"finished": "A bomb is finished when it has exploded but the Golem will go on and on forever. Herbert J. Leder, It!, 1967."
 			}
 		},
@@ -1195,7 +1199,7 @@
 				"lon": 13.447457
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1218,7 +1222,7 @@
 				"lon": 13.434833
 			}],
 			"questions": {
-				"why": "I like music.",
+				"why": ["I like music.", " ", " "],
 				"music": "I usually have to listen to what I'm working on, so...",
 				"workHours": "noon until midnight, but shifting all the time.",
 				"finished": "when I listen back to it on several occasions - with some distance - and then still think it's finished."
@@ -1243,7 +1247,7 @@
 				"lon": 13.365016
 			}],
 			"questions": {
-				"why": "Our mission is to make your daily life more colorful and fun with things that we create.",
+				"why": ["Our mission is to make your", "daily life more colorful and fun", "with things that we create."],
 				"finished": "when it feels like it makes sense in some way."
 			}
 		},
@@ -1273,7 +1277,7 @@
 				"lon": 13.452545
 			}],
 			"questions": {
-				"why": "To make a difference that makes a difference.",
+				"why": ["To make a difference", "that makes a difference.", " "],
 				"finished": "when it's 80% perfect."
 			}
 		},
@@ -1297,7 +1301,7 @@
 				"lon": 13.365016
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1319,7 +1323,7 @@
 				"lon": 13.363701
 			}],
 			"questions": {
-				"why": "Because there is nothing I love more.",
+				"why": ["Because there is nothing I love more.", " ", " "],
 				"finished": "when it tells me to stop immediately."
 			}
 		},
@@ -1341,7 +1345,7 @@
 				"lon": 13.498518
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1378,7 +1382,7 @@
 				"lon": 13.391963
 			}],
 			"questions": {
-				"why": "Because I have do to it to be able to be me.",
+				"why": ["Because I have do to it", "to be able to be me.", " "],
 				"music": "I usually listen to the radio, but at the moment I am listening to Kate Tempest.",
 				"workHours": "Usually I work from when I can until I’m too tired.",
 				"finished": "when I put it in the 'finished' box."
@@ -1403,7 +1407,7 @@
 				"lon": 13.430376
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1426,7 +1430,7 @@
 				"lon": 13.426001
 			}],
 			"questions": {
-				"why": " ",
+				"why": [" ", " ", " "],
 				"finished": " "
 			}
 		},
@@ -1449,7 +1453,7 @@
 				"lon": 13.416804
 			}],
 			"questions": {
-				"why": "Freely adapted from Barnett Newmann, I paint so that I have something to look at.",
+				"why": ["Freely adapted from Barnett Newmann,", "I paint so that I have something to look at.", " "],
 				"music": "today hardly, in former times extensively 'the flaming lips' and 'radiohead'",
 				"finished": "when the image has reached an inner necessity."
 			}
@@ -3880,7 +3884,7 @@
 				"lon": 13.475639
 			}],
 			"questions": {
-				"why": "I do what I do because I need to.",
+				"why": ["I do what I do because I need to.", " ", " "],
 				"music": "al kind of music, Agnes Obey or Hörspiele, classic or punk. It depends on the mood I am in.",
 				"workHours": "I like to work at night. But usually from morning till afternoon.",
 				"finished": "when my inner voice tells me this very directly and straight. This is a clear feeling I cannot ignore."
@@ -3904,7 +3908,7 @@
 				"lon": 13.405162
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3934,7 +3938,7 @@
 				"lon": 13.426032
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -3957,7 +3961,7 @@
 				"lon": 12.356928
 			}],
 			"questions": {
-				"why": "Eine Stimme in mir sagt, male diese Bilder.",
+				"why": ["Eine Stimme in mir sagt,", "'male diese Bilder'.", " "],
 				"music": "nur gute Musik.",
 				"workHours": "sogut wie immer nachts.",
 				"finished": "wenn es mein Gefühl und mein Verstand und ... es sagt."
@@ -3982,7 +3986,7 @@
 				"lon": 13.365284
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -4038,7 +4042,7 @@
 				"lon": 13.409589
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -4069,7 +4073,7 @@
 				"lon": 13.410837
 			}],
 			"questions": {
-				"why": "Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
+				"why": ["Just like Beckett said: 'Ever tried.", "Ever failed. No matter. Try again.", "Fail again. Fail better.'"],
 				"music": "Spotify enables you not to have to listen to a track twice in a life time.",
 				"workHours": "early afternoons till open end.",
 				"finished": "when it feels right."
@@ -4093,7 +4097,7 @@
 				"lon": 13.399281
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -4145,7 +4149,7 @@
 					"lon": 13.403429
 			}],
 			"questions": {
-				"why": " ",
+				"why": ["*", " ", " "],
 				"finished": " "
 			}
 		},
@@ -4167,7 +4171,7 @@
 				"lon": 13.438344
 			}],
 			"questions": {
-				"why": "Curiosity.",
+				"why": ["Curiosity.", " ", " "],
 				"music": "greek radio.",
 				"workHours": "morning until evening.",
 				"finished": "when it got a good place."
@@ -4223,7 +4227,7 @@
 				"lon": -0.130015
 			}],
 			"questions": {
-				"why": "I love it.",
+				"why": ["I love it.", " ", " "],
 				"music": "none, except my neighbor listens to some.",
 				"workHours": "early on after running til very late.",
 				"finished": "I know that it’s finished."
