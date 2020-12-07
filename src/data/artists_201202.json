@@ -2056,8 +2056,8 @@
 				"lon": 7.012015
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["I am happy, when I make art", "and I can't do any other than art.", " "],
+				"finished": "when a piece is in balance (not too much and not too little). There is nothing more to do."
 			}
 		},
 
@@ -2330,8 +2330,8 @@
 				"lon": 13.357121
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["Doing art to me is a psychological", "and physical need.", " "],
+				"finished": "when I look at it and start to laugh."
 			}
 		},
 		{
