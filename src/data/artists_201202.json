@@ -3408,8 +3408,8 @@
 				"lon": 13.450862
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["I can't live without it.", "I really would die.", " "],
+				"finished": "It's finished when it is sold."
 			}
 		},
 		{
@@ -4149,7 +4149,7 @@
 					"lon": 13.403429
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
+				"why": ["the light is coming *", " ", " "],
 				"finished": " "
 			}
 		},
