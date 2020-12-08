@@ -2792,8 +2792,10 @@
 				"lon": 13.456285
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["I haven't found any other option.", " ", " "],
+				"music": "No music, Deutschland Funk.",
+				"workHours": "there are 'from' and 'to'? Why doesn’t anyone tell me",
+				"finished": "when it tells me: 'I'm done! give me away!'"
 			}
 		},
 
