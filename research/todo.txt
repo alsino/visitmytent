@@ -6,18 +6,23 @@ TODO
 / auf der Karte rutscht ausgewählter Künstler z.T. hinter seine Kontakte (zb Sven Drühl)
 / Einzelansichten sehen noch nicht so schön aus
 / Anzahl der Connections im Introtext anzeigen?
+/ Integration bei visitmytent
 / grob responsive? 
 / Map: Lösung für mehrere übereinanderliegende an einem Ort zb Uferhallen (5), Studios ID (3), Gerichtshöfe (3) 
+
+/ Projekt-Dokumentation an Futurium, bbk Berlin, DAAD, Wire, Monopol, Weltkunst, Vogue, Tagesspiegel,..
+
 
 
 
 Next Steps
 	/ Kartenswitch bei Künstlern außerhalb von Berlin 
 	  (Erfurt, Florenz, Hamburg, Istanbul, Tallinn, Ruhrgebiet)
-	/ evtl Timeslider für Studio-Bewegungen im Stadtraum
+	/ Timeslider für Studio-Bewegungen im Stadtraum
 	/ Wo alle herkommen (Fäden Weltkarte) 
 	/ Uhr – welcher Künstler arbeitet noch
 	/ Darstellung ob Künstler davon leben können
+
 
 
 
@@ -26,11 +31,6 @@ Feedback
 
 
 
-Doku 
-/ an Futurium, bbk Berlin, DAAD, Vogue, Weltkunst, Wire,... 
-
-
 
 Funding
 / Berlinder Kultur Fonds
-/ https://prototypefund.de/

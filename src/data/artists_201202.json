@@ -4151,7 +4151,7 @@
 					"lon": 13.403429
 			}],
 			"questions": {
-				"why": ["the light is coming *", " ", " "],
+				"why": ["The light is coming *", " ", " "],
 				"finished": " "
 			}
 		},
