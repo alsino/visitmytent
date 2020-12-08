@@ -2306,7 +2306,7 @@
 				"lon": 13.430406
 			}],
 			"questions": {
-				"why": ["Because I love it and it's the best", "thing I can imagine to do.", "The whole world in one profession."],
+				"why": ["Because I love it and it's the best thing", "I can imagine to do. The whole world", "in one profession."],
 				"music": "from Bach to Buzzcocks and from Reich to Bowie.",
 				"workHours": "morning until evening. But my concentration is best from late afternoon to evening.",
 				"finished": "it's finished."
@@ -2964,7 +2964,7 @@
 				"lon": 13.422834
 			}],
 			"questions": {
-				"why": ["To answer questions.", " ", " "],
+				"why": ["To shimmy along questions and", "capture laconic brittle beauty.", " "],
 				"finished": "when there is nothing further to add."
 			}
 		},
