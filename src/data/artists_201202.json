@@ -1041,7 +1041,7 @@
 			}],
 			"questions": {
 				"why": ["*", " ", " "],
-				"finished": " "
+				"finished": "when the algorithms decided it is."
 			}
 		},
 		{
@@ -1199,8 +1199,8 @@
 				"lon": 13.447457
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["One has to do something.", " ", " "],
+				"finished": "when the piece tells me so (I just have to be attentive to hear it)."
 			}
 		},
 
@@ -2886,8 +2886,8 @@
 				"lon": 13.451575
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["It feels right.", " ", " "],
+				"finished": "A work is done when it fulfills the idea I had for it. Or once it reveals its idea it has for me."
 			}
 		},
 		{
