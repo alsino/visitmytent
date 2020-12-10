@@ -43,9 +43,9 @@ LEGEND.set([
 export const COLORS = writable(undefined);
 COLORS.set({
   day: {
-    network: "rgb(69, 69, 255)",
+    network: "black",
     circleDefault: "blue",
-    circleSelected: "red",
+    circleSelected: "blue",
     circleBorder: "white",
     textDefault: "rgb(51,51,51)",
     textHeading: "black",
