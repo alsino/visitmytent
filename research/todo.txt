@@ -6,6 +6,7 @@ TODO
 / grob responsive? 
 / Map: Lösung für mehrere übereinanderliegende an einem Ort zb Uferhallen (5), Studios ID (3), Gerichtshöfe (3) 
 
+
 / Projekt-Dokumentation an Futurium, bbk Berlin, DAAD, Wire, Monopol, Weltkunst, Vogue, Tagesspiegel,..
 
 
