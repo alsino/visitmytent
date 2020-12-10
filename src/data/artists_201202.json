@@ -2842,7 +2842,7 @@
 				"lon": 13.392310
 			}],
 			"questions": {
-				"why": "I mainly have two motivations: A: inventing music is the most exciting thing I know of. Creating a new space, emotionally and atmospherically is absolutely fulfilling. B: actually playing music, getting in this flow state of mind between high focus and letting things go is physically and mentally absolutely enjoyable.",
+				"why": ["Getting in this flow state of mind between", "high focus and letting things go is physically", "and mentally absolutely enjoyable."],
 				"finished": "when chords, melody, lyrics, rhythm and the whole dynamic of a piece is in a good balance from my point of view. It will always change while playing it live. Sometimes it's just not possible to bring these aspects in an order, you fight and fight and finally the piece goes to the garbage bin, which is part of the whole process too."
 			}
 		},
