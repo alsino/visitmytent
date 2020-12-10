@@ -3263,7 +3263,7 @@
 				"lon": 13.360881
 			}],
 			"questions": {
-				"why": "What I do are reflections of my daily life and cultural and social situation. I do what I do because I feel engaged to tell what I see and think to the rest of the people.",
+				"why": ["Because I feel engaged to", "tell what I see and think to", "the rest of the people."],
 				"music": "techno, minimal and concrete music, diverse artists.",
 				"workHours": "from 5pm until 5am, yes, I’m a night bird.",
 				"finished": "In the physical universe the “Control + Z” doesn't work, it’s why I like to operate as a scientist, or as a mathematician would do. You have a formula, then you have a result. So the result of that formula will be the final work. I don’t push so much, the result is the result, the rest is cosmetic. The strongest part of my work lies in the formula, the idea of the process."
@@ -3585,7 +3585,7 @@
 				"lon": 13.376642
 			}],
 			"questions": {
-				"why": "First of all, I have this motivation to create. I’m not sure why, but if I don’t make some kind of artwork for awhile I feel less happy. It seems to ground me regardless of where I am. As to the subject choice, I’m often drawn to places and buildings that I find beautiful or exciting, even if they would be considered banal or ugly to most people. When I recreate a building I feel like I have some kind of ownership of that place. It’s also a way of documenting a location that will eventually change or be destroyed.",
+				"why": ["It seems to ground me regardless of where","I am. When I recreate a building I feel like I", "have some kind of ownership of that place."],
 				"finished": "when it’s finished! It’s just something you know..."
 			}
 		},
