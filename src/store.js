@@ -44,7 +44,7 @@ export const COLORS = writable(undefined);
 COLORS.set({
   day: {
     network: "black",
-    circleDefault: "blue",
+    circleDefault: "black",
     circleSelected: "blue",
     circleBorder: "white",
     textDefault: "rgb(51,51,51)",
