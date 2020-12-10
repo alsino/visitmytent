@@ -299,7 +299,7 @@
 				"lon": 10.723997
 			}],
 			"questions": {
-				"why": "Because I do not have time to do something else.",
+				"why": ["Because I do not have time","to do something else.", " "],
 				"music": "intelligent music: electronic, noisepunkrock, classic, some jazz, kraut and psychedelic.",
 				"workHours": "8.00 am until 10.30 pm or the other way around.",
 				"finished": "wenn ich merke, es kommt alleine mit sich klar."
