@@ -926,7 +926,7 @@
 				"lon": 13.432988
 			}],
 			"questions": {
-				"why": "It's as much a compulsion as a profession, it's something that I will continue to do for the rest of my life, regardless of what is going on around me / us.",
+				"why": ["It's as much a compulsion as a profession, it's something", "that I will continue to do for the rest of my life,", "regardless of what is going on around me / us."],
 				"finished": "when I get this inner feeling of completion, I know there's nothing more to add and no further amendments to be made. That's when it's finished."
 			}
 		},
@@ -2768,7 +2768,7 @@
 				"lon": 13.422371
 			}],
 			"questions": {
-				"why": "Because I cannot imagine doing anything else.",
+				"why": ["Because I cannot imagine", "doing anything else.", " "],
 				"music": "Tom Waits, Leonard Cohen, Portishead.",
 				"workHours": "10 am until 6 pm.",
 				"finished": "when I have no more questions to the painting."
