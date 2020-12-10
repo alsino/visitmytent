@@ -44,7 +44,6 @@
       if ($selectedArtistDetails.questions.why != " ") {
 
         if (text1 && text2 && text3) {
-          console.log(text1);
           text1.value = $selectedArtistDetails.questions.why[0];
           text1.properties.fill = colorScheme.textQuote;
           text1.needsUpdate = true;

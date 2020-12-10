@@ -1,8 +1,11 @@
 <script>
   import { VIEWMODE, COLORS } from '../store.js';
   import { slide } from 'svelte/transition';
+  import { NETWORKDATA } from '../store.js';
+
 
   let introVisible = true;
+  let links = $NETWORKDATA.links;
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
@@ -50,7 +53,7 @@
 
   {#if introVisible}
     <div class="row" in:slide="{{ y: 200, duration: 1000 }}" out:slide="{{ y: 200, duration: 1000 }}">
-      <div class="column" style="color:{colorScheme.textDefault}">Artistellar visualizes studio locations as well as connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.</div>
+      <div class="column" style="color:{colorScheme.textDefault}">Artistellar visualizes studio locations as well as {links.length} connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.</div>
       
       <div class="column" style="color:{colorScheme.textDefault}">Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus.</div>
       
