@@ -57,7 +57,7 @@
         } 
 
       } else {
-          text1.value = "coming soon …";
+          text1.value = ":)";
           text1.needsUpdate = true;
 
           text2.value = "";
