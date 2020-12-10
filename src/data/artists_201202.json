@@ -1301,8 +1301,8 @@
 				"lon": 13.365016
 			}],
 			"questions": {
-				"why": ["*", " ", " "],
-				"finished": " "
+				"why": ["Building things makes me happy.", " ", " "],
+				"finished": "when it leaves the studio."
 			}
 		},
 		{
