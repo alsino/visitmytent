@@ -41,7 +41,7 @@
     // if ($selectedArtist == "Van Bo Le-Mentzel") {
     if ($selectedArtist) {
 
-      if ($selectedArtistDetails.questions.why != " ") {
+      if ($selectedArtistDetails.questions.why[0] != "*") {
 
         if (text1 && text2 && text3) {
           text1.value = $selectedArtistDetails.questions.why[0];
@@ -53,9 +53,20 @@
 
           text3.value = $selectedArtistDetails.questions.why[2];
           text3.needsUpdate = true;
-        }
 
-      }
+        } 
+
+      } else {
+          text1.value = "coming soon …";
+          text1.needsUpdate = true;
+
+          text2.value = "";
+          text2.needsUpdate = true;
+
+          text3.value = "";
+          text3.needsUpdate = true;
+
+        }
 
     }
 
@@ -75,8 +86,6 @@
   onMount(() => {
     $selectedArtist = startName;
     $selectedArtistDetails = startDetails;
-
-    
 
     text1 = new Blotter.Text("", styleProperties);
     text2 = new Blotter.Text("", styleProperties);
