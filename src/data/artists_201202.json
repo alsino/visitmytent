@@ -3155,7 +3155,7 @@
 				"lon": 24.734704
 			}],
 			"questions": {
-				"why": "What I like about working as an artist is that each project is, in a sense, a new clean start. If you don't give up, you can learn and change all the time, try working with people in different professional fields etc - this can be very exciting! I like both the more social side of my work, the interacting with partners, and the more private part, alone in the studio, which is sometimes like therapy: working in traditional techniques that involve a lot of repetition and similar movements is calming me down. Making art is like thinking - for me where connotations came from is never fully understood, and that is what makes work interesting. I think I would not be able to give up art completely, although there is too often no (fair) pay for such 'philosophizing', even if it is commissioned.",
+				"why": ["What I like about working as", "an artist is that each project is, ", "in a sense, a new clean start."],
 				"finished": "when I think about my work, it seems to me that it can only be finished in a certain context. That's why I need to have exhibitions regularly - to finish a thinking process and to move on to a next phase. Then, in the context of an exhibition, something is “ready”. If I show it again later, I will have to review everything once again. The final decisions, just before a show, are also the most difficult for me."
 			}
 		},
@@ -3240,7 +3240,7 @@
 					"lon": 13.365081
 				}],
 			"questions": {
-				"why": "An inner need to express myself through drawing has always been there with me... since my early childhood.. Drawing has been something natural, like a game, or my favourite toy... a pencil or a pen and paper... My father and 2 of my uncles were working for a paper/cartonboard factory, so at home or at my grandmother's place, there has always been plenty of big cartboard sheets... It was introduced as something to use for me... to play with it. I can remember that I had a my birthday party with friends, I guess I was 5 years old.. After cake, I said 'now we play', and that meant that everybody got paper and pencil and I thought we all would be happy to do drawings... well, I was wrong.. the others thought that was boring 😉 I somehow never lost interest in it until today.",
+				"why": ["An inner need to express", "myself through drawing has", "always been there with me..."],
 				"finished": "when it doesn't call me no more to go on and change or risk a little more.. sometimes I want to trick myself, I feel tempted to tell myself, 'It's good, it's finished' but tricking yourself is not really working... you won't be convinced... so you have to go on... sometimes that ends in a destroyed work, but better to try to finish.. sometimes it's clear, it's finished and it's all good.. sometimes it's finished. I don't believe in 'happy ends', there may be some.. but alot of times you don't understand everything about a piece when it's finished.. You have the intuition that it might make sense later on.. A dear friend of mine, the wonderful painter Eva Bodnar, who was teaching nude drawing (Abendakt) at the Academy of fine Arts Vienna, she said, 'forget about Happy End, 'Happy Anfang' that is better..."
 			}
 		},
@@ -3562,7 +3562,7 @@
 				"lon": 13.461926
 			}],
 			"questions": {
-				"why": "Because it creates spontaneous moments of action and self-consciousness, in which intuition takes the driver’s seat. Getting lost in the moment feels nice.",
+				"why": ["Because it creates spontaneous moments", "of action and self-consciousness, in ", "which intuition takes the driver’s seat."],
 				"finished": "when the balance feels right and adding more stuff only makes things worse."
 			}
 		},
