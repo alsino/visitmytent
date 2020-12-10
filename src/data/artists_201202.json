@@ -926,7 +926,7 @@
 				"lon": 13.432988
 			}],
 			"questions": {
-				"why": ["It's as much a compulsion as a profession, it's something", "that I will continue to do for the rest of my life,", "regardless of what is going on around me / us."],
+				"why": ["It's something that I will continue to", "do for the rest of my life, regardless", "of what is going on around me / us."],
 				"finished": "when I get this inner feeling of completion, I know there's nothing more to add and no further amendments to be made. That's when it's finished."
 			}
 		},
