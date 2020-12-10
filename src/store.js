@@ -55,7 +55,7 @@ COLORS.set({
     berlinSbahn: "#3d3d3d",
     background: "white",
     circleOutline: "white",
-    textQuote: "rgb(51,51,51)",
+    textQuote: "red",
   }, 
   night: {
     network: "white",
