@@ -267,7 +267,7 @@
 				"lon": 13.492447
 			}],
 			"questions": {
-				"why": "I love to create, I need to create, I am born to create!",
+				"why": ["I love to create, I need to", "create, I am born to create!", " "],
 				"music": "I do not listen to music when I work.",
 				"workHours": "10am to 7pm and before and after that.",
 				"finished": "when I like it."
@@ -379,7 +379,7 @@
 				"lon": 6.989029
 			}],
 			"questions": {
-				"why": "My work keeps me going, young and dynamic.",
+				"why": ["My work keeps me going,", "young and dynamic.", " "],
 				"finished": "when I look at it for a long time and I`m still fine with it."
 			}
 		},
@@ -450,7 +450,7 @@
 				"lon": 13.365048
 			}],
 			"questions": {
-				"why": "Because I like stories.",
+				"why": ["Because I like stories.", " ", " "],
 				"music": "none (I listen to BBC though).",
 				"workHours": "11:00 am until 18:30 pm.",
 				"finished": "when everything fits or when I know how to do a better one."
@@ -789,7 +789,7 @@
 				"lon": 7.043303
 			}],
 			"questions": {
-				"why": "Because I want to produce something that potentially goes beyond human life, although I naturally assume that we will be at least 453 years old.",
+				"why": ["Because I want to produce something", "that potentially goes beyond human life.", " "],
 				"finished": "when all the parts have been put together, which I absolutely want to avoid, because the work should not remain finished and static but process-related and dynamic, the movement of reception is only really given and so is the field of interpretation open."
 			}
 		},
