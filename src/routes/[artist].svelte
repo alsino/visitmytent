@@ -13,6 +13,7 @@
   import { nodesWithLinks } from '../store.js';
   import { selectedArtist, selectedArtistDetails } from '../store.js';
   import { VIEWMODE, COLORS } from '../store.js';
+import { text } from 'svelte/internal';
 
   export let artist;
 
@@ -44,7 +45,9 @@
       if ($selectedArtistDetails.questions.why != " ") {
 
         if (text1 && text2 && text3) {
+          console.log(text1);
           text1.value = $selectedArtistDetails.questions.why[0];
+          text1.properties.fill = colorScheme.textQuote;
           text1.needsUpdate = true;
 
           text2.value = $selectedArtistDetails.questions.why[1];
@@ -62,17 +65,23 @@
   })
 
 
+  $: styleProperties = {
+        family : "'EB Garamond', serif",
+        size : textSize,
+        fill : colorScheme.textQuote,
+        paddingLeft : 40,
+        paddingRight : 40
+    };
+
+
+  // $: console.log(styleProperties);
+
+
   onMount(() => {
     $selectedArtist = startName;
     $selectedArtistDetails = startDetails;
 
-    let styleProperties = {
-        family : "'EB Garamond', serif",
-        size : textSize,
-        fill : "#000",
-        paddingLeft : 40,
-        paddingRight : 40
-    };
+    
 
     text1 = new Blotter.Text("", styleProperties);
     text2 = new Blotter.Text("", styleProperties);
