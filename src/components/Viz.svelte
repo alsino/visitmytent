@@ -203,16 +203,15 @@ function handleMouseMove(e){
   // console.log($MOUSE)
 }
 
-function handleMouseOver(artist){
-  $hoveredArtist = artist.name;
-  handleClick(artist);
-}
+// function handleMouseOver(artist){
+//   $hoveredArtist = artist.name;
+//   handleClick(artist);
+// }
 
 
 function handleClick(artist){
   selectedArtist.set(artist.name);
   selectedArtistDetails.set(artist);
-  // console.log("test")
 }
 
 function handleMouseEnter(artist){
