@@ -32,6 +32,8 @@
     selectedArtistDetails.set(result);
     selectedArtist.set(selectedVal.detail.value);
     navigateToUrl(false, selectedVal.detail.value);
+
+    selectedDiscipline.set(0);
   }
 
   $: getClassName = function(className){
@@ -173,9 +175,10 @@ label:hover {
   
 
   <div class="disciplines column" style="color:{colorScheme.textDefault}">
-   {#each $LEGEND as discipline, index}
-   <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }><input type=radio bind:group={$selectedDiscipline} value={discipline.id} on:click={handleClear} >{ discipline.label }</label>
-  {/each }
+    {#each $LEGEND as discipline, index}
+    <label class={ discipline.id == $selectedDiscipline ? getClassName("active") : getClassName("inactive") }>
+    <input type=radio bind:group={$selectedDiscipline} value={discipline.id} on:click={handleClear} >{ discipline.label }</label>
+    {/each }
   </div>
 
   {#if $VIEW == "Network"}

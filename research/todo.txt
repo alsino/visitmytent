@@ -1,8 +1,8 @@
 
 TODO 
 
-/ Wenn man  in einer Disziplin ist und einen auswählt und danach einen Kontakt dieser Person auswählt fehlen Links
 / Wenn man in einer Disziplin ist und dann nach irgendeinem Namen sucht – zurück auf Anfang ("all")?
+/ Wenn man in einer Disziplin ist und einen auswählt und danach einen Kontakt dieser Person auswählt fehlen Links
 / auf der Karte rutscht ausgewählter Künstler z.T. hinter seine Kontakte (zb Sven Drühl)
 / Einzelansichten sehen noch nicht so schön aus
 / Anzahl der Connections im Introtext anzeigen?
