@@ -25,7 +25,7 @@
 					"lon": 13.407151
 			}],
 			"questions": {
-				"why": ["Because we're into ambiguity and we are", "curious about the next steps in our work.", " "],
+				"why": ["Because we're into ambiguity", "and we are curious about the", "next steps in our work."],
 				"finished": "when you take the decision. Some of our works will never be finished, because we deal a lot with the process as a body of work itself."
 			}
 		},
