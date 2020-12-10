@@ -54,7 +54,8 @@ COLORS.set({
     berlinMap: "#c7c7c7",
     berlinSbahn: "#3d3d3d",
     background: "white",
-    circleOutline: "white"
+    circleOutline: "white",
+    textQuote: "rgb(51,51,51)",
   }, 
   night: {
     network: "white",
@@ -68,7 +69,8 @@ COLORS.set({
     berlinMap: "white",
     berlinSbahn: "white",
     background: "rgb(51,51,51)",
-    circleOutline: "rgb(51,51,51)"
+    circleOutline: "rgb(51,51,51)",
+    textQuote: "yellow",
   }
 });
 

@@ -44,7 +44,9 @@
       if ($selectedArtistDetails.questions.why != " ") {
 
         if (text1 && text2 && text3) {
+          console.log(text1);
           text1.value = $selectedArtistDetails.questions.why[0];
+          text1.properties.fill = colorScheme.textQuote;
           text1.needsUpdate = true;
 
           text2.value = $selectedArtistDetails.questions.why[1];
@@ -62,17 +64,20 @@
   })
 
 
+  $: styleProperties = {
+        family : "'EB Garamond', serif",
+        size : textSize,
+        fill : colorScheme.textQuote,
+        paddingLeft : 40,
+        paddingRight : 40
+    };
+
+
   onMount(() => {
     $selectedArtist = startName;
     $selectedArtistDetails = startDetails;
 
-    let styleProperties = {
-        family : "'EB Garamond', serif",
-        size : textSize,
-        fill : "#000",
-        paddingLeft : 40,
-        paddingRight : 40
-    };
+    
 
     text1 = new Blotter.Text("", styleProperties);
     text2 = new Blotter.Text("", styleProperties);
@@ -121,21 +126,18 @@
 
   <div 
   id="plain-text"
-  style="top: {$MOUSE.y - textSize * 3}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - textSize * 3}px; left:{$MOUSE.x}px;"
   ></div>
 
   <div 
   id="plain-text-2"
-  style="top: {$MOUSE.y - textSize * 2}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - textSize * 2}px; left:{$MOUSE.x}px;"
   ></div>
 
   <div 
   id="plain-text-3"
-  style="top: {$MOUSE.y - textSize}px; left:{$MOUSE.x}px; color:{colorScheme.circleSelected};"
+  style="top: {$MOUSE.y - textSize}px; left:{$MOUSE.x}px;"
   ></div>
-
-  <!-- <button on:click={updatetext1}>click</button> -->
-
 
 
 <style lang="scss">
