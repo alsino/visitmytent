@@ -22,8 +22,9 @@
 
   let artistCount = nodes.length;
 
-  $: handleSelect = function(selectedVal) {
+  function handleSelect(selectedVal) {
     // console.log(selectedVal.detail.value);
+
     
     let result = nodes.filter(function(node) {
       return node.name == selectedVal.detail.value;
@@ -33,6 +34,7 @@
     selectedArtist.set(selectedVal.detail.value);
     navigateToUrl(false, selectedVal.detail.value);
 
+    // ToDo: Che ck why this function is also fired when points on map clicked
     selectedDiscipline.set(0);
   }
 
