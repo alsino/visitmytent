@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
-import networkData from './data/artists_201202.json';
+import networkData from './data/artists_201212.json';
 
 export const SPLITTING = writable(undefined);
 
