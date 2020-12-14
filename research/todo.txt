@@ -1,6 +1,7 @@
 
 TODO 
 
+/ Anwendung hängt sich viel auf- zb wenn man Max Prosa auswählt, werden keine Infos gezeigt, und danach geht gar nichts mehr
 / styling dropdown box
 / grob responsive (Screen mit Kurzinfo & Hinweis)
 
