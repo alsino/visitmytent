@@ -41,7 +41,7 @@
     // if ($selectedArtist == "Van Bo Le-Mentzel") {
     if ($selectedArtist) {
 
-      if ($selectedArtistDetails.questions.why[0] != "*") {
+      if ($selectedArtistDetails.questions.why) {
 
         if (text1 && text2 && text3) {
           text1.value = $selectedArtistDetails.questions.why[0];
@@ -56,17 +56,7 @@
 
         } 
 
-      } else {
-          text1.value = ":)";
-          text1.needsUpdate = true;
-
-          text2.value = "";
-          text2.needsUpdate = true;
-
-          text3.value = "";
-          text3.needsUpdate = true;
-
-        }
+      }
 
     }
 
