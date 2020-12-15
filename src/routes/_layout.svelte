@@ -75,7 +75,7 @@ onMount(() => {
 					Artistellar is optimized for tablet and desktop. Please use a bigger screen. : )
 					</div>
 
-					<img class="teaser-img" srcset="network-map.png, network-map@2x.png 2x" src="network-map.png" alt="Network image">
+					<img class="teaser-img" srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
 
 					<div>Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.</div>
 					
