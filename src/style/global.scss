@@ -53,12 +53,11 @@ a {
 }
 
 
-// .listContainer {
-// 	/* box-shadow: var(--listShadow, 0 2px 3px 0 rgba(44, 62, 80, 0.24)); */
-// 	/* border-radius: var(--listBorderRadius, 4px); */
-// 	border-radius: var(--listBorderRadius, 0px);
-// 	border: 1px solid black;
-// 	max-height: var(--listMaxHeight, 250px);
-// 	overflow-y: auto;
-// 	background: var(--listBackground, #fff);
-// }
+
+.listContainer {
+	border-radius: var(--listBorderRadius, 0px) !important;
+	border: 1px solid black !important;
+	max-height: var(--listMaxHeight, 250px) !important;
+	overflow-y: auto !important;
+	background: var(--listBackground, #fff) !important;
+}
