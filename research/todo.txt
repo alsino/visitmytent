@@ -1,6 +1,5 @@
 
 TODO 
-/ styling dropdown box
 / responsiveness bug
 
 / auf der Karte rutscht ausgewählter Künstler z.T. hinter seine Kontakte (zb Sven Drühl)
