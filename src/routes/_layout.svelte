@@ -75,7 +75,7 @@ onMount(() => {
 					Artistellar is optimized for iPad and Desktop. Please use a bigger screen. : )
 					</div>
 
-					<img class="teaser-img" srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
+					<img class="teaser-img" srcset="network-map.png, network-map@2x.png 2x" src="network-map.png" alt="Network image">
 					
 			</div>
 		
