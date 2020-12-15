@@ -3584,7 +3584,7 @@
 				"lon": 13.376642
 			}],
 			"questions": {
-				"why": ["It seems to ground me regardless of where","I am. When I recreate a building I feel like I", "have some kind of ownership of that place."],
+				"why": ["It seems to ground me regardless","of where I am. ", " "],
 				"finished": "when it’s finished! It’s just something you know..."
 			}
 		},
