@@ -61,3 +61,8 @@ a {
 	overflow-y: auto !important;
 	background: var(--listBackground, #fff) !important;
 }
+
+.item.hover:not(.active) {
+	background: var(--itemActiveBackground, black);
+	color: white;
+}
