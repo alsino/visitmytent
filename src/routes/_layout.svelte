@@ -48,6 +48,11 @@ onMount(() => {
 	  ul li {
 		 display: inline;
 	 }
+
+	 .teaser-img {
+		 display: block;
+		 margin: 2em auto;
+	 }
 	
 </style>
 
@@ -66,11 +71,11 @@ onMount(() => {
 			
 					<div style="color:{colorScheme.textDefault}">
 					Artistellar visualizes studio locations as well as connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
-					Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.<br><br>
+					Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.<br><br>
 					Artistellar is optimized for iPad and Desktop. Please use a bigger screen. : )
 					</div>
 
-					<img srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
+					<img class="teaser-img" srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
 					
 			</div>
 		
