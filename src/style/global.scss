@@ -66,3 +66,13 @@ a {
 	background: var(--itemActiveBackground, blue) !important;
 	color: white;
 }
+
+.selectContainer {
+	--padding: 0 16px;
+	border: none !important;
+	border-bottom: 1px solid blue !important;
+
+	input {
+		padding: var(--itemPadding, 0 20px) !important;
+	}
+}
