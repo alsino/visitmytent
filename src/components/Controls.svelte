@@ -54,6 +54,8 @@
 
 .switch, .viewmode {
   flex: 0.3;
+  display: flex;
+  align-items: center;
 }
 
 .legend-network {
