@@ -4,7 +4,6 @@
   import { NETWORKDATA } from '../store.js';
 
 
-
   let introVisible = true;
   let links = $NETWORKDATA.links;
   let nodes = $NETWORKDATA.nodes;
@@ -21,13 +20,13 @@
  @import "./style/theme.scss";
 
  .heading {
-  transition: all 2s;
+  transition: color 2s;
  }
 
  div {
    color: $color-text;
    margin-top: 0;
-   transition: all 2s;
+   transition: color 2s;
  }
 
 .toggle {
@@ -73,4 +72,3 @@
     >{@html introVisible ?  "Hide info &#8593;" : "Show info &#8595;"}
     </div>
 </div>
-
