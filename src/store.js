@@ -3,7 +3,7 @@ import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
 import networkData from './data/artists_201212.json';
 
-export const SPLITTING = writable(undefined);
+export const WWIDTH = writable(undefined);
 
 export const VIEW = writable(undefined);
 VIEW.set("Map");

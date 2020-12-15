@@ -5,7 +5,8 @@
   import { NETWORKDATA, NETWORKCOORDINATES, nodesWithLinks } from '../store.js';
   import { VIEW, VIEWMODE, MOUSE, COLORS } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails, selectedDiscipline } from '../store.js';
-  import Circle from '../components/Circle.svelte';
+  import { WWIDTH } from '../store.js';
+  // import Circle from '../components/Circle.svelte';
 
 
  
@@ -15,6 +16,8 @@
   import { scaleSqrt } from 'd3-scale';
   import { max, min } from "d3-array";
   import { forceSimulation, forceLink, forceManyBody, forceCenter, forceX, forceY } from "d3-force";
+
+  $: isMobileView = $WWIDTH < 768 ? true : false;
 
 
  
@@ -322,7 +325,7 @@ function fade(node, {
 
   <svelte:window on:mousemove={handleMouseMove} style="background:{colorScheme.background}; color:{colorScheme.textDefault}"/>
 
-
+  {#if !isMobileView}
   <div id="network" style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
     <!-- <ArtistInfo/> -->
     
@@ -405,5 +408,7 @@ function fade(node, {
     style="top: {$MOUSE.y + 10}px; left:{$MOUSE.x + 10}px; color: {colorScheme.textTooltip}; background: {colorScheme.bgTooltip}"
     >{$MOUSE.artistName}
   </div>
+
+  {/if}
 
 

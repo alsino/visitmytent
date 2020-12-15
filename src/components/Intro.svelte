@@ -4,11 +4,13 @@
   import { NETWORKDATA } from '../store.js';
 
 
+
   let introVisible = true;
   let links = $NETWORKDATA.links;
   let nodes = $NETWORKDATA.nodes;
 
   $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
 
   // $: console.log($VIEWMODE)
 
@@ -45,6 +47,8 @@
 
 </style>
 
+
+
 <div style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
   <h2 class="heading" style="color:{colorScheme.textHeading}">Artistellar</h2>
   <div style="color:{colorScheme.textDefault}">
@@ -69,5 +73,4 @@
     >{@html introVisible ?  "Hide info &#8593;" : "Show info &#8595;"}
     </div>
 </div>
-
 
