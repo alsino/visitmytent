@@ -1,5 +1,8 @@
 <script>
 
+import { onMount } from 'svelte';
+
+
 import Intro from '../components/Intro.svelte';
 import Controls from '../components/Controls.svelte';
 import Viz from '../components/Viz.svelte';
@@ -11,10 +14,18 @@ import { WWIDTH } from '../store.js';
 export let segment;
 
 let nodes = $NETWORKDATA.nodes;
+let width;
+
 $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 $: isMobileView = $WWIDTH < 768 ? true : false;
 
 $: console.log($WWIDTH, isMobileView);
+
+
+onMount(() => {
+		console.log("App ready");
+		
+  });
 
 
 
@@ -27,10 +38,6 @@ $: console.log($WWIDTH, isMobileView);
 
 <style lang="scss" global>
 	 @import "./style/global.scss";
-
-	//  #app-wrapper {
-		 
-	//  }
 
 	 .link-list {
 		 visibility: visible;
@@ -45,10 +52,7 @@ $: console.log($WWIDTH, isMobileView);
 </style>
 
 
-
-
 <main>
-
 
 	{#if isMobileView}
 
@@ -65,8 +69,9 @@ $: console.log($WWIDTH, isMobileView);
 					Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus – predominantly in Berlin.<br><br>
 					Once you're curious about an artist, you can dive into the respective studio visit and interview. Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.
 					</div>
+
+					<img srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
 					
-				
 			</div>
 		
 		</div>
