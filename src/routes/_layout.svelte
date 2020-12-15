@@ -61,9 +61,9 @@ $: console.log($WWIDTH, isMobileView);
 				</div>
 			
 					<div style="color:{colorScheme.textDefault}">
-					Artistellar visualizes studio locations as well as connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.<br><br>
-					Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus – predominantly in Berlin.<br><br>
-					Once you're curious about an artist, you can dive into the respective studio visit and interview. Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.
+					Artistellar visualizes studio locations as well as connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
+					Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.<br><br>
+					Artistellar is optimized for iPad and Desktop. Please use a bigger screen. : )
 					</div>
 					
 				
