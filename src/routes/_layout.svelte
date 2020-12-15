@@ -70,12 +70,14 @@ onMount(() => {
 				</div>
 			
 					<div style="color:{colorScheme.textDefault}">
-					Artistellar visualizes studio locations as well as connections between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
-					Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.<br><br>
+					Artistellar is a portal into the life of contemporary artists living in Berlin. The site unpacks artists' motivations, their studio locations as well as their relationships with other artists working in various fields. The visualization also creates an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
+					<br><br>
 					Artistellar is optimized for iPad and Desktop. Please use a bigger screen. : )
 					</div>
 
 					<img class="teaser-img" srcset="network-map.png, network-map@2x.png 2x" src="network-map.png" alt="Network image">
+
+					<div>Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.</div>
 					
 			</div>
 		
