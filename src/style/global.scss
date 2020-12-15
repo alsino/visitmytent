@@ -63,6 +63,6 @@ a {
 }
 
 .item.hover:not(.active) {
-	background: var(--itemActiveBackground, black);
+	background: var(--itemActiveBackground, blue) !important;
 	color: white;
 }
