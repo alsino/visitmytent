@@ -57,7 +57,7 @@
 
   {#if introVisible}
     <div class="row" in:slide="{{ y: 200, duration: 1000 }}" out:slide="{{ y: 200, duration: 1000 }}">
-    <div class="column" style="color:{colorScheme.textDefault}"> Artistellar visualizes artists' motivations, studio locations as well as {links.length} connections between {nodes.length} contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.</div>
+    <div class="column" style="color:{colorScheme.textDefault}"> Artistellar is a portal into the life of contemporary artists working in various fields. The site shows artists' motivations, studio locations as well as {links.length} connections among them – creating an inside view into the networks of {nodes.length} artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.</div>
       
       <div class="column" style="color:{colorScheme.textDefault}">Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus – predominantly in Berlin.</div>
       

@@ -70,7 +70,7 @@ onMount(() => {
 				</div>
 			
 					<div style="color:{colorScheme.textDefault}">
-					Artistellar is a portal into the life of contemporary artists living in Berlin. The site unpacks artists' motivations, their studio locations as well as their relationships with other artists working in various fields. The visualization  creates an inside view into the networks of selected artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
+					Artistellar is a portal into the life of contemporary artists living in Berlin. The site unpacks artists' motivations, their studio locations as well as their connections among them. The visualization creates an inside view into the networks of selected artists working in various fields presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
 					<br><br>
 					<span style="color: blue;">Artistellar is optimized for tablet and desktop. Please use a bigger screen. : )</span>
 					</div>
