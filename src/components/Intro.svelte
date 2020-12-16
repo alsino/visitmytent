@@ -61,7 +61,7 @@
       
       <div class="column" style="color:{colorScheme.textDefault}">Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus – predominantly in Berlin.</div>
       
-      <div class="column" style="color:{colorScheme.textDefault}">Once you're curious about an artist, you can dive into the respective studio visit and interview. Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://visitmytent.com/?p=11325" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.</div>
+      <div class="column" style="color:{colorScheme.textDefault}">Once you're curious about an artist, you can dive into the respective studio visit and interview. Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.</div>
     </div>
     
   {/if}
