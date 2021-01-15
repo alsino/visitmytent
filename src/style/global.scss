@@ -65,6 +65,11 @@ a {
 .item.hover:not(.active) {
 	background: var(--itemActiveBackground, blue) !important;
 	color: white;
+	border-radius: 0 !important;
+}
+
+.item.first{
+	border-radius: 0 !important;
 }
 
 .selectContainer {
