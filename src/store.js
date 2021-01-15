@@ -5,6 +5,8 @@ import networkData from './data/artists_201228.json';
 
 export const WWIDTH = writable(undefined);
 
+export const ISMOBILE = writable(undefined);
+
 export const VIEW = writable(undefined);
 VIEW.set("Map");
 

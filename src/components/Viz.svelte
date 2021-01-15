@@ -325,7 +325,7 @@ function fade(node, {
 
   <svelte:window on:mousemove={handleMouseMove} style="background:{colorScheme.background}; color:{colorScheme.textDefault}"/>
 
-  {#if !isMobileView}
+  <!-- {#if !isMobileView} -->
   <div id="network" style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
     <!-- <ArtistInfo/> -->
     
@@ -409,6 +409,6 @@ function fade(node, {
     >{$MOUSE.artistName}
   </div>
 
-  {/if}
+  <!-- {/if} -->
 
 
