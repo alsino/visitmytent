@@ -72,7 +72,7 @@ onMount(() => {
 					<div style="color:{colorScheme.textDefault}">
 						visitmyorbit is a portal into the life of contemporary artists living in Berlin. The site unpacks artists' motivations, their studio locations as well as their connections among them. The visualization creates an inside view into the networks of selected artists working in various fields presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
 					<br><br>
-					<span style="color: blue;">visitmyorbit is optimized for tablet and desktop. Please use a bigger screen. : )</span>
+					<span style="font-style: italic;">visitmyorbit is optimized for tablet and desktop. Please use a bigger screen. : )</span>
 					</div>
 
 					<img class="teaser-img" srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
