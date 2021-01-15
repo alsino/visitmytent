@@ -10,7 +10,6 @@ import Controls from '../components/Controls.svelte';
 import Viz from '../components/Viz.svelte';
 
 import { VIEWMODE, COLORS } from '../store.js';
-import { WWIDTH } from '../store.js';
 
 let loaded = false;
 let isMobileView;
