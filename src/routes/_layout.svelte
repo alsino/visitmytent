@@ -64,20 +64,20 @@ onMount(() => {
 		<div id="app-wrapper" style="background:{colorScheme.background};" bind:clientWidth={$WWIDTH}>
 
 			<div style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
-				<h2 class="heading" style="color:{colorScheme.textHeading}">Artistellar</h2>
+				<h2 class="heading" style="color:{colorScheme.textHeading}">visitmyorbit</h2>
 				<div style="color:{colorScheme.textDefault}">
 					<em>Exploring Artists’ Networks</em>
 				</div>
 			
 					<div style="color:{colorScheme.textDefault}">
-					Artistellar is a portal into the life of contemporary artists living in Berlin. The site unpacks artists' motivations, their studio locations as well as their connections among them. The visualization creates an inside view into the networks of selected artists working in various fields presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
+						visitmyorbit is a portal into the life of contemporary artists living in Berlin. The site unpacks artists' motivations, their studio locations as well as their connections among them. The visualization creates an inside view into the networks of selected artists working in various fields presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.
 					<br><br>
-					<span style="color: blue;">Artistellar is optimized for tablet and desktop. Please use a bigger screen. : )</span>
+					<span style="font-style: italic;">visitmyorbit is optimized for tablet and desktop. Please use a bigger screen. : )</span>
 					</div>
 
 					<img class="teaser-img" srcset="network.png, network@2x.png 2x" src="network.png" alt="Network image">
 
-					<div>Artistellar is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2020.</div>
+					<div>visitmyorbit is a visualization by <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="https://alsino.io" target="_blank">Alsino Skowronnek</a> crafted in Berlin, 2021.</div>
 					
 			</div>
 		
