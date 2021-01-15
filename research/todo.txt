@@ -1,7 +1,4 @@
 TODO 
-/ responsiveness bug
-/ Integration bei visitmytent, einfach als Ordner, z.B. https://alsino.io/viz/
-
 / Projekt-Dokumentation 
 / Doku an Futurium, bbk Berlin, DAAD, Wire, Monopol, Weltkunst, Vogue, Tagesspiegel,..
 
