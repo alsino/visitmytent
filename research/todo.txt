@@ -1,4 +1,8 @@
 TODO 
+/ Dopdown eventuell invertieren
+/ evtl Nachtmodus automatisch 18.00 – 08.00 Uhr?
+/ Netzwerkmodus als Startmodus?
+/ Impressum?
 / Projekt-Dokumentation 
 / Doku an Futurium, bbk Berlin, DAAD, Wire, Monopol, Weltkunst, Vogue, Tagesspiegel,..
 

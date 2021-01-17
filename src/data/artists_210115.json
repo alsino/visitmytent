@@ -526,7 +526,7 @@
 				"lon": -43.212053
 			}],
 			"questions": {
-				"why": [" ", " ", " "],
+				"why": ["Because its like the air I", "breathe. I just have to!", " "],
 				"finished": " "
 			}
 		},
@@ -1892,7 +1892,7 @@
 				"lon": 11.239159
 			}],
 			"questions": {
-				"why": ["because no one else does.", " ", " "],
+				"why": ["Because no one else does.", " ", " "],
 				"finished": "when I no longer wake up thinking about it."
 			}
 		},
