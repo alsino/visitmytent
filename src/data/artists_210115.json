@@ -778,7 +778,7 @@
 			"birthYear": 1978,
 			"birthTown": "Bottrop",
 			"birthCountry": "Germany",
-			"profileID": "14362",
+			"profileID": 0,
 			"imageUrl": "tim_cierpiszewski.png",
 			"studioVisit": "Essen",
 			"studioLocations": [{
@@ -1396,7 +1396,7 @@
 			"birthYear": 1963,
 			"birthTown": "Gap",
 			"birthCountry": "France",
-			"profileID": "14352",
+			"profileID": 0,
 			"imageUrl": "pierre_granoux.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
@@ -2997,7 +2997,7 @@
 			"birthYear": 1939,
 			"birthTown": "Kiel",
 			"birthCountry": "Germany",
-			"profileID": "14372",
+			"profileID": 0,
 			"imageUrl": "renate_neuser.png",
 			"studioVisit": "Essen",
 			"studioLocations": [{
