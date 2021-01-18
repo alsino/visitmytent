@@ -115,6 +115,36 @@
 			}
 		},
 
+				{
+			"name": "Holm Friebe",
+			"discipline": [7, 8],
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Lüdenscheid",
+			"birthCountry": "Germany",
+			"profileID": "14221",
+			"imageUrl": "holm_friebe.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Impresario",
+				"date_in": "01/03/2020",
+				"date_out": "now",
+				"lat": 52.531916, 
+				"lon": 13.422680
+			},
+			{
+				"name": "Studio KMA",
+				"date_in": "01/01/2015",
+				"date_out": "now",
+				"lat": 52.516548,
+				"lon": 13.452545
+			}],
+			"questions": {
+				"why": ["To make a difference", "that makes a difference.", " "],
+				"finished": "when it's 80% perfect."
+			}
+		},
+
 		{
 			"name": "Fridge and Plodge",
 			"discipline": [4],
@@ -540,6 +570,93 @@
 			"value": 25
 		}, 
 
+		{
+			"source": "Holm Friebe",
+			"target": "Fehmi Baumbach",
+			"value": 25
+		},
+		{
+			"source": "Holm Friebe",
+			"target": "Pierre Granoux",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Sibylle Jazra",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Klaus Killisch",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Annekatrin Lemke",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Friedrich Liechtenstein",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Stephanie Neumann",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Stephanie Neumann",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Nik Nowak",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Christian Y. Schmidt",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Christian Y. Schmidt",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Bettina Semmer",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Luke Velten",
+			"value": 10
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Luke Velten",
+			"value": 25
+		}, 
+		{
+			"source": "Holm Friebe",
+			"target": "Raul Walch",
+			"value": 10
+		}, 
+
+		
 
 
 		{
