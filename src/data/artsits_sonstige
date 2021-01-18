@@ -1,3 +1,26 @@
+{
+			"name": "Menno Aden",
+			"discipline": [4],
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Weener",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "menno_aden.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 0, 
+				"lon": 0
+			}],
+			"questions": {
+				"why": ["Because someone has to do it.", " ", " "],
+				"finished": "when the deadline has expired and I have to deliver (for an exhibition). Actually my works never feel finished for me. Therefore all my series are ongoing series."
+			}
+		},	
+
 		{
 			"name": "Anne Berlit",
 			"discipline": [1,5],
@@ -208,6 +231,32 @@
 			}
 		},		
 
+
+				{
+			"name": "Via Lewandowsky",
+			"discipline": [2, 5],
+			"gender": "male",
+			"birthYear": 1963,
+			"birthTown": "Dresden",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl": "via_lewandowsky.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Moabit",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.532860,
+				"lon": 13.359317
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
+
 {
 			"name": "Christian Mio Loclair",
 			"discipline": [2, 5],
@@ -327,6 +376,142 @@
 		},
 
 
+{
+			"name": "Erika Stürmer-Alex",
+			"discipline": [1, 6],
+			"gender": "female",
+			"birthYear": 1938,
+			"birthTown": "Wriezen",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl": "erika_stuermer_alex.png",
+			"studioVisit": "Lietzen",
+			"studioLocations": [{
+				"name": "Kunsthof Lietzen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.455551,
+				"lon": 14.326853
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
+
+		{
+			"source": "Menno Aden",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Frederik Foert",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Pierre Granoux",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Pierre Granoux",
+			"value": 25
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+
+		{
+			"source": "Menno Aden",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Stephanie Neumann",
+			"value": 25
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Bettina Semmer",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Sinta Werner",
+			"value": 10
+		},
+		{
+			"source": "Menno Aden",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
 
 
 		{
@@ -386,7 +571,7 @@
 			"target": "Bjørn Melhus",
 			"value": 10
 		},
-		
+
 {
 			"source": "Stine Marie Jacobsen",
 			"target": "Bjørn Melhus",
@@ -440,5 +625,85 @@
 		{
 			"source": "Pauline Doutreluingne",
 			"target": "Bjørn Melhus",
+			"value": 10
+		},
+
+
+
+		{
+			"source": "Norbert Wagenbrett",
+			"target": "Erika Stürmer-Alex",
+			"value": 10
+		},
+
+		{
+			"source": "Klaus Killisch",
+			"target": "Erika Stürmer-Alex",
+			"value": 10
+		},
+
+				{
+			"source": "Emerita Pansowova",
+			"target": "Erika Stürmer-Alex",
+			"value": 10
+		},
+
+
+
+
+		{
+			"source": "Raul Walch",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Norbert Wagenbrett",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+
+
+		{
+			"source": "Miriam Vlaming",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Bettina Semmer",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+
+		{
+			"source": "René Holm",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},	
+		{
+			"source": "Menno Aden",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+
+		{
+			"source": "Joanna Buchowska",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+
+		{
+			"source": "Christian Achenbach",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+
+				{
+			"source": "Mimmo Catania",
+			"target": "Via Lewandowsky",
 			"value": 10
 		},
