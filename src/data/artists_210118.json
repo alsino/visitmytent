@@ -980,28 +980,7 @@
 				"finished": "when the algorithms decided it is."
 			}
 		},
-		{
-			"name": "Francesco Fillini",
-			"discipline": [1],
-			"gender": "male",
-			"birthYear": "",
-			"birthTown": "",
-			"birthCountry": "Italy",
-			"profileID": "5000",
-			"imageUrl": "francesco_fillini.png",
-			"studioVisit": "Pontedera",
-			"studioLocations": [{
-				"name": "Studio Pontedera",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 43.662268,
-				"lon": 10.628927
-			}],
-			"questions": {
-				"why": [":)", " ", " "],
-				"finished": " "
-			}
-		},
+
 		{
 			"name": "Wolfgang Flad",
 			"discipline": [1, 6],
@@ -2531,28 +2510,7 @@
 				"finished": " "
 			}
 		},
-		{
-			"name": "Bjørn Melhus",
-			"discipline": [4, 5],
-			"gender": "male",
-			"birthYear": 1966,
-			"birthTown": "Kirchheim unter Teck",
-			"birthCountry": "Germany",
-			"profileID": 0,
-			"imageUrl": "bjorn_melhus.png",
-			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "Studio Berlin Prenzlauer Berg",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 52.528790,
-				"lon": 13.412159
-			}],
-			"questions": {
-				"why": [":)", " ", " "],
-				"finished": " "
-			}
-		},
+
 		{
 			"name": "Sebastian Meschenmoser",
 			"discipline": [1, 6],
@@ -4400,10 +4358,6 @@
 			"value": 10
 		}, {
 			"source": "Fritz Bornstück",
-			"target": "Bjørn Melhus",
-			"value": 10
-		}, {
-			"source": "Fritz Bornstück",
 			"target": "Manfred Peckl",
 			"value": 25
 		}, {
@@ -4876,11 +4830,7 @@
 			"target": "Van Bo Le-Mentzel",
 			"value": 15
 		},
-		{
-			"source": "Pauline Doutreluingne",
-			"target": "Bjørn Melhus",
-			"value": 10
-		},
+
 		{
 			"source": "Pauline Doutreluingne",
 			"target": "Jan Muche",
@@ -5017,10 +4967,6 @@
 			"source": "Ornella Fieres",
 			"target": "Jeewi Lee",
 			"value": 25
-		}, {
-			"source": "Ornella Fieres",
-			"target": "Bjørn Melhus",
-			"value": 10
 		}, {
 			"source": "Ornella Fieres",
 			"target": "Erik Schmidt",
@@ -5535,14 +5481,6 @@
 			"value": 10
 		}, {
 			"source": "Philip Grözinger",
-			"target": "Bjørn Melhus",
-			"value": 10
-		}, {
-			"source": "Philip Grözinger",
-			"target": "Bjørn Melhus",
-			"value": 25
-		}, {
-			"source": "Philip Grözinger",
 			"target": "Sebastian Meschenmoser",
 			"value": 10
 		}, {
@@ -5761,10 +5699,6 @@
 			"value": 10
 		}, {
 			"source": "Sibylle Jazra",
-			"target": "Bjørn Melhus",
-			"value": 10
-		}, {
-			"source": "Sibylle Jazra",
 			"target": "Pietro Sanguineti",
 			"value": 10
 		}, {
@@ -5898,11 +5832,7 @@
 			"target": "Via Lewandowsky",
 			"value": 10
 		},	
-		{
-			"source": "René Holm",
-			"target": "Bjørn Melhus",
-			"value": 10
-		},	
+		
 		{
 			"source": "René Holm",
 			"target": "Sebastian Meschenmoser",
@@ -5960,11 +5890,7 @@
 			"target": "Anne Duk Hee Jordan",
 			"value": 10
 		},
-		{
-			"source": "Stine Marie Jacobsen",
-			"target": "Bjørn Melhus",
-			"value": 10
-		},
+		
 		{
 			"source": "Stine Marie Jacobsen",
 			"target": "Aiko Tezuka",
@@ -6179,11 +6105,7 @@
 			"target": "Klaus Killisch",
 			"value": 10
 		},
-		{
-			"source": "Franziska Klotz",
-			"target": "Bjørn Melhus",
-			"value": 10
-		},
+		
 		{
 			"source": "Franziska Klotz",
 			"target": "Jan Muche",
@@ -6507,10 +6429,6 @@
 		}, {
 			"source": "Jeewi Lee",
 			"target": "Caroline Kryzecki",
-			"value": 10
-		}, {
-			"source": "Jeewi Lee",
-			"target": "Bjørn Melhus",
 			"value": 10
 		}, {
 			"source": "Jeewi Lee",

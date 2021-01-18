@@ -69,6 +69,28 @@
 			}
 		},
 
+		{
+			"name": "Francesco Fillini",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": "",
+			"birthTown": "",
+			"birthCountry": "Italy",
+			"profileID": "5000",
+			"imageUrl": "francesco_fillini.png",
+			"studioVisit": "Pontedera",
+			"studioLocations": [{
+				"name": "Studio Pontedera",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 43.662268,
+				"lon": 10.628927
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
 
 		{
 			"name": "Fridge and Plodge",
@@ -211,6 +233,30 @@
 
 
 		{
+			"name": "Bjørn Melhus",
+			"discipline": [4, 5],
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Kirchheim unter Teck",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "bjorn_melhus.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.528790,
+				"lon": 13.412159
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
+		{
 			"name": "Renate Neuser",
 			"discipline": [6],
 			"gender": "female",
@@ -295,6 +341,7 @@
 		}, 
 
 
+
 		{
 			"source": "Tim Cierpiszewski",
 			"target": "Zora Kreuzer",
@@ -333,3 +380,65 @@
 			"value": 10
 		},
 
+
+{
+			"source": "Jeewi Lee",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		
+{
+			"source": "Stine Marie Jacobsen",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+
+
+{
+			"source": "Sibylle Jazra",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+
+{
+			"source": "Franziska Klotz",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+
+{
+			"source": "René Holm",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},	
+
+
+{
+			"source": "Philip Grözinger",
+			"target": "Bjørn Melhus",
+			"value": 10
+		}, 
+
+		{
+			"source": "Philip Grözinger",
+			"target": "Bjørn Melhus",
+			"value": 25
+		},
+
+{
+			"source": "Ornella Fieres",
+			"target": "Bjørn Melhus",
+			"value": 10
+		}, 
+
+		{
+			"source": "Fritz Bornstück",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+
+		{
+			"source": "Pauline Doutreluingne",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
