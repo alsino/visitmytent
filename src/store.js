@@ -1,7 +1,7 @@
 import { writable } from 'svelte/store';
 import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
-import networkData from './data/artists_210115.json';
+import networkData from './data/artists_210118.json';
 
 export const WWIDTH = writable(undefined);
 

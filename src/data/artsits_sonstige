@@ -1,0 +1,335 @@
+		{
+			"name": "Anne Berlit",
+			"discipline": [1,5],
+			"gender": "female",
+			"birthYear": 1959,
+			"birthTown": "Brackenheim",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "anne_berlit.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 2014,
+				"date_out": "now",
+				"lat": 51.411630, 
+				"lon": 6.989029
+			}],
+			"questions": {
+				"why": ["My work keeps me going,", "young and dynamic.", " "],
+				"finished": "when I look at it for a long time and I`m still fine with it."
+			}
+		},		
+
+
+		{
+			"name": "Tim Cierpiszewski",
+			"discipline": [1,5,8],
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Bottrop",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "tim_cierpiszewski.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Cowboy Tempel",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.424564, 
+				"lon": 7.043303
+			}],
+			"questions": {
+				"why": ["Because I want to produce something", "that potentially goes beyond human life.", " "],
+				"finished": "when all the parts have been put together, which I absolutely want to avoid, because the work should not remain finished and static but process-related and dynamic, the movement of reception is only really given and so is the field of interpretation open."
+			}
+		},
+
+
+				{
+			"name": "Christoph Esser",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Essen",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "christoph_esser.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.460759, 
+				"lon": 7.015999
+			}],
+			"questions": {
+				"why": ["It matters to me.", " ", " "],
+				"finished": "It depends. Sometimes when a problem is solved, a sculpture is coated, an image is painted or a question is answered..but not necessarily."
+			}
+		},
+
+
+		{
+			"name": "Fridge and Plodge",
+			"discipline": [4],
+			"gender": "female",
+			"birthYear": 2019,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "fridge_and_plodge.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Kunsthaus Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.479975, 
+				"lon": 13.365016
+			}],
+			"questions": {
+				"why": ["Our mission is to make your", "daily life more colorful and fun", "with things that we create."],
+				"finished": "when it feels like it makes sense in some way."
+			}
+		},
+
+		{
+			"name": "Mascha Jacobs",
+			"discipline": [7],
+			"gender": "female",
+			"birthYear": "1978",
+			"birthTown": " ",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "mascha_jacobs.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Prenzlauer Berg",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.532423, 
+				"lon": 13.425808
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+		{
+			"name": "Behzad Karim-Khani",
+			"discipline": [7],
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "Teheran",
+			"birthCountry": "Iran",
+			"profileID": 0,
+			"imageUrl": "behzad-karim-khani.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Bullys Bakery",
+				"date_in": "01.01.2017",
+				"date_out": "now",
+				"lat": 52.488210, 
+				"lon": 13.428156
+			}],
+			"questions": {
+				"why": ["Cause it needs to be done.", " ", " "],
+				"finished": "When it looks at me like 'Who are you? Get the fuck outta here.'"
+			}
+		},
+
+		{
+			"name": "Gisoo Kim",
+			"discipline": [4,5],
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Seoul",
+			"birthCountry": "Korea",
+			"profileID": 0,
+			"imageUrl": "gisoo_kim.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.434005, 
+				"lon": 7.012015
+			}],
+			"questions": {
+				"why": ["I am happy, when I make art", "and I can't do any other than art.", " "],
+				"finished": "when a piece is in balance (not too much and not too little). There is nothing more to do."
+			}
+		},
+
+
+		{
+			"name": "Gerd Kroske",
+			"discipline": [4],
+			"gender": "male",
+			"birthYear": 1958,
+			"birthTown": "Dessau",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl": "gerd_kroske.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio ND-Gebäude",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.512809, 
+				"lon": 13.440221
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},		
+
+{
+			"name": "Christian Mio Loclair",
+			"discipline": [2, 5],
+			"gender": "male",
+			"birthYear": "",
+			"birthTown": "",
+			"birthCountry": "",
+			"profileID": 0,
+			"imageUrl": "christian_mio_loclair.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Mitte",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.547721,
+				"lon": 13.408878
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
+		{
+			"name": "Renate Neuser",
+			"discipline": [6],
+			"gender": "female",
+			"birthYear": 1939,
+			"birthTown": "Kiel",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "renate_neuser.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Kunsthaus Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.425748, 
+				"lon": 7.052714
+			}],
+			"questions": {
+				"why": ["Weil ich in dieser Tätigkeit", "Befriedigung empfinde.", " "],
+				"finished": "wenn mich das Weitermachen langweilen würde."
+			}
+		},
+
+		{
+			"name": "Daniela Risch",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1969,
+			"birthTown": "Dahme/Mark",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl": "daniela_risch.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.460247, 
+				"lon": 7.016643
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
+		{
+			"name": "Quintessenz",
+			"discipline": [2, 5],
+			"gender": "male",
+			"birthYear": 2010,
+			"birthTown": "Hildesheim",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "quintessenz.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+				"name": "Studio Berlin Oberschöneweide",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 52.463392, 
+				"lon": 13.508925
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
+
+
+		{
+			"source": "Anne Berlit",
+			"target": "Tim Cierpiszewski",
+			"value": 10
+		}, 
+		{
+			"source": "Anne Berlit",
+			"target": "Renate Neuser",
+			"value": 10
+		}, 
+
+
+		{
+			"source": "Tim Cierpiszewski",
+			"target": "Zora Kreuzer",
+			"value": 10
+		},
+
+
+		{
+			"source": "Fridge and Plodge",
+			"target": "Renate Neuser",
+			"value": 25
+		}, 
+
+
+
+		{
+			"source": "Mascha Jacobs",
+			"target": "Jörg-Uwe Albig",
+			"value": 25
+		},
+		{
+			"source": "Mascha Jacobs",
+			"target": "Holm Friebe",
+			"value": 25
+		},
+		{
+			"source": "Mascha Jacobs",
+			"target": "Ulrich Gutmair",
+			"value": 25
+		},
+
+
+		{
+			"source": "Miriam Vlaming",
+			"target": "Christian Mio Loclair",
+			"value": 10
+		},
+
