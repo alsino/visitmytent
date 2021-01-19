@@ -961,6 +961,29 @@
 		},
 
 		{
+			"name": "Francesco Fillini",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": "",
+			"birthTown": "",
+			"birthCountry": "Italy",
+			"profileID": "5000",
+			"imageUrl": "francesco_fillini.png",
+			"studioVisit": "Pontedera",
+			"studioLocations": [{
+				"name": "Studio Pontedera",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 43.662268,
+				"lon": 10.628927
+			}],
+			"questions": {
+				"why": ["I create territories, like animals.", "Inhospitable precipitates of the", "present time."],
+				"finished": " "
+			}
+		},
+
+		{
 			"name": "Wolfgang Flad",
 			"discipline": [1, 6],
 			"gallery": "Galerie Reinhard Hauff",
@@ -1694,7 +1717,7 @@
 					"lon": 13.394918
 			}],
 			"questions": {
-				"why": [":)", " ", " "],
+				"why": ["Im inventing, creating, cooking, thinking,", "making, playing, changing…", " "],
 				"finished": " "
 			}
 		},
