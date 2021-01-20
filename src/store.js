@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import { derived } from 'svelte/store';
 import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
 import networkData from './data/artists_210118.json';
@@ -76,11 +77,11 @@ COLORS.set({
 let format = 'hh:mm:ss'
 let now = moment();
 let beforeTime = moment('7:00:00', format);
-let afterTime = moment('13:00:00', format); // Ab 17 Uhr Nachtmodus
+let afterTime = moment('13:00:00', format);
 
 export const VIEWMODE = writable(undefined);
 
-if (now.isBetween(beforeTime, afterTime)){
+if(now.isBetween(beforeTime, afterTime)){
   VIEWMODE.set("Day");
 } else {
   VIEWMODE.set("Night");
