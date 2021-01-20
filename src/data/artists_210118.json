@@ -136,6 +136,31 @@
 			}
 		},
 
+
+		{
+			"name": "Android Empire",
+			"discipline": [3, 7],
+			"gender": "male",
+			"birthYear": 2004,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "4751",
+			"imageUrl": "android_empire.png",
+			"studioVisit": "Berlin",
+			"studioLocations": [{
+					"name": "ORWOhaus",
+					"date_in": 0,
+					"date_out": "now",
+					"lat": 52.537189, 
+					"lon": 13.529647
+			}],
+			"questions": {
+				"why": [":)", " ", " "],
+				"finished": " "
+			}
+		},
+
+
 		{
 			"name": "Axel Anklam",
 			"discipline": [3, 6],
