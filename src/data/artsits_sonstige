@@ -45,28 +45,7 @@
 		},		
 
 
-		{
-			"name": "Tim Cierpiszewski",
-			"discipline": [1,5,8],
-			"gender": "male",
-			"birthYear": 1978,
-			"birthTown": "Bottrop",
-			"birthCountry": "Germany",
-			"profileID": 0,
-			"imageUrl": "tim_cierpiszewski.png",
-			"studioVisit": "Essen",
-			"studioLocations": [{
-				"name": "Cowboy Tempel",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 51.424564, 
-				"lon": 7.043303
-			}],
-			"questions": {
-				"why": ["Because I want to produce something", "that potentially goes beyond human life.", " "],
-				"finished": "when all the parts have been put together, which I absolutely want to avoid, because the work should not remain finished and static but process-related and dynamic, the movement of reception is only really given and so is the field of interpretation open."
-			}
-		},
+
 
 
 				{
@@ -92,58 +71,8 @@
 			}
 		},
 
-		{
-			"name": "Francesco Fillini",
-			"discipline": [1],
-			"gender": "male",
-			"birthYear": "",
-			"birthTown": "",
-			"birthCountry": "Italy",
-			"profileID": "5000",
-			"imageUrl": "francesco_fillini.png",
-			"studioVisit": "Pontedera",
-			"studioLocations": [{
-				"name": "Studio Pontedera",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 43.662268,
-				"lon": 10.628927
-			}],
-			"questions": {
-				"why": [":)", " ", " "],
-				"finished": " "
-			}
-		},
 
-				{
-			"name": "Holm Friebe",
-			"discipline": [7, 8],
-			"gender": "male",
-			"birthYear": 1972,
-			"birthTown": "Lüdenscheid",
-			"birthCountry": "Germany",
-			"profileID": "14221",
-			"imageUrl": "holm_friebe.png",
-			"studioVisit": "Berlin",
-			"studioLocations": [{
-				"name": "Studio Impresario",
-				"date_in": "01/03/2020",
-				"date_out": "now",
-				"lat": 52.531916, 
-				"lon": 13.422680
-			},
-			{
-				"name": "Studio KMA",
-				"date_in": "01/01/2015",
-				"date_out": "now",
-				"lat": 52.516548,
-				"lon": 13.452545
-			}],
-			"questions": {
-				"why": ["To make a difference", "that makes a difference.", " "],
-				"finished": "when it's 80% perfect."
-			}
-		},
+		
 
 		{
 			"name": "Fridge and Plodge",
@@ -214,28 +143,7 @@
 			}
 		},
 
-		{
-			"name": "Gisoo Kim",
-			"discipline": [4,5],
-			"gender": "female",
-			"birthYear": 1971,
-			"birthTown": "Seoul",
-			"birthCountry": "Korea",
-			"profileID": 0,
-			"imageUrl": "gisoo_kim.png",
-			"studioVisit": "Essen",
-			"studioLocations": [{
-				"name": "Studio Essen",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 51.434005, 
-				"lon": 7.012015
-			}],
-			"questions": {
-				"why": ["I am happy, when I make art", "and I can't do any other than art.", " "],
-				"finished": "when a piece is in balance (not too much and not too little). There is nothing more to do."
-			}
-		},
+
 
 
 		{
@@ -335,28 +243,7 @@
 		},
 
 
-		{
-			"name": "Renate Neuser",
-			"discipline": [6],
-			"gender": "female",
-			"birthYear": 1939,
-			"birthTown": "Kiel",
-			"birthCountry": "Germany",
-			"profileID": 0,
-			"imageUrl": "renate_neuser.png",
-			"studioVisit": "Essen",
-			"studioLocations": [{
-				"name": "Kunsthaus Essen",
-				"date_in": 0,
-				"date_out": "now",
-				"lat": 51.425748, 
-				"lon": 7.052714
-			}],
-			"questions": {
-				"why": ["Weil ich in dieser Tätigkeit", "Befriedigung empfinde.", " "],
-				"finished": "wenn mich das Weitermachen langweilen würde."
-			}
-		},
+		
 
 		{
 			"name": "Daniela Risch",
@@ -557,11 +444,7 @@
 
 
 
-		{
-			"source": "Tim Cierpiszewski",
-			"target": "Zora Kreuzer",
-			"value": 10
-		},
+
 
 
 		{
@@ -570,91 +453,7 @@
 			"value": 25
 		}, 
 
-		{
-			"source": "Holm Friebe",
-			"target": "Fehmi Baumbach",
-			"value": 25
-		},
-		{
-			"source": "Holm Friebe",
-			"target": "Pierre Granoux",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Sibylle Jazra",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Klaus Killisch",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Caroline Kryzecki",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Annekatrin Lemke",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Friedrich Liechtenstein",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Stephanie Neumann",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Stephanie Neumann",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Nik Nowak",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Pietro Sanguineti",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Christian Y. Schmidt",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Christian Y. Schmidt",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Bettina Semmer",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Luke Velten",
-			"value": 10
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Luke Velten",
-			"value": 25
-		}, 
-		{
-			"source": "Holm Friebe",
-			"target": "Raul Walch",
-			"value": 10
-		}, 
+
 
 		
 
