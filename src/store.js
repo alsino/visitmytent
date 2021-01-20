@@ -77,7 +77,7 @@ COLORS.set({
 let format = 'hh:mm:ss'
 let now = moment();
 let beforeTime = moment('7:00:00', format);
-let afterTime = moment('13:00:00', format);
+let afterTime = moment('13:00:00', format); // Ab 17 Uhr Nachtmodus
 
 export const VIEWMODE = writable(undefined);
 
