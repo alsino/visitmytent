@@ -2779,6 +2779,29 @@
 		},
 
 		{
+			"name": "Renate Neuser",
+			"discipline": [6],
+			"gender": "female",
+			"birthYear": 1939,
+			"birthTown": "Kiel",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "renate_neuser.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Kunsthaus Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.425748, 
+				"lon": 7.052714
+			}],
+			"questions": {
+				"why": ["Weil ich in dieser Tätigkeit", "Befriedigung empfinde.", " "],
+				"finished": "wenn mich das Weitermachen langweilen würde."
+			}
+		},
+
+		{
 			"name": "Nik Nowak",
 			"discipline": [2, 3, 5],
 			"gender": "male",
