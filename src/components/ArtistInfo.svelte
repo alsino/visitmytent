@@ -2,8 +2,10 @@
   import { VIEW, LEGEND } from '../store.js';
   import { selectedArtistDetails } from '../store.js';
   import { VIEWMODE, COLORS } from '../store.js';
+  import { COLORSCHEME } from '../store.js';
 
-  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
+  $: colorScheme = $COLORSCHEME;
 
 </script>
 
