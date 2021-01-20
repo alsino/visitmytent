@@ -1201,7 +1201,7 @@
 			"birthYear": 1972,
 			"birthTown": "Lüdenscheid",
 			"birthCountry": "Germany",
-			"profileID": "14221",
+			"profileID": 0,
 			"imageUrl": "holm_friebe.png",
 			"studioVisit": "Berlin",
 			"studioLocations": [{
