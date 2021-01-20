@@ -13,8 +13,6 @@
   import { nodesWithLinks } from '../store.js';
   import { selectedArtist, selectedArtistDetails } from '../store.js';
   import { VIEWMODE, COLORS } from '../store.js';
-  import { COLORSCHEME } from '../store.js';
-
 
   export let artist;
 
@@ -27,7 +25,7 @@
   let textSize = 34;
   
 
-  $: colorScheme = $COLORSCHEME;
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
   let startName = nodesWithLinks.filter((item) => {
       return item.slug == artist;

@@ -6,7 +6,7 @@
   import { VIEW, VIEWMODE, MOUSE, COLORS } from '../store.js';
   import { hoveredArtist, selectedArtist, selectedArtistDetails, selectedDiscipline } from '../store.js';
   import { WWIDTH } from '../store.js';
-  import { COLORSCHEME } from '../store.js';
+  // import Circle from '../components/Circle.svelte';
 
 
  
@@ -49,7 +49,7 @@
 
   $: coordinates = currentCoordinates($VIEW);
 
-  $: colorScheme = $COLORSCHEME;
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
   $: selectedLinks = $selectedArtistDetails ? $selectedArtistDetails.links : undefined;
 

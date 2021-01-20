@@ -6,13 +6,12 @@
   import { selectedArtistDetails, selectedArtist } from '../store.js';
   
   import { COLORS, LEGEND } from '../store.js';
-  import { COLORSCHEME } from '../store.js';
   import { selectedDiscipline } from '../store.js';
 
   import { handleClear } from '../store.js';
   import { navigateToUrl } from '../store.js';
 
-  $: colorScheme = $COLORSCHEME;
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
   let getClassName;
   
   let nodes = $NETWORKDATA.nodes;

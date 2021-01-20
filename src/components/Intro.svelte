@@ -2,15 +2,13 @@
   import { VIEWMODE, COLORS } from '../store.js';
   import { slide } from 'svelte/transition';
   import { NETWORKDATA } from '../store.js';
-  import { COLORSCHEME } from '../store.js';
-
 
 
   let introVisible = true;
   let links = $NETWORKDATA.links;
   let nodes = $NETWORKDATA.nodes;
 
-  $: colorScheme = $COLORSCHEME;
+  $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
 
   // $: console.log($VIEWMODE)

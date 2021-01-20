@@ -2,7 +2,6 @@
 import { onMount } from 'svelte';
 import { NETWORKDATA } from '../store.js';
 import { VIEWMODE, COLORS } from '../store.js';
-import { COLORSCHEME } from '../store.js';
 
 export let segment;
 let nodes = $NETWORKDATA.nodes;
@@ -17,8 +16,7 @@ import Viz from '../components/Viz.svelte';
 let loaded = false;
 let isMobileView;
 
-$: colorScheme = $COLORSCHEME;
-// $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+$: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
 
 
@@ -27,7 +25,6 @@ onMount(() => {
 		console.log("App ready");
 		loaded = true;
 		isMobileView = window.innerWidth < 768 ? true : false;
-		console.log(colorScheme)
 	});
 
 

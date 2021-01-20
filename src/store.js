@@ -10,9 +10,6 @@ export const WWIDTH = writable(undefined);
 export const VIEW = writable(undefined);
 VIEW.set("Map");
 
-export const VIEWMODE = writable(undefined);
-VIEWMODE.set("Day");
-
 export const selectedArtist = writable(undefined);
 export const selectedArtistDetails = writable(undefined);
 export const selectedDiscipline = writable(0);
@@ -79,13 +76,16 @@ COLORS.set({
 
 let format = 'hh:mm:ss'
 let now = moment();
-let beforeTime = moment('13:00:00', format);
-let afterTime = moment('18:00:00', format);
+let beforeTime = moment('7:00:00', format);
+let afterTime = moment('17:00:00', format);
 
-export const COLORSCHEME = derived(
-  COLORS, 
-  $COLORS => now.isBetween(beforeTime, afterTime) ? $COLORS.day : $COLORS.night
-);
+export const VIEWMODE = writable(undefined);
+
+if(now.isBetween(beforeTime, afterTime)){
+  VIEWMODE.set("Day");
+} else {
+  VIEWMODE.set("Night");
+}
 
 
 let nodes = networkData.nodes;
