@@ -729,6 +729,28 @@
 			}
 		},
 
+		{
+			"name": "Tim Cierpiszewski",
+			"discipline": [1,5,8],
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Bottrop",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl": "tim_cierpiszewski.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Cowboy Tempel",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.424564, 
+				"lon": 7.043303
+			}],
+			"questions": {
+				"why": ["Because I want to produce something", "that potentially goes beyond human life.", " "],
+				"finished": "when all the parts have been put together, which I absolutely want to avoid, because the work should not remain finished and static but process-related and dynamic, the movement of reception is only really given and so is the field of interpretation open."
+			}
+		},
 
 		{
 			"name": "Dirty Doering",
@@ -1889,7 +1911,28 @@
 			}
 		},
 
-
+		{
+			"name": "Gisoo Kim",
+			"discipline": [4,5],
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Seoul",
+			"birthCountry": "Korea",
+			"profileID": 0,
+			"imageUrl": "gisoo_kim.png",
+			"studioVisit": "Essen",
+			"studioLocations": [{
+				"name": "Studio Essen",
+				"date_in": 0,
+				"date_out": "now",
+				"lat": 51.434005, 
+				"lon": 7.012015
+			}],
+			"questions": {
+				"why": ["I am happy, when I make art", "and I can't do any other than art.", " "],
+				"finished": "when a piece is in balance (not too much and not too little). There is nothing more to do."
+			}
+		},
 
 		{
 			"name": "Franziska Klotz",
@@ -4587,7 +4630,11 @@
 			"value": 10
 		},
 
-
+		{
+			"source": "Tim Cierpiszewski",
+			"target": "Zora Kreuzer",
+			"value": 10
+		},
 
 		{
 			"source": "Dirty Doering",
