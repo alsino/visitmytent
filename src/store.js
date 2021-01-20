@@ -1,7 +1,9 @@
 import { writable } from 'svelte/store';
+import { derived } from 'svelte/store';
 import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
 import networkData from './data/artists_210118.json';
+import moment from 'moment';
 
 export const WWIDTH = writable(undefined);
 
@@ -73,6 +75,18 @@ COLORS.set({
     textQuote: "yellow",
   }
 });
+
+
+let format = 'hh:mm:ss'
+let now = moment();
+let beforeTime = moment('13:00:00', format);
+let afterTime = moment('18:00:00', format);
+
+export const COLORSCHEME = derived(
+  COLORS, 
+  $COLORS => now.isBetween(beforeTime, afterTime) ? $COLORS.day : $COLORS.night
+);
+
 
 let nodes = networkData.nodes;
 let links = networkData.links;

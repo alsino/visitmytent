@@ -1,6 +1,9 @@
 <script>
 import { onMount } from 'svelte';
 import { NETWORKDATA } from '../store.js';
+import { VIEWMODE, COLORS } from '../store.js';
+import { COLORSCHEME } from '../store.js';
+
 export let segment;
 let nodes = $NETWORKDATA.nodes;
 
@@ -9,17 +12,22 @@ import Intro from '../components/Intro.svelte';
 import Controls from '../components/Controls.svelte';
 import Viz from '../components/Viz.svelte';
 
-import { VIEWMODE, COLORS } from '../store.js';
+
 
 let loaded = false;
 let isMobileView;
 
-$: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+$: colorScheme = $COLORSCHEME;
+// $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
+
+
+
 
 onMount(() => {
 		console.log("App ready");
 		loaded = true;
 		isMobileView = window.innerWidth < 768 ? true : false;
+		console.log(colorScheme)
 	});
 
 
