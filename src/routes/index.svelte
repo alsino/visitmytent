@@ -4,5 +4,5 @@
 
 
 <svelte:head>
-	<title>Visitmytent network</title>
+	<title>Visitmyorbit</title>
 </svelte:head>
