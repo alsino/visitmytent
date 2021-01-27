@@ -4103,7 +4103,16 @@
 			"value": 10
 		},
 
-
+		{
+			"source": "Aram Bartholl",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Aram Bartholl",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
 
 		{
 			"source": "Christopher Bauder",
