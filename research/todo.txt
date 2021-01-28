@@ -1,4 +1,10 @@
 TODO 
+
+/ moritz: map - zu netzwerk am anfang und dann erst menü einblenden
+		  info generell erstmal ausbelnden
+		  typos anpassen (größer)
+		  map/netzwerk menüpunkt mittig über visualisierung, day/night nach rechts
+		  hintergrund ist bei nachts unten weiß im fullscreen
 / Projekt-Dokumentation 
 / Doku an Futurium, bbk Berlin, DAAD, Wire, Monopol, Weltkunst, Vogue, Tagesspiegel,..
 
