@@ -54,6 +54,13 @@
     <em>Exploring Artists’ Networks</em>
   </div> -->
 
+  <div 
+    class="toggle"
+    style="color:{colorScheme.textDefault}"
+    on:click={()=>{introVisible = !introVisible}}
+    >{@html introVisible ?  "Hide info &#8593;" : "Show info &#8595;"}
+  </div>
+
   {#if introVisible}
     <div class="row" in:slide="{{ y: 200, duration: 1000 }}" out:slide="{{ y: 200, duration: 1000 }}">
     <div class="column" style="color:{colorScheme.textDefault}">visitmyorbit is a portal into the life of contemporary artists working in various fields. The site shows artists' motivations, studio locations as well as {links.length} connections among them – creating an inside view into the networks of {nodes.length} artists presented on <a href="https://visitmytent.com/" target="_blank">visitmytent</a>.</div>
@@ -64,10 +71,5 @@
     </div>
     
   {/if}
-  <div 
-    class="toggle"
-    style="color:{colorScheme.textDefault}"
-    on:click={()=>{introVisible = !introVisible}}
-    >{@html introVisible ?  "Hide info &#8593;" : "Show info &#8595;"}
-    </div>
+  
 </div>
