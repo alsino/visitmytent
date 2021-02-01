@@ -4,7 +4,7 @@
   import { NETWORKDATA } from '../store.js';
 
 
-  let introVisible = false;
+  let introVisible = true;
   let links = $NETWORKDATA.links;
   let nodes = $NETWORKDATA.nodes;
 
@@ -49,11 +49,10 @@
 
 
 <div style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
-  <h2 class="heading" style="color:{colorScheme.textHeading}">visitmyorbit</h2>
+  <!-- <h2 class="heading" style="color:{colorScheme.textHeading}">visitmyorbit</h2>
   <div style="color:{colorScheme.textDefault}">
     <em>Exploring Artists’ Networks</em>
-    
-  </div>
+  </div> -->
 
   {#if introVisible}
     <div class="row" in:slide="{{ y: 200, duration: 1000 }}" out:slide="{{ y: 200, duration: 1000 }}">
