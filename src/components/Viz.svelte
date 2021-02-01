@@ -254,7 +254,7 @@ function fade(node, {
    width: 100%;
    margin-top: $margin-small;
    position: relative;
-   transition: all 1s;
+  //  transition: all 1s;
  }
 
  svg  {
@@ -353,7 +353,7 @@ function fade(node, {
 
         
       {#if $VIEW == "Network"}
-      <g class="links" in:fade="{{duration: 1000, delay: 1200 }}" out:fade="{{ duration: 0 }}">
+      <g class="links" in:fade="{{duration: 1000, delay: 500 }}" out:fade="{{ duration: 0 }}">
        {#each nodesWithLinks as node, index}
           {#each node.links as link, index}
 
@@ -388,7 +388,7 @@ function fade(node, {
             stroke={colorScheme.circleBorder} 
             fill-opacity="0.8"
             on:click={() => handleClick(location)}
-            style={`transition: all 2s, fill 0s`}
+            style={`transition: all 1s, fill 0s`}
             on:mouseenter={() => handleMouseEnter(location)} 
             on:mouseleave={() =>  handleMouseLeave(location)} 
             />
