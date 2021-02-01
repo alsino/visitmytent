@@ -91,10 +91,9 @@ onMount(() => {
 
 				{:else }
 
-				
+					<Intro/>
 					<Controls/>
 					<Viz></Viz>
-					<Intro/>
 					<slot></slot>
 
 				{/if}

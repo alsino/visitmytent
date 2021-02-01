@@ -149,20 +149,9 @@ label:hover {
   //}
 //}
 
-.title {
-  margin-bottom: $margin-default;
-}
-
-
 
 </style>
 
-<div class="title">
-  <h2 class="heading" style="color:{colorScheme.textHeading}">visitmyorbit</h2>
-  <div style="color:{colorScheme.textDefault}">
-    <em>Exploring Artists’ Networks</em>
-  </div>
-</div>
 
 <div class="row">
 

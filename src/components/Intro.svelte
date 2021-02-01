@@ -4,7 +4,7 @@
   import { NETWORKDATA } from '../store.js';
 
 
-  let introVisible = true;
+  let introVisible = false;
   let links = $NETWORKDATA.links;
   let nodes = $NETWORKDATA.nodes;
 
@@ -49,16 +49,10 @@
 
 
 <div style="background:{colorScheme.background}; color:{colorScheme.textDefault}">
-  <!-- <h2 class="heading" style="color:{colorScheme.textHeading}">visitmyorbit</h2>
+  <h2 class="heading" style="color:{colorScheme.textHeading}">visitmyorbit</h2>
   <div style="color:{colorScheme.textDefault}">
     <em>Exploring Artists’ Networks</em>
-  </div> -->
-
-  <div 
-    class="toggle"
-    style="color:{colorScheme.textDefault}"
-    on:click={()=>{introVisible = !introVisible}}
-    >{@html introVisible ?  "Hide info &#8593;" : "Show info &#8595;"}
+    
   </div>
 
   {#if introVisible}
@@ -71,5 +65,10 @@
     </div>
     
   {/if}
-  
+  <div 
+    class="toggle"
+    style="color:{colorScheme.textDefault}"
+    on:click={()=>{introVisible = !introVisible}}
+    >{@html introVisible ?  "Hide info &#8593;" : "Show info &#8595;"}
+    </div>
 </div>
