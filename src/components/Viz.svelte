@@ -254,7 +254,7 @@ function fade(node, {
    width: 100%;
    margin-top: $margin-small;
    position: relative;
-   transition: all 2s;
+   transition: all 1s;
  }
 
  svg  {
@@ -337,14 +337,14 @@ function fade(node, {
           <path 
           d={bezirkePath} 
           class="map-bezirke"
-          transition:fade="{{ duration: 2000 }}"
+          transition:fade="{{ duration: 1000 }}"
           stroke={colorScheme.berlinMap}
           />
 
           <path 
           d={sbahnPath} 
           class="map-sbahn"
-          transition:fade="{{ duration: 2000 }}"
+          transition:fade="{{ duration: 1000 }}"
           stroke={colorScheme.berlinSbahn}
           />
 
