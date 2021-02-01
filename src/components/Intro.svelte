@@ -4,7 +4,7 @@
   import { NETWORKDATA } from '../store.js';
 
 
-  let introVisible = true;
+  let introVisible = false;
   let links = $NETWORKDATA.links;
   let nodes = $NETWORKDATA.nodes;
 
