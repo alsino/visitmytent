@@ -3333,7 +3333,7 @@
 				"lon": 13.461926
 			}],
 			"questions": {
-				"why": ["Because it creates spontaneous moments", "of action and self-consciousness, in ", "which intuition takes the driver’s seat."],
+				"why": ["Spontaneous moments of action, in", "which intuition takes the driver’s seat. ", ""],
 				"finished": "when the balance feels right and adding more stuff only makes things worse."
 			}
 		},
