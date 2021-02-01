@@ -1,7 +1,7 @@
 <script>
 import { onMount } from 'svelte';
 import { NETWORKDATA } from '../store.js';
-import { VIEWMODE, COLORS } from '../store.js';
+import { VIEW, VIEWMODE, COLORS } from '../store.js';
 
 export let segment;
 let nodes = $NETWORKDATA.nodes;
@@ -15,6 +15,7 @@ import Viz from '../components/Viz.svelte';
 
 let loaded = false;
 let isMobileView;
+let timeout = 3000;
 
 $: colorScheme = $VIEWMODE == "Day" ? $COLORS.day : $COLORS.night;
 
@@ -25,6 +26,10 @@ onMount(() => {
 		console.log("App ready");
 		loaded = true;
 		isMobileView = window.innerWidth < 768 ? true : false;
+
+		setTimeout(() => {
+			VIEW.set("Network")
+		}, timeout);
 	});
 
 
