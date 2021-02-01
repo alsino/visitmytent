@@ -13,7 +13,7 @@
   #artist-info {
     position: absolute;
     right: 1.5em;
-    top: 15em;
+    top: 12em;
     width: 220px;
   }
 
