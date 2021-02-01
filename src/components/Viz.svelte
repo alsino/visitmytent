@@ -388,7 +388,7 @@ function fade(node, {
             stroke={colorScheme.circleBorder} 
             fill-opacity="0.8"
             on:click={() => handleClick(location)}
-            style={`transition: all 1s, fill 0s`}
+            style={`transition: all 1.5s, fill 0s`}
             on:mouseenter={() => handleMouseEnter(location)} 
             on:mouseleave={() =>  handleMouseLeave(location)} 
             />
