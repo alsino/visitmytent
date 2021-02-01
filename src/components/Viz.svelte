@@ -254,7 +254,7 @@ function fade(node, {
    width: 100%;
    margin-top: $margin-small;
    position: relative;
-  //  transition: all 1s;
+   transition: all 1.5s;
  }
 
  svg  {

@@ -59,7 +59,7 @@
 }
 
 .legend-network {
-  transition: all 2s;
+  transition: all 1.5s;
   position: absolute;
   z-index: 1;
   top: 25em;
@@ -78,7 +78,7 @@
 
 
 .disciplines {
-  transition: all 2s;
+  transition: all 1.5s;
   position: absolute;
   /* right: 13vw; */
   z-index: 1;

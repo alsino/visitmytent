@@ -20,13 +20,13 @@
  @import "./style/theme.scss";
 
  .heading {
-  transition: all 2s;
+  transition: all 1.5s;
  }
 
  div {
    color: $color-text;
    margin-top: 0;
-   transition: all 2s;
+   transition: all 1.5s;
  }
 
 .toggle {
