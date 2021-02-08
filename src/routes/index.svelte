@@ -1,3 +1,3 @@
 <svelte:head>
-	<title>Visitmyorbit</title>
+	<title>visitmyorbit</title>
 </svelte:head>
