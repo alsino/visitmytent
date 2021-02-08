@@ -207,7 +207,7 @@ label:hover {
               <line x1="3" y1="11.5" x2="20" y2="11.5" id="Path" stroke="{colorScheme.circleDefault}" fill-rule="nonzero"></line>
           </g>
         </svg>
-        <div>exhibited/performed together</div>
+        <div>exhibited/worked together</div>
       </div>
     </div>
   {/if}
