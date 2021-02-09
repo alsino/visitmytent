@@ -7151,7 +7151,13 @@
 			"source": "Tracey Snelling",
 			"target": "Ekaterina Mitichkina",
 			"value": 25
-		}, {
+		}, 
+		{
+			"source": "Tracey Snelling",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
 			"source": "Tracey Snelling",
 			"target": "Tomoyuki Ueno",
 			"value": 15
