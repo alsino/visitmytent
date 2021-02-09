@@ -5,7 +5,7 @@
 	 <meta property="og:type"          content="website">
 	 <meta property="og:title"         content="visitmyorbit - Exploring Artists' Networks" />
 	 <meta property="og:description"   content="visitmyorbit is a portal into the life of contemporary artists working in various fields, predominantly in Berlin. The site shows artists' motivations, studio locations as well as the connections among them – creating an inside view into their life and networks." />
-	 <meta property="og:url"           content="https://https://visitmyorbit.com/" />
+	 <meta property="og:url"           content="https://visitmyorbit.com/" />
 	 <meta property="og:site_name"     content="visitmyorbit - Exploring Artists' Networks" />
 	 <meta property="og:image"         content="/social.png" />
 
