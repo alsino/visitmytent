@@ -1,10 +1,20 @@
 <svelte:head>
 	<title>visitmyorbit</title>
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@alsinosko" />
-	<meta name="twitter:creator" content="@alsinosko" />
-	<meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
-	<meta property="og:title" content="visitmyorbit" />
-	<meta property="og:description" content="Exploring Artists' Networks" />
-	<meta property="og:image" content="/social.png" />
+	 <!-- Open Graph -->
+	 <meta property="og:locale"        content="de_DE">
+	 <meta property="og:type"          content="website">
+	 <meta property="og:title"         content="visitmyorbit - Exploring Artists' Networks" />
+	 <meta property="og:description"   content="visitmyorbit is a portal into the life of contemporary artists working in various fields, predominantly in Berlin. The site shows artists' motivations, studio locations as well as the connections among them – creating an inside view into their life and networks." />
+	 <meta property="og:url"           content="https://https://visitmyorbit.com/" />
+	 <meta property="og:site_name"     content="visitmyorbit - Exploring Artists' Networks" />
+	 <meta property="og:image"         content="/social.png" />
+
+	 <!-- Twitter -->
+	 <meta name="twitter:card"         content="summary_large_image"/>
+	 <meta name="twitter:description"  content="visitmyorbit is a portal into the life of contemporary artists working in various fields, predominantly in Berlin. The site shows artists' motivations, studio locations as well as the connections among them – creating an inside view into their life and networks."/>
+	 <meta name="twitter:image"        content="/social.png" />
+	 <meta name="twitter:title"        content="visitmyorbit - Exploring Artists' Networks"/>
+	 <meta name="twitter:site"         content="@alsinosko"/>
+	 <meta name="twitter:creator"      content="@alsinosko"/>
+
 </svelte:head>
