@@ -1350,7 +1350,7 @@
 				"lon": 13.430376
 			}],
 			"questions": {
-				"why": [":)", " ", " "],
+				"why": ["Duchamp once said that art is a gap that corresponds to the", "difference between intention and realisation. I realised early that", "my work was closely linked to this gap, this missing link."],
 				"finished": " "
 			}
 		},
@@ -1732,7 +1732,7 @@
 				"lon": 13.382333
 			}],
 			"questions": {
-				"why": ["We try out ways to make", "new music.", " "],
+				"why": ["To try out ways to make", "new music.", " "],
 				"finished": " "
 			}
 		},
@@ -5836,6 +5836,41 @@
 			"value": 10
 		},
 
+		{
+			"source": "Michelle Jezierski",
+			"target": "Amélie Blendl",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Sinta Werner",
+			"value": 10
+		},
 
 		{
 			"source": "Rajkamal Kahlon",
@@ -7226,6 +7261,12 @@
 		{
 			"source": "Luke Velten",
 			"target": "Christian Y. Schmidt",
+			"value": 25
+		},
+
+		{
+			"source": "Luke Velten",
+			"target": "Friedrich Liechtenstein",
 			"value": 25
 		},
 
