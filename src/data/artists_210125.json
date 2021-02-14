@@ -1350,7 +1350,7 @@
 				"lon": 13.430376
 			}],
 			"questions": {
-				"why": ["Duchamp once said that art is a gap that corresponds to the", "difference between intention and realisation. I realised early that", "my work was closely linked to this gap, this missing link."],
+				"why": ["Duchamp once said that art is a gap that corresponds", "to the difference between intention and realisation.", "My work is closely linked to this gap, this missing link."],
 				"finished": " "
 			}
 		},
@@ -5852,6 +5852,21 @@
 			"value": 10
 		},
 
+		{
+			"source": "Michelle Jezierski",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Michelle Jezierski",
+			"target": "Sinta Werner",
+			"value": 10
+		},
 
 		{
 			"source": "Rajkamal Kahlon",
@@ -6688,6 +6703,11 @@
 			"source": "Stephanie Neumann",
 			"target": "Jens Hausmann",
 			"value": 10
+		}, 
+		{
+			"source": "Stephanie Neumann",
+			"target": "Friedrich Liechtenstein",
+			"value": 25
 		}, 
 		{
 			"source": "Stephanie Neumann",

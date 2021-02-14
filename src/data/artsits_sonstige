@@ -476,6 +476,12 @@
 
 
 		{
+			"source": "Michelle Jezierski",
+			"target": "Via Lewandowsky",
+			"value": 10
+		},
+
+		{
 			"source": "Miriam Vlaming",
 			"target": "Christian Mio Loclair",
 			"value": 10
