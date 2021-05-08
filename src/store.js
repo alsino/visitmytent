@@ -2,7 +2,7 @@ import { writable } from 'svelte/store';
 import { derived } from 'svelte/store';
 import { goto } from '@sapper/app';
 import geoData from './data/geodata.json';
-import networkData from './data/artists_210125.json';
+import networkData from './data/artists_210508.json';
 import moment from 'moment';
 
 export const WWIDTH = writable(undefined);
