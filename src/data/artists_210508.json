@@ -761,7 +761,7 @@
 			"birthYear": 1978,
 			"birthTown": "Bottrop",
 			"birthCountry": "Germany",
-			"profileID": 0,
+			"profileID": "14362",
 			"imageUrl": "tim_cierpiszewski.png",
 			"studioVisit": "Essen",
 			"studioLocations": [{
@@ -3694,7 +3694,6 @@
 				"finished": "It's often hard to let go, but I think when it's done there is a sense of being in love or pride. When I look at the art work and understand that it has a life of its own and no longer needs me."
 			}
 		},
-
 		{
 			"name": "Norbert Wagenbrett",
 			"discipline": [1],
