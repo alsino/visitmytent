@@ -2,7 +2,8 @@
 
 A quick sketch and work-in-progress for a network visualization for vmt using d3 force-directed network and d3 symbols.
 
-![alt text](https://github.com/alsino/vmt-network/blob/master/assets/teaser/teaser.png)
+<img width="1552" alt="04" src="https://user-images.githubusercontent.com/8008434/155753579-1a188058-d174-4953-99d4-68648d873a4f.png">
+
 
 
 ## About
