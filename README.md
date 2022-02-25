@@ -1,21 +1,25 @@
-# Visitmytent.com - A Network Visualization
+## Visitmyorbit - Exploring Artists’ Networks
 
-A quick sketch and work-in-progress for a network visualization for vmt using d3 force-directed network and d3 symbols.
+Visitmyorbit is a portal into the life of contemporary artists working in various fields. The site shows artists' motivations, studio locations as well as 773 connections among them – creating an inside view into the networks of 150 artists presented on visitmytent. 
+
+Highlighting individual artists points out their relation and closeness to other artists – socially in the network and physically on the map – giving a glimpse into the different artists' milieus – predominantly in Berlin. Additionally you can deep dive into individual studio visits and interviews.
+
+All data was collected manually and evaluated in a constant dialogue with the artists over a period of more than one year. visitmyorbit is a visualization by Stephanie Neumann and Alsino Skowronnek crafted in Berlin, 2021.
+
+## Demo
+
+See the live version here: [https://visitmyorbit.vercel.app/](https://visitmyorbit.vercel.app/)
 
 <img width="1552" alt="04" src="https://user-images.githubusercontent.com/8008434/155753579-1a188058-d174-4953-99d4-68648d873a4f.png">
 
 
 
-## About
-Constellations - Exploring Artists’ Networks
-Constellations visualizes the relationships between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on visitmytent. Different vectors connect individuals depending on the manner of their relation. The depth of their relationship influences their proximity in the network. Selecting a specific artist points out connected artists as well as the related interview and studio visit.
+
 
 The visualization was developed as a collaboration between [Stephanie Neumann](https://stephanieneumann.com/) and [Alsino Skowronnek](https://alsino.io) in Berlin, 2020.
 
 
-## Demo
 
-See the live version here: [https://visitmyorbit.vercel.app/](https://visitmyorbit.vercel.app/)
 
 
 
