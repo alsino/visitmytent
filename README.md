@@ -14,7 +14,7 @@ The visualization was developed as a collaboration between [Stephanie Neumann](h
 
 ## Demo
 
-See the live version here: [Prototype](https://visitmytent.com/?page_id=10188)
+See the live version here: [https://visitmyorbit.vercel.app/](https://visitmyorbit.vercel.app/)
 
 
 
