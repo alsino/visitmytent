@@ -2874,9 +2874,9 @@ svelte-select@^3.7.1:
   version "3.7.1"
   resolved "https://registry.npmjs.org/svelte-select/-/svelte-select-3.7.1.tgz"
 
-svelte@^3.0.0:
-  version "3.20.1"
-  resolved "https://registry.npmjs.org/svelte/-/svelte-3.20.1.tgz"
+svelte@^3.49.0:
+  version "3.49.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
 
 tar@^6.0.2:
   version "6.1.11"
