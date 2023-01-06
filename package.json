@@ -44,5 +44,8 @@
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.7.1",
     "svelte-select": "^3.7.1"
-  }, "engines": { "node": "18.x" }
+  }, 
+  "engines": { 
+    "node": "18.x" 
+  }
 }
